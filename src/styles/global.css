@@ -296,6 +296,12 @@ h3 {
   font-size: 18px;
 }
 
+.calculator-hero h1 {
+  max-width: none;
+  white-space: nowrap;
+  font-size: clamp(42px, 5vw, 58px);
+}
+
 .quick-box,
 .note,
 .warning {
@@ -597,6 +603,11 @@ textarea {
 
   .article {
     padding: 24px;
+  }
+
+  .calculator-hero h1 {
+    white-space: normal;
+    font-size: clamp(34px, 11vw, 46px);
   }
 
   .article table {
