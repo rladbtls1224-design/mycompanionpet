@@ -3,7 +3,7 @@ import { getPosts, stripHtml } from "../lib/wordpress.js";
 
 export async function GET(context) {
   const posts = await getPosts({ perPage: 50 });
-  const site = context.site || new URL(import.meta.env.SITE_URL || "https://mycompanionpet.com");
+  const site = context.site || new URL("https://mycompanionpet.com");
 
   return rss({
     title: "Pet Nutrition Guide",
