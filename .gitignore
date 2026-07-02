@@ -3,6 +3,7 @@ dist/
 .astro/
 .env
 npm-debug.log*
+build-output.log
 
 # Legacy static prototype files kept locally, not used by the Astro app.
 /assets/

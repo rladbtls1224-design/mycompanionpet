@@ -8,7 +8,7 @@ const posts = await getPosts({ perPage: 12 });
 
 <BaseLayout
   title="블로그 | Pet Nutrition Guide"
-  description="WordPress에서 가져온 반려동물 영양 정보 블로그 글 목록"
+  description="WordPress와 로컬 예시 글에서 가져온 반려동물 영양 정보 블로그 글 목록"
   path="/blog"
 >
   <main>
@@ -17,11 +17,11 @@ const posts = await getPosts({ perPage: 12 });
         <div>
           <p class="eyebrow">Blog</p>
           <h1>반려동물 영양 블로그</h1>
-          <p>WordPress REST API에서 가져온 최신 글을 정적 페이지로 보여줍니다.</p>
+          <p>WordPress REST API에서 가져온 최신 글과 로컬 예시 글을 정적 페이지로 보여줍니다.</p>
         </div>
         <aside class="quick-box">
           <strong>운영 방식</strong>
-          WordPress 관리자에서 글을 작성한 뒤 Astro를 다시 빌드하면 이 목록에 반영됩니다.
+          WordPress 관리자에서 글을 작성한 뒤 Astro를 다시 빌드하면 목록과 상세 페이지에 반영됩니다.
         </aside>
       </div>
     </section>
