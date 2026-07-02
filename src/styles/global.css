@@ -347,6 +347,47 @@ h3 {
   color: #4d5b56;
 }
 
+.article table {
+  width: 100%;
+  margin: 18px 0 26px;
+  border-collapse: separate;
+  border-spacing: 0;
+  overflow: hidden;
+  border: 1px solid var(--line);
+  border-radius: var(--radius);
+  background: #fff;
+  font-size: 15px;
+}
+
+.article th,
+.article td {
+  padding: 13px 14px;
+  border-bottom: 1px solid var(--line);
+  border-right: 1px solid var(--line);
+  text-align: left;
+  vertical-align: top;
+  line-height: 1.65;
+}
+
+.article th {
+  background: var(--surface-soft);
+  color: var(--ink);
+  font-weight: 900;
+}
+
+.article td {
+  color: #4d5b56;
+}
+
+.article tr:last-child td {
+  border-bottom: 0;
+}
+
+.article th:last-child,
+.article td:last-child {
+  border-right: 0;
+}
+
 .article img {
   height: auto;
   border-radius: var(--radius);
@@ -556,6 +597,12 @@ textarea {
 
   .article {
     padding: 24px;
+  }
+
+  .article table {
+    display: block;
+    overflow-x: auto;
+    white-space: nowrap;
   }
 
   .hero-media img {
