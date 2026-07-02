@@ -6,7 +6,7 @@ export const localPosts = [
   {
     id: "local-can-dogs-eat-korean-melon",
     slug: "can-dogs-eat-korean-melon",
-    date: "2026-06-29T00:00:00",
+    date: "2026-07-02T00:00:00",
     title: { rendered: "강아지 여름 과일 간식 참외, 안전하게 주는 방법" },
     excerpt: {
       rendered:
@@ -99,7 +99,7 @@ export const localPosts = [
   {
     id: "local-dog-summer-fruit-watermelon-safe-feeding",
     slug: "dog-summer-fruit-watermelon-safe-feeding",
-    date: "2026-06-29T00:00:00",
+    date: "2026-07-02T00:00:00",
     title: { rendered: "강아지 여름 과일 간식 수박, 안전하게 주는 방법" },
     excerpt: {
       rendered:
@@ -186,7 +186,7 @@ export const localPosts = [
   {
     id: "local-can-dogs-eat-peaches",
     slug: "can-dogs-eat-peaches",
-    date: "2026-06-29T00:00:00",
+    date: "2026-07-02T00:00:00",
     title: { rendered: "강아지에게 복숭아를 줘도 될까? 씨와 껍질 주의점" },
     excerpt: {
       rendered:
