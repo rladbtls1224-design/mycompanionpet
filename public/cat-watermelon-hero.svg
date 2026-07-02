@@ -1,0 +1,20 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="1200" height="720" viewBox="0 0 1200 720" role="img" aria-labelledby="title desc">
+  <title id="title">고양이 수박 간식 안내</title>
+  <desc id="desc">고양이와 씨를 제거한 수박 과육 안내</desc>
+  <rect width="1200" height="720" fill="#eef7ef"/>
+  <rect x="78" y="78" width="1044" height="564" rx="28" fill="#fbfff8" stroke="#cfe4ce" stroke-width="4"/>
+  <path d="M690 465a210 210 0 0 1 420 0z" fill="#2f8d5b"/>
+  <path d="M730 445a170 170 0 0 1 340 0z" fill="#ff6b69"/>
+  <circle cx="845" cy="380" r="9" fill="#21483c"/>
+  <circle cx="920" cy="410" r="9" fill="#21483c"/>
+  <circle cx="985" cy="372" r="9" fill="#21483c"/>
+  <path d="M320 420c-60 0-108-48-108-108s48-108 108-108 108 48 108 108-48 108-108 108z" fill="#d6d2cc"/>
+  <path d="M235 228l-45-74 90 36zm170 0l45-74-90 36z" fill="#d6d2cc"/>
+  <circle cx="280" cy="305" r="13" fill="#21483c"/>
+  <circle cx="360" cy="305" r="13" fill="#21483c"/>
+  <path d="M310 338q14 12 28 0" fill="none" stroke="#21483c" stroke-width="8" stroke-linecap="round"/>
+  <rect x="115" y="520" width="430" height="70" rx="18" fill="#21483c"/>
+  <text x="140" y="565" font-family="Arial, sans-serif" font-size="30" font-weight="700" fill="#ffffff">씨와 껍질 제거, 물 대체 아님</text>
+  <text x="115" y="145" font-family="Arial, sans-serif" font-size="50" font-weight="700" fill="#21483c">고양이 수박 간식</text>
+  <text x="115" y="200" font-family="Arial, sans-serif" font-size="28" fill="#5f6b63">수분이 많아도 급여량과 부위 확인이 먼저입니다.</text>
+</svg>

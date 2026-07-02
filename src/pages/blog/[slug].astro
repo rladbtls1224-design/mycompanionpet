@@ -1,17 +1,27 @@
 ---
 import BlogLayout from "../../layouts/BlogLayout.astro";
-import { getPosts } from "../../lib/wordpress.js";
+import { getPostCategories, getPosts } from "../../lib/wordpress.js";
 
 export async function getStaticPaths() {
   const posts = await getPosts({ perPage: 50 });
 
-  return posts.map((post) => ({
-    params: { slug: post.slug },
-    props: {
-      post,
-      relatedPosts: posts.filter((item) => item.slug !== post.slug).slice(0, 3),
-    },
-  }));
+  return posts.map((post) => {
+    const categories = getPostCategories(post);
+    const sameCategoryPosts = posts.filter((item) => {
+      if (item.slug === post.slug) return false;
+      return getPostCategories(item).some((category) => categories.includes(category));
+    });
+    const fallbackPosts = posts.filter((item) => item.slug !== post.slug);
+    const relatedPosts = sameCategoryPosts.length > 0 ? sameCategoryPosts : fallbackPosts;
+
+    return {
+      params: { slug: post.slug },
+      props: {
+        post,
+        relatedPosts: relatedPosts.slice(0, 3),
+      },
+    };
+  });
 }
 
 const { post, relatedPosts } = Astro.props;
