@@ -2,6 +2,12 @@
 
 이 저장소의 자동 생성 글은 반려동물 보호자를 위한 일반 영양 정보 콘텐츠로 작성한다.
 
+## Project Rule Set
+
+- 새 글 작성, 이미지, 내부 링크, SEO, 의료 표현, 중복 방지, Astro 배포 흐름은 `.codex/instructions.md`와 `rules/`, `templates/`, `checklists/`, `references/`, `taxonomy/`, `workflow/` 폴더의 지침을 우선 참고한다.
+- 사용자가 별도로 요청하지 않는 한 최종 글은 게시 가능한 Astro Markdown 형식으로 작성하고, 최종 제목 1개, 설명 1개, slug 1개만 사용한다.
+- 반려동물 영양 관련 글의 날짜는 업로드일이 아니라 작성일 기준으로 입력한다.
+
 ## Animal Type Rules
 
 - 제목에 `강아지`, `개`, `반려견`, `dog`, `puppy`가 포함되면 강아지 전용 글로 작성한다.

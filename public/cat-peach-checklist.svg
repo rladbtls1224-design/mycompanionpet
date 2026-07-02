@@ -1,0 +1,14 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="1200" height="675" viewBox="0 0 1200 675" role="img" aria-labelledby="title desc">
+  <title id="title">고양이 복숭아 급여 체크리스트</title>
+  <desc id="desc">고양이에게 복숭아를 주기 전 확인해야 할 사항</desc>
+  <rect width="1200" height="675" fill="#fff1ec"/>
+  <rect x="90" y="80" width="1020" height="515" rx="28" fill="#ffffff" stroke="#efd0c4" stroke-width="4"/>
+  <text x="140" y="155" font-family="Arial, sans-serif" font-size="44" font-weight="700" fill="#21483c">복숭아 급여 전 확인</text>
+  <g font-family="Arial, sans-serif" font-size="30" fill="#21483c">
+    <text x="150" y="240">✓ 씨 완전 제거</text>
+    <text x="150" y="310">✓ 씨는 바로 버리기</text>
+    <text x="150" y="380">✓ 껍질 제거 후 과육만</text>
+    <text x="150" y="450">✓ 통조림·시럽 제품 금지</text>
+    <text x="150" y="520">✓ 구토·설사 시 상담</text>
+  </g>
+</svg>

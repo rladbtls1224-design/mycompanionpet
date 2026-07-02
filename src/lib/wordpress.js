@@ -14,7 +14,15 @@ function mergePosts(remotePosts = []) {
 }
 
 function getLocalPosts() {
-  return [...getMarkdownPosts(), ...localPosts].sort((a, b) => new Date(b.date) - new Date(a.date));
+  const postsBySlug = new Map();
+
+  for (const post of [...getMarkdownPosts(), ...localPosts]) {
+    if (!postsBySlug.has(post.slug)) {
+      postsBySlug.set(post.slug, post);
+    }
+  }
+
+  return [...postsBySlug.values()].sort((a, b) => new Date(b.date) - new Date(a.date));
 }
 
 function getMarkdownPosts() {
@@ -103,6 +111,20 @@ function inlineMarkdown(value = "") {
     .replace(/\[([^\]]+)\]\(([^)]+)\)/g, '<a href="$2">$1</a>');
 }
 
+function splitMarkdownTableRow(line = "") {
+  const trimmed = line.trim();
+  if (!trimmed.startsWith("|") || !trimmed.endsWith("|")) {
+    return null;
+  }
+
+  return trimmed.slice(1, -1).split("|").map((cell) => cell.trim());
+}
+
+function isMarkdownTableSeparator(line = "") {
+  const cells = splitMarkdownTableRow(line);
+  return Boolean(cells?.length) && cells.every((cell) => /^:?-{3,}:?$/.test(cell));
+}
+
 function markdownToHtml(markdown = "") {
   const lines = String(markdown).split(/\r?\n/);
   const html = [];
@@ -125,7 +147,9 @@ function markdownToHtml(markdown = "") {
     }
   };
 
-  for (const line of lines) {
+  for (let index = 0; index < lines.length; index += 1) {
+    const line = lines[index];
+
     if (line.startsWith("```") || line.startsWith("~~~")) {
       closeParagraph();
       closeList();
@@ -147,6 +171,35 @@ function markdownToHtml(markdown = "") {
     if (!line.trim()) {
       closeParagraph();
       closeList();
+      continue;
+    }
+
+    const tableHeader = splitMarkdownTableRow(line);
+    if (tableHeader && index + 1 < lines.length && isMarkdownTableSeparator(lines[index + 1])) {
+      closeParagraph();
+      closeList();
+
+      const rows = [];
+      index += 2;
+
+      while (index < lines.length) {
+        const row = splitMarkdownTableRow(lines[index]);
+        if (!row) {
+          index -= 1;
+          break;
+        }
+
+        rows.push(row);
+        index += 1;
+      }
+
+      html.push(
+        `<table><thead><tr>${tableHeader.map((cell) => `<th>${inlineMarkdown(cell)}</th>`).join("")}</tr></thead>${
+          rows.length
+            ? `<tbody>${rows.map((row) => `<tr>${row.map((cell) => `<td>${inlineMarkdown(cell)}</td>`).join("")}</tr>`).join("")}</tbody>`
+            : ""
+        }</table>`,
+      );
       continue;
     }
 

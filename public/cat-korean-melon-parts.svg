@@ -1,0 +1,19 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="1200" height="675" viewBox="0 0 1200 675" role="img" aria-labelledby="title desc">
+  <title id="title">고양이 참외 급여 가능 부위 안내</title>
+  <desc id="desc">참외 과육은 소량 가능하고 씨와 껍질은 제거해야 한다는 안내</desc>
+  <rect width="1200" height="675" fill="#fffaf0"/>
+  <text x="80" y="95" font-family="Arial, sans-serif" font-size="46" font-weight="700" fill="#21483c">고양이 참외 급여 부위</text>
+  <rect x="80" y="145" width="310" height="380" rx="22" fill="#f8e48a"/>
+  <text x="120" y="230" font-family="Arial, sans-serif" font-size="34" font-weight="700" fill="#21483c">과육</text>
+  <text x="120" y="290" font-family="Arial, sans-serif" font-size="28" fill="#21483c">아주 소량 가능</text>
+  <text x="120" y="345" font-family="Arial, sans-serif" font-size="24" fill="#5f6b63">작게 잘라 1조각부터</text>
+  <rect x="445" y="145" width="310" height="380" rx="22" fill="#fff2d2"/>
+  <text x="485" y="230" font-family="Arial, sans-serif" font-size="34" font-weight="700" fill="#8a4d18">씨</text>
+  <text x="485" y="290" font-family="Arial, sans-serif" font-size="28" fill="#8a4d18">제거 권장</text>
+  <text x="485" y="345" font-family="Arial, sans-serif" font-size="24" fill="#5f6b63">목 걸림과 소화 부담 예방</text>
+  <rect x="810" y="145" width="310" height="380" rx="22" fill="#e7f0d6"/>
+  <text x="850" y="230" font-family="Arial, sans-serif" font-size="34" font-weight="700" fill="#21483c">껍질</text>
+  <text x="850" y="290" font-family="Arial, sans-serif" font-size="28" fill="#21483c">급여하지 않음</text>
+  <text x="850" y="345" font-family="Arial, sans-serif" font-size="24" fill="#5f6b63">질기고 소화가 어려움</text>
+  <text x="80" y="595" font-family="Arial, sans-serif" font-size="26" fill="#5f6b63">참외는 고양이 주식이 아니라 가끔 주는 작은 간식입니다.</text>
+</svg>

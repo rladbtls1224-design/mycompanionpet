@@ -1,0 +1,14 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="1200" height="675" viewBox="0 0 1200 675" role="img" aria-labelledby="title desc">
+  <title id="title">고양이 참외 급여 체크리스트</title>
+  <desc id="desc">고양이에게 참외를 주기 전 확인해야 할 사항</desc>
+  <rect width="1200" height="675" fill="#f7f1e6"/>
+  <rect x="90" y="80" width="1020" height="515" rx="28" fill="#ffffff" stroke="#e4d3b7" stroke-width="4"/>
+  <text x="140" y="155" font-family="Arial, sans-serif" font-size="44" font-weight="700" fill="#21483c">참외 급여 전 확인</text>
+  <g font-family="Arial, sans-serif" font-size="30" fill="#21483c">
+    <text x="150" y="240">✓ 씨와 껍질 제거</text>
+    <text x="150" y="310">✓ 과육은 손톱보다 작게</text>
+    <text x="150" y="380">✓ 처음에는 1조각만</text>
+    <text x="150" y="450">✓ 구토·설사 이력 확인</text>
+    <text x="150" y="520">✓ 질환·처방식이면 상담</text>
+  </g>
+</svg>

@@ -1,0 +1,14 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="1200" height="675" viewBox="0 0 1200 675" role="img" aria-labelledby="title desc">
+  <title id="title">고양이 수박 급여 체크리스트</title>
+  <desc id="desc">고양이에게 수박을 주기 전 확인해야 할 사항</desc>
+  <rect width="1200" height="675" fill="#eef7ef"/>
+  <rect x="90" y="80" width="1020" height="515" rx="28" fill="#ffffff" stroke="#cfe4ce" stroke-width="4"/>
+  <text x="140" y="155" font-family="Arial, sans-serif" font-size="44" font-weight="700" fill="#21483c">수박 급여 전 확인</text>
+  <g font-family="Arial, sans-serif" font-size="30" fill="#21483c">
+    <text x="150" y="240">✓ 씨와 껍질 제거</text>
+    <text x="150" y="310">✓ 빨간 과육만 작게 자르기</text>
+    <text x="150" y="380">✓ 냉동 상태로 주지 않기</text>
+    <text x="150" y="450">✓ 물 대체 목적으로 주지 않기</text>
+    <text x="150" y="520">✓ 설사·구토 시 중단</text>
+  </g>
+</svg>
