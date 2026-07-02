@@ -6,7 +6,10 @@
   "scripts": {
     "dev": "astro dev",
     "build": "astro build",
-    "preview": "astro preview"
+    "preview": "astro preview",
+    "new:post": "node scripts/create-post.js",
+    "publish:post": "node scripts/publish-post.js",
+    "post": "node scripts/post.js"
   },
   "engines": {
     "node": ">=20"

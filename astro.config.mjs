@@ -3,7 +3,7 @@ import sitemap from "@astrojs/sitemap";
 import { loadEnv } from "vite";
 
 const env = loadEnv(process.env.NODE_ENV ?? "production", process.cwd(), "");
-const site = env.SITE_URL || "https://petnutritionguide.com";
+const site = env.SITE_URL || "https://mycompanionpet.com";
 
 export default defineConfig({
   site,

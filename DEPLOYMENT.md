@@ -22,7 +22,7 @@ Cloudflare Pages의 `Settings > Environment variables`에서 필요하면 아래
 
 ```text
 WORDPRESS_API_URL=https://cms.petnutritionguide.com/wp-json/wp/v2
-SITE_URL=https://petnutritionguide.com
+SITE_URL=https://mycompanionpet.com
 NODE_VERSION=20
 ```
 

@@ -1,5 +1,5 @@
 export function GET() {
-  const site = (import.meta.env.SITE_URL || "https://petnutritionguide.com").replace(/\/$/, "");
+  const site = (import.meta.env.SITE_URL || "https://mycompanionpet.com").replace(/\/$/, "");
   const body = `User-agent: *
 Allow: /
 
