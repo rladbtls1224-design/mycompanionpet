@@ -7,9 +7,10 @@ const HAS_WORDPRESS_API = Boolean(import.meta.env.WORDPRESS_API_URL);
 const MARKDOWN_BLOG_DIR = path.join(process.cwd(), "src", "content", "blog");
 
 function mergePosts(remotePosts = []) {
-  const remoteSlugs = new Set(remotePosts.map((post) => post.slug));
-  const fallbackPosts = getLocalPosts().filter((post) => !remoteSlugs.has(post.slug));
-  return [...fallbackPosts, ...remotePosts];
+  const localPosts = getLocalPosts();
+  const localSlugs = new Set(localPosts.map((post) => post.slug));
+  const remoteOnlyPosts = remotePosts.filter((post) => !localSlugs.has(post.slug));
+  return [...localPosts, ...remoteOnlyPosts];
 }
 
 function getLocalPosts() {
