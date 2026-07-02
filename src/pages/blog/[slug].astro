@@ -1,0 +1,20 @@
+---
+import BlogLayout from "../../layouts/BlogLayout.astro";
+import { getPosts } from "../../lib/wordpress.js";
+
+export async function getStaticPaths() {
+  const posts = await getPosts({ perPage: 50 });
+
+  return posts.map((post) => ({
+    params: { slug: post.slug },
+    props: {
+      post,
+      relatedPosts: posts.filter((item) => item.slug !== post.slug).slice(0, 3),
+    },
+  }));
+}
+
+const { post, relatedPosts } = Astro.props;
+---
+
+<BlogLayout post={post} relatedPosts={relatedPosts} />

@@ -1,0 +1,41 @@
+---
+const navItems = [
+  { href: "/", label: "홈" },
+  { href: "/dog-nutrition", label: "강아지 영양" },
+  { href: "/cat-nutrition", label: "고양이 영양" },
+  { href: "/food-label", label: "사료 성분표" },
+  { href: "/calorie-calculator", label: "영양 계산기" },
+  { href: "/blog", label: "블로그" },
+  { href: "/about", label: "소개" },
+];
+
+const currentPath = Astro.url.pathname.replace(/\/$/, "") || "/";
+const isActive = (href) => href === "/" ? currentPath === "/" : currentPath === href || currentPath.startsWith(`${href}/`);
+---
+
+<header class="site-header">
+  <div class="nav-wrap">
+    <a class="brand" href="/">
+      <span class="brand-mark">P</span>
+      <span>Pet Nutrition Guide</span>
+    </a>
+    <button class="nav-toggle" type="button" aria-label="메뉴 열기" aria-expanded="false" data-nav-toggle>☰</button>
+    <nav class="site-nav" aria-label="주요 메뉴" data-site-nav>
+      {navItems.map((item) => (
+        <a class={isActive(item.href) ? "active" : ""} href={item.href}>{item.label}</a>
+      ))}
+    </nav>
+  </div>
+</header>
+
+<script>
+  const navToggle = document.querySelector("[data-nav-toggle]");
+  const siteNav = document.querySelector("[data-site-nav]");
+
+  if (navToggle && siteNav) {
+    navToggle.addEventListener("click", () => {
+      const isOpen = siteNav.classList.toggle("open");
+      navToggle.setAttribute("aria-expanded", String(isOpen));
+    });
+  }
+</script>

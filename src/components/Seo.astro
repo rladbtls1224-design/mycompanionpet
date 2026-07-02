@@ -1,0 +1,26 @@
+---
+const {
+  title = "Pet Nutrition Guide",
+  description = "강아지와 고양이 보호자를 위한 반려동물 영양 정보",
+  image = "/pet-nutrition-hero.png",
+  path = Astro.url.pathname,
+  type = "website",
+} = Astro.props;
+
+const siteUrl = import.meta.env.SITE_URL || "https://petnutritionguide.com";
+const canonical = new URL(path, siteUrl).toString();
+const imageUrl = image?.startsWith("http") ? image : new URL(image, siteUrl).toString();
+---
+
+<title>{title}</title>
+<meta name="description" content={description} />
+<link rel="canonical" href={canonical} />
+<meta property="og:type" content={type} />
+<meta property="og:title" content={title} />
+<meta property="og:description" content={description} />
+<meta property="og:url" content={canonical} />
+<meta property="og:image" content={imageUrl} />
+<meta name="twitter:card" content="summary_large_image" />
+<meta name="twitter:title" content={title} />
+<meta name="twitter:description" content={description} />
+<meta name="twitter:image" content={imageUrl} />

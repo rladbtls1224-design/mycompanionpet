@@ -1,0 +1,11 @@
+node_modules/
+dist/
+.astro/
+.env
+npm-debug.log*
+
+# Legacy static prototype files kept locally, not used by the Astro app.
+/assets/
+/blog/
+/pages/
+/index.html

@@ -1,0 +1,70 @@
+---
+import BaseLayout from "./BaseLayout.astro";
+import BlogCard from "../components/BlogCard.astro";
+import {
+  formatDate,
+  getFeaturedImage,
+  getPostCategories,
+  getPostTags,
+  sanitizeHtml,
+  stripHtml,
+} from "../lib/wordpress.js";
+
+const { post, relatedPosts = [] } = Astro.props;
+const image = getFeaturedImage(post);
+const title = stripHtml(post.title.rendered);
+const description = stripHtml(post.excerpt?.rendered || "").slice(0, 155);
+const categories = getPostCategories(post);
+const tags = getPostTags(post);
+---
+
+<BaseLayout title={`${title} | Pet Nutrition Guide`} description={description} image={image?.url} path={`/blog/${post.slug}`} type="article">
+  <main>
+    <section class="page-hero">
+      <div class="container">
+        <div>
+          <p class="eyebrow">Pet Nutrition Blog</p>
+          <h1>{title}</h1>
+          <div class="blog-meta">
+            <span>{formatDate(post.date)}</span>
+            {categories.map((category) => <span>{category}</span>)}
+          </div>
+        </div>
+        <aside class="quick-box">
+          <strong>읽기 전 안내</strong>
+          본문은 일반적인 영양 정보이며 개별 진단이나 치료를 대신하지 않습니다.
+        </aside>
+      </div>
+    </section>
+
+    <section class="section">
+      <div class="container content-layout">
+        <article class="article">
+          {image?.url && <img src={image.url} alt={image.alt || `${title} 대표 이미지`} />}
+          <div set:html={sanitizeHtml(post.content?.rendered || "")} />
+
+          {tags.length > 0 && (
+            <>
+              <h2>태그</h2>
+              <ul class="tag-list">
+                {tags.map((tag) => <li>{tag}</li>)}
+              </ul>
+            </>
+          )}
+
+          <div class="warning" style="margin-top: 28px;">
+            본 사이트의 정보는 일반적인 참고용이며, 정확한 진단과 치료는 수의사와 상담하세요.
+          </div>
+        </article>
+
+        <aside class="sidebar">
+          <div class="card">
+            <h3>관련 글</h3>
+            <p class="muted">비슷한 주제의 최신 글입니다.</p>
+          </div>
+          {relatedPosts.map((relatedPost) => <BlogCard post={relatedPost} />)}
+        </aside>
+      </div>
+    </section>
+  </main>
+</BaseLayout>

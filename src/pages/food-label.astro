@@ -1,0 +1,52 @@
+---
+import BaseLayout from "../layouts/BaseLayout.astro";
+---
+
+<BaseLayout
+  title="사료 성분표 읽는 법 | Pet Nutrition Guide"
+  description="원료명, 보증성분, 급여량을 보호자가 이해하기 쉽게 읽는 방법"
+  path="/food-label"
+>
+  <main>
+    <section class="page-hero">
+      <div class="container">
+        <div>
+          <p class="eyebrow">Food Label Guide</p>
+          <h1>사료 성분표 읽는 법</h1>
+          <p>사료 포장지는 광고 문구보다 대상 동물, 원료명, 보증성분, 급여 가이드를 차례로 확인하는 것이 좋습니다.</p>
+        </div>
+        <aside class="quick-box">
+          <strong>읽는 순서</strong>
+          대상 동물과 연령 → 원료명 → 보증성분 → 급여량
+        </aside>
+      </div>
+    </section>
+
+    <section class="section">
+      <div class="container content-layout">
+        <article class="article">
+          <h2>1. 대상 동물과 생활 단계</h2>
+          <p>강아지용인지 고양이용인지, 성장기인지 성견 또는 성묘용인지 먼저 확인합니다.</p>
+
+          <h2>2. 원료명은 전체 흐름으로 보기</h2>
+          <p>원료명은 일반적으로 많이 들어간 순서로 표기됩니다. 특정 원료 하나만 보고 단정하기보다 전체 구성과 제품 목적을 함께 보세요.</p>
+
+          <h2>3. 보증성분 숫자 이해하기</h2>
+          <p>조단백, 조지방, 조섬유, 조회분, 수분은 제품의 기본 성분 범위를 보여줍니다. 건식과 습식은 수분량 차이가 커서 단순 비교가 어려울 수 있습니다.</p>
+
+          <h2>4. 급여량은 출발점</h2>
+          <p>포장지의 급여량은 평균적인 참고값입니다. 실제 급여량은 체중 변화, 활동량, 간식 비율을 함께 보며 조정할 수 있습니다.</p>
+
+          <div class="warning">본 사이트의 정보는 일반적인 참고용이며, 정확한 진단과 치료는 수의사와 상담하세요.</div>
+        </article>
+        <aside class="sidebar">
+          <div class="card">
+            <h3>함께 보기</h3>
+            <p><a class="card-link" href="/dog-nutrition">강아지 영양 기초</a></p>
+            <p><a class="card-link" href="/cat-nutrition">고양이 영양 기초</a></p>
+          </div>
+        </aside>
+      </div>
+    </section>
+  </main>
+</BaseLayout>

@@ -1,0 +1,99 @@
+---
+import BaseLayout from "../layouts/BaseLayout.astro";
+---
+
+<BaseLayout
+  title="반려동물 기초 칼로리 계산기 | Pet Nutrition Guide"
+  description="강아지와 고양이의 체중과 활동 수준으로 하루 예상 필요 칼로리를 계산합니다."
+  path="/calorie-calculator"
+>
+  <main>
+    <section class="page-hero">
+      <div class="container">
+        <div>
+          <p class="eyebrow">Calorie Calculator</p>
+          <h1>반려동물 기초 칼로리 계산기</h1>
+          <p>체중과 활동 수준을 바탕으로 하루 예상 필요 칼로리를 계산합니다.</p>
+        </div>
+        <aside class="quick-box">
+          <strong>계산 공식</strong>
+          RER = 70 × 체중kg<sup>0.75</sup><br />
+          낮음 1.2, 보통 1.6, 높음 2.0을 곱합니다.
+        </aside>
+      </div>
+    </section>
+
+    <section class="section">
+      <div class="container">
+        <div class="calculator">
+          <form class="card form-grid" id="calorieCalculator">
+            <label>
+              반려동물 선택
+              <select name="species" required>
+                <option value="강아지">강아지</option>
+                <option value="고양이">고양이</option>
+              </select>
+            </label>
+
+            <label>
+              체중 kg
+              <input name="weight" type="number" min="0.1" step="0.1" placeholder="예: 5.2" required />
+            </label>
+
+            <label>
+              활동 수준
+              <select name="activity" required>
+                <option value="1.2">낮음</option>
+                <option value="1.6">보통</option>
+                <option value="2.0">높음</option>
+              </select>
+            </label>
+
+            <button class="button" type="submit">칼로리 계산하기</button>
+          </form>
+
+          <div class="result-box" aria-live="polite">
+            <span>하루 예상 필요 칼로리</span>
+            <strong class="result-number" id="calorieResult">-</strong>
+            <p id="calorieSummary">반려동물 종류, 체중, 활동 수준을 입력하면 결과가 표시됩니다.</p>
+            <p class="result-disclaimer">개체별 차이가 크므로 정확한 급여량은 수의사와 상담하세요.</p>
+          </div>
+        </div>
+
+        <div class="warning" style="margin-top: 24px;">
+          본 계산기는 일반적인 참고용 도구이며 성장 단계, 체형, 간식 섭취량, 건강 상태 등 개별 요인을 모두 반영하지 않습니다.
+        </div>
+      </div>
+    </section>
+  </main>
+
+  <script>
+    const calculator = document.querySelector("#calorieCalculator");
+    const calorieResult = document.querySelector("#calorieResult");
+    const calorieSummary = document.querySelector("#calorieSummary");
+
+    if (calculator && calorieResult && calorieSummary) {
+      calculator.addEventListener("submit", (event) => {
+        event.preventDefault();
+
+        const formData = new FormData(calculator);
+        const species = formData.get("species");
+        const weight = Number(formData.get("weight"));
+        const activity = Number(formData.get("activity"));
+        const activityLabel = { 1.2: "낮음", 1.6: "보통", 2.0: "높음" }[activity];
+
+        if (!weight || weight <= 0 || !activity) {
+          calorieResult.textContent = "입력 확인";
+          calorieSummary.textContent = "체중과 활동 수준을 올바르게 입력해 주세요.";
+          return;
+        }
+
+        const rer = 70 * Math.pow(weight, 0.75);
+        const dailyCalories = Math.round(rer * activity);
+
+        calorieResult.textContent = `${dailyCalories.toLocaleString("ko-KR")} kcal`;
+        calorieSummary.textContent = `${species}, ${weight}kg, 활동 수준 ${activityLabel} 기준의 하루 예상 필요 칼로리입니다.`;
+      });
+    }
+  </script>
+</BaseLayout>

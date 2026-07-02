@@ -1,0 +1,10 @@
+---
+import BlogLayout from "../../layouts/BlogLayout.astro";
+import { getPosts, getPostBySlug } from "../../lib/wordpress.js";
+
+const post = await getPostBySlug("can-dogs-eat-shrimp-crackers");
+const posts = await getPosts({ perPage: 50 });
+const relatedPosts = posts.filter((item) => item.slug !== post.slug).slice(0, 3);
+---
+
+<BlogLayout post={post} relatedPosts={relatedPosts} />

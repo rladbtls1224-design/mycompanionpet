@@ -1,0 +1,53 @@
+---
+import BaseLayout from "../layouts/BaseLayout.astro";
+---
+
+<BaseLayout
+  title="강아지 영양 기초 | Pet Nutrition Guide"
+  description="강아지 보호자를 위한 필수 영양소, 생활 단계, 사료 선택 체크포인트"
+  path="/dog-nutrition"
+>
+  <main>
+    <section class="page-hero">
+      <div class="container">
+        <div>
+          <p class="eyebrow">Dog Nutrition</p>
+          <h1>강아지 영양 기초</h1>
+          <p>강아지 식단은 나이, 체중, 활동량, 간식 섭취량을 함께 보며 차분히 조정하는 것이 좋습니다.</p>
+        </div>
+        <aside class="quick-box">
+          <strong>핵심 체크</strong>
+          대상 연령, 급여량, 보증성분, 간식 비율을 함께 확인하세요.
+        </aside>
+      </div>
+    </section>
+
+    <section class="section">
+      <div class="container content-layout">
+        <article class="article">
+          <h2>강아지에게 필요한 기본 영양소</h2>
+          <p>강아지는 단백질, 지방, 탄수화물, 비타민, 미네랄, 수분을 균형 있게 섭취해야 합니다. 특정 원료 하나만으로 제품을 판단하기보다 전체 구성과 급여 목적을 함께 보는 것이 좋습니다.</p>
+
+          <h2>생활 단계에 따라 달라지는 포인트</h2>
+          <ul>
+            <li>성장기에는 성장에 맞춘 제품인지 확인합니다.</li>
+            <li>성견은 체형과 활동량에 따라 급여량을 관찰합니다.</li>
+            <li>노령견은 씹기 편한 형태와 식사 반응을 함께 살펴봅니다.</li>
+          </ul>
+
+          <h2>보호자가 기록하면 좋은 내용</h2>
+          <p>하루 급여량, 간식량, 체중 변화, 배변 상태를 간단히 적어두면 사료 선택과 조정에 도움이 됩니다.</p>
+
+          <div class="warning">본 사이트의 정보는 일반적인 참고용이며, 정확한 진단과 치료는 수의사와 상담하세요.</div>
+        </article>
+        <aside class="sidebar">
+          <div class="card">
+            <h3>관련 메뉴</h3>
+            <p><a class="card-link" href="/calorie-calculator">칼로리 계산기</a></p>
+            <p><a class="card-link" href="/food-label">사료 성분표 읽는 법</a></p>
+          </div>
+        </aside>
+      </div>
+    </section>
+  </main>
+</BaseLayout>

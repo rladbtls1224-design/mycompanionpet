@@ -1,0 +1,19 @@
+---
+import { formatDate, getFeaturedImage, getPostCategories, stripHtml } from "../lib/wordpress.js";
+
+const { post } = Astro.props;
+const image = getFeaturedImage(post);
+const categories = getPostCategories(post);
+const description = stripHtml(post?.excerpt?.rendered || "").slice(0, 120);
+---
+
+<article class="card blog-card">
+  {image?.url && <img src={image.url} alt={image.alt || `${stripHtml(post.title.rendered)} 대표 이미지`} loading="lazy" />}
+  {categories[0] && <span class="tag">{categories[0]}</span>}
+  <h3>{stripHtml(post.title.rendered)}</h3>
+  <div class="blog-meta">
+    <span>{formatDate(post.date)}</span>
+  </div>
+  <p>{description}</p>
+  <a class="card-link" href={`/blog/${post.slug}`}>글 읽기</a>
+</article>

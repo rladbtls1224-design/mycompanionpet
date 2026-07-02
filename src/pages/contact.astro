@@ -1,0 +1,53 @@
+---
+import BaseLayout from "../layouts/BaseLayout.astro";
+---
+
+<BaseLayout
+  title="문의 | Pet Nutrition Guide"
+  description="Pet Nutrition Guide 문의 안내"
+  path="/contact"
+>
+  <main>
+    <section class="page-hero">
+      <div class="container">
+        <div>
+          <p class="eyebrow">Contact</p>
+          <h1>문의</h1>
+          <p>콘텐츠 제안, 오류 제보, 협업 문의를 위한 안내 페이지입니다.</p>
+        </div>
+        <aside class="quick-box">
+          <strong>초기 운영 팁</strong>
+          정적 사이트에서는 Formspree, Google Forms 같은 외부 폼 서비스를 연결하면 관리가 쉽습니다.
+        </aside>
+      </div>
+    </section>
+
+    <section class="section">
+      <div class="container content-layout">
+        <article class="article">
+          <h2>문의 전 확인</h2>
+          <p>개별 반려동물의 건강 상태나 급여량 판단이 필요한 질문은 온라인 정보만으로 답하기 어렵습니다. 정확한 진단과 치료가 필요한 경우 수의사와 상담하세요.</p>
+
+          <h2>문의 양식 예시</h2>
+          <form class="form-grid">
+            <label>
+              이름
+              <input type="text" placeholder="이름을 입력하세요" />
+            </label>
+            <label>
+              이메일
+              <input type="email" placeholder="email@example.com" />
+            </label>
+            <label>
+              문의 내용
+              <textarea placeholder="문의 내용을 입력하세요"></textarea>
+            </label>
+            <button class="button" type="button">전송 기능 연결 예정</button>
+          </form>
+
+          <div class="warning" style="margin-top: 24px;">본 사이트의 정보는 일반적인 참고용이며, 정확한 진단과 치료는 수의사와 상담하세요.</div>
+        </article>
+      </div>
+    </section>
+  </main>
+</BaseLayout>
