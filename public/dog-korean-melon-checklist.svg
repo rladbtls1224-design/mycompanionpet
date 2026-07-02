@@ -1,0 +1,14 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="1200" height="760" viewBox="0 0 1200 760" role="img" aria-labelledby="title desc">
+  <title id="title">강아지 참외 급여 체크리스트</title>
+  <desc id="desc">강아지에게 참외를 주기 전 확인할 항목</desc>
+  <rect width="1200" height="760" fill="#f8fbff"/>
+  <rect x="80" y="70" width="1040" height="620" rx="30" fill="#ffffff" stroke="#b7d8c0" stroke-width="4"/>
+  <text x="125" y="145" font-family="Arial, sans-serif" font-size="46" font-weight="700" fill="#20382a">참외 급여 전 체크리스트</text>
+  <g font-family="Arial, sans-serif" font-size="30" fill="#24352b">
+    <rect x="130" y="210" width="40" height="40" rx="8" fill="#e6f5eb" stroke="#44a36b" stroke-width="4"/><path d="M140 230 L151 242 L168 218" fill="none" stroke="#2f8f5b" stroke-width="6"/><text x="195" y="240">씨와 가운데 부분을 제거했나요?</text>
+    <rect x="130" y="295" width="40" height="40" rx="8" fill="#e6f5eb" stroke="#44a36b" stroke-width="4"/><path d="M140 315 L151 327 L168 303" fill="none" stroke="#2f8f5b" stroke-width="6"/><text x="195" y="325">껍질을 벗기고 과육만 준비했나요?</text>
+    <rect x="130" y="380" width="40" height="40" rx="8" fill="#e6f5eb" stroke="#44a36b" stroke-width="4"/><path d="M140 400 L151 412 L168 388" fill="none" stroke="#2f8f5b" stroke-width="6"/><text x="195" y="410">작은 조각 1~2개부터 시작하나요?</text>
+    <rect x="130" y="465" width="40" height="40" rx="8" fill="#e6f5eb" stroke="#44a36b" stroke-width="4"/><path d="M140 485 L151 497 L168 473" fill="none" stroke="#2f8f5b" stroke-width="6"/><text x="195" y="495">최근 설사나 구토가 없었나요?</text>
+    <rect x="130" y="550" width="40" height="40" rx="8" fill="#e6f5eb" stroke="#44a36b" stroke-width="4"/><path d="M140 570 L151 582 L168 558" fill="none" stroke="#2f8f5b" stroke-width="6"/><text x="195" y="580">질환이나 처방식이 있으면 상담했나요?</text>
+  </g>
+</svg>

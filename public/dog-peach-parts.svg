@@ -1,0 +1,23 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="1200" height="760" viewBox="0 0 1200 760" role="img" aria-labelledby="title desc">
+  <title id="title">강아지 복숭아 급여 부위 안내</title>
+  <desc id="desc">복숭아 과육은 소량 가능, 씨는 급여 금지, 껍질은 주의해야 한다는 안내 이미지</desc>
+  <rect width="1200" height="760" fill="#fff7f2"/>
+  <rect x="70" y="70" width="1060" height="620" rx="28" fill="#ffffff" stroke="#f1bd9f" stroke-width="4"/>
+  <text x="100" y="140" font-family="Arial, sans-serif" font-size="48" font-weight="700" fill="#4b2b21">복숭아는 씨를 반드시 제거하세요</text>
+  <text x="100" y="190" font-family="Arial, sans-serif" font-size="25" fill="#6f4638">과육만 소량, 껍질은 처음 급여 시 벗기는 편이 안전합니다.</text>
+  <circle cx="580" cy="405" r="185" fill="#ffb17f"/>
+  <path d="M580 220 C505 300 505 500 580 590 C655 500 655 300 580 220Z" fill="#ff9468" opacity="0.65"/>
+  <ellipse cx="625" cy="405" rx="50" ry="78" fill="#8d5639"/>
+  <rect x="105" y="245" width="240" height="88" rx="16" fill="#e9f7ef"/>
+  <text x="140" y="282" font-family="Arial, sans-serif" font-size="25" font-weight="700" fill="#23633f">과육 소량 가능</text>
+  <text x="140" y="315" font-family="Arial, sans-serif" font-size="19" fill="#23633f">작게 잘라 급여</text>
+  <line x1="450" y1="380" x2="345" y2="290" stroke="#2f8f5b" stroke-width="5"/>
+  <rect x="845" y="250" width="245" height="96" rx="16" fill="#fff0e9"/>
+  <text x="885" y="288" font-family="Arial, sans-serif" font-size="25" font-weight="700" fill="#9f3f24">씨 급여 금지</text>
+  <text x="875" y="322" font-family="Arial, sans-serif" font-size="19" fill="#9f3f24">질식·장폐색 위험</text>
+  <line x1="625" y1="405" x2="845" y2="300" stroke="#c2603a" stroke-width="5"/>
+  <rect x="120" y="555" width="270" height="84" rx="16" fill="#fff6d8"/>
+  <text x="155" y="590" font-family="Arial, sans-serif" font-size="25" font-weight="700" fill="#7a5a12">껍질은 주의</text>
+  <text x="155" y="622" font-family="Arial, sans-serif" font-size="19" fill="#7a5a12">씻거나 벗겨 급여</text>
+  <line x1="455" y1="510" x2="390" y2="575" stroke="#b89426" stroke-width="5"/>
+</svg>

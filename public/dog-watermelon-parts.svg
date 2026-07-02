@@ -1,0 +1,26 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="1200" height="760" viewBox="0 0 1200 760" role="img" aria-labelledby="title desc">
+  <title id="title">강아지 수박 급여 부위 안내</title>
+  <desc id="desc">수박 과육은 소량 가능, 씨와 껍질은 제거해야 한다는 안내 이미지</desc>
+  <rect width="1200" height="760" fill="#fff7f7"/>
+  <rect x="70" y="70" width="1060" height="620" rx="28" fill="#ffffff" stroke="#f2b3b3" stroke-width="4"/>
+  <text x="100" y="140" font-family="Arial, sans-serif" font-size="48" font-weight="700" fill="#4a2323">수박은 씨와 껍질을 제거하세요</text>
+  <text x="100" y="190" font-family="Arial, sans-serif" font-size="25" fill="#6d3e3e">과육만 작게 잘라 소량 급여하고, 물을 대신하지 않습니다.</text>
+  <path d="M310 500 A310 310 0 0 1 890 500 Z" fill="#2f9c68"/>
+  <path d="M350 480 A265 265 0 0 1 850 480 Z" fill="#f7f4df"/>
+  <path d="M395 455 A220 220 0 0 1 805 455 Z" fill="#ee4f58"/>
+  <ellipse cx="545" cy="375" rx="12" ry="20" fill="#2d2222"/>
+  <ellipse cx="625" cy="420" rx="12" ry="20" fill="#2d2222"/>
+  <ellipse cx="700" cy="365" rx="12" ry="20" fill="#2d2222"/>
+  <rect x="115" y="240" width="220" height="82" rx="16" fill="#e9f7ef"/>
+  <text x="145" y="276" font-family="Arial, sans-serif" font-size="25" font-weight="700" fill="#23633f">과육 소량 가능</text>
+  <text x="145" y="308" font-family="Arial, sans-serif" font-size="19" fill="#23633f">작게 잘라 급여</text>
+  <line x1="440" y1="430" x2="330" y2="295" stroke="#2f8f5b" stroke-width="5"/>
+  <rect x="875" y="235" width="215" height="92" rx="16" fill="#fff0e9"/>
+  <text x="915" y="273" font-family="Arial, sans-serif" font-size="25" font-weight="700" fill="#9f3f24">씨 제거</text>
+  <text x="900" y="306" font-family="Arial, sans-serif" font-size="19" fill="#9f3f24">목 걸림 예방</text>
+  <line x1="690" y1="380" x2="875" y2="280" stroke="#c2603a" stroke-width="5"/>
+  <rect x="800" y="555" width="265" height="82" rx="16" fill="#fff0e9"/>
+  <text x="835" y="590" font-family="Arial, sans-serif" font-size="25" font-weight="700" fill="#9f3f24">껍질 금지</text>
+  <text x="835" y="622" font-family="Arial, sans-serif" font-size="19" fill="#9f3f24">질기고 소화 어려움</text>
+  <line x1="790" y1="500" x2="820" y2="555" stroke="#c2603a" stroke-width="5"/>
+</svg>

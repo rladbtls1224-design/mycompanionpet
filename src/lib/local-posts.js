@@ -23,6 +23,7 @@ export const localPosts = [
         <p>참외 급여의 핵심은 “과육만, 소량만”입니다. 참외 자체가 강아지에게 강한 독성을 가진 음식으로 알려져 있지는 않지만, 급여 방식에 따라 문제가 생길 수 있습니다.</p>
         <p>참외 과육은 수분이 많고 부드럽습니다. 그래서 씨와 껍질을 제거하면 일부 강아지에게 작은 간식으로 줄 수 있습니다. 반면 씨가 많은 가운데 부분은 소화가 예민한 강아지에게 부담이 될 수 있고, 껍질은 질기고 소화가 어렵습니다.</p>
         <p>또한 참외는 단맛이 있는 과일입니다. 사람에게는 가벼운 과일 한 조각이어도 몸무게가 작은 강아지에게는 당분과 열량이 생각보다 커질 수 있습니다.</p>
+        <img src="/dog-korean-melon-parts.svg" alt="강아지 참외 급여 시 과육 씨 껍질 구분 안내" loading="lazy" />
 
         <h2>강아지에게 해당되는 내용</h2>
         <p>건강한 성견이라면 참외 과육을 작게 잘라 가끔 줄 수 있습니다. 처음 급여할 때는 손톱만 한 크기나 작은 큐브 1~2개 정도로 시작하세요. 처음부터 많이 주면 참외가 맞지 않는 것인지, 단순히 많이 먹어서 탈이 난 것인지 구분하기 어렵습니다.</p>
@@ -66,6 +67,7 @@ export const localPosts = [
         <p>일반적인 건강한 성견과 다르게 봐야 합니다. 먹은 양, 시간, 현재 증상을 정리해 동물병원에 문의하는 것이 안전합니다.</p>
 
         <h2>보호자 체크리스트</h2>
+        <img src="/dog-korean-melon-checklist.svg" alt="강아지에게 참외를 주기 전 확인할 체크리스트" loading="lazy" />
         <ul>
           <li>씨를 완전히 제거했나요?</li>
           <li>껍질을 제거하고 과육만 준비했나요?</li>
@@ -90,7 +92,7 @@ export const localPosts = [
       `,
     },
     _embedded: {
-      "wp:featuredmedia": [{ source_url: "/pet-nutrition-hero.png", alt_text: "강아지 여름 과일 간식 참외 대표 이미지" }],
+      "wp:featuredmedia": [{ source_url: "/dog-korean-melon-hero.png", alt_text: "강아지 여름 과일 간식 참외 대표 이미지" }],
       "wp:term": term("강아지 영양", ["강아지참외", "강아지과일", "강아지간식", "강아지여름간식", "노령견간식", "반려견영양"]),
     },
   },
@@ -111,6 +113,7 @@ export const localPosts = [
 
         <h2>핵심 개념 설명</h2>
         <p>수박 급여의 핵심은 “씨와 껍질을 제거한 과육만”입니다. 수박 과육은 수분 함량이 높고 부드럽기 때문에 소량 간식으로 활용할 수 있습니다. 하지만 수박씨는 소형견에게 목에 걸리거나 소화 부담이 될 수 있고, 껍질은 질기고 단단해 위장관 문제를 일으킬 수 있습니다.</p>
+        <img src="/dog-watermelon-parts.svg" alt="강아지 수박 급여 시 과육 씨 껍질 구분 안내" loading="lazy" />
         <ul>
           <li>수박 과육: 소량 가능</li>
           <li>수박씨: 제거 권장</li>
@@ -153,6 +156,7 @@ export const localPosts = [
         <p>삼킨 양과 강아지 크기를 봐야 합니다. 구토, 식욕 저하, 배변 이상, 배를 아파하는 모습이 보이면 수의사 상담을 권장합니다.</p>
 
         <h2>보호자 체크리스트</h2>
+        <img src="/dog-watermelon-checklist.svg" alt="강아지에게 수박을 주기 전 확인할 체크리스트" loading="lazy" />
         <ul>
           <li>수박씨를 가능한 한 제거했나요?</li>
           <li>껍질을 완전히 제거했나요?</li>
@@ -175,7 +179,7 @@ export const localPosts = [
       `,
     },
     _embedded: {
-      "wp:featuredmedia": [{ source_url: "/pet-nutrition-hero.png", alt_text: "강아지 여름 과일 간식 수박 대표 이미지" }],
+      "wp:featuredmedia": [{ source_url: "/dog-watermelon-hero.png", alt_text: "강아지 여름 과일 간식 수박 대표 이미지" }],
       "wp:term": term("강아지 영양", ["강아지수박", "강아지과일", "강아지간식", "강아지여름간식", "노령견간식", "반려견영양"]),
     },
   },
@@ -197,6 +201,7 @@ export const localPosts = [
         <h2>핵심 개념 설명</h2>
         <p>복숭아는 과육과 씨를 반드시 나누어 봐야 합니다. 과육은 잘 익은 신선한 복숭아를 작게 잘라 소량 급여할 수 있습니다. 하지만 씨는 전혀 다른 문제입니다.</p>
         <p>복숭아 씨는 크고 단단합니다. 강아지가 씹다가 이가 다칠 수 있고, 삼키면 목에 걸리거나 위장관에 막힐 수 있습니다. 특히 소형견에게는 씨 한 개도 큰 위험이 될 수 있습니다.</p>
+        <img src="/dog-peach-parts.svg" alt="강아지 복숭아 급여 시 과육 껍질 씨 구분 안내" loading="lazy" />
         <ul>
           <li>복숭아 과육: 소량 가능</li>
           <li>복숭아 씨: 급여 금지</li>
@@ -245,6 +250,7 @@ export const localPosts = [
         <p>입안에 조각이 남아 있지 않은지 확인하고, 씨를 삼켰는지 살펴야 합니다. 삼켰거나 삼킨 가능성이 있다면 기다리기보다 병원에 문의하는 편이 안전합니다.</p>
 
         <h2>보호자 체크리스트</h2>
+        <img src="/dog-peach-checklist.svg" alt="강아지에게 복숭아를 주기 전 확인할 체크리스트" loading="lazy" />
         <ul>
           <li>씨를 완전히 제거했나요?</li>
           <li>씨를 강아지가 닿지 못하는 곳에 버렸나요?</li>
@@ -268,7 +274,7 @@ export const localPosts = [
       `,
     },
     _embedded: {
-      "wp:featuredmedia": [{ source_url: "/pet-nutrition-hero.png", alt_text: "강아지 복숭아 급여 대표 이미지" }],
+      "wp:featuredmedia": [{ source_url: "/dog-peach-hero.png", alt_text: "강아지 복숭아 급여 대표 이미지" }],
       "wp:term": term("강아지 영양", ["강아지복숭아", "강아지과일", "강아지간식", "강아지여름간식", "강아지복숭아씨", "반려견영양"]),
     },
   },

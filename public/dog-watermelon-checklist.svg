@@ -1,0 +1,14 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="1200" height="760" viewBox="0 0 1200 760" role="img" aria-labelledby="title desc">
+  <title id="title">강아지 수박 급여 체크리스트</title>
+  <desc id="desc">강아지에게 수박을 주기 전 확인할 항목</desc>
+  <rect width="1200" height="760" fill="#fff8f8"/>
+  <rect x="80" y="70" width="1040" height="620" rx="30" fill="#ffffff" stroke="#f0b5b8" stroke-width="4"/>
+  <text x="125" y="145" font-family="Arial, sans-serif" font-size="46" font-weight="700" fill="#4a2323">수박 급여 전 체크리스트</text>
+  <g font-family="Arial, sans-serif" font-size="30" fill="#402929">
+    <rect x="130" y="210" width="40" height="40" rx="8" fill="#ffecef" stroke="#e85a64" stroke-width="4"/><path d="M140 230 L151 242 L168 218" fill="none" stroke="#ce3f4a" stroke-width="6"/><text x="195" y="240">씨를 가능한 한 제거했나요?</text>
+    <rect x="130" y="295" width="40" height="40" rx="8" fill="#ffecef" stroke="#e85a64" stroke-width="4"/><path d="M140 315 L151 327 L168 303" fill="none" stroke="#ce3f4a" stroke-width="6"/><text x="195" y="325">껍질을 완전히 제거했나요?</text>
+    <rect x="130" y="380" width="40" height="40" rx="8" fill="#ffecef" stroke="#e85a64" stroke-width="4"/><path d="M140 400 L151 412 L168 388" fill="none" stroke="#ce3f4a" stroke-width="6"/><text x="195" y="410">작고 부드러운 조각으로 잘랐나요?</text>
+    <rect x="130" y="465" width="40" height="40" rx="8" fill="#ffecef" stroke="#e85a64" stroke-width="4"/><path d="M140 485 L151 497 L168 473" fill="none" stroke="#ce3f4a" stroke-width="6"/><text x="195" y="495">물 대신 주려는 것은 아닌가요?</text>
+    <rect x="130" y="550" width="40" height="40" rx="8" fill="#ffecef" stroke="#e85a64" stroke-width="4"/><path d="M140 570 L151 582 L168 558" fill="none" stroke="#ce3f4a" stroke-width="6"/><text x="195" y="580">당뇨·비만·췌장염 병력은 없나요?</text>
+  </g>
+</svg>

@@ -1,0 +1,28 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="1200" height="760" viewBox="0 0 1200 760" role="img" aria-labelledby="title desc">
+  <title id="title">강아지 참외 급여 부위 안내</title>
+  <desc id="desc">참외 과육은 소량 가능, 씨와 껍질은 제거해야 한다는 안내 이미지</desc>
+  <rect width="1200" height="760" fill="#fffaf0"/>
+  <rect x="70" y="70" width="1060" height="620" rx="28" fill="#ffffff" stroke="#f0d58a" stroke-width="4"/>
+  <text x="100" y="140" font-family="Arial, sans-serif" font-size="48" font-weight="700" fill="#3f3a22">참외는 과육만 작게 주세요</text>
+  <text x="100" y="190" font-family="Arial, sans-serif" font-size="25" fill="#6b633f">씨와 껍질을 제거하고 처음에는 1~2조각만 확인합니다.</text>
+  <ellipse cx="600" cy="390" rx="330" ry="145" fill="#ffe070" stroke="#deb948" stroke-width="8"/>
+  <ellipse cx="600" cy="390" rx="230" ry="88" fill="#fff3a8"/>
+  <circle cx="520" cy="385" r="12" fill="#b9802d"/>
+  <circle cx="575" cy="420" r="12" fill="#b9802d"/>
+  <circle cx="625" cy="370" r="12" fill="#b9802d"/>
+  <circle cx="690" cy="410" r="12" fill="#b9802d"/>
+  <line x1="380" y1="285" x2="220" y2="250" stroke="#2f8f5b" stroke-width="5"/>
+  <rect x="105" y="220" width="210" height="70" rx="16" fill="#e9f7ef"/>
+  <text x="130" y="265" font-family="Arial, sans-serif" font-size="27" font-weight="700" fill="#23633f">과육 소량 가능</text>
+  <line x1="600" y1="390" x2="950" y2="300" stroke="#c2603a" stroke-width="5"/>
+  <rect x="880" y="245" width="205" height="90" rx="16" fill="#fff0e9"/>
+  <text x="915" y="283" font-family="Arial, sans-serif" font-size="25" font-weight="700" fill="#9f3f24">씨 제거</text>
+  <text x="905" y="315" font-family="Arial, sans-serif" font-size="20" fill="#9f3f24">소화 부담 줄이기</text>
+  <line x1="305" y1="430" x2="185" y2="540" stroke="#c2603a" stroke-width="5"/>
+  <rect x="105" y="520" width="225" height="85" rx="16" fill="#fff0e9"/>
+  <text x="135" y="557" font-family="Arial, sans-serif" font-size="25" font-weight="700" fill="#9f3f24">껍질 급여 금지</text>
+  <text x="130" y="590" font-family="Arial, sans-serif" font-size="20" fill="#9f3f24">질기고 소화 어려움</text>
+  <rect x="780" y="520" width="285" height="92" rx="18" fill="#f5f7fb"/>
+  <text x="815" y="558" font-family="Arial, sans-serif" font-size="25" font-weight="700" fill="#2e3a59">주의 대상</text>
+  <text x="815" y="592" font-family="Arial, sans-serif" font-size="20" fill="#2e3a59">노령견, 당뇨, 비만, 췌장염 병력</text>
+</svg>
