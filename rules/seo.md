@@ -95,15 +95,18 @@ FAQ는 5개 작성한다.
 - 장식 이미지보다 정보 전달 이미지 우선
 - `.webp` 권장
 
-## SEO 자가점검 출력
+## SEO 자가점검 운용
 
-글 마지막에 다음을 출력한다.
+SEO 자가점검은 글 작성 후 내부 검토용으로만 사용한다.
+Astro Markdown 본문에는 점수표, PASS/FAIL 목록, Duplicate Risk, AdSense Readiness 같은 검토 결과를 포함하지 않는다.
 
-- SEO Score: /100
-- Helpful Content: /100
-- E-E-A-T: /100
-- Readability: /100
-- Internal Link: PASS/NEEDS WORK
-- Image ALT: PASS/NEEDS WORK
-- Duplicate Risk: LOW/MEDIUM/HIGH
-- AdSense Readiness: PASS/NEEDS WORK
+검토 항목:
+
+- SEO 제목이 검색 의도와 맞는가?
+- 메타 설명이 자연스럽고 과장되지 않았는가?
+- 본문이 보호자의 실제 질문에 답하는가?
+- 내부 링크가 같은 반려동물 카테고리 안에서 연결되는가?
+- 이미지 alt와 파일명이 주제와 맞는가?
+- 의료 표현이 단정적이지 않은가?
+- 중복 문장과 얕은 정보 반복이 없는가?
+- 애드센스 심사에 부적절한 과장, 허위, 위험 조언이 없는가?

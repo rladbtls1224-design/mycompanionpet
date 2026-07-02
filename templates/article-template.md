@@ -125,14 +125,4 @@ A.
 
 - 
 
-## SEO 자가검토
-
-- SEO Score: /100
-- Helpful Content: /100
-- E-E-A-T: /100
-- Readability: /100
-- Internal Link: PASS/NEEDS WORK
-- Image ALT: PASS/NEEDS WORK
-- Duplicate Risk: LOW/MEDIUM/HIGH
-- AdSense Readiness: PASS/NEEDS WORK
 ```

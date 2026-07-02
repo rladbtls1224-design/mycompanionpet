@@ -157,13 +157,3 @@ draft: false
 - 강아지 통조림 과일을 피해야 하는 이유
 - 강아지 여름 과일 간식 모음
 
-## SEO 자가검토
-
-- SEO Score: 93/100
-- Helpful Content: 95/100
-- E-E-A-T: 91/100
-- Readability: 94/100
-- Internal Link: PASS
-- Image ALT: PASS
-- Duplicate Risk: LOW
-- AdSense Readiness: PASS

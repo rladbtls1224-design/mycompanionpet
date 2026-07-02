@@ -157,13 +157,3 @@ draft: false
 - 고양이 습식사료 수분 관리
 - 고양이 포도 먹으면 안 되는 이유
 
-## SEO 자가검토
-
-- SEO Score: 93/100
-- Helpful Content: 94/100
-- E-E-A-T: 91/100
-- Readability: 94/100
-- Internal Link: PASS
-- Image ALT: PASS
-- Duplicate Risk: LOW
-- AdSense Readiness: PASS

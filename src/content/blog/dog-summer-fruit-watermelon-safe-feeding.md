@@ -157,13 +157,3 @@ draft: false
 - 강아지 사과 씨를 먹었을 때 대처법
 - 강아지 여름철 수분 관리 방법
 
-## SEO 자가검토
-
-- SEO Score: 93/100
-- Helpful Content: 94/100
-- E-E-A-T: 90/100
-- Readability: 94/100
-- Internal Link: PASS
-- Image ALT: PASS
-- Duplicate Risk: LOW
-- AdSense Readiness: PASS

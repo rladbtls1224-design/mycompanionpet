@@ -158,13 +158,3 @@ draft: false
 - 강아지 포도를 먹으면 안 되는 이유
 - 강아지 냉동 과일 간식 주의사항
 
-## SEO 자가검토
-
-- SEO Score: 92/100
-- Helpful Content: 94/100
-- E-E-A-T: 90/100
-- Readability: 93/100
-- Internal Link: PASS
-- Image ALT: PASS
-- Duplicate Risk: LOW
-- AdSense Readiness: PASS
