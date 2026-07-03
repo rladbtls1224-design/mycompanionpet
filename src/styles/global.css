@@ -138,8 +138,10 @@ a {
 
 .hero-media img {
   width: 100%;
-  height: min(58vw, 560px);
+  aspect-ratio: 4 / 3;
+  height: auto;
   object-fit: cover;
+  object-position: right center;
 }
 
 .eyebrow {
@@ -572,7 +574,7 @@ textarea {
   }
 
   .hero-media img {
-    height: 360px;
+    aspect-ratio: 16 / 9;
   }
 
   .grid.three,
@@ -617,7 +619,7 @@ textarea {
   }
 
   .hero-media img {
-    height: 280px;
+    aspect-ratio: 4 / 3;
   }
 
   .button {
