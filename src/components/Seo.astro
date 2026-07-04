@@ -8,7 +8,12 @@ const {
 } = Astro.props;
 
 const siteUrl = "https://mycompanionpet.com";
-const canonical = new URL(path, siteUrl).toString();
+const normalizePath = (value) => {
+  const pathname = value || "/";
+  if (pathname === "/" || pathname.includes(".")) return pathname;
+  return pathname.endsWith("/") ? pathname : `${pathname}/`;
+};
+const canonical = new URL(normalizePath(path), siteUrl).toString();
 const imageUrl = image?.startsWith("http") ? image : new URL(image, siteUrl).toString();
 ---
 

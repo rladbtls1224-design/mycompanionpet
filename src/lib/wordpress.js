@@ -237,7 +237,15 @@ function markdownToHtml(markdown = "") {
     if (line.startsWith("> ")) {
       closeParagraph();
       closeList();
-      html.push(`<blockquote>${inlineMarkdown(line.slice(2))}</blockquote>`);
+
+      const quoteLines = [];
+      while (index < lines.length && lines[index].startsWith("> ")) {
+        quoteLines.push(lines[index].slice(2));
+        index += 1;
+      }
+      index -= 1;
+
+      html.push(`<blockquote>${quoteLines.map((quoteLine) => inlineMarkdown(quoteLine)).join("<br />")}</blockquote>`);
       continue;
     }
 

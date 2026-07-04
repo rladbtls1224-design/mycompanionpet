@@ -9,21 +9,17 @@ slug: "cat-summer-fruit-korean-melon-safe-feeding"
 draft: false
 ---
 
-## 한눈에 보기
-
-| 항목 | 내용 |
-|---|---|
-| 급여 가능 여부 | 건강한 성묘 기준으로 씨와 껍질을 제거한 과육만 아주 소량 가능 |
-| 주의할 부분 | 씨, 껍질, 당분, 과식, 새로운 음식에 대한 위장 반응 |
-| 급여 방식 | 과육을 손톱보다 작게 잘라 1~2조각만 먼저 제공 |
-| 피해야 할 경우 | 당뇨, 비만, 신장 질환, 만성 구토, 처방식 급여 중 |
-| 상담 필요 | 반복 구토, 설사 지속, 무기력, 씨나 껍질 섭취 |
-
 ## 도입부
 
 참외를 깎아 먹는 여름 저녁, 고양이가 식탁 위 냄새를 맡고 다가오면 한 조각 줘도 되는지 고민될 수 있습니다. 참외는 사람에게는 가볍고 시원한 과일이지만, 고양이에게는 꼭 필요한 음식이 아닙니다.
 
 건강한 성묘라면 씨와 껍질을 제거한 참외 과육을 아주 소량 맛볼 수 있습니다. 다만 고양이는 육식 중심의 영양이 필요한 동물입니다. 과일은 주식이 아니라, 관심을 보일 때 아주 가끔 제공하는 작은 간식으로 봐야 합니다.
+
+> **한눈에 답변**
+> 건강한 성묘는 씨와 껍질을 제거한 참외 과육을 아주 작은 양만 맛볼 수 있습니다.
+> 보호자는 과육만 손톱보다 작게 준비했는지, 고양이가 최근 소화기 증상을 보이지 않았는지 먼저 확인하세요.
+> 참외는 고양이에게 필요한 음식이 아니며, 수분 보충이나 영양 보충 목적으로 자주 줄 필요는 없습니다.
+> 당뇨, 신장 질환, 만성 구토, 처방식 급여 중이거나 이상 증상이 있으면 수의사 상담 후 결정하는 것이 안전합니다.
 
 ## 핵심 개념 설명
 
@@ -117,9 +113,16 @@ draft: false
 
 ## 참고 자료
 
-- ASPCA Animal Poison Control의 반려동물 식품 안전 안내
-- Cornell Feline Health Center의 고양이 영양 관련 일반 정보
-- Pet Nutrition Alliance의 반려동물 간식과 체중 관리 자료
+이 글은 강아지와 고양이 보호자를 위한 일반 정보 제공을 목적으로 작성되었습니다. 글 작성 시 아래와 같은 공신력 있는 반려동물 영양·건강 자료를 참고하되, 본문에서 직접 확인하지 않은 내용을 특정 출처의 주장처럼 단정하지 않습니다.
+
+반려동물의 질병, 알레르기, 처방식, 장기적인 식단 변경이 필요한 경우에는 반드시 수의사와 상담해 주세요. 내용 오류나 수정 요청은 [문의 페이지](/contact)를 통해 제보할 수 있습니다.
+
+* [FDA - Pet Food](https://www.fda.gov/animal-veterinary/animal-food-feeds/pet-food)
+* [AAFCO - Understanding Pet Food](https://www.aafco.org/consumers/understanding-pet-food/)
+* [WSAVA - Global Nutrition Guidelines](https://wsava.org/global-guidelines/global-nutrition-guidelines/)
+* [Merck Veterinary Manual - Nutrition: Small Animals](https://www.merckvetmanual.com/management-and-nutrition/nutrition-small-animals)
+* [Cornell Feline Health Center](https://www.vet.cornell.edu/departments-centers-and-institutes/cornell-feline-health-center)
+* [VCA Hospitals - Pet Nutrition](https://vcahospitals.com/know-your-pet)
 
 ## FAQ
 

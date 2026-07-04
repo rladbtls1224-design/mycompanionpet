@@ -9,21 +9,17 @@ slug: "dog-summer-fruit-watermelon-safe-feeding"
 draft: false
 ---
 
-## 한눈에 보기
-
-| 항목 | 내용 |
-|---|---|
-| 급여 가능 여부 | 건강한 성견 기준으로 씨와 껍질을 제거한 빨간 과육만 소량 가능 |
-| 주의할 부분 | 씨, 껍질, 큰 조각, 과식, 너무 차가운 상태 |
-| 급여 방식 | 씨 없는 과육을 작게 잘라 간식처럼 제공 |
-| 피해야 할 경우 | 설사 중, 당뇨·비만 관리 중, 췌장염 병력, 처방식 급여 |
-| 상담 필요 | 씨나 껍질 섭취, 반복 구토, 복부 통증 의심 |
-
 ## 도입부
 
 수박을 자르는 소리만 나도 강아지가 식탁 옆으로 다가오는 집이 있습니다. 여름에는 보호자도 시원한 과일을 나누고 싶지만, 수박은 씨와 껍질을 어떻게 처리하느냐에 따라 안전성이 달라집니다.
 
 건강한 성견이라면 씨와 껍질을 제거한 수박 과육을 아주 소량 먹을 수 있습니다. 하지만 수박은 물을 대신하는 음식도, 매일 챙겨야 하는 영양식도 아닙니다. 간식으로 줄 때는 "수분이 많으니 괜찮다"보다 "위험 부위를 제거했는지"를 먼저 확인해야 합니다.
+
+> **한눈에 답변**
+> 건강한 성견은 씨와 껍질을 제거한 수박 과육을 소량 간식으로 먹을 수 있습니다.
+> 가장 먼저 씨, 껍질, 흰 부분을 제거했는지와 조각이 너무 크지 않은지 확인하세요.
+> 수박은 물을 대신하지 않으며, 많이 먹으면 당분과 식이섬유 때문에 배탈이 날 수 있습니다.
+> 씨나 껍질을 삼켰거나 반복 구토, 설사, 복부 통증, 기저질환이 있으면 수의사와 상담해야 합니다.
 
 ## 핵심 개념 설명
 
@@ -117,9 +113,15 @@ draft: false
 
 ## 참고 자료
 
-- ASPCA Animal Poison Control의 반려동물 식품 안전 안내
-- Merck Veterinary Manual의 반려동물 소화기 증상 관련 일반 정보
-- Pet Nutrition Alliance의 간식과 체중 관리 자료
+이 글은 강아지와 고양이 보호자를 위한 일반 정보 제공을 목적으로 작성되었습니다. 글 작성 시 아래와 같은 공신력 있는 반려동물 영양·건강 자료를 참고하되, 본문에서 직접 확인하지 않은 내용을 특정 출처의 주장처럼 단정하지 않습니다.
+
+반려동물의 질병, 알레르기, 처방식, 장기적인 식단 변경이 필요한 경우에는 반드시 수의사와 상담해 주세요. 내용 오류나 수정 요청은 [문의 페이지](/contact)를 통해 제보할 수 있습니다.
+
+* [FDA - Pet Food](https://www.fda.gov/animal-veterinary/animal-food-feeds/pet-food)
+* [AAFCO - Understanding Pet Food](https://www.aafco.org/consumers/understanding-pet-food/)
+* [WSAVA - Global Nutrition Guidelines](https://wsava.org/global-guidelines/global-nutrition-guidelines/)
+* [Merck Veterinary Manual - Nutrition: Small Animals](https://www.merckvetmanual.com/management-and-nutrition/nutrition-small-animals)
+* [VCA Hospitals - Pet Nutrition](https://vcahospitals.com/know-your-pet)
 
 ## FAQ
 

@@ -355,16 +355,33 @@ h3 {
   color: #4d5b56;
 }
 
+.article blockquote {
+  margin: 24px 0;
+  padding: 18px;
+  border-left: 4px solid var(--brand);
+  border-radius: var(--radius);
+  background: #eef7f2;
+  color: #36584e;
+}
+
+.article blockquote p,
+.article blockquote strong {
+  margin: 0;
+  color: inherit;
+}
+
 .article table {
+  display: block;
   width: 100%;
   margin: 18px 0 26px;
   border-collapse: separate;
   border-spacing: 0;
-  overflow: hidden;
+  overflow-x: auto;
   border: 1px solid var(--line);
   border-radius: var(--radius);
   background: #fff;
   font-size: 15px;
+  white-space: nowrap;
 }
 
 .article th,

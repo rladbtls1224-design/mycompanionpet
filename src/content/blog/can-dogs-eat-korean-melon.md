@@ -9,16 +9,6 @@ slug: "can-dogs-eat-korean-melon"
 draft: false
 ---
 
-## 한눈에 보기
-
-| 항목 | 내용 |
-|---|---|
-| 급여 가능 여부 | 건강한 성견 기준으로 씨와 껍질을 제거한 과육만 소량 가능 |
-| 주의할 부분 | 씨, 껍질, 과식, 차가운 상태로 많이 급여 |
-| 급여 방식 | 깨끗이 씻은 뒤 과육만 작게 잘라 간식처럼 제공 |
-| 피해야 할 경우 | 당뇨, 비만, 췌장염 병력, 소화기 질환, 처방식 급여 중 |
-| 상담 필요 | 반복 구토, 설사 지속, 무기력, 씨나 껍질 섭취 |
-
 ## 도입부
 
 여름에 참외를 깎다 보면 옆에서 기다리는 강아지에게 한 조각 줘도 되는지 고민될 수 있습니다. 참외는 시원하고 수분이 많아 사람에게는 가벼운 과일 간식이지만, 강아지에게는 씨와 껍질, 당분, 급여량을 함께 봐야 합니다.
@@ -26,6 +16,12 @@ draft: false
 결론부터 말하면 건강한 성견이라면 참외 과육을 아주 소량 먹을 수 있습니다. 다만 참외는 강아지에게 꼭 필요한 음식이 아니며, 사료를 대신할 수 없습니다. 간식으로 줄 때는 "먹어도 되는지"보다 "어떤 부위를 얼마나 작게 주는지"가 더 중요합니다.
 
 이 글은 일반 정보성 콘텐츠이며 수의사의 진료를 대체하지 않습니다. 기존 질환이 있거나 평소 소화기가 예민한 강아지라면 급여 전 수의사에게 확인하는 것이 안전합니다.
+
+> **한눈에 답변**
+> 건강한 성견은 씨와 껍질을 제거한 참외 과육을 아주 소량 먹을 수 있습니다.
+> 보호자는 먼저 씨와 껍질 제거 여부, 조각 크기, 평소 소화 상태를 확인해야 합니다.
+> 당분과 식이섬유 때문에 과식하면 설사나 구토가 생길 수 있어 처음에는 작은 조각 1~2개로 반응을 보세요.
+> 당뇨, 비만, 췌장염, 신장 질환이 있거나 처방식 급여 중인 강아지는 수의사 상담 후 결정하는 것이 안전합니다.
 
 ## 핵심 개념 설명
 
@@ -118,9 +114,15 @@ draft: false
 
 ## 참고 자료
 
-- ASPCA Animal Poison Control의 반려동물 식품 안전 안내
-- Merck Veterinary Manual의 반려동물 소화기 증상 관련 일반 정보
-- Pet Nutrition Alliance의 반려동물 체중 및 간식 관리 자료
+이 글은 강아지와 고양이 보호자를 위한 일반 정보 제공을 목적으로 작성되었습니다. 글 작성 시 아래와 같은 공신력 있는 반려동물 영양·건강 자료를 참고하되, 본문에서 직접 확인하지 않은 내용을 특정 출처의 주장처럼 단정하지 않습니다.
+
+반려동물의 질병, 알레르기, 처방식, 장기적인 식단 변경이 필요한 경우에는 반드시 수의사와 상담해 주세요. 내용 오류나 수정 요청은 [문의 페이지](/contact)를 통해 제보할 수 있습니다.
+
+* [FDA - Pet Food](https://www.fda.gov/animal-veterinary/animal-food-feeds/pet-food)
+* [AAFCO - Understanding Pet Food](https://www.aafco.org/consumers/understanding-pet-food/)
+* [WSAVA - Global Nutrition Guidelines](https://wsava.org/global-guidelines/global-nutrition-guidelines/)
+* [Merck Veterinary Manual - Nutrition: Small Animals](https://www.merckvetmanual.com/management-and-nutrition/nutrition-small-animals)
+* [VCA Hospitals - Pet Nutrition](https://vcahospitals.com/know-your-pet)
 
 ## FAQ
 

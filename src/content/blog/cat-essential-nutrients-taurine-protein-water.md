@@ -10,16 +10,6 @@ slug: "cat-essential-nutrients-taurine-protein-water"
 draft: false
 ---
 
-## 한눈에 보기
-
-| 항목 | 내용 |
-|---|---|
-| 핵심 주제 | 고양이 사료를 고를 때 확인할 필수 영양소 6가지 |
-| 6가지 기준 | 단백질, 타우린, 지방, 비타민, 미네랄, 수분 |
-| 특히 중요한 점 | 고양이는 타우린과 동물성 단백질, 수분 섭취를 신중히 봐야 함 |
-| 먼저 볼 것 | 고양이용 완전균형식, 생애 단계, 열량, 건식·습식 비율 |
-| 상담 필요 | 식욕 저하, 체중 감소, 물 섭취 변화, 처방식 급여 중 |
-
 ## 도입부
 
 고양이 사료를 고를 때 단백질 함량, 타우린, 수분 같은 단어를 자주 보게 됩니다. 특히 고양이는 강아지와 영양 특성이 다르기 때문에 "반려동물 사료"라는 큰 범주로만 보면 중요한 부분을 놓칠 수 있습니다. 고양이는 육식성 동물의 특성이 뚜렷하고, 타우린처럼 고양이 식단에서 특히 중요하게 언급되는 영양소가 있습니다.
@@ -27,6 +17,12 @@ draft: false
 고양이 필수 영양소는 크게 단백질, 타우린, 지방, 비타민, 미네랄, 수분으로 나누어 설명할 수 있습니다. 물론 실제 사료는 이보다 더 많은 영양소와 기준을 포함하지만, 보호자가 라벨을 읽을 때는 이 6가지를 먼저 이해하면 판단이 훨씬 쉬워집니다.
 
 이 글은 고양이 보호자가 사료를 고를 때 꼭 확인하면 좋은 영양 기준을 정리한 일반 정보입니다. 질병을 진단하거나 처방식 선택을 대신하지 않으며, 식욕 변화나 체중 변화, 배뇨 변화가 있다면 수의사 상담을 우선하세요.
+
+> **한눈에 답변**
+> 고양이 사료는 단백질, 타우린, 지방, 비타민, 미네랄, 수분을 균형 있게 확인해야 합니다.
+> 보호자는 먼저 고양이용 완전균형식인지, 생애 단계와 열량이 맞는지, 물 섭취 환경이 충분한지 살펴보세요.
+> 타우린이나 단백질이 중요하더라도 임의 보충제 추가는 과잉 가능성이 있어 신중해야 합니다.
+> 식욕 저하, 체중 감소, 물 섭취 변화, 배뇨 변화, 처방식 급여 중에는 수의사 상담이 필요합니다.
 
 ![고양이 필수 영양소 6가지와 사료 선택 기준을 정리한 썸네일 이미지](/images/blog/cat-essential-nutrients-taurine-protein-water/cat-essential-nutrients-thumbnail.webp)
 
@@ -117,11 +113,16 @@ draft: false
 
 ## 참고 자료
 
-- FDA의 "Complete and Balanced" Pet Food 안내
-- AAFCO의 반려동물 식품 영양 적합성 기준
-- WSAVA Global Nutrition Guidelines와 Nutrition Toolkit
-- Merck Veterinary Manual의 소동물 영양 관련 일반 정보
-- Cornell Feline Health Center의 고양이 건강 및 영양 관련 자료
+이 글은 강아지와 고양이 보호자를 위한 일반 정보 제공을 목적으로 작성되었습니다. 글 작성 시 아래와 같은 공신력 있는 반려동물 영양·건강 자료를 참고하되, 본문에서 직접 확인하지 않은 내용을 특정 출처의 주장처럼 단정하지 않습니다.
+
+반려동물의 질병, 알레르기, 처방식, 장기적인 식단 변경이 필요한 경우에는 반드시 수의사와 상담해 주세요. 내용 오류나 수정 요청은 [문의 페이지](/contact)를 통해 제보할 수 있습니다.
+
+* [FDA - Pet Food](https://www.fda.gov/animal-veterinary/animal-food-feeds/pet-food)
+* [AAFCO - Understanding Pet Food](https://www.aafco.org/consumers/understanding-pet-food/)
+* [WSAVA - Global Nutrition Guidelines](https://wsava.org/global-guidelines/global-nutrition-guidelines/)
+* [Merck Veterinary Manual - Nutrition: Small Animals](https://www.merckvetmanual.com/management-and-nutrition/nutrition-small-animals)
+* [Cornell Feline Health Center](https://www.vet.cornell.edu/departments-centers-and-institutes/cornell-feline-health-center)
+* [VCA Hospitals - Pet Nutrition](https://vcahospitals.com/know-your-pet)
 
 ## FAQ
 

@@ -9,21 +9,17 @@ slug: "can-dogs-eat-peaches"
 draft: false
 ---
 
-## 한눈에 보기
-
-| 항목 | 내용 |
-|---|---|
-| 급여 가능 여부 | 씨를 완전히 제거한 잘 익은 과육만 소량 가능 |
-| 가장 큰 주의점 | 복숭아 씨, 큰 조각, 통조림·시럽 제품 |
-| 껍질 | 처음 급여라면 제거 권장 |
-| 피해야 할 경우 | 당뇨, 비만, 췌장염 병력, 소화기 질환, 처방식 급여 |
-| 상담 필요 | 씨를 씹거나 삼킨 경우, 반복 구토, 복부 통증 의심 |
-
 ## 도입부
 
 복숭아를 먹다가 강아지가 향을 맡고 다가오면 보호자는 과육 한 조각 정도는 괜찮을지 고민하게 됩니다. 복숭아는 부드럽고 달콤하지만, 강아지에게는 씨와 껍질, 당분을 따로 생각해야 하는 과일입니다.
 
 건강한 성견이라면 복숭아 과육을 아주 소량 먹을 수 있습니다. 하지만 복숭아 씨는 절대 장난감처럼 주거나 씹게 두면 안 됩니다. 단단한 씨는 치아 손상, 목 걸림, 장 막힘 위험을 만들 수 있습니다.
+
+> **한눈에 답변**
+> 건강한 성견은 씨를 완전히 제거한 잘 익은 복숭아 과육만 아주 소량 먹을 수 있습니다.
+> 보호자는 복숭아 씨를 강아지가 씹거나 삼키지 못하게 바로 치우는 것을 가장 먼저 확인해야 합니다.
+> 통조림, 시럽 제품, 큰 조각은 피하고 처음에는 작은 과육 1조각으로 반응을 살피세요.
+> 씨를 씹거나 삼킨 경우, 반복 구토나 복부 통증이 있거나 처방식 급여 중이면 수의사 상담이 필요합니다.
 
 ## 핵심 개념 설명
 
@@ -117,9 +113,15 @@ draft: false
 
 ## 참고 자료
 
-- ASPCA Animal Poison Control의 반려동물 식품 안전 안내
-- Merck Veterinary Manual의 소화기 증상 관련 일반 정보
-- Pet Nutrition Alliance의 간식 급여와 체중 관리 자료
+이 글은 강아지와 고양이 보호자를 위한 일반 정보 제공을 목적으로 작성되었습니다. 글 작성 시 아래와 같은 공신력 있는 반려동물 영양·건강 자료를 참고하되, 본문에서 직접 확인하지 않은 내용을 특정 출처의 주장처럼 단정하지 않습니다.
+
+반려동물의 질병, 알레르기, 처방식, 장기적인 식단 변경이 필요한 경우에는 반드시 수의사와 상담해 주세요. 내용 오류나 수정 요청은 [문의 페이지](/contact)를 통해 제보할 수 있습니다.
+
+* [FDA - Pet Food](https://www.fda.gov/animal-veterinary/animal-food-feeds/pet-food)
+* [AAFCO - Understanding Pet Food](https://www.aafco.org/consumers/understanding-pet-food/)
+* [WSAVA - Global Nutrition Guidelines](https://wsava.org/global-guidelines/global-nutrition-guidelines/)
+* [Merck Veterinary Manual - Nutrition: Small Animals](https://www.merckvetmanual.com/management-and-nutrition/nutrition-small-animals)
+* [VCA Hospitals - Pet Nutrition](https://vcahospitals.com/know-your-pet)
 
 ## FAQ
 

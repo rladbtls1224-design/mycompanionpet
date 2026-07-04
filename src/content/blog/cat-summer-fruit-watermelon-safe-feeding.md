@@ -9,21 +9,17 @@ slug: "cat-summer-fruit-watermelon-safe-feeding"
 draft: false
 ---
 
-## 한눈에 보기
-
-| 항목 | 내용 |
-|---|---|
-| 급여 가능 여부 | 건강한 성묘 기준으로 씨와 껍질을 제거한 과육만 아주 소량 가능 |
-| 주의할 부분 | 씨, 껍질, 큰 조각, 너무 차가운 상태 |
-| 급여 방식 | 씨 없는 빨간 과육을 작게 잘라 제공 |
-| 피해야 할 경우 | 당뇨, 비만, 신장 질환, 만성 구토, 처방식 급여 중 |
-| 상담 필요 | 씨나 껍질 섭취, 반복 구토, 설사 지속, 무기력 |
-
 ## 도입부
 
 수박을 자를 때 고양이가 식탁 가까이 다가오면, 물을 잘 마시지 않는 고양이에게 조금 줘도 괜찮을지 고민될 수 있습니다. 수박은 수분이 많은 과일이지만, 고양이에게 물을 대신하는 음식은 아닙니다.
 
 건강한 성묘라면 씨와 껍질을 제거한 수박 과육을 아주 소량 먹을 수 있습니다. 그러나 고양이에게 필요한 영양은 균형 잡힌 고양이용 주식에서 얻어야 하며, 수박은 가끔 맛보는 간식 정도로 접근해야 합니다.
+
+> **한눈에 답변**
+> 건강한 성묘는 씨와 껍질을 제거한 수박 과육을 아주 소량 맛볼 수 있습니다.
+> 보호자는 씨와 껍질 제거, 작은 조각, 최근 구토나 설사 여부를 먼저 확인해야 합니다.
+> 수박은 고양이의 물이나 주식을 대신하지 않으며, 관심이 없으면 굳이 먹일 필요가 없습니다.
+> 씨나 껍질 섭취, 반복 구토, 설사, 무기력, 신장 질환이나 처방식 급여 중에는 수의사와 상담하세요.
 
 ## 핵심 개념 설명
 
@@ -117,9 +113,16 @@ draft: false
 
 ## 참고 자료
 
-- ASPCA Animal Poison Control의 반려동물 식품 안전 안내
-- Cornell Feline Health Center의 고양이 영양 관련 일반 정보
-- Pet Nutrition Alliance의 간식 급여와 체중 관리 자료
+이 글은 강아지와 고양이 보호자를 위한 일반 정보 제공을 목적으로 작성되었습니다. 글 작성 시 아래와 같은 공신력 있는 반려동물 영양·건강 자료를 참고하되, 본문에서 직접 확인하지 않은 내용을 특정 출처의 주장처럼 단정하지 않습니다.
+
+반려동물의 질병, 알레르기, 처방식, 장기적인 식단 변경이 필요한 경우에는 반드시 수의사와 상담해 주세요. 내용 오류나 수정 요청은 [문의 페이지](/contact)를 통해 제보할 수 있습니다.
+
+* [FDA - Pet Food](https://www.fda.gov/animal-veterinary/animal-food-feeds/pet-food)
+* [AAFCO - Understanding Pet Food](https://www.aafco.org/consumers/understanding-pet-food/)
+* [WSAVA - Global Nutrition Guidelines](https://wsava.org/global-guidelines/global-nutrition-guidelines/)
+* [Merck Veterinary Manual - Nutrition: Small Animals](https://www.merckvetmanual.com/management-and-nutrition/nutrition-small-animals)
+* [Cornell Feline Health Center](https://www.vet.cornell.edu/departments-centers-and-institutes/cornell-feline-health-center)
+* [VCA Hospitals - Pet Nutrition](https://vcahospitals.com/know-your-pet)
 
 ## FAQ
 

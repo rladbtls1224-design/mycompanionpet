@@ -10,16 +10,6 @@ slug: "dog-essential-nutrients-six-criteria"
 draft: false
 ---
 
-## 한눈에 보기
-
-| 항목 | 내용 |
-|---|---|
-| 핵심 주제 | 강아지 사료를 고를 때 확인할 필수 영양소 6가지 |
-| 6가지 기준 | 단백질, 지방, 탄수화물, 비타민, 미네랄, 수분 |
-| 먼저 볼 것 | 완전균형식 여부, 생애 단계, 열량, 보증성분 |
-| 조심할 점 | 특정 영양소만 높다고 좋은 사료로 단정하지 않기 |
-| 상담 필요 | 성장기 대형견, 노령견, 기저질환, 처방식 급여 중 |
-
 ## 도입부
 
 강아지 사료를 고를 때 단백질 함량이 높은지, 곡물이 없는지, 좋은 재료가 들어갔는지만 먼저 보는 경우가 많습니다. 하지만 강아지 식단은 한 가지 성분으로 판단하기 어렵습니다. 단백질이 중요해도 지방, 비타민, 미네랄, 수분이 함께 맞아야 하고, 체중과 나이, 활동량에 따라 필요한 열량도 달라집니다.
@@ -27,6 +17,12 @@ draft: false
 강아지에게 필요한 영양소는 크게 단백질, 지방, 탄수화물, 비타민, 미네랄, 수분으로 나눠 볼 수 있습니다. 이 6가지는 각각 따로 움직이는 것이 아니라, 전체 식단 안에서 균형을 이뤄야 합니다. 그래서 사료를 고를 때는 "무엇이 많이 들었는가"보다 "주식으로 먹일 수 있게 균형이 맞춰졌는가"를 먼저 확인하는 것이 좋습니다.
 
 이 글은 강아지 보호자가 사료 라벨을 볼 때 꼭 확인하면 좋은 6가지 영양 기준을 정리한 일반 정보입니다. 특정 질병을 진단하거나 처방식 선택을 대신하는 내용은 아니며, 건강 문제가 있거나 장기적인 식단 변경이 필요하다면 수의사와 상담하세요.
+
+> **한눈에 답변**
+> 강아지 사료는 단백질 하나보다 완전균형식 여부, 생애 단계, 열량, 몸 상태를 함께 봐야 합니다.
+> 보호자는 먼저 주식용 완전균형식인지와 성장기·성견기·노령기 중 어느 단계에 맞는지 확인하세요.
+> 특정 영양소가 높다고 무조건 좋은 사료로 단정하지 말고 간식, 토핑, 보충제 과잉도 주의해야 합니다.
+> 성장기 대형견, 노령견, 기저질환, 처방식 급여 중인 강아지는 식단 변경 전 수의사 상담이 안전합니다.
 
 ![강아지 필수 영양소 6가지를 쉽게 정리한 썸네일 이미지](/images/blog/dog-essential-nutrients-six-criteria/dog-essential-nutrients-thumbnail.webp)
 
@@ -109,11 +105,15 @@ draft: false
 
 ## 참고 자료
 
-- FDA의 "Complete and Balanced" Pet Food 안내
-- AAFCO의 반려동물 식품 영양 적합성 기준
-- WSAVA Global Nutrition Guidelines와 Nutrition Toolkit
-- Merck Veterinary Manual의 소동물 영양 관련 일반 정보
-- Pet Nutrition Alliance의 체중 및 영양 평가 자료
+이 글은 강아지와 고양이 보호자를 위한 일반 정보 제공을 목적으로 작성되었습니다. 글 작성 시 아래와 같은 공신력 있는 반려동물 영양·건강 자료를 참고하되, 본문에서 직접 확인하지 않은 내용을 특정 출처의 주장처럼 단정하지 않습니다.
+
+반려동물의 질병, 알레르기, 처방식, 장기적인 식단 변경이 필요한 경우에는 반드시 수의사와 상담해 주세요. 내용 오류나 수정 요청은 [문의 페이지](/contact)를 통해 제보할 수 있습니다.
+
+* [FDA - Pet Food](https://www.fda.gov/animal-veterinary/animal-food-feeds/pet-food)
+* [AAFCO - Understanding Pet Food](https://www.aafco.org/consumers/understanding-pet-food/)
+* [WSAVA - Global Nutrition Guidelines](https://wsava.org/global-guidelines/global-nutrition-guidelines/)
+* [Merck Veterinary Manual - Nutrition: Small Animals](https://www.merckvetmanual.com/management-and-nutrition/nutrition-small-animals)
+* [VCA Hospitals - Pet Nutrition](https://vcahospitals.com/know-your-pet)
 
 ## FAQ
 
