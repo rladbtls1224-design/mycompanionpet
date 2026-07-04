@@ -43,6 +43,7 @@ function markdownToPost(filePath, raw) {
   const slug = path.basename(filePath, ".md");
   const { frontmatter, body } = parseFrontmatter(raw);
   const title = frontmatter.title || slug;
+  const metaTitle = frontmatter.metaTitle || title;
   const description = frontmatter.description || "";
   const category = frontmatter.category || "반려동물 영양";
   const tags = Array.isArray(frontmatter.tags) ? frontmatter.tags : [];
@@ -53,6 +54,7 @@ function markdownToPost(filePath, raw) {
     slug,
     date: `${frontmatter.pubDate || new Date().toISOString().slice(0, 10)}T00:00:00`,
     title: { rendered: title },
+    metaTitle,
     excerpt: { rendered: description },
     content: { rendered: markdownToHtml(body) },
     _embedded: {

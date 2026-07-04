@@ -13,12 +13,13 @@ import {
 const { post, relatedPosts = [] } = Astro.props;
 const image = getFeaturedImage(post);
 const title = stripHtml(post.title.rendered);
+const seoTitle = stripHtml(post.metaTitle || post.title.rendered);
 const description = stripHtml(post.excerpt?.rendered || "").slice(0, 155);
 const categories = getPostCategories(post);
 const tags = getPostTags(post);
 ---
 
-<BaseLayout title={`${title} | Pet Nutrition Guide`} description={description} image={image?.url} path={`/blog/${post.slug}`} type="article">
+<BaseLayout title={`${seoTitle} | Pet Nutrition Guide`} description={description} image={image?.url} path={`/blog/${post.slug}`} type="article">
   <main>
     <section class="page-hero">
       <div class="container">
