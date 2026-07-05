@@ -62,14 +62,14 @@ const posts = await getPosts({ perPage: 3 });
       <div class="container">
         <div class="section-head">
           <h2>블로그 최신 글</h2>
-          <p>WordPress 관리자에서 글을 작성하면 Astro 빌드 시 최신 글 목록에 반영됩니다.</p>
+          <p>강아지와 고양이의 식단, 사료 성분표, 생활 단계별 영양 정보를 보호자 눈높이에 맞춰 정리했습니다.</p>
         </div>
         {posts.length > 0 ? (
           <div class="grid three">
             {posts.map((post) => <BlogCard post={post} />)}
           </div>
         ) : (
-          <div class="empty-state">아직 등록된 글이 없습니다. WordPress 관리자에서 첫 글을 작성한 뒤 Astro를 다시 빌드해 주세요.</div>
+          <div class="empty-state">곧 새로운 반려동물 영양 글이 추가될 예정입니다.</div>
         )}
       </div>
     </section>
