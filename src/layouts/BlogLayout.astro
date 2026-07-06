@@ -17,6 +17,21 @@ const seoTitle = stripHtml(post.metaTitle || post.title.rendered);
 const description = stripHtml(post.excerpt?.rendered || "").slice(0, 155);
 const categories = getPostCategories(post);
 const tags = getPostTags(post);
+const rawContent = sanitizeHtml(post.content?.rendered || "");
+const toc = [];
+let headingIndex = 0;
+const contentHtml = rawContent.replace(/<h([23])([^>]*)>([\s\S]*?)<\/h\1>/gi, (match, level, attrs = "", innerHtml) => {
+  const text = stripHtml(innerHtml);
+  if (!text) return match;
+
+  headingIndex += 1;
+  const existingId = attrs.match(/\sid=["']([^"']+)["']/i)?.[1];
+  const id = existingId || `section-${headingIndex}`;
+  toc.push({ id, level: Number(level), text });
+
+  if (existingId) return match;
+  return `<h${level}${attrs} id="${id}">${innerHtml}</h${level}>`;
+});
 ---
 
 <BaseLayout title={`${seoTitle} | Pet Nutrition Guide`} description={description} image={image?.url} path={`/blog/${post.slug}`} type="article">
@@ -40,9 +55,29 @@ const tags = getPostTags(post);
 
     <section class="section">
       <div class="container content-layout">
-        <article class="article">
-          {image?.url && <img src={image.url} alt={image.alt || `${title} 대표 이미지`} />}
-          <div set:html={sanitizeHtml(post.content?.rendered || "")} />
+        <article class="article post-article">
+          {description && (
+            <section class="post-summary" aria-label="글 요약">
+              <p class="summary-label">요약</p>
+              <p>{description}</p>
+            </section>
+          )}
+
+          {toc.length > 0 && (
+            <nav class="post-toc" aria-label="본문 목차">
+              <h2>목차</h2>
+              <ol>
+                {toc.map((item) => (
+                  <li class={`toc-level-${item.level}`}>
+                    <a href={`#${item.id}`}>{item.text}</a>
+                  </li>
+                ))}
+              </ol>
+            </nav>
+          )}
+
+          {image?.url && <img class="featured-image" src={image.url} alt={image.alt || `${title} 대표 이미지`} />}
+          <div class="article-content" set:html={contentHtml} />
 
           {tags.length > 0 && (
             <>
