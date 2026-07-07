@@ -520,7 +520,7 @@ h3 {
 .article table {
   display: block;
   max-width: 100%;
-  width: 100%;
+  width: fit-content;
   margin: 18px 0 26px;
   border-collapse: separate;
   border-spacing: 0;
@@ -529,7 +529,7 @@ h3 {
   border-radius: var(--radius);
   background: #fff;
   font-size: 15px;
-  white-space: nowrap;
+  white-space: normal;
   -webkit-overflow-scrolling: touch;
 }
 
@@ -541,6 +541,11 @@ h3 {
   text-align: left;
   vertical-align: top;
   line-height: 1.65;
+  min-width: 96px;
+}
+
+.article td:last-child {
+  min-width: 180px;
 }
 
 .article th {
@@ -897,7 +902,8 @@ textarea {
   .article table {
     display: block;
     overflow-x: auto;
-    white-space: nowrap;
+    width: 100%;
+    white-space: normal;
   }
 
   .hero-media img {
