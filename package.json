@@ -9,6 +9,7 @@
     "preview": "astro preview",
     "new:post": "node scripts/create-post.js",
     "publish:post": "node scripts/publish-post.js",
+    "publish:queued": "node scripts/publish-queued-post.js",
     "post": "node scripts/post.js"
   },
   "engines": {

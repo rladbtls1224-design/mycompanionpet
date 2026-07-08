@@ -1,0 +1,50 @@
+[
+  {
+    "number": 1,
+    "title": "강아지 고구마 먹어도 될까? 찐고구마 급여량과 주의할 점",
+    "slug": "can-dogs-eat-sweet-potato",
+    "file": "drafts/blog-queue/01-can-dogs-eat-sweet-potato.md"
+  },
+  {
+    "number": 2,
+    "title": "고양이 습식사료 꼭 필요할까? 수분 섭취와 건식 병행 기준",
+    "slug": "cat-wet-food-water-intake-guide",
+    "file": "drafts/blog-queue/02-cat-wet-food-water-intake-guide.md"
+  },
+  {
+    "number": 3,
+    "title": "강아지 간식 하루 얼마나 줘야 할까? 10% 기준으로 계산하는 법",
+    "slug": "dog-treat-calorie-ten-percent-rule",
+    "file": "drafts/blog-queue/03-dog-treat-calorie-ten-percent-rule.md"
+  },
+  {
+    "number": 4,
+    "title": "고양이 단호박 먹어도 될까? 소화에 부담 없는 급여법",
+    "slug": "can-cats-eat-kabocha-squash",
+    "file": "drafts/blog-queue/04-can-cats-eat-kabocha-squash.md"
+  },
+  {
+    "number": 5,
+    "title": "강아지 블루베리 먹어도 될까? 항산화보다 중요한 급여량 기준",
+    "slug": "can-dogs-eat-blueberries",
+    "file": "drafts/blog-queue/05-can-dogs-eat-blueberries.md"
+  },
+  {
+    "number": 6,
+    "title": "고양이 헤어볼 사료, 언제 필요할까? 식이섬유와 수분 관리 기준",
+    "slug": "cat-hairball-food-fiber-water-guide",
+    "file": "drafts/blog-queue/06-cat-hairball-food-fiber-water-guide.md"
+  },
+  {
+    "number": 7,
+    "title": "강아지 계란 먹어도 될까? 삶은 계란 급여법과 노른자 주의점",
+    "slug": "can-dogs-eat-eggs",
+    "file": "drafts/blog-queue/07-can-dogs-eat-eggs.md"
+  },
+  {
+    "number": 8,
+    "title": "고양이 바나나 먹어도 될까? 단맛 간식으로 줄 때 주의점",
+    "slug": "can-cats-eat-bananas",
+    "file": "drafts/blog-queue/08-can-cats-eat-bananas.md"
+  }
+]
