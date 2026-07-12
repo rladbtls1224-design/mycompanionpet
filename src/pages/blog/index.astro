@@ -3,7 +3,7 @@ import BaseLayout from "../../layouts/BaseLayout.astro";
 import BlogCard from "../../components/BlogCard.astro";
 import { getPosts } from "../../lib/wordpress.js";
 
-const posts = await getPosts({ perPage: 12 });
+const posts = await getPosts({ perPage: 100 });
 ---
 
 <BaseLayout
