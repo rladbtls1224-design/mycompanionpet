@@ -29,6 +29,28 @@ function readQueue() {
   return JSON.parse(fs.readFileSync(QUEUE_PATH, "utf8"));
 }
 
+function getKoreaDate() {
+  const parts = new Intl.DateTimeFormat("en-CA", {
+    timeZone: "Asia/Seoul",
+    year: "numeric",
+    month: "2-digit",
+    day: "2-digit",
+  }).formatToParts(new Date());
+
+  const value = Object.fromEntries(parts.map((part) => [part.type, part.value]));
+  return `${value.year}-${value.month}-${value.day}`;
+}
+
+function updatePubDate(markdown, pubDate) {
+  const pubDateLine = `pubDate: "${pubDate}"`;
+
+  if (/^pubDate:\s*["']?\d{4}-\d{2}-\d{2}["']?\s*$/m.test(markdown)) {
+    return markdown.replace(/^pubDate:\s*["']?\d{4}-\d{2}-\d{2}["']?\s*$/m, pubDateLine);
+  }
+
+  return markdown.replace(/^---\r?\n/, `---\npubDate: "${pubDate}"\n`);
+}
+
 function hasGitRemote() {
   const result = run("git", ["remote"], { capture: true, allowFailure: true });
   return result.status === 0 && result.stdout.trim().length > 0;
@@ -36,8 +58,14 @@ function hasGitRemote() {
 
 function main() {
   const number = Number(process.argv[2]);
+  const dateArgIndex = process.argv.indexOf("--date");
+  const pubDate = dateArgIndex >= 0 ? process.argv[dateArgIndex + 1] : getKoreaDate();
+
   if (!Number.isInteger(number) || number < 1) {
-    throw new Error('Usage: npm run publish:queued -- 1');
+    throw new Error('Usage: npm run publish:queued -- 1 [--date YYYY-MM-DD]');
+  }
+  if (!/^\d{4}-\d{2}-\d{2}$/.test(pubDate)) {
+    throw new Error(`Invalid date: ${pubDate}. Use YYYY-MM-DD.`);
   }
 
   const queue = readQueue();
@@ -57,9 +85,11 @@ function main() {
   }
 
   fs.mkdirSync(BLOG_DIR, { recursive: true });
-  fs.copyFileSync(sourcePath, targetPath);
+  const markdown = fs.readFileSync(sourcePath, "utf8");
+  fs.writeFileSync(targetPath, updatePubDate(markdown, pubDate), "utf8");
 
   console.log(`Queued post ${number} copied to ${targetPath}`);
+  console.log(`pubDate set to ${pubDate}`);
   run("npm", ["run", "build"]);
   run("git", ["add", targetPath, QUEUE_PATH, sourcePath]);
   run("git", ["commit", "-m", `Add blog post: ${item.title}`]);
