@@ -44,7 +44,8 @@
     "thumbnailConcept": "작은 무염 치즈 조각이 담긴 접시와 강아지가 멀찍이 앉아 있는 밝은 주방 사진",
     "geoIntent": "강아지 치즈 가능 여부, 설사, 락토스 관련 AI 답변형 질의 대응",
     "internalLinks": ["dog-treat-calorie-ten-percent-rule", "dog-food-label-crude-protein-fat-ash-moisture", "dog-daily-water-intake"],
-    "status": "queued"
+    "status": "published",
+    "publishedDate": "2026-07-13"
   },
   {
     "number": 4,
@@ -59,7 +60,8 @@
     "thumbnailConcept": "고양이 옆 작은 접시에 양념 없는 삶은 닭가슴살 조각이 소량 놓인 깨끗한 식탁 사진",
     "geoIntent": "고양이 닭가슴살이 주식인지 간식인지 묻는 검색에 영양 균형 중심 답변 제공",
     "internalLinks": ["cat-essential-nutrients-taurine-protein-water", "cat-food-label-protein-taurine-moisture", "cat-wet-food-water-intake-guide"],
-    "status": "queued"
+    "status": "published",
+    "publishedDate": "2026-07-13"
   },
   {
     "number": 5,
