@@ -76,7 +76,8 @@
     "thumbnailConcept": "씨와 심을 제거한 사과 작은 조각이 담긴 접시와 강아지가 기다리는 주방 자연광 사진",
     "geoIntent": "강아지 사과 씨 위험, 껍질 가능 여부, 간식량 질문에 바로 답하는 스니펫형 구성",
     "internalLinks": ["can-dogs-eat-peaches", "can-dogs-eat-blueberries", "dog-treat-calorie-ten-percent-rule"],
-    "status": "queued"
+    "status": "published",
+    "publishedDate": "2026-07-14"
   },
   {
     "number": 6,
@@ -91,7 +92,8 @@
     "thumbnailConcept": "고양이가 작은 빈 숟가락과 무가당 요거트 소량이 담긴 그릇을 바라보는 밝은 식탁 사진",
     "geoIntent": "고양이 유제품, 요거트, 설사 관련 짧은 답변 검색에 안전 기준 제공",
     "internalLinks": ["cat-daily-water-intake", "cat-food-crude-protein-meaning-beyond-percentage", "cat-wet-food-water-intake-guide"],
-    "status": "queued"
+    "status": "published",
+    "publishedDate": "2026-07-14"
   },
   {
     "number": 7,
