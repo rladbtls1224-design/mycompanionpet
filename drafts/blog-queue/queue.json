@@ -108,7 +108,8 @@
     "thumbnailConcept": "익힌 양배추 작은 조각을 담은 접시와 강아지가 옆에 앉아 있는 차분한 주방 사진",
     "geoIntent": "강아지 양배추 생식/익힘 차이를 묻는 비교형 검색과 소화 부담 질문 대응",
     "internalLinks": ["dog-food-by-age-not-only-kg-nutrition", "dog-treat-calorie-ten-percent-rule", "dog-daily-water-intake"],
-    "status": "queued"
+    "status": "published",
+    "publishedDate": "2026-07-15"
   },
   {
     "number": 8,
@@ -123,7 +124,8 @@
     "thumbnailConcept": "건식 사료 그릇 옆에 아주 소량의 토핑 후보가 따로 놓이고 고양이가 지켜보는 식사 공간 사진",
     "geoIntent": "고양이 편식·토핑·사료 거부 관련 문제 해결형 검색에 전문가식 판단 기준 제공",
     "internalLinks": ["cat-food-label-protein-taurine-moisture", "cat-food-by-age-kitten-adult-senior-nutrition", "cat-wet-food-water-intake-guide"],
-    "status": "queued"
+    "status": "published",
+    "publishedDate": "2026-07-15"
   },
   {
     "number": 9,
