@@ -140,7 +140,8 @@
     "thumbnailConcept": "강아지 사료 그릇 옆에 작은 토핑 후보가 별도 접시에 나뉘어 놓인 깔끔한 식사 준비 사진",
     "geoIntent": "사료를 안 먹는 강아지, 토핑 시작 여부, 편식 방지 질문에 단계형 답변 제공",
     "internalLinks": ["dog-food-label-crude-protein-fat-ash-moisture", "dog-treat-calorie-ten-percent-rule", "dog-food-by-age-not-only-kg-nutrition"],
-    "status": "queued"
+    "status": "published",
+    "publishedDate": "2026-07-16"
   },
   {
     "number": 10,
@@ -155,7 +156,8 @@
     "thumbnailConcept": "고양이 식사 공간에 물그릇, 습식 사료, 건식 사료가 함께 놓인 건강 관리형 자연광 사진",
     "geoIntent": "고양이 변비에 사료나 물을 어떻게 봐야 하는지 묻는 건강 정보 검색에 신중한 답변 제공",
     "internalLinks": ["cat-daily-water-intake", "cat-wet-food-water-intake-guide", "cat-hairball-food-fiber-water-guide"],
-    "status": "queued"
+    "status": "published",
+    "publishedDate": "2026-07-16"
   },
   {
     "number": 11,
