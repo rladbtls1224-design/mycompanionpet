@@ -172,7 +172,8 @@
     "thumbnailConcept": "강아지 식사 공간에서 사료 그릇, 물그릇, 보호자 체크리스트 노트가 함께 보이는 사진",
     "geoIntent": "강아지 설사·묽은 변·사료 교체 관련 검색에 진단 대신 점검 순서를 제공",
     "internalLinks": ["dog-food-by-age-not-only-kg-nutrition", "dog-treat-calorie-ten-percent-rule", "dog-daily-water-intake"],
-    "status": "queued"
+    "status": "published",
+    "publishedDate": "2026-07-17"
   },
   {
     "number": 12,
@@ -187,7 +188,8 @@
     "thumbnailConcept": "두 종류의 고양이 사료가 작은 그릇에 비율별로 나뉘어 있고 고양이가 옆에서 지켜보는 사진",
     "geoIntent": "고양이 사료 바꾸는 법, 며칠, 설사 반응 등 절차형 검색에 단계 답변 제공",
     "internalLinks": ["cat-food-by-age-kitten-adult-senior-nutrition", "cat-food-label-protein-taurine-moisture", "cat-wet-food-water-intake-guide"],
-    "status": "queued"
+    "status": "published",
+    "publishedDate": "2026-07-17"
   },
   {
     "number": 13,
