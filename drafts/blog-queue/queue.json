@@ -204,7 +204,8 @@
     "thumbnailConcept": "두 종류의 강아지 사료를 비율별로 나눠 담은 그릇과 강아지가 기다리는 식사 준비 사진",
     "geoIntent": "강아지 사료 교체, 갑자기 바꿈, 설사 관련 절차형 검색에 바로 쓰이는 단계형 답변",
     "internalLinks": ["dog-food-by-age-not-only-kg-nutrition", "dog-food-label-crude-protein-fat-ash-moisture", "dog-loose-stool-diet-checklist"],
-    "status": "queued"
+    "status": "published",
+    "publishedDate": "2026-07-18"
   },
   {
     "number": 14,
@@ -219,6 +220,7 @@
     "thumbnailConcept": "차분한 노령묘가 낮은 식기 앞에 있고 습식 사료와 물그릇이 함께 보이는 따뜻한 실내 사진",
     "geoIntent": "노령묘 습식, 치아, 물 섭취, 사료 선택 관련 비교형·추천형 검색에 신중한 기준 제공",
     "internalLinks": ["cat-wet-food-water-intake-guide", "cat-food-by-age-kitten-adult-senior-nutrition", "cat-daily-water-intake"],
-    "status": "queued"
+    "status": "published",
+    "publishedDate": "2026-07-18"
   }
 ]
