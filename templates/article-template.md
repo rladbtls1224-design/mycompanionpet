@@ -7,6 +7,7 @@
 title: "{SEO_TITLE}"
 description: "{META_DESCRIPTION}"
 pubDate: "{YYYY-MM-DD}"
+updatedDate: "{YYYY-MM-DD}"
 category: "{강아지 영양 또는 고양이 영양}"
 tags: [{TAGS}]
 thumbnail: "{THUMBNAIL_PATH}"

@@ -41,14 +41,28 @@ function getKoreaDate() {
   return `${value.year}-${value.month}-${value.day}`;
 }
 
-function updatePubDate(markdown, pubDate) {
-  const pubDateLine = `pubDate: "${pubDate}"`;
+function updatePublishDates(markdown, pubDate) {
+  const datePattern = /^([a-zA-Z]+Date):\s*["']?\d{4}-\d{2}-\d{2}["']?\s*$/m;
+  let result = markdown;
 
-  if (/^pubDate:\s*["']?\d{4}-\d{2}-\d{2}["']?\s*$/m.test(markdown)) {
-    return markdown.replace(/^pubDate:\s*["']?\d{4}-\d{2}-\d{2}["']?\s*$/m, pubDateLine);
+  for (const key of ["pubDate", "updatedDate"]) {
+    const keyPattern = new RegExp(`^${key}:\\s*["']?\\d{4}-\\d{2}-\\d{2}["']?\\s*$`, "m");
+    const dateLine = `${key}: "${pubDate}"`;
+
+    if (keyPattern.test(result)) {
+      result = result.replace(keyPattern, dateLine);
+      continue;
+    }
+
+    if (key === "updatedDate" && datePattern.test(result)) {
+      result = result.replace(datePattern, (line) => `${line}\n${dateLine}`);
+      continue;
+    }
+
+    result = result.replace(/^---\r?\n/, `---\n${dateLine}\n`);
   }
 
-  return markdown.replace(/^---\r?\n/, `---\npubDate: "${pubDate}"\n`);
+  return result;
 }
 
 function hasGitRemote() {
@@ -86,10 +100,15 @@ function main() {
 
   fs.mkdirSync(BLOG_DIR, { recursive: true });
   const markdown = fs.readFileSync(sourcePath, "utf8");
-  fs.writeFileSync(targetPath, updatePubDate(markdown, pubDate), "utf8");
+  fs.writeFileSync(targetPath, updatePublishDates(markdown, pubDate), "utf8");
+
+  item.status = "published";
+  item.publishedDate = pubDate;
+  item.updatedDate = pubDate;
+  fs.writeFileSync(QUEUE_PATH, `${JSON.stringify(queue, null, 2)}\n`, "utf8");
 
   console.log(`Queued post ${number} copied to ${targetPath}`);
-  console.log(`pubDate set to ${pubDate}`);
+  console.log(`pubDate and updatedDate set to ${pubDate}`);
   run("npm", ["run", "build"]);
   run("git", ["add", targetPath, QUEUE_PATH, sourcePath]);
   run("git", ["commit", "-m", `Add blog post: ${item.title}`]);

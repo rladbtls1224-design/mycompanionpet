@@ -53,6 +53,7 @@ function markdownToPost(filePath, raw) {
     id: `content-${slug}`,
     slug,
     date: `${frontmatter.pubDate || new Date().toISOString().slice(0, 10)}T00:00:00`,
+    modified: `${frontmatter.updatedDate || frontmatter.pubDate || new Date().toISOString().slice(0, 10)}T00:00:00`,
     title: { rendered: title },
     metaTitle,
     excerpt: { rendered: description },

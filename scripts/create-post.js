@@ -365,6 +365,7 @@ function frontmatter({ title, pubDate, animalType, slug }) {
 title: "${escapeYaml(title)}"
 description: "${escapeYaml(descriptionFor(title, animalType))}"
 pubDate: "${pubDate}"
+updatedDate: "${pubDate}"
 category: "${escapeYaml(categoryFor(animalType))}"
 tags: [${tags}]
 thumbnail: "${thumbnailFor(slug)}"

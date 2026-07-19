@@ -18,6 +18,7 @@
 title: ""
 description: ""
 pubDate: "YYYY-MM-DD"
+updatedDate: "YYYY-MM-DD"
 category: ""
 tags: []
 thumbnail: ""
@@ -25,6 +26,8 @@ slug: ""
 draft: false
 ---
 ```
+
+새 글을 실제 배포할 때 `pubDate`와 `updatedDate`를 한국 시간 기준 배포 당일 날짜로 맞춘다. 기존 글을 수정 배포하는 경우에는 기존 `pubDate`를 유지하고 `updatedDate`만 수정 당일로 갱신한다.
 
 프로젝트 스키마가 다른 경우 기존 스키마를 우선한다.
 

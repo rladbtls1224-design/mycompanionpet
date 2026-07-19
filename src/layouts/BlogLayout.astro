@@ -34,7 +34,16 @@ const contentHtml = rawContent.replace(/<h([23])([^>]*)>([\s\S]*?)<\/h\1>/gi, (m
 });
 ---
 
-<BaseLayout title={`${seoTitle} | Pet Nutrition Guide`} description={description} image={image?.url} path={`/blog/${post.slug}`} type="article">
+<BaseLayout
+  title={`${seoTitle} | Pet Nutrition Guide`}
+  description={description}
+  image={image?.url}
+  path={`/blog/${post.slug}`}
+  type="article"
+  headline={title}
+  datePublished={post.date}
+  dateModified={post.modified || post.date}
+>
   <main>
     <section class="page-hero">
       <div class="container">
@@ -42,7 +51,8 @@ const contentHtml = rawContent.replace(/<h([23])([^>]*)>([\s\S]*?)<\/h\1>/gi, (m
           <p class="eyebrow">Pet Nutrition Blog</p>
           <h1>{title}</h1>
           <div class="blog-meta">
-            <span>{formatDate(post.date)}</span>
+            <span>게시 {formatDate(post.date)}</span>
+            <span>최종 업데이트 {formatDate(post.modified || post.date)}</span>
             {categories.map((category) => <span>{category}</span>)}
           </div>
         </div>

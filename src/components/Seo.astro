@@ -5,6 +5,9 @@ const {
   image = "/pet-nutrition-hero.png",
   path = Astro.url.pathname,
   type = "website",
+  headline = title,
+  datePublished,
+  dateModified,
 } = Astro.props;
 
 const siteUrl = "https://mycompanionpet.com";
@@ -15,6 +18,23 @@ const normalizePath = (value) => {
 };
 const canonical = new URL(normalizePath(path), siteUrl).toString();
 const imageUrl = image?.startsWith("http") ? image : new URL(image, siteUrl).toString();
+const articleSchema = type === "article"
+  ? {
+      "@context": "https://schema.org",
+      "@type": "Article",
+      headline,
+      description,
+      image: imageUrl,
+      mainEntityOfPage: canonical,
+      datePublished,
+      dateModified: dateModified || datePublished,
+      publisher: {
+        "@type": "Organization",
+        name: "Pet Nutrition Guide",
+        url: siteUrl,
+      },
+    }
+  : null;
 ---
 
 <title>{title}</title>
@@ -29,3 +49,4 @@ const imageUrl = image?.startsWith("http") ? image : new URL(image, siteUrl).toS
 <meta name="twitter:title" content={title} />
 <meta name="twitter:description" content={description} />
 <meta name="twitter:image" content={imageUrl} />
+{articleSchema && <script type="application/ld+json" set:html={JSON.stringify(articleSchema)} />}
