@@ -49,7 +49,9 @@
     "geoIntent": "삶은 닭가슴살 가능 여부와 주식 대체 여부를 한 번에 해결하는 비교·판단형 답변",
     "internalLinks": ["can-dogs-eat-eggs", "dog-treat-calorie-ten-percent-rule", "dog-food-topping-guide"],
     "priorityReason": "일상 급여 수요가 크고 기존 계란·토핑·간식량 글을 묶는 단백질 클러스터의 중심 글",
-    "status": "planned"
+    "status": "published",
+    "publishedDate": "2026-07-21",
+    "updatedDate": "2026-07-21"
   },
   {
     "number": 4,
@@ -65,7 +67,9 @@
     "geoIntent": "생계란과 완숙, 흰자와 노른자, 주식 대체 여부를 표로 구분해 AI 답변에 인용하기 쉬운 구조",
     "internalLinks": ["can-cats-eat-chicken-breast", "cat-food-topping-guide", "cat-essential-nutrients-taurine-protein-water"],
     "priorityReason": "기존 닭가슴살 글과 자연스럽게 연결되며 고양이 단백질 급여 클러스터를 확장함",
-    "status": "planned"
+    "status": "published",
+    "publishedDate": "2026-07-21",
+    "updatedDate": "2026-07-21"
   },
   {
     "number": 5,
