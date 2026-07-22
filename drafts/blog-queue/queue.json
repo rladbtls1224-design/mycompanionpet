@@ -85,7 +85,9 @@
     "geoIntent": "생식과 익힘, 치아 상태별 조각 크기를 비교표로 제시하는 실용형 답변",
     "internalLinks": ["can-dogs-eat-cucumber", "can-dogs-eat-cabbage", "dog-treat-calorie-ten-percent-rule"],
     "priorityReason": "강아지 채소 클러스터에서 검색 의도가 선명하고 기존 오이·양배추 글과 연결성이 높음",
-    "status": "planned"
+    "status": "published",
+    "publishedDate": "2026-07-22",
+    "updatedDate": "2026-07-22"
   },
   {
     "number": 6,
@@ -101,7 +103,9 @@
     "geoIntent": "생·익힘·훈제 형태를 안전도 표로 나눠 검색과 생성형 답변의 비교 의도를 충족",
     "internalLinks": ["can-cats-eat-tuna-can", "cat-essential-nutrients-taurine-protein-water", "cat-food-topping-guide"],
     "priorityReason": "참치캔 다음으로 확장하기 좋은 생선 클러스터이며 형태별 차별화가 명확함",
-    "status": "planned"
+    "status": "published",
+    "publishedDate": "2026-07-22",
+    "updatedDate": "2026-07-22"
   },
   {
     "number": 7,
