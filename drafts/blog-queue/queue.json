@@ -157,7 +157,9 @@
     "geoIntent": "찜·생식·가공 단호박의 차이와 변 상태에 따른 급여 판단을 단계형으로 제공",
     "internalLinks": ["can-dogs-eat-sweet-potato", "can-dogs-eat-cabbage", "dog-food-topping-guide"],
     "priorityReason": "고구마 글과 강하게 연결되는 전분 채소 주제로 계절 영향을 덜 받는 상시 검색형 콘텐츠",
-    "status": "planned"
+    "status": "published",
+    "publishedDate": "2026-07-24",
+    "updatedDate": "2026-07-24"
   },
   {
     "number": 10,
@@ -173,7 +175,9 @@
     "geoIntent": "오이를 물 대신 줄 수 있는지와 껍질·씨 준비법을 직접 답하는 수분 오해 교정형 콘텐츠",
     "internalLinks": ["cat-daily-water-intake", "cat-wet-food-water-intake-guide", "can-cats-eat-kabocha-squash"],
     "priorityReason": "기존 수분 콘텐츠와 채소 콘텐츠를 연결하는 브리지 글로 내부 링크 효과가 큼",
-    "status": "planned"
+    "status": "published",
+    "publishedDate": "2026-07-24",
+    "updatedDate": "2026-07-24"
   },
   {
     "number": 11,
