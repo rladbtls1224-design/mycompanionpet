@@ -121,7 +121,9 @@
     "geoIntent": "가능 여부, 껍질 섭취, 급여량, 변 상태를 짧은 판단표로 답변",
     "internalLinks": ["can-dogs-eat-apples", "can-dogs-eat-blueberries", "dog-treat-calorie-ten-percent-rule"],
     "priorityReason": "과일 클러스터의 핵심 공백이며 고양이 바나나 글과는 동물별 식단 기준으로 차별화 가능",
-    "status": "planned"
+    "status": "published",
+    "publishedDate": "2026-07-23",
+    "updatedDate": "2026-07-23"
   },
   {
     "number": 8,
@@ -137,7 +139,9 @@
     "geoIntent": "과육과 위험 부위를 명확히 분리하고 육식동물인 고양이에게 과일이 필수인지 직접 답변",
     "internalLinks": ["can-cats-eat-peaches", "can-cats-eat-bananas", "cat-food-topping-guide"],
     "priorityReason": "고양이 과일 클러스터의 대표 공백이며 기존 복숭아·바나나 글로 내부 링크를 확장할 수 있음",
-    "status": "planned"
+    "status": "published",
+    "publishedDate": "2026-07-23",
+    "updatedDate": "2026-07-23"
   },
   {
     "number": 9,
