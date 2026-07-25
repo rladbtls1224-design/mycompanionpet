@@ -193,7 +193,9 @@
     "geoIntent": "송이와 줄기, 생식과 익힘, 조각 크기를 표로 나눠 구체적인 하위 질문까지 대응",
     "internalLinks": ["can-dogs-eat-cabbage", "can-dogs-eat-cucumber", "dog-treat-calorie-ten-percent-rule"],
     "priorityReason": "강아지 채소 클러스터를 넓히면서 기존 양배추·오이 글과 중복 없이 부위별 판단을 제공",
-    "status": "planned"
+    "status": "published",
+    "publishedDate": "2026-07-25",
+    "updatedDate": "2026-07-25"
   },
   {
     "number": 12,
@@ -209,7 +211,9 @@
     "geoIntent": "익힘 정도, 살코기, 양념, 생고기, 주식 대체 여부를 체크리스트로 정리",
     "internalLinks": ["can-cats-eat-chicken-breast", "cat-essential-nutrients-taurine-protein-water", "cat-food-topping-guide"],
     "priorityReason": "닭가슴살 다음 단계의 육류 클러스터로 단백질 종류와 영양 균형 질문을 확장함",
-    "status": "planned"
+    "status": "published",
+    "publishedDate": "2026-07-25",
+    "updatedDate": "2026-07-25"
   },
   {
     "number": 13,
