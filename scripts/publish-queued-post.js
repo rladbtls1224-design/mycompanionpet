@@ -4,7 +4,7 @@ import { spawnSync } from "node:child_process";
 import process from "node:process";
 
 const ROOT = process.cwd();
-const QUEUE_PATH = path.join(ROOT, "drafts", "blog-queue", "queue.json");
+const QUEUE_PATH = path.join(ROOT, "drafts", "blog-queue", "active-plan.json");
 const BLOG_DIR = path.join(ROOT, "src", "content", "blog");
 
 function run(command, args, options = {}) {
@@ -26,7 +26,11 @@ function readQueue() {
   if (!fs.existsSync(QUEUE_PATH)) {
     throw new Error(`Queue file not found: ${QUEUE_PATH}`);
   }
-  return JSON.parse(fs.readFileSync(QUEUE_PATH, "utf8"));
+  const queue = JSON.parse(fs.readFileSync(QUEUE_PATH, "utf8"));
+  if (!Array.isArray(queue.items)) {
+    throw new Error(`Invalid active queue format: ${QUEUE_PATH}`);
+  }
+  return queue;
 }
 
 function getKoreaDate() {
@@ -65,9 +69,28 @@ function updatePublishDates(markdown, pubDate) {
   return result;
 }
 
+function ensureFrontmatterField(markdown, key, value) {
+  if (!value) return markdown;
+
+  const keyPattern = new RegExp(`^${key}:\\s*.*$`, "m");
+  const field = `${key}: "${String(value).replace(/"/g, '\\"')}"`;
+
+  if (keyPattern.test(markdown)) {
+    return markdown.replace(keyPattern, field);
+  }
+
+  return markdown.replace(/^---\r?\n/, `---\n${field}\n`);
+}
+
 function hasGitRemote() {
   const result = run("git", ["remote"], { capture: true, allowFailure: true });
   return result.status === 0 && result.stdout.trim().length > 0;
+}
+
+function runBuild() {
+  const nodeExecutable = process.env.ASTRO_NODE_EXECUTABLE || process.execPath;
+  const astroCli = path.join(ROOT, "node_modules", "astro", "astro.js");
+  return run(nodeExecutable, [astroCli, "build"]);
 }
 
 function main() {
@@ -83,7 +106,7 @@ function main() {
   }
 
   const queue = readQueue();
-  const item = queue.find((entry) => entry.number === number);
+  const item = queue.items.find((entry) => entry.number === number);
   if (!item) {
     throw new Error(`No queued post found for number ${number}`);
   }
@@ -100,7 +123,12 @@ function main() {
 
   fs.mkdirSync(BLOG_DIR, { recursive: true });
   const markdown = fs.readFileSync(sourcePath, "utf8");
-  fs.writeFileSync(targetPath, updatePublishDates(markdown, pubDate), "utf8");
+  const preparedMarkdown = ensureFrontmatterField(
+    updatePublishDates(markdown, pubDate),
+    "metaTitle",
+    item.metaTitle,
+  );
+  fs.writeFileSync(targetPath, preparedMarkdown, "utf8");
 
   item.status = "published";
   item.publishedDate = pubDate;
@@ -109,8 +137,11 @@ function main() {
 
   console.log(`Queued post ${number} copied to ${targetPath}`);
   console.log(`pubDate and updatedDate set to ${pubDate}`);
-  run("npm", ["run", "build"]);
-  run("git", ["add", targetPath, QUEUE_PATH, sourcePath]);
+  runBuild();
+  const imageDir = path.join(ROOT, "public", "images", "blog", item.slug);
+  const filesToStage = [targetPath, QUEUE_PATH, sourcePath];
+  if (fs.existsSync(imageDir)) filesToStage.push(imageDir);
+  run("git", ["add", ...filesToStage]);
   run("git", ["commit", "-m", `Add blog post: ${item.title}`]);
 
   if (hasGitRemote()) {
