@@ -52,7 +52,7 @@
     },
     {
       "number": 3,
-      "status": "planned",
+      "status": "published",
       "title": "강아지 하루 몇 번 먹여야 할까? 퍼피·성견·노령견 급여 횟수",
       "metaTitle": "강아지 하루 급여 횟수 | 퍼피·성견·노령견 기준",
       "description": "강아지 하루 급여 횟수를 성장기, 성견기, 노령기와 생활 리듬에 맞춰 확인하는 기준과 주의점을 설명합니다.",
@@ -69,11 +69,13 @@
         "/blog/dog-daily-food-amount-calculation/",
         "/blog/dog-food-transition-seven-day-guide/",
         "/dog-nutrition/"
-      ]
+      ],
+      "publishedDate": "2026-07-28",
+      "updatedDate": "2026-07-28"
     },
     {
       "number": 4,
-      "status": "planned",
+      "status": "published",
       "title": "고양이 하루 몇 번 먹여야 할까? 키튼·성묘·노령묘 급여 횟수",
       "metaTitle": "고양이 하루 급여 횟수 | 키튼·성묘·노령묘 기준",
       "description": "고양이 하루 급여 횟수를 키튼, 성묘, 노령묘의 생활 단계와 건식·습식 급여 방식에 맞춰 정리했습니다.",
@@ -90,7 +92,9 @@
         "/blog/cat-daily-food-amount-calculation/",
         "/blog/cat-food-transition-seven-day-guide/",
         "/cat-nutrition/"
-      ]
+      ],
+      "publishedDate": "2026-07-28",
+      "updatedDate": "2026-07-28"
     },
     {
       "number": 5,
