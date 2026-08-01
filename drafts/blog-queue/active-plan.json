@@ -142,14 +142,14 @@
     },
     {
       "number": 7,
-      "status": "planned",
+      "status": "published",
       "title": "강아지 건식·습식 사료 차이｜우리 아이에게 맞는 선택 기준",
       "metaTitle": "강아지 건식·습식 사료 차이 | 선택·혼합 급여 기준",
       "description": "강아지 건식과 습식 사료의 수분, 열량, 보관, 기호성 차이와 혼합 급여 시 확인할 기준을 정리했습니다.",
       "slug": "dog-dry-vs-wet-food-guide",
       "file": "drafts/blog-queue/current/07-dog-dry-vs-wet-food-guide.md",
       "thumbnail": {
-        "file": "/images/blog/dog-dry-vs-wet-food-guide/dog-dry-vs-wet-food-guide-thumbnail.webp",
+        "file": "/images/blog/dog-dry-vs-wet-food-guide/dog-dry-wet-thumbnail.png",
         "concept": "같은 식탁 위에 깔끔하게 놓인 강아지 건사료 그릇과 습식 사료 그릇의 비교 장면",
         "alt": "강아지 건식 사료와 습식 사료를 한눈에 비교한 두 개의 사료 그릇"
       },
@@ -159,18 +159,20 @@
         "/blog/dog-daily-food-amount-calculation/",
         "/blog/dog-food-transition-seven-day-guide/",
         "/dog-nutrition/"
-      ]
+      ],
+      "publishedDate": "2026-07-30",
+      "updatedDate": "2026-07-30"
     },
     {
       "number": 8,
-      "status": "planned",
+      "status": "published",
       "title": "고양이 건식·습식 사료 차이｜수분·열량·급여 방법 비교",
       "metaTitle": "고양이 건식·습식 사료 차이 | 수분·열량·혼합 급여",
       "description": "고양이 건식과 습식 사료의 수분, 열량, 보관, 기호성 차이와 혼합 급여 전 확인할 점을 비교합니다.",
       "slug": "cat-dry-vs-wet-food-guide",
       "file": "drafts/blog-queue/current/08-cat-dry-vs-wet-food-guide.md",
       "thumbnail": {
-        "file": "/images/blog/cat-dry-vs-wet-food-guide/cat-dry-vs-wet-food-guide-thumbnail.webp",
+        "file": "/images/blog/cat-dry-vs-wet-food-guide/cat-dry-wet-thumbnail.png",
         "concept": "고양이 건사료와 습식 사료를 각각 담은 흰 그릇, 옆의 물그릇이 있는 차분한 급여 공간",
         "alt": "고양이 건식 사료와 습식 사료, 물그릇을 함께 비교한 급여 공간"
       },
@@ -180,18 +182,20 @@
         "/blog/cat-food-label-protein-taurine-moisture/",
         "/blog/cat-food-transition-seven-day-guide/",
         "/cat-nutrition/"
-      ]
+      ],
+      "publishedDate": "2026-07-30",
+      "updatedDate": "2026-07-30"
     },
     {
       "number": 9,
-      "status": "planned",
+      "status": "published",
       "title": "강아지 다이어트 사료, 어떻게 고를까? 열량·단백질·급여량 확인법",
       "metaTitle": "강아지 다이어트 사료 고르는 법 | 열량·급여량 기준",
       "description": "강아지 체중 관리를 위한 사료를 고를 때 열량, 단백질, 간식, 급여량과 체형 변화를 함께 확인하는 방법입니다.",
       "slug": "dog-weight-management-food-guide",
       "file": "drafts/blog-queue/current/09-dog-weight-management-food-guide.md",
       "thumbnail": {
-        "file": "/images/blog/dog-weight-management-food-guide/dog-weight-management-food-guide-thumbnail.webp",
+        "file": "/images/blog/dog-weight-management-food-guide/dog-weight-management-thumbnail.png",
         "concept": "사료 라벨의 열량 정보를 확인하며 계량컵을 든 보호자와 편안한 자세의 강아지",
         "alt": "강아지 체중 관리를 위해 사료 라벨과 계량컵을 확인하는 보호자"
       },
@@ -201,18 +205,20 @@
         "/blog/dog-daily-food-amount-calculation/",
         "/blog/dog-treat-calorie-ten-percent-rule/",
         "/blog/dog-food-label-crude-protein-fat-ash-moisture/"
-      ]
+      ],
+      "publishedDate": "2026-07-31",
+      "updatedDate": "2026-07-31"
     },
     {
       "number": 10,
-      "status": "planned",
+      "status": "published",
       "title": "고양이 다이어트 사료, 어떻게 고를까? 급여량과 체중 기록 기준",
       "metaTitle": "고양이 다이어트 사료 고르는 법 | 급여량·체중 기록",
       "description": "고양이 체중 관리를 위한 사료를 고를 때 열량, 급여량, 간식, 습식 비율과 체중 기록을 함께 확인하는 방법입니다.",
       "slug": "cat-weight-management-food-guide",
       "file": "drafts/blog-queue/current/10-cat-weight-management-food-guide.md",
       "thumbnail": {
-        "file": "/images/blog/cat-weight-management-food-guide/cat-weight-management-food-guide-thumbnail.webp",
+        "file": "/images/blog/cat-weight-management-food-guide/cat-weight-management-thumbnail.png",
         "concept": "디지털 저울, 소량의 사료, 체중 기록 노트가 정돈된 테이블 옆의 성묘",
         "alt": "고양이 체중 관리용 사료 급여량과 체중을 기록하는 모습"
       },
@@ -222,7 +228,9 @@
         "/blog/cat-daily-food-amount-calculation/",
         "/blog/cat-food-by-age-kitten-adult-senior-nutrition/",
         "/blog/cat-wet-food-water-intake-guide/"
-      ]
+      ],
+      "publishedDate": "2026-07-31",
+      "updatedDate": "2026-07-31"
     },
     {
       "number": 11,
