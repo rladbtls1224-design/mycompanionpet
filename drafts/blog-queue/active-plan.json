@@ -234,14 +234,14 @@
     },
     {
       "number": 11,
-      "status": "planned",
+      "status": "published",
       "title": "강아지가 먹으면 안 되는 음식 15가지｜주방에서 먼저 치워야 할 것",
       "metaTitle": "강아지가 먹으면 안 되는 음식 15가지 | 위험 음식 정리",
       "description": "강아지에게 위험할 수 있는 대표적인 사람 음식 15가지와 소량 섭취 시 보호자가 기록하고 확인할 사항을 정리했습니다.",
       "slug": "foods-dogs-should-not-eat-guide",
       "file": "drafts/blog-queue/current/11-foods-dogs-should-not-eat-guide.md",
       "thumbnail": {
-        "file": "/images/blog/foods-dogs-should-not-eat-guide/foods-dogs-should-not-eat-guide-thumbnail.webp",
+        "file": "/images/blog/foods-dogs-should-not-eat-guide/dog-food-safety-thumbnail.png",
         "concept": "포도, 양파, 초콜릿 등 위험 가능 식품을 강아지와 분리한 접시에 두고 보호자가 치우는 안전한 장면",
         "alt": "강아지에게 주지 말아야 할 사람 음식을 안전하게 분리해 둔 모습"
       },
@@ -251,18 +251,20 @@
         "/blog/can-dogs-eat-cheese/",
         "/blog/can-dogs-eat-eggs/",
         "/dog-nutrition/"
-      ]
+      ],
+      "publishedDate": "2026-08-01",
+      "updatedDate": "2026-08-01"
     },
     {
       "number": 12,
-      "status": "planned",
+      "status": "published",
       "title": "고양이가 먹으면 안 되는 음식 15가지｜사람 음식 급여 전 체크",
       "metaTitle": "고양이가 먹으면 안 되는 음식 15가지 | 위험 음식 정리",
       "description": "고양이에게 위험할 수 있는 대표적인 사람 음식 15가지와 사람이 먹는 음식의 양념·가공 형태를 확인하는 방법을 정리했습니다.",
       "slug": "foods-cats-should-not-eat-guide",
       "file": "drafts/blog-queue/current/12-foods-cats-should-not-eat-guide.md",
       "thumbnail": {
-        "file": "/images/blog/foods-cats-should-not-eat-guide/foods-cats-should-not-eat-guide-thumbnail.webp",
+        "file": "/images/blog/foods-cats-should-not-eat-guide/cat-food-safety-thumbnail.png",
         "concept": "양파, 초콜릿, 포도 등 위험 가능 식품을 고양이 급여 공간 밖에 분리한 안전한 주방 장면",
         "alt": "고양이에게 주지 말아야 할 사람 음식을 안전하게 분리해 둔 모습"
       },
@@ -272,7 +274,9 @@
         "/blog/can-cats-eat-tuna-can/",
         "/blog/can-cats-eat-yogurt/",
         "/cat-nutrition/"
-      ]
+      ],
+      "publishedDate": "2026-08-01",
+      "updatedDate": "2026-08-01"
     },
     {
       "number": 13,
