@@ -11,7 +11,9 @@ function run(command, args, options = {}) {
   const result = spawnSync(command, args, {
     cwd: ROOT,
     stdio: options.capture ? "pipe" : "inherit",
-    shell: process.platform === "win32",
+    // Keep arguments intact on Windows. With a shell, a Korean title containing
+    // spaces is split into multiple arguments before `git commit -m` receives it.
+    shell: false,
     encoding: "utf8",
   });
 
