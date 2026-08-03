@@ -38,7 +38,7 @@
     },
     {
       "number": 2,
-      "status": "planned",
+      "status": "published",
       "animal": "cat",
       "topic": "고양이 사료 알레르기 기록",
       "title": "고양이 사료 알레르기 의심 시｜사료 바꾸기 전 기록할 6가지",
@@ -59,7 +59,9 @@
         "/blog/cat-not-eating-food-environment-checklist/",
         "/cat-nutrition/"
       ],
-      "priorityReason": "강아지 알레르기 기록 글의 동물별 공백을 채우되 고양이의 식욕 저하 위험과 간식 통제를 중심으로 차별화할 수 있습니다."
+      "priorityReason": "강아지 알레르기 기록 글의 동물별 공백을 채우되 고양이의 식욕 저하 위험과 간식 통제를 중심으로 차별화할 수 있습니다.",
+      "publishedDate": "2026-08-03",
+      "updatedDate": "2026-08-03"
     },
     {
       "number": 3,
