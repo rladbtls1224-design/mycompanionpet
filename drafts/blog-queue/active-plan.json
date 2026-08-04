@@ -115,7 +115,7 @@
     },
     {
       "number": 5,
-      "status": "planned",
+      "status": "published",
       "animal": "dog",
       "topic": "강아지 체형 점수",
       "title": "강아지 비만인지 확인하는 법｜9단계 체형 점수와 갈비뼈 체크",
@@ -124,7 +124,7 @@
       "slug": "dog-body-condition-score-guide",
       "file": "drafts/blog-queue/current/05-dog-body-condition-score-guide.md",
       "thumbnail": {
-        "file": "/images/blog/dog-body-condition-score-guide/dog-body-condition-score-guide-thumbnail.webp",
+        "file": "/images/blog/dog-body-condition-score-guide/dog-body-condition-score-guide-thumbnail.png",
         "concept": "보호자가 서 있는 강아지의 옆모습과 위쪽 허리선을 차분히 관찰하고 체중 기록표를 든 밝은 거실 장면",
         "alt": "강아지의 갈비뼈와 허리선을 살펴 체형 점수를 확인하는 보호자"
       },
@@ -136,7 +136,9 @@
         "/blog/dog-treat-calorie-ten-percent-rule/",
         "/calorie-calculator"
       ],
-      "priorityReason": "체중 관리 글을 실제 자가 관찰 행동으로 확장하며 WSAVA의 표준 도구에 근거한 GEO 친화적 주제입니다."
+      "priorityReason": "체중 관리 글을 실제 자가 관찰 행동으로 확장하며 WSAVA의 표준 도구에 근거한 GEO 친화적 주제입니다.",
+      "publishedDate": "2026-08-05",
+      "updatedDate": "2026-08-05"
     },
     {
       "number": 6,
@@ -149,7 +151,7 @@
       "slug": "cat-body-condition-score-guide",
       "file": "drafts/blog-queue/current/06-cat-body-condition-score-guide.md",
       "thumbnail": {
-        "file": "/images/blog/cat-body-condition-score-guide/cat-body-condition-score-guide-thumbnail.webp",
+        "file": "/images/blog/cat-body-condition-score-guide/cat-body-condition-score-guide-thumbnail.png",
         "concept": "보호자가 서 있는 고양이의 옆모습과 위쪽 허리선을 부드럽게 살피고 기록 노트를 둔 조용한 거실",
         "alt": "고양이의 갈비뼈와 허리선, 복부 형태를 살펴 체형 점수를 확인하는 모습"
       },
