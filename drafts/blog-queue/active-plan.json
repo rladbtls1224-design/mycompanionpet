@@ -142,7 +142,7 @@
     },
     {
       "number": 6,
-      "status": "planned",
+      "status": "published",
       "animal": "cat",
       "topic": "고양이 체형 점수",
       "title": "고양이 비만인지 확인하는 법｜9단계 체형 점수와 허리선 체크",
@@ -163,7 +163,9 @@
         "/blog/cat-treat-calorie-ten-percent-rule/",
         "/calorie-calculator"
       ],
-      "priorityReason": "강아지 글과 달리 원시주머니와 장모종이라는 고양이 고유 질문으로 충분히 차별화할 수 있습니다."
+      "priorityReason": "강아지 글과 달리 원시주머니와 장모종이라는 고양이 고유 질문으로 충분히 차별화할 수 있습니다.",
+      "publishedDate": "2026-08-05",
+      "updatedDate": "2026-08-05"
     },
     {
       "number": 7,
