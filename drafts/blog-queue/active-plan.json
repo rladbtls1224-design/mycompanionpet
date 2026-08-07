@@ -169,7 +169,7 @@
     },
     {
       "number": 7,
-      "status": "planned",
+      "status": "published",
       "animal": "dog",
       "topic": "강아지 사료 칼로리 표시",
       "title": "강아지 사료 칼로리 보는 법｜kcal/kg을 한 끼 열량으로 바꾸기",
@@ -178,7 +178,7 @@
       "slug": "dog-food-calorie-kcal-per-kg-guide",
       "file": "drafts/blog-queue/current/07-dog-food-calorie-kcal-per-kg-guide.md",
       "thumbnail": {
-        "file": "/images/blog/dog-food-calorie-kcal-per-kg-guide/dog-food-calorie-kcal-per-kg-guide-thumbnail.webp",
+        "file": "/images/blog/dog-food-calorie-kcal-per-kg-guide/dog-food-calorie-kcal-per-kg-guide-thumbnail.png",
         "concept": "사료 라벨의 칼로리 구역을 가리키는 보호자의 손, 전자저울 위 사료 그릇과 계산기가 있는 깨끗한 주방",
         "alt": "강아지 사료 라벨의 kcal/kg 표시를 보고 한 끼 사료 열량을 계산하는 장면"
       },
@@ -190,7 +190,9 @@
         "/blog/dog-weight-management-food-guide/",
         "/blog/dog-food-label-crude-protein-fat-ash-moisture/"
       ],
-      "priorityReason": "현재 계산기는 필요 열량을 보여주지만 제품 라벨과 연결하는 글이 없어 전환 의도가 큰 핵심 공백입니다."
+      "priorityReason": "현재 계산기는 필요 열량을 보여주지만 제품 라벨과 연결하는 글이 없어 전환 의도가 큰 핵심 공백입니다.",
+      "publishedDate": "2026-08-07",
+      "updatedDate": "2026-08-07"
     },
     {
       "number": 8,
@@ -203,7 +205,7 @@
       "slug": "cat-food-calorie-kcal-per-kg-guide",
       "file": "drafts/blog-queue/current/08-cat-food-calorie-kcal-per-kg-guide.md",
       "thumbnail": {
-        "file": "/images/blog/cat-food-calorie-kcal-per-kg-guide/cat-food-calorie-kcal-per-kg-guide-thumbnail.webp",
+        "file": "/images/blog/cat-food-calorie-kcal-per-kg-guide/cat-food-calorie-kcal-per-kg-guide-thumbnail.png",
         "concept": "건사료 봉투와 습식 캔의 칼로리 표시, 전자저울과 계산기를 함께 둔 고양이 급여 준비 공간",
         "alt": "고양이 건식사료와 습식 캔의 열량을 확인해 하루 급여량을 계산하는 장면"
       },
