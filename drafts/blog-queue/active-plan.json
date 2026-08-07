@@ -196,7 +196,7 @@
     },
     {
       "number": 8,
-      "status": "planned",
+      "status": "published",
       "animal": "cat",
       "topic": "고양이 사료 칼로리 표시",
       "title": "고양이 사료 칼로리 보는 법｜kcal/kg·캔당 열량 계산하기",
@@ -217,7 +217,9 @@
         "/blog/cat-dry-vs-wet-food-guide/",
         "/blog/cat-weight-management-food-guide/"
       ],
-      "priorityReason": "고양이 사이트의 강점인 습식·수분 콘텐츠를 실제 열량 계산으로 연결하는 상업성 낮은 고의도 정보 글입니다."
+      "priorityReason": "고양이 사이트의 강점인 습식·수분 콘텐츠를 실제 열량 계산으로 연결하는 상업성 낮은 고의도 정보 글입니다.",
+      "publishedDate": "2026-08-07",
+      "updatedDate": "2026-08-07"
     },
     {
       "number": 9,
