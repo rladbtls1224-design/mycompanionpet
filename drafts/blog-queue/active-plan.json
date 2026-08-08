@@ -250,7 +250,7 @@
     },
     {
       "number": 10,
-      "status": "planned",
+      "status": "published",
       "animal": "cat",
       "topic": "고양이 사료 원재료명",
       "title": "고양이 사료 원재료명 읽는 법｜육류 순서와 타우린 함께 보기",
@@ -271,7 +271,9 @@
         "/blog/cat-food-crude-protein-meaning-beyond-percentage/",
         "/cat-nutrition/"
       ],
-      "priorityReason": "강아지 글과 달리 육식동물의 영양 적합성, 타우린, 습식 수분이라는 독자적 검색 질문으로 차별화됩니다."
+      "priorityReason": "강아지 글과 달리 육식동물의 영양 적합성, 타우린, 습식 수분이라는 독자적 검색 질문으로 차별화됩니다.",
+      "publishedDate": "2026-08-08",
+      "updatedDate": "2026-08-08"
     },
     {
       "number": 11,
