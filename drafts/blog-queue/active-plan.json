@@ -223,7 +223,7 @@
     },
     {
       "number": 9,
-      "status": "planned",
+      "status": "published",
       "animal": "dog",
       "topic": "강아지 사료 원재료명",
       "title": "강아지 사료 원재료명 읽는 법｜첫 번째 원료만 보면 놓치는 것",
@@ -232,7 +232,7 @@
       "slug": "dog-food-ingredient-list-guide",
       "file": "drafts/blog-queue/current/09-dog-food-ingredient-list-guide.md",
       "thumbnail": {
-        "file": "/images/blog/dog-food-ingredient-list-guide/dog-food-ingredient-list-guide-thumbnail.webp",
+        "file": "/images/blog/dog-food-ingredient-list-guide/dog-food-ingredient-list-guide-thumbnail.png",
         "concept": "강아지 사료 포장의 원재료 목록을 돋보기로 확인하는 보호자와 사료 그릇이 놓인 자연광 주방",
         "alt": "강아지 사료 포장의 원재료명과 표시 순서를 차분히 확인하는 보호자"
       },
@@ -244,7 +244,9 @@
         "/blog/dog-food-crude-protein-meaning-high-protein/",
         "/dog-nutrition/"
       ],
-      "priorityReason": "홈과 성분표 허브가 약속한 원료명 해석을 완성하며 제품 추천 없이도 높은 비교 검색 의도를 충족합니다."
+      "priorityReason": "홈과 성분표 허브가 약속한 원료명 해석을 완성하며 제품 추천 없이도 높은 비교 검색 의도를 충족합니다.",
+      "publishedDate": "2026-08-08",
+      "updatedDate": "2026-08-08"
     },
     {
       "number": 10,
@@ -257,7 +259,7 @@
       "slug": "cat-food-ingredient-list-guide",
       "file": "drafts/blog-queue/current/10-cat-food-ingredient-list-guide.md",
       "thumbnail": {
-        "file": "/images/blog/cat-food-ingredient-list-guide/cat-food-ingredient-list-guide-thumbnail.webp",
+        "file": "/images/blog/cat-food-ingredient-list-guide/cat-food-ingredient-list-guide-thumbnail.png",
         "concept": "고양이 사료 포장의 원재료 목록과 영양 정보를 나란히 살피는 보호자의 손, 차분히 앉아 있는 고양이와 깨끗한 식탁",
         "alt": "고양이 사료의 육류 원료 순서와 타우린 표시를 함께 확인하는 장면"
       },
