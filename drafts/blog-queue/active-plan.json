@@ -277,7 +277,7 @@
     },
     {
       "number": 11,
-      "status": "planned",
+      "status": "published",
       "animal": "dog",
       "topic": "강아지 완전균형식 표시",
       "title": "강아지 사료 완전균형식 뜻｜주식·간식·보조식 구분하는 법",
@@ -286,7 +286,7 @@
       "slug": "dog-complete-and-balanced-food-guide",
       "file": "drafts/blog-queue/current/11-dog-complete-and-balanced-food-guide.md",
       "thumbnail": {
-        "file": "/images/blog/dog-complete-and-balanced-food-guide/dog-complete-and-balanced-food-guide-thumbnail.webp",
+        "file": "/images/blog/dog-complete-and-balanced-food-guide/dog-complete-and-balanced-food-guide-thumbnail.png",
         "concept": "주식 사료 봉투와 작은 간식 봉투를 분리해 놓고 라벨의 용도를 확인하는 보호자와 기다리는 강아지가 있는 밝은 식탁",
         "alt": "강아지 주식 사료와 간식의 영양 적합성 표시를 구분해 확인하는 보호자"
       },
@@ -298,7 +298,9 @@
         "/blog/dog-food-topping-guide/",
         "/blog/dog-food-by-age-not-only-kg-nutrition/"
       ],
-      "priorityReason": "FDA와 AAFCO가 가장 중요하게 보는 라벨 문구를 다뤄 성분 수치 중심의 기존 글을 영양 적합성 판단으로 확장합니다."
+      "priorityReason": "FDA와 AAFCO가 가장 중요하게 보는 라벨 문구를 다뤄 성분 수치 중심의 기존 글을 영양 적합성 판단으로 확장합니다.",
+      "publishedDate": "2026-08-09",
+      "updatedDate": "2026-08-09"
     },
     {
       "number": 12,
@@ -311,7 +313,7 @@
       "slug": "cat-complete-and-balanced-wet-food-guide",
       "file": "drafts/blog-queue/current/12-cat-complete-and-balanced-wet-food-guide.md",
       "thumbnail": {
-        "file": "/images/blog/cat-complete-and-balanced-wet-food-guide/cat-complete-and-balanced-wet-food-guide-thumbnail.webp",
+        "file": "/images/blog/cat-complete-and-balanced-wet-food-guide/cat-complete-and-balanced-wet-food-guide-thumbnail.png",
         "concept": "고양이 주식용 습식 캔과 작은 간식 캔의 뒷면 라벨을 나란히 확인하는 보호자와 고양이가 있는 급여 공간",
         "alt": "고양이 주식캔과 간식캔의 완전균형식 표시를 비교해 확인하는 장면"
       },
