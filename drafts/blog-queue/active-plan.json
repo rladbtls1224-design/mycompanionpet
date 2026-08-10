@@ -331,7 +331,7 @@
     },
     {
       "number": 13,
-      "status": "planned",
+      "status": "published",
       "animal": "dog",
       "topic": "강아지 급하게 먹는 습관",
       "title": "강아지가 사료를 너무 빨리 먹을 때｜급체 줄이는 급여 환경 7가지",
@@ -340,7 +340,7 @@
       "slug": "dog-eating-too-fast-feeding-guide",
       "file": "drafts/blog-queue/current/13-dog-eating-too-fast-feeding-guide.md",
       "thumbnail": {
-        "file": "/images/blog/dog-eating-too-fast-feeding-guide/dog-eating-too-fast-feeding-guide-thumbnail.webp",
+        "file": "/images/blog/dog-eating-too-fast-feeding-guide/dog-eating-too-fast-feeding-guide-thumbnail.png",
         "concept": "넓은 슬로우 피더에 사료를 고르게 나눈 모습과 충분한 거리에서 차분히 기다리는 강아지가 있는 조용한 급여 공간",
         "alt": "강아지가 천천히 먹도록 사료를 넓게 나누고 급여 환경을 정돈한 모습"
       },
@@ -352,7 +352,9 @@
         "/blog/dog-dry-vs-wet-food-guide/",
         "/dog-nutrition/"
       ],
-      "priorityReason": "기존 글에 없는 급여 속도 의도를 공략하며 상품 추천 없이도 실용성과 체류 시간을 높일 수 있습니다."
+      "priorityReason": "기존 글에 없는 급여 속도 의도를 공략하며 상품 추천 없이도 실용성과 체류 시간을 높일 수 있습니다.",
+      "publishedDate": "2026-08-10",
+      "updatedDate": "2026-08-10"
     },
     {
       "number": 14,
@@ -365,7 +367,7 @@
       "slug": "multi-cat-separate-feeding-guide",
       "file": "drafts/blog-queue/current/14-multi-cat-separate-feeding-guide.md",
       "thumbnail": {
-        "file": "/images/blog/multi-cat-separate-feeding-guide/multi-cat-separate-feeding-guide-thumbnail.webp",
+        "file": "/images/blog/multi-cat-separate-feeding-guide/multi-cat-separate-feeding-guide-thumbnail.png",
         "concept": "두 고양이의 사료 그릇을 시야가 겹치지 않게 떨어뜨려 배치하고 보호자가 개별 급여 기록을 확인하는 차분한 실내",
         "alt": "다묘 가정에서 고양이별 사료 그릇을 분리하고 섭취량을 기록하는 모습"
       },
