@@ -358,7 +358,7 @@
     },
     {
       "number": 14,
-      "status": "planned",
+      "status": "published",
       "animal": "cat",
       "topic": "다묘 가정 분리 급여",
       "title": "다묘 가정 사료 급여법｜각자 먹은 양을 확인하는 분리 급여 기준",
@@ -379,7 +379,9 @@
         "/blog/cat-not-eating-food-environment-checklist/",
         "/cat-nutrition/"
       ],
-      "priorityReason": "고양이 특유의 다묘 급여 문제를 다뤄 강아지 글과 겹치지 않으며 급여량·식욕·환경 글을 하나의 실용 클러스터로 묶습니다."
+      "priorityReason": "고양이 특유의 다묘 급여 문제를 다뤄 강아지 글과 겹치지 않으며 급여량·식욕·환경 글을 하나의 실용 클러스터로 묶습니다.",
+      "publishedDate": "2026-08-10",
+      "updatedDate": "2026-08-10"
     }
   ]
 }
