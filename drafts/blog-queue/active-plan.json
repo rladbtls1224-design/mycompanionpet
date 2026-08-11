@@ -65,7 +65,7 @@
     },
     {
       "number": 3,
-      "status": "planned",
+      "status": "published",
       "animal": "dog",
       "topic": "강아지 사료 불리기",
       "title": "강아지 사료 불려서 줘도 될까? 물 온도와 남은 사료 보관 기준",
@@ -86,7 +86,9 @@
         "/blog/dog-feeding-frequency-by-life-stage/",
         "/dog-nutrition/"
       ],
-      "priorityReason": "건식·습식 비교와 보관 글이 답하지 않는 실제 조리 행동을 다뤄 중복 없이 검색 수요를 흡수합니다."
+      "priorityReason": "건식·습식 비교와 보관 글이 답하지 않는 실제 조리 행동을 다뤄 중복 없이 검색 수요를 흡수합니다.",
+      "publishedDate": "2026-08-12",
+      "updatedDate": "2026-08-12"
     },
     {
       "number": 4,
