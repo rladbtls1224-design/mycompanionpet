@@ -38,7 +38,7 @@
     },
     {
       "number": 2,
-      "status": "planned",
+      "status": "published",
       "animal": "dog",
       "topic": "노령견 습식사료 선택",
       "title": "노령견에게 습식사료가 더 좋을까? 수분·치아·열량 확인 기준",
@@ -59,7 +59,9 @@
         "/blog/dog-food-transition-seven-day-guide/",
         "/dog-nutrition/"
       ],
-      "priorityReason": "기존 노령묘 습식 글의 대응 공백이며 노령견 생애 단계 클러스터를 완성합니다."
+      "priorityReason": "기존 노령묘 습식 글의 대응 공백이며 노령견 생애 단계 클러스터를 완성합니다.",
+      "publishedDate": "2026-08-11",
+      "updatedDate": "2026-08-11"
     },
     {
       "number": 3,
