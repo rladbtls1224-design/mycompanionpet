@@ -92,7 +92,7 @@
     },
     {
       "number": 4,
-      "status": "planned",
+      "status": "published",
       "animal": "cat",
       "topic": "고양이 빠른 식사와 토출",
       "title": "고양이가 사료를 너무 빨리 먹을 때｜토출·구토 구분과 급여 환경",
@@ -113,7 +113,9 @@
         "/blog/cat-not-eating-food-environment-checklist/",
         "/cat-nutrition/"
       ],
-      "priorityReason": "강아지 빠른 식사 글과 달리 고양이의 토출·다묘 경쟁 의도를 중심으로 독립 검색 페이지를 만들 수 있습니다."
+      "priorityReason": "강아지 빠른 식사 글과 달리 고양이의 토출·다묘 경쟁 의도를 중심으로 독립 검색 페이지를 만들 수 있습니다.",
+      "publishedDate": "2026-08-12",
+      "updatedDate": "2026-08-12"
     },
     {
       "number": 5,
