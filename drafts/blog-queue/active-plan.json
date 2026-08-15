@@ -146,7 +146,7 @@
     },
     {
       "number": 6,
-      "status": "planned",
+      "status": "published",
       "animal": "dog",
       "topic": "다견 가정 분리 급여",
       "title": "다견 가정 사료 급여법｜빼앗아 먹기 막고 개별 섭취량 확인하기",
@@ -167,7 +167,9 @@
         "/blog/dog-feeding-frequency-by-life-stage/",
         "/dog-nutrition/"
       ],
-      "priorityReason": "기존 다묘 글의 대응 공백이며 빠른 식사 글에 언급된 경쟁 문제를 별도 해결 의도로 확장합니다."
+      "priorityReason": "기존 다묘 글의 대응 공백이며 빠른 식사 글에 언급된 경쟁 문제를 별도 해결 의도로 확장합니다.",
+      "publishedDate": "2026-08-15",
+      "updatedDate": "2026-08-15"
     },
     {
       "number": 7,
