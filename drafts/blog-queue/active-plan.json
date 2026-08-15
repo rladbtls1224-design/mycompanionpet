@@ -119,7 +119,7 @@
     },
     {
       "number": 5,
-      "status": "planned",
+      "status": "published",
       "animal": "cat",
       "topic": "중성화 고양이 급여량",
       "title": "중성화한 고양이 사료량은 줄여야 할까? 체중 기록과 조절 순서",
@@ -140,7 +140,9 @@
         "/blog/cat-weight-management-food-guide/",
         "/calorie-calculator"
       ],
-      "priorityReason": "기존 하루 급여량 글의 한 요소였던 중성화를 독립적인 사후 관리 의도로 확장합니다."
+      "priorityReason": "기존 하루 급여량 글의 한 요소였던 중성화를 독립적인 사후 관리 의도로 확장합니다.",
+      "publishedDate": "2026-08-15",
+      "updatedDate": "2026-08-15"
     },
     {
       "number": 6,
