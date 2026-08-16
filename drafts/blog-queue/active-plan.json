@@ -200,7 +200,7 @@
     },
     {
       "number": 8,
-      "status": "planned",
+      "status": "published",
       "animal": "cat",
       "topic": "고양이 묽은 변 식단 점검",
       "title": "고양이 변이 묽을 때 사료를 바꿔야 할까? 식단 기록과 상담 기준",
@@ -221,7 +221,9 @@
         "/blog/cat-food-allergy-symptom-record-guide/",
         "/cat-nutrition/"
       ],
-      "priorityReason": "강아지 묽은 변 글의 대응 공백이며 고양이의 금식 위험과 수분 관리를 별도로 다룰 수 있습니다."
+      "priorityReason": "강아지 묽은 변 글의 대응 공백이며 고양이의 금식 위험과 수분 관리를 별도로 다룰 수 있습니다.",
+      "publishedDate": "2026-08-16",
+      "updatedDate": "2026-08-16"
     },
     {
       "number": 9,
