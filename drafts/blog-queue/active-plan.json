@@ -173,7 +173,7 @@
     },
     {
       "number": 7,
-      "status": "planned",
+      "status": "published",
       "animal": "dog",
       "topic": "강아지 변비 식단 점검",
       "title": "강아지 변비에 식단이 중요할까? 수분·식이섬유 점검 순서",
@@ -194,7 +194,9 @@
         "/blog/dog-loose-stool-diet-checklist/",
         "/dog-nutrition/"
       ],
-      "priorityReason": "고양이 변비와 강아지 묽은 변 글 사이의 명확한 동물·증상 공백을 채웁니다."
+      "priorityReason": "고양이 변비와 강아지 묽은 변 글 사이의 명확한 동물·증상 공백을 채웁니다.",
+      "publishedDate": "2026-08-16",
+      "updatedDate": "2026-08-16"
     },
     {
       "number": 8,
