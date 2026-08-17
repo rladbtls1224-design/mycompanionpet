@@ -227,7 +227,7 @@
     },
     {
       "number": 9,
-      "status": "planned",
+      "status": "published",
       "animal": "dog",
       "topic": "중성화 강아지 급여량",
       "title": "중성화한 강아지 사료량은 줄여야 할까? 열량·간식 조절 기준",
@@ -248,7 +248,9 @@
         "/blog/dog-treat-calorie-ten-percent-rule/",
         "/calorie-calculator"
       ],
-      "priorityReason": "급여량·간식·체형 점수 콘텐츠를 실제 생애 이벤트와 연결하는 전환성이 높은 주제입니다."
+      "priorityReason": "급여량·간식·체형 점수 콘텐츠를 실제 생애 이벤트와 연결하는 전환성이 높은 주제입니다.",
+      "publishedDate": "2026-08-17",
+      "updatedDate": "2026-08-17"
     },
     {
       "number": 10,
