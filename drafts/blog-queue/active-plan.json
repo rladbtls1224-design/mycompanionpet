@@ -254,7 +254,7 @@
     },
     {
       "number": 10,
-      "status": "planned",
+      "status": "published",
       "animal": "comparison",
       "topic": "사료 건물 기준 계산",
       "title": "강아지·고양이 사료 건물 기준 계산법｜건식과 습식 단백질 비교",
@@ -275,7 +275,9 @@
         "/blog/cat-food-crude-protein-meaning-beyond-percentage/",
         "/blog/cat-dry-vs-wet-food-guide/"
       ],
-      "priorityReason": "기존 성분표 글을 재설명하지 않고 서로 다른 수분 제품을 비교하는 고급 계산 의도를 새로 확보합니다."
+      "priorityReason": "기존 성분표 글을 재설명하지 않고 서로 다른 수분 제품을 비교하는 고급 계산 의도를 새로 확보합니다.",
+      "publishedDate": "2026-08-17",
+      "updatedDate": "2026-08-17"
     },
     {
       "number": 11,
