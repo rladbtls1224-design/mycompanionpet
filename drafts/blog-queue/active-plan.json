@@ -281,7 +281,7 @@
     },
     {
       "number": 11,
-      "status": "planned",
+      "status": "published",
       "animal": "dog",
       "topic": "강아지 사료 계량",
       "title": "강아지 사료 계량컵보다 전자저울이 정확한 이유｜g 급여량 재는 법",
@@ -302,7 +302,9 @@
         "/blog/dog-weight-management-food-guide/",
         "/calorie-calculator"
       ],
-      "priorityReason": "계산된 급여량을 실제 행동으로 옮기는 마지막 단계라 계산기와 기존 급여량 글의 활용도를 높입니다."
+      "priorityReason": "계산된 급여량을 실제 행동으로 옮기는 마지막 단계라 계산기와 기존 급여량 글의 활용도를 높입니다.",
+      "publishedDate": "2026-08-18",
+      "updatedDate": "2026-08-18"
     },
     {
       "number": 12,
