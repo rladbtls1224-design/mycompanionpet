@@ -308,7 +308,7 @@
     },
     {
       "number": 12,
-      "status": "planned",
+      "status": "published",
       "animal": "cat",
       "topic": "고양이 자동급식기 설정",
       "title": "고양이 자동급식기 급여량 설정법｜한 끼 g과 횟수 맞추기",
@@ -329,7 +329,9 @@
         "/blog/cat-food-calorie-kcal-per-kg-guide/",
         "/calorie-calculator"
       ],
-      "priorityReason": "급여량과 횟수 글을 보호자의 실제 도구 사용 문제로 연결하는 롱테일 의도가 뚜렷합니다."
+      "priorityReason": "급여량과 횟수 글을 보호자의 실제 도구 사용 문제로 연결하는 롱테일 의도가 뚜렷합니다.",
+      "publishedDate": "2026-08-18",
+      "updatedDate": "2026-08-18"
     },
     {
       "number": 13,
