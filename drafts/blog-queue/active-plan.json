@@ -335,7 +335,7 @@
     },
     {
       "number": 13,
-      "status": "planned",
+      "status": "published",
       "animal": "comparison",
       "topic": "사료 조섬유 해석",
       "title": "강아지·고양이 사료 조섬유 뜻｜식이섬유와 같은 수치일까?",
@@ -356,7 +356,9 @@
         "/blog/cat-hairball-food-fiber-water-guide/",
         "/blog/dog-loose-stool-diet-checklist/"
       ],
-      "priorityReason": "현재 조단백 중심 성분표 클러스터를 조섬유로 확장하면서 증상 글들의 공통 허브가 됩니다."
+      "priorityReason": "현재 조단백 중심 성분표 클러스터를 조섬유로 확장하면서 증상 글들의 공통 허브가 됩니다.",
+      "publishedDate": "2026-08-19",
+      "updatedDate": "2026-08-19"
     },
     {
       "number": 14,
