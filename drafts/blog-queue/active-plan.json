@@ -362,7 +362,7 @@
     },
     {
       "number": 14,
-      "status": "planned",
+      "status": "published",
       "animal": "comparison",
       "topic": "동결건조 간식 급여",
       "title": "강아지·고양이 동결건조 간식 급여법｜주식 여부와 수분·칼로리 확인",
@@ -383,7 +383,9 @@
         "/blog/dog-treat-calorie-ten-percent-rule/",
         "/blog/cat-treat-calorie-ten-percent-rule/"
       ],
-      "priorityReason": "특정 브랜드 추천 없이도 구매 단계의 핵심 질문을 해결하며 완전균형식·간식·보관 글을 연결합니다."
+      "priorityReason": "특정 브랜드 추천 없이도 구매 단계의 핵심 질문을 해결하며 완전균형식·간식·보관 글을 연결합니다.",
+      "publishedDate": "2026-08-19",
+      "updatedDate": "2026-08-19"
     }
   ]
 }
