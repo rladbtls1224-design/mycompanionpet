@@ -1,8 +1,8 @@
 {
-  "planId": "2026-08-11-seo-geo-content-gaps",
-  "createdDate": "2026-08-11",
+  "planId": "2026-08-29-seo-geo-authority-and-gaps",
+  "createdDate": "2026-08-29",
   "status": "active",
-  "description": "공개 사이트와 로컬의 기존 글 78개를 대조해 중복 검색 의도를 제외하고, 급여 행동·중성화 후 급여·다견 환경·사료 수치 해석을 강화한 SEO/GEO 주제 14개입니다.",
+  "description": "공개 사이트와 로컬 게시글 전체, 과거 큐를 대조해 중복 검색 의도를 제외한 SEO/GEO 추천 주제 8개입니다.",
   "publishDateRule": {
     "timezone": "Asia/Seoul",
     "newPost": "배포 당일 날짜를 pubDate와 updatedDate에 동일하게 입력합니다.",
@@ -12,380 +12,204 @@
     {
       "number": 1,
       "status": "published",
-      "animal": "cat",
-      "topic": "고양이 간식 칼로리 계산",
-      "title": "고양이 간식 하루 얼마나 줘야 할까? 10% 칼로리 기준과 츄르 계산법",
-      "metaTitle": "고양이 간식 하루 급여량 | 10% 칼로리·츄르 계산",
-      "description": "고양이 간식을 하루 열량의 10% 이내에서 계산하고 츄르, 동결건조 간식과 사람 음식까지 합산해 주식의 영양 균형을 지키는 방법입니다.",
-      "slug": "cat-treat-calorie-ten-percent-rule",
-      "file": "drafts/blog-queue/2026-08-11/01-cat-treat-calorie-ten-percent-rule.md",
+      "animal": "dog",
+      "topic": "강아지 초콜릿 섭취 응급 대처",
+      "title": "강아지가 초콜릿을 먹었을 때 어떻게 해야 할까? 종류·양 확인과 대처 순서",
+      "metaTitle": "강아지 초콜릿 먹었을 때 | 종류·양 확인과 응급 대처",
+      "description": "강아지가 초콜릿을 먹었을 때 제품 종류와 카카오 함량, 먹은 양과 시각을 확인하는 법, 증상을 기다리지 말고 병원에 전달할 정보를 순서대로 정리합니다.",
+      "slug": "dog-chocolate-ingestion-emergency-guide",
+      "file": "drafts/blog-queue/2026-08-29/01-dog-chocolate-ingestion-emergency-guide.md",
       "thumbnail": {
-        "file": "/images/blog/cat-treat-calorie-ten-percent-rule/cat-treat-calorie-ten-percent-rule-thumbnail.webp",
-        "concept": "츄르 한 포와 동결건조 간식, 주식 사료 그릇, 계산기와 급여 기록지를 한눈에 보여주는 밝은 식탁",
-        "alt": "고양이의 하루 간식 칼로리를 계산하며 츄르와 동결건조 간식 양을 확인하는 장면"
+        "file": "/images/blog/dog-chocolate-ingestion-emergency-guide/dog-chocolate-ingestion-emergency-guide-thumbnail.webp",
+        "concept": "밀폐 용기에 담겨 강아지와 충분히 분리된 초콜릿을 보호자가 치우고 동물병원에 전화할 준비를 하는 안전한 주방 장면",
+        "alt": "강아지와 떨어진 초콜릿 포장을 확인하며 동물병원에 연락할 정보를 준비하는 보호자"
       },
-      "searchIntent": "츄르와 간식을 하루 몇 개까지 줄 수 있는지 계산하려는 실용형 검색",
-      "geoAngle": "하루 필요 열량에서 10%를 계산하고 제품별 kcal를 합산하는 공식과 예시를 제공합니다.",
+      "searchIntent": "강아지가 초콜릿을 방금 먹었을 때 위험도와 지금 해야 할 일을 찾는 긴급 행동형 검색",
+      "geoAngle": "초콜릿 종류, 카카오 함량, 섭취량, 체중, 시각을 확인하는 순서와 병원 연락 준비 항목을 짧은 단계형 답변으로 제공합니다.",
       "internalLinks": [
-        "/calorie-calculator",
-        "/blog/cat-daily-food-amount-calculation/",
-        "/blog/cat-weight-management-food-guide/",
-        "/cat-nutrition/"
+        "/blog/foods-dogs-should-not-eat-guide/",
+        "/blog/dog-grape-ingestion-emergency-guide/",
+        "/blog/dog-daily-water-intake/",
+        "/dog-nutrition/"
       ],
-      "priorityReason": "강아지 간식 계산 글은 있으나 고양이 글이 없고, 계산기·체중 관리·주식캔 글을 연결하는 핵심 공백입니다.",
-      "publishedDate": "2026-08-11",
-      "updatedDate": "2026-08-11"
+      "priorityReason": "대표적인 긴급 독성 검색으로 기존 금지 음식 종합 글과 달리 섭취 직후 행동 의도를 독립적으로 해결합니다.",
+      "publishedDate": "2026-08-29",
+      "updatedDate": "2026-08-29"
     },
     {
       "number": 2,
-      "status": "published",
+      "status": "planned",
       "animal": "dog",
-      "topic": "노령견 습식사료 선택",
-      "title": "노령견에게 습식사료가 더 좋을까? 수분·치아·열량 확인 기준",
-      "metaTitle": "노령견 습식사료 선택 | 수분·치아·열량 기준",
-      "description": "노령견에게 습식사료를 고려할 때 수분 섭취, 씹기 편의, 열량과 근육 상태를 함께 보고 기존 질환이나 처방식을 우선하는 기준입니다.",
-      "slug": "senior-dog-wet-food-guide",
-      "file": "drafts/blog-queue/2026-08-11/02-senior-dog-wet-food-guide.md",
+      "topic": "강아지 자일리톨 섭취 응급 대처",
+      "title": "강아지가 자일리톨 껌을 먹었을 때｜성분표 확인과 즉시 대처 순서",
+      "metaTitle": "강아지 자일리톨 먹었을 때 | 껌·치약 응급 대처",
+      "description": "강아지가 자일리톨이 든 껌·사탕·치약 등을 먹었을 때 성분표와 제품 포장, 섭취량과 시각을 확인하고 바로 병원에 전달할 정보를 정리합니다.",
+      "slug": "dog-xylitol-ingestion-emergency-guide",
+      "file": "drafts/blog-queue/2026-08-29/02-dog-xylitol-ingestion-emergency-guide.md",
       "thumbnail": {
-        "file": "/images/blog/senior-dog-wet-food-guide/senior-dog-wet-food-guide-thumbnail.webp",
-        "concept": "건식과 습식사료를 각각 소량 담은 그릇을 노령견 보호자가 비교하는 차분한 식사 공간",
-        "alt": "노령견의 치아와 식사 상태를 살피며 건식과 습식사료를 비교하는 보호자"
+        "file": "/images/blog/dog-xylitol-ingestion-emergency-guide/dog-xylitol-ingestion-emergency-guide-thumbnail.webp",
+        "concept": "무설탕 껌과 치약을 강아지 손이 닿지 않는 높은 조리대에 분리하고 보호자가 포장과 휴대전화를 확인하는 안전한 장면",
+        "alt": "강아지와 분리된 무설탕 제품의 포장을 확인하며 병원 연락을 준비하는 보호자"
       },
-      "searchIntent": "노령견에게 습식이 무조건 좋은지와 전환 기준을 찾는 비교형 검색",
-      "geoAngle": "수분, 치아, 열량, 근육, 기존 질환을 조건별로 나눈 선택표를 제공합니다.",
+      "searchIntent": "무설탕 껌이나 치약을 먹은 강아지에게 자일리톨이 있는지와 즉시 할 일을 찾는 긴급 검색",
+      "geoAngle": "제품명보다 성분표를 먼저 확인하고 포장, 체중, 먹은 양과 시각을 전달하는 행동 순서를 답변형으로 제공합니다.",
       "internalLinks": [
-        "/blog/dog-dry-vs-wet-food-guide/",
-        "/blog/dog-food-by-age-not-only-kg-nutrition/",
-        "/blog/dog-food-transition-seven-day-guide/",
+        "/blog/foods-dogs-should-not-eat-guide/",
+        "/blog/dog-grape-ingestion-emergency-guide/",
+        "/blog/can-dogs-eat-bananas/",
         "/dog-nutrition/"
       ],
-      "priorityReason": "기존 노령묘 습식 글의 대응 공백이며 노령견 생애 단계 클러스터를 완성합니다.",
-      "publishedDate": "2026-08-11",
-      "updatedDate": "2026-08-11"
+      "priorityReason": "껌뿐 아니라 치약·보충제·무설탕 식품까지 제품 확인형 롱테일이 넓고 빠른 행동 안내가 GEO 인용에 적합합니다."
     },
     {
       "number": 3,
-      "status": "published",
-      "animal": "dog",
-      "topic": "강아지 사료 불리기",
-      "title": "강아지 사료 불려서 줘도 될까? 물 온도와 남은 사료 보관 기준",
-      "metaTitle": "강아지 사료 불리기 | 물 온도·시간·보관 기준",
-      "description": "강아지 건사료를 불려 줄 때 물 온도와 기다리는 시간, 한 끼 분량, 남은 사료 폐기 기준과 불린 사료가 필요한 상황을 정리합니다.",
-      "slug": "dog-kibble-soaking-water-storage-guide",
-      "file": "drafts/blog-queue/2026-08-11/03-dog-kibble-soaking-water-storage-guide.md",
-      "thumbnail": {
-        "file": "/images/blog/dog-kibble-soaking-water-storage-guide/dog-kibble-soaking-water-storage-guide-thumbnail.webp",
-        "concept": "건사료 한 끼 분량에 미지근한 물을 붓고 타이머로 불리는 시간을 확인하는 보호자와 기다리는 강아지",
-        "alt": "강아지 건사료에 미지근한 물을 넣고 불리는 시간과 한 끼 분량을 확인하는 모습"
-      },
-      "searchIntent": "퍼피·노령견 사료를 어떻게 불리고 얼마나 보관할지 찾는 방법형 검색",
-      "geoAngle": "필요한 경우와 불필요한 경우, 준비 순서, 상온 방치 위험을 짧은 단계로 답합니다.",
-      "internalLinks": [
-        "/blog/dog-dry-vs-wet-food-guide/",
-        "/blog/dog-food-storage-after-opening/",
-        "/blog/dog-feeding-frequency-by-life-stage/",
-        "/dog-nutrition/"
-      ],
-      "priorityReason": "건식·습식 비교와 보관 글이 답하지 않는 실제 조리 행동을 다뤄 중복 없이 검색 수요를 흡수합니다.",
-      "publishedDate": "2026-08-12",
-      "updatedDate": "2026-08-12"
-    },
-    {
-      "number": 4,
-      "status": "published",
-      "animal": "cat",
-      "topic": "고양이 빠른 식사와 토출",
-      "title": "고양이가 사료를 너무 빨리 먹을 때｜토출·구토 구분과 급여 환경",
-      "metaTitle": "고양이가 사료를 빨리 먹을 때 | 토출·구토 구분",
-      "description": "고양이가 사료를 급하게 먹고 바로 뱉을 때 토출과 구토의 차이, 한 끼 양과 그릇, 다묘 경쟁을 점검하고 진료 상담이 필요한 신호를 안내합니다.",
-      "slug": "cat-eating-too-fast-regurgitation-guide",
-      "file": "drafts/blog-queue/2026-08-11/04-cat-eating-too-fast-regurgitation-guide.md",
-      "thumbnail": {
-        "file": "/images/blog/cat-eating-too-fast-regurgitation-guide/cat-eating-too-fast-regurgitation-guide-thumbnail.webp",
-        "concept": "넓고 낮은 급식기에 사료를 나누고 고양이의 식사 시간을 기록하는 보호자가 있는 조용한 급여 공간",
-        "alt": "고양이가 천천히 먹도록 사료를 넓게 나누고 식사 시간을 기록하는 보호자"
-      },
-      "searchIntent": "사료를 먹고 바로 뱉는 고양이의 식사 속도와 건강 신호를 구분하려는 문제 해결형 검색",
-      "geoAngle": "토출과 구토를 진단하지 않으면서 관찰 차이, 환경 조절, 상담 신호를 분기형 표로 제공합니다.",
-      "internalLinks": [
-        "/blog/multi-cat-separate-feeding-guide/",
-        "/blog/cat-feeding-frequency-by-life-stage/",
-        "/blog/cat-not-eating-food-environment-checklist/",
-        "/cat-nutrition/"
-      ],
-      "priorityReason": "강아지 빠른 식사 글과 달리 고양이의 토출·다묘 경쟁 의도를 중심으로 독립 검색 페이지를 만들 수 있습니다.",
-      "publishedDate": "2026-08-12",
-      "updatedDate": "2026-08-12"
-    },
-    {
-      "number": 5,
-      "status": "published",
-      "animal": "cat",
-      "topic": "중성화 고양이 급여량",
-      "title": "중성화한 고양이 사료량은 줄여야 할까? 체중 기록과 조절 순서",
-      "metaTitle": "중성화 고양이 사료량 | 체중·열량 조절 기준",
-      "description": "고양이 중성화 후 사료량을 일률적으로 줄이지 않고 현재 열량, 간식, 활동량과 체형 점수를 기록해 단계적으로 조절하는 방법입니다.",
-      "slug": "neutered-cat-food-amount-adjustment",
-      "file": "drafts/blog-queue/2026-08-11/05-neutered-cat-food-amount-adjustment.md",
-      "thumbnail": {
-        "file": "/images/blog/neutered-cat-food-amount-adjustment/neutered-cat-food-amount-adjustment-thumbnail.webp",
-        "concept": "전자저울 위 고양이 사료 그릇과 주간 체중 기록표를 함께 확인하는 보호자",
-        "alt": "중성화한 고양이의 사료량과 주간 체중 변화를 전자저울과 기록표로 확인하는 모습"
-      },
-      "searchIntent": "중성화 후 사료량과 전용 사료 변경 시점을 찾는 계산·판단형 검색",
-      "geoAngle": "현재 섭취량 기록, 체형 점수, 소폭 조절, 재평가 순서를 수치 예시와 함께 제시합니다.",
-      "internalLinks": [
-        "/blog/cat-daily-food-amount-calculation/",
-        "/blog/cat-body-condition-score-guide/",
-        "/blog/cat-weight-management-food-guide/",
-        "/calorie-calculator"
-      ],
-      "priorityReason": "기존 하루 급여량 글의 한 요소였던 중성화를 독립적인 사후 관리 의도로 확장합니다.",
-      "publishedDate": "2026-08-15",
-      "updatedDate": "2026-08-15"
-    },
-    {
-      "number": 6,
-      "status": "published",
-      "animal": "dog",
-      "topic": "다견 가정 분리 급여",
-      "title": "다견 가정 사료 급여법｜빼앗아 먹기 막고 개별 섭취량 확인하기",
-      "metaTitle": "다견 가정 사료 급여법 | 분리 급여·섭취량 확인",
-      "description": "여러 강아지가 함께 살 때 사료를 빼앗거나 급하게 먹는 문제를 줄이고 공간 분리, 시간 제한과 개별 섭취량 기록을 적용하는 방법입니다.",
-      "slug": "multi-dog-separate-feeding-guide",
-      "file": "drafts/blog-queue/2026-08-11/06-multi-dog-separate-feeding-guide.md",
-      "thumbnail": {
-        "file": "/images/blog/multi-dog-separate-feeding-guide/multi-dog-separate-feeding-guide-thumbnail.webp",
-        "concept": "두 강아지의 사료 그릇을 충분히 떨어뜨리고 보호자가 개별 급여 기록을 확인하는 밝은 실내",
-        "alt": "다견 가정에서 강아지별 사료 그릇을 분리하고 각자 먹은 양을 기록하는 모습"
-      },
-      "searchIntent": "여러 강아지의 사료 빼앗기와 과식 문제를 해결하려는 환경형 검색",
-      "geoAngle": "공간 분리, 식사 시간, 남긴 양 회수, 체중 기록을 상황별 체크리스트로 제공합니다.",
-      "internalLinks": [
-        "/blog/dog-eating-too-fast-feeding-guide/",
-        "/blog/dog-daily-food-amount-calculation/",
-        "/blog/dog-feeding-frequency-by-life-stage/",
-        "/dog-nutrition/"
-      ],
-      "priorityReason": "기존 다묘 글의 대응 공백이며 빠른 식사 글에 언급된 경쟁 문제를 별도 해결 의도로 확장합니다.",
-      "publishedDate": "2026-08-15",
-      "updatedDate": "2026-08-15"
-    },
-    {
-      "number": 7,
-      "status": "published",
-      "animal": "dog",
-      "topic": "강아지 변비 식단 점검",
-      "title": "강아지 변비에 식단이 중요할까? 수분·식이섬유 점검 순서",
-      "metaTitle": "강아지 변비 식단 점검 | 수분·식이섬유 기준",
-      "description": "강아지 변비가 의심될 때 물 섭취, 사료 변화, 식이섬유와 간식을 점검하고 집에서 기다리지 말아야 할 증상과 상담 준비 항목을 정리합니다.",
-      "slug": "dog-constipation-diet-water-fiber-guide",
-      "file": "drafts/blog-queue/2026-08-11/07-dog-constipation-diet-water-fiber-guide.md",
-      "thumbnail": {
-        "file": "/images/blog/dog-constipation-diet-water-fiber-guide/dog-constipation-diet-water-fiber-guide-thumbnail.webp",
-        "concept": "물그릇, 평소 사료, 배변 기록표를 나란히 놓고 확인하는 보호자와 편안히 앉은 강아지",
-        "alt": "강아지의 물 섭취와 사료, 배변 기록을 함께 점검하는 보호자"
-      },
-      "searchIntent": "변비 때 사료를 바꾸거나 섬유질을 더해야 하는지 찾는 건강 정보형 검색",
-      "geoAngle": "식단 점검 범위와 응급·진료 신호를 분리해 자가 치료를 부추기지 않는 답변을 제공합니다.",
-      "internalLinks": [
-        "/blog/dog-daily-water-intake/",
-        "/blog/dog-food-transition-seven-day-guide/",
-        "/blog/dog-loose-stool-diet-checklist/",
-        "/dog-nutrition/"
-      ],
-      "priorityReason": "고양이 변비와 강아지 묽은 변 글 사이의 명확한 동물·증상 공백을 채웁니다.",
-      "publishedDate": "2026-08-16",
-      "updatedDate": "2026-08-16"
-    },
-    {
-      "number": 8,
-      "status": "published",
-      "animal": "cat",
-      "topic": "고양이 묽은 변 식단 점검",
-      "title": "고양이 변이 묽을 때 사료를 바꿔야 할까? 식단 기록과 상담 기준",
-      "metaTitle": "고양이 묽은 변 식단 점검 | 사료 변경·상담 기준",
-      "description": "고양이 변이 묽을 때 최근 사료 전환, 간식, 섭취량과 횟수를 기록하고 임의로 굶기거나 급히 사료를 바꾸기 전 확인할 점을 안내합니다.",
-      "slug": "cat-loose-stool-diet-checklist",
-      "file": "drafts/blog-queue/2026-08-11/08-cat-loose-stool-diet-checklist.md",
-      "thumbnail": {
-        "file": "/images/blog/cat-loose-stool-diet-checklist/cat-loose-stool-diet-checklist-thumbnail.webp",
-        "concept": "고양이 사료 포장과 간식, 날짜별 배변 기록표를 정돈해 확인하는 보호자의 손",
-        "alt": "고양이의 묽은 변 원인을 확인하기 위해 사료와 간식, 배변 시점을 기록하는 모습"
-      },
-      "searchIntent": "고양이 설사나 묽은 변 때 사료 변경 여부를 판단하려는 건강 정보형 검색",
-      "geoAngle": "최근 변화 기록, 탈수 위험, 상담 시 전달할 정보를 시간 순서로 정리합니다.",
-      "internalLinks": [
-        "/blog/cat-food-transition-seven-day-guide/",
-        "/blog/cat-daily-water-intake/",
-        "/blog/cat-food-allergy-symptom-record-guide/",
-        "/cat-nutrition/"
-      ],
-      "priorityReason": "강아지 묽은 변 글의 대응 공백이며 고양이의 금식 위험과 수분 관리를 별도로 다룰 수 있습니다.",
-      "publishedDate": "2026-08-16",
-      "updatedDate": "2026-08-16"
-    },
-    {
-      "number": 9,
-      "status": "published",
-      "animal": "dog",
-      "topic": "중성화 강아지 급여량",
-      "title": "중성화한 강아지 사료량은 줄여야 할까? 열량·간식 조절 기준",
-      "metaTitle": "중성화 강아지 사료량 | 열량·간식 조절 기준",
-      "description": "강아지 중성화 후 사료량을 일괄 감량하지 않고 현재 열량, 활동량, 간식과 체형 변화를 기록해 조절하는 순서를 설명합니다.",
-      "slug": "neutered-dog-food-amount-adjustment",
-      "file": "drafts/blog-queue/2026-08-11/09-neutered-dog-food-amount-adjustment.md",
-      "thumbnail": {
-        "file": "/images/blog/neutered-dog-food-amount-adjustment/neutered-dog-food-amount-adjustment-thumbnail.webp",
-        "concept": "강아지 사료를 전자저울로 재고 산책량과 주간 체중 기록을 함께 확인하는 보호자",
-        "alt": "중성화한 강아지의 사료량과 간식, 활동량 변화를 기록하며 급여량을 조절하는 모습"
-      },
-      "searchIntent": "중성화 후 살이 찌지 않도록 사료량을 얼마나 조절할지 찾는 판단형 검색",
-      "geoAngle": "사료와 간식 열량 합산, 체형 관찰, 단계 조절과 재평가를 행동 순서로 제공합니다.",
-      "internalLinks": [
-        "/blog/dog-daily-food-amount-calculation/",
-        "/blog/dog-body-condition-score-guide/",
-        "/blog/dog-treat-calorie-ten-percent-rule/",
-        "/calorie-calculator"
-      ],
-      "priorityReason": "급여량·간식·체형 점수 콘텐츠를 실제 생애 이벤트와 연결하는 전환성이 높은 주제입니다.",
-      "publishedDate": "2026-08-17",
-      "updatedDate": "2026-08-17"
-    },
-    {
-      "number": 10,
-      "status": "published",
+      "status": "planned",
       "animal": "comparison",
-      "topic": "사료 건물 기준 계산",
-      "title": "강아지·고양이 사료 건물 기준 계산법｜건식과 습식 단백질 비교",
-      "metaTitle": "사료 건물 기준 계산법 | 건식·습식 단백질 비교",
-      "description": "수분 함량이 다른 강아지·고양이 건식과 습식 사료의 단백질을 건물 기준으로 환산하는 공식과 비교할 때 놓치지 말아야 할 영양 적합성 기준입니다.",
-      "slug": "pet-food-dry-matter-basis-calculation",
-      "file": "drafts/blog-queue/2026-08-11/10-pet-food-dry-matter-basis-calculation.md",
+      "topic": "강아지 고양이 생식 안전",
+      "title": "강아지·고양이 생식 괜찮을까? 생고기 위생과 영양 불균형 확인 기준",
+      "metaTitle": "강아지·고양이 생식 | 생고기 위생·영양 균형 기준",
+      "description": "강아지와 고양이 생식·생고기 식단을 고려할 때 세균 오염과 교차오염, 완전균형식 여부, 냉동·해동과 남은 음식 관리 기준을 설명합니다.",
+      "slug": "raw-pet-food-safety-dogs-cats",
+      "file": "drafts/blog-queue/2026-08-29/03-raw-pet-food-safety-dogs-cats.md",
       "thumbnail": {
-        "file": "/images/blog/pet-food-dry-matter-basis-calculation/pet-food-dry-matter-basis-calculation-thumbnail.webp",
-        "concept": "건사료 봉투와 습식 캔의 조단백·수분 표시를 계산기 옆에 나란히 둔 비교 장면",
-        "alt": "강아지와 고양이 건식·습식 사료의 단백질과 수분 표시를 건물 기준으로 비교하는 장면"
+        "file": "/images/blog/raw-pet-food-safety-dogs-cats/raw-pet-food-safety-dogs-cats-thumbnail.webp",
+        "concept": "밀폐된 생고기 재료와 완전균형식 사료를 별도 조리 구역에 두고 장갑 낀 보호자가 비교하며 강아지와 고양이는 멀리 기다리는 장면",
+        "alt": "강아지와 고양이에게서 떨어진 곳에서 생식 재료와 완전균형식 사료의 위생 기준을 비교하는 보호자"
       },
-      "searchIntent": "건식과 습식의 단백질 퍼센트를 같은 기준으로 비교하려는 계산형 검색",
-      "geoAngle": "건물 기준 공식, 두 제품 계산 예시, 숫자만으로 품질을 단정할 수 없는 한계를 제공합니다.",
-      "internalLinks": [
-        "/food-label/",
-        "/blog/dog-food-crude-protein-meaning-high-protein/",
-        "/blog/cat-food-crude-protein-meaning-beyond-percentage/",
-        "/blog/cat-dry-vs-wet-food-guide/"
-      ],
-      "priorityReason": "기존 성분표 글을 재설명하지 않고 서로 다른 수분 제품을 비교하는 고급 계산 의도를 새로 확보합니다.",
-      "publishedDate": "2026-08-17",
-      "updatedDate": "2026-08-17"
-    },
-    {
-      "number": 11,
-      "status": "published",
-      "animal": "dog",
-      "topic": "강아지 사료 계량",
-      "title": "강아지 사료 계량컵보다 전자저울이 정확한 이유｜g 급여량 재는 법",
-      "metaTitle": "강아지 사료 g 재는 법 | 계량컵·전자저울 비교",
-      "description": "강아지 사료를 종이컵이나 눈대중 대신 전자저울로 g 단위 계량하는 방법과 하루 분량, 한 끼 분량, 간식 열량을 함께 기록하는 법입니다.",
-      "slug": "dog-food-weighing-scale-vs-cup",
-      "file": "drafts/blog-queue/2026-08-11/11-dog-food-weighing-scale-vs-cup.md",
-      "thumbnail": {
-        "file": "/images/blog/dog-food-weighing-scale-vs-cup/dog-food-weighing-scale-vs-cup-thumbnail.webp",
-        "concept": "같은 사료를 계량컵과 전자저울 위 그릇에 담아 g 차이를 확인하는 깨끗한 주방",
-        "alt": "강아지 사료를 계량컵과 전자저울로 각각 재어 실제 g 차이를 확인하는 모습"
-      },
-      "searchIntent": "사료 봉투의 g 급여량을 집에서 정확히 재는 방법을 찾는 실용형 검색",
-      "geoAngle": "용기 영점 맞추기, 하루치 계량, 한 끼 나누기, 기록 순서를 짧은 절차로 제공합니다.",
-      "internalLinks": [
-        "/blog/dog-daily-food-amount-calculation/",
-        "/blog/dog-food-calorie-kcal-per-kg-guide/",
-        "/blog/dog-weight-management-food-guide/",
-        "/calorie-calculator"
-      ],
-      "priorityReason": "계산된 급여량을 실제 행동으로 옮기는 마지막 단계라 계산기와 기존 급여량 글의 활용도를 높입니다.",
-      "publishedDate": "2026-08-18",
-      "updatedDate": "2026-08-18"
-    },
-    {
-      "number": 12,
-      "status": "published",
-      "animal": "cat",
-      "topic": "고양이 자동급식기 설정",
-      "title": "고양이 자동급식기 급여량 설정법｜한 끼 g과 횟수 맞추기",
-      "metaTitle": "고양이 자동급식기 급여량 | 한 끼 g·횟수 설정",
-      "description": "고양이 자동급식기 1회 배출량을 직접 재고 하루 필요량을 여러 끼로 나누며 간식과 습식사료를 중복 계산하지 않는 설정 방법입니다.",
-      "slug": "cat-automatic-feeder-portion-setting",
-      "file": "drafts/blog-queue/2026-08-11/12-cat-automatic-feeder-portion-setting.md",
-      "thumbnail": {
-        "file": "/images/blog/cat-automatic-feeder-portion-setting/cat-automatic-feeder-portion-setting-thumbnail.webp",
-        "concept": "자동급식기에서 나온 사료를 전자저울로 재고 시간표를 설정하는 보호자와 기다리는 고양이",
-        "alt": "고양이 자동급식기의 1회 사료 배출량을 전자저울로 재고 급여 시간을 설정하는 모습"
-      },
-      "searchIntent": "자동급식기 몇 칸·몇 회가 적절한지 실제 g으로 맞추려는 설정형 검색",
-      "geoAngle": "기기별 1회 배출량 측정, 하루 총량 분할, 오차 재확인과 습식 병행 계산을 단계화합니다.",
-      "internalLinks": [
-        "/blog/cat-daily-food-amount-calculation/",
-        "/blog/cat-feeding-frequency-by-life-stage/",
-        "/blog/cat-food-calorie-kcal-per-kg-guide/",
-        "/calorie-calculator"
-      ],
-      "priorityReason": "급여량과 횟수 글을 보호자의 실제 도구 사용 문제로 연결하는 롱테일 의도가 뚜렷합니다.",
-      "publishedDate": "2026-08-18",
-      "updatedDate": "2026-08-18"
-    },
-    {
-      "number": 13,
-      "status": "published",
-      "animal": "comparison",
-      "topic": "사료 조섬유 해석",
-      "title": "강아지·고양이 사료 조섬유 뜻｜식이섬유와 같은 수치일까?",
-      "metaTitle": "사료 조섬유 뜻 | 식이섬유와 차이·라벨 읽기",
-      "description": "강아지·고양이 사료 라벨의 조섬유가 무엇을 뜻하는지, 식이섬유와 완전히 같은 수치가 아닌 이유와 변 상태·열량을 함께 보는 기준을 설명합니다.",
-      "slug": "pet-food-crude-fiber-label-guide",
-      "file": "drafts/blog-queue/2026-08-11/13-pet-food-crude-fiber-label-guide.md",
-      "thumbnail": {
-        "file": "/images/blog/pet-food-crude-fiber-label-guide/pet-food-crude-fiber-label-guide-thumbnail.webp",
-        "concept": "강아지와 고양이 사료 포장의 조섬유 표시를 돋보기와 메모지로 확인하는 성분표 중심 장면",
-        "alt": "강아지와 고양이 사료 라벨의 조섬유 수치와 다른 보증성분을 함께 확인하는 모습"
-      },
-      "searchIntent": "사료 성분표의 조섬유 수치가 높거나 낮은 의미를 찾는 정보·비교형 검색",
-      "geoAngle": "정의, 식이섬유와의 차이, 해석 한계, 변 상태와 함께 볼 항목을 인용하기 쉬운 구조로 제공합니다.",
-      "internalLinks": [
-        "/food-label/",
-        "/blog/cat-constipation-diet-water-fiber-guide/",
-        "/blog/cat-hairball-food-fiber-water-guide/",
-        "/blog/dog-loose-stool-diet-checklist/"
-      ],
-      "priorityReason": "현재 조단백 중심 성분표 클러스터를 조섬유로 확장하면서 증상 글들의 공통 허브가 됩니다.",
-      "publishedDate": "2026-08-19",
-      "updatedDate": "2026-08-19"
-    },
-    {
-      "number": 14,
-      "status": "published",
-      "animal": "comparison",
-      "topic": "동결건조 간식 급여",
-      "title": "강아지·고양이 동결건조 간식 급여법｜주식 여부와 수분·칼로리 확인",
-      "metaTitle": "동결건조 간식 급여법 | 주식·수분·칼로리 기준",
-      "description": "강아지와 고양이 동결건조 제품을 줄 때 주식용과 간식용 표시, 수분 보충, 한 조각 열량과 위생적인 보관 기준을 확인하는 방법입니다.",
-      "slug": "freeze-dried-pet-treat-feeding-guide",
-      "file": "drafts/blog-queue/2026-08-11/14-freeze-dried-pet-treat-feeding-guide.md",
-      "thumbnail": {
-        "file": "/images/blog/freeze-dried-pet-treat-feeding-guide/freeze-dried-pet-treat-feeding-guide-thumbnail.webp",
-        "concept": "동결건조 간식 포장의 급여 목적과 열량 표시, 작은 간식 조각과 물그릇을 함께 보여주는 밝은 식탁",
-        "alt": "강아지와 고양이 동결건조 간식의 주식용 표시와 열량, 물 급여를 확인하는 장면"
-      },
-      "searchIntent": "동결건조 제품을 매일 주식처럼 줘도 되는지와 불려 주는 법을 찾는 제품 유형형 검색",
-      "geoAngle": "완전균형식 여부, 간식 열량, 물 첨가, 개봉 후 보관을 구매 전 체크리스트로 제공합니다.",
+      "searchIntent": "강아지나 고양이에게 생식을 시작해도 되는지 장단점과 안전 기준을 찾는 비교·판단형 검색",
+      "geoAngle": "세균 위험, 사람과 반려동물의 교차오염, 영양 적합성, 보관을 조건별 표와 체크리스트로 제공합니다.",
       "internalLinks": [
         "/blog/dog-complete-and-balanced-food-guide/",
         "/blog/cat-complete-and-balanced-wet-food-guide/",
-        "/blog/dog-treat-calorie-ten-percent-rule/",
-        "/blog/cat-treat-calorie-ten-percent-rule/"
+        "/blog/can-dogs-eat-chicken-breast/",
+        "/blog/can-cats-eat-beef/"
       ],
-      "priorityReason": "특정 브랜드 추천 없이도 구매 단계의 핵심 질문을 해결하며 완전균형식·간식·보관 글을 연결합니다.",
-      "publishedDate": "2026-08-19",
-      "updatedDate": "2026-08-19"
+      "priorityReason": "개별 고기 글에 흩어진 생고기 주의를 근거 중심 허브로 묶어 영양 안전 권위와 내부 링크 구조를 함께 강화합니다."
+    },
+    {
+      "number": 4,
+      "status": "planned",
+      "animal": "dog",
+      "topic": "퍼피 사료에서 성견 사료 전환",
+      "title": "퍼피 사료는 언제까지 먹일까? 성견 사료로 바꾸는 시기와 전환 방법",
+      "metaTitle": "퍼피 사료 언제까지 | 성견 사료 전환 시기·방법",
+      "description": "퍼피 사료에서 성견 사료로 바꾸는 시기를 월령 하나로 정하기 어려운 이유와 예상 성견 체구, 성장 상태, 7일 이상 전환 과정을 안내합니다.",
+      "slug": "puppy-to-adult-dog-food-transition",
+      "file": "drafts/blog-queue/2026-08-29/04-puppy-to-adult-dog-food-transition.md",
+      "thumbnail": {
+        "file": "/images/blog/puppy-to-adult-dog-food-transition/puppy-to-adult-dog-food-transition-thumbnail.webp",
+        "concept": "퍼피용과 성견용 사료 그릇을 나란히 두고 성장 기록과 사료 포장을 비교하는 보호자와 어린 강아지",
+        "alt": "어린 강아지의 성장 기록을 보며 퍼피 사료와 성견 사료 전환 시기를 확인하는 보호자"
+      },
+      "searchIntent": "퍼피 사료를 몇 개월까지 먹이고 성견용으로 언제 바꿀지 찾는 시기·방법형 검색",
+      "geoAngle": "소형·중형·대형견의 성장 속도 차이, 제품 생활 단계 표시, 단계적 전환을 의사결정표로 제공합니다.",
+      "internalLinks": [
+        "/blog/dog-food-by-age-not-only-kg-nutrition/",
+        "/blog/dog-food-transition-seven-day-guide/",
+        "/blog/dog-feeding-frequency-by-life-stage/",
+        "/blog/dog-daily-food-amount-calculation/"
+      ],
+      "priorityReason": "나이별 영양 글과 사료 교체 글 사이의 실제 전환 시점 검색을 별도로 확보할 수 있습니다."
+    },
+    {
+      "number": 5,
+      "status": "planned",
+      "animal": "cat",
+      "topic": "키튼 사료에서 성묘 사료 전환",
+      "title": "키튼 사료는 언제까지 먹일까? 성묘 사료 전환 시기와 급여량 조절",
+      "metaTitle": "키튼 사료 언제까지 | 성묘 사료 전환 시기·급여량",
+      "description": "키튼 사료에서 성묘 사료로 바꾸는 시기를 성장 상태와 중성화 여부, 제품의 생활 단계 표시로 판단하고 천천히 전환하는 방법을 설명합니다.",
+      "slug": "kitten-to-adult-cat-food-transition",
+      "file": "drafts/blog-queue/2026-08-29/05-kitten-to-adult-cat-food-transition.md",
+      "thumbnail": {
+        "file": "/images/blog/kitten-to-adult-cat-food-transition/kitten-to-adult-cat-food-transition-thumbnail.webp",
+        "concept": "키튼용과 성묘용 사료 포장, 작은 급여 그릇과 체중 기록표를 비교하는 보호자와 어린 고양이",
+        "alt": "어린 고양이의 체중과 성장 상태를 보며 키튼 사료에서 성묘 사료로 바꿀 시기를 확인하는 모습"
+      },
+      "searchIntent": "키튼 사료를 언제 끊고 성묘용으로 바꿀지, 중성화 뒤 바로 바꿔야 하는지 찾는 판단형 검색",
+      "geoAngle": "연령, 성장 상태, 중성화, 열량 밀도, 생활 단계 표시를 분리해 전환 여부를 판단하는 표를 제공합니다.",
+      "internalLinks": [
+        "/blog/cat-food-by-age-kitten-adult-senior-nutrition/",
+        "/blog/cat-food-transition-seven-day-guide/",
+        "/blog/neutered-cat-food-amount-adjustment/",
+        "/blog/cat-daily-food-amount-calculation/"
+      ],
+      "priorityReason": "중성화 시점과 성묘 사료 전환을 혼동하는 검색 의도를 해결하며 기존 글을 하나의 경로로 연결합니다."
+    },
+    {
+      "number": 6,
+      "status": "planned",
+      "animal": "dog",
+      "topic": "강아지 돼지고기 급여",
+      "title": "강아지 돼지고기 먹어도 될까? 익힌 살코기와 삼겹살·양념 주의",
+      "metaTitle": "강아지 돼지고기 급여법 | 익힘·삼겹살·양념 주의",
+      "description": "강아지에게 돼지고기를 줄 때 완전히 익힌 무양념 살코기를 고르는 법과 생고기, 삼겹살, 족발·보쌈·가공육을 피해야 하는 이유를 정리합니다.",
+      "slug": "can-dogs-eat-pork",
+      "file": "drafts/blog-queue/2026-08-29/06-can-dogs-eat-pork.md",
+      "thumbnail": {
+        "file": "/images/blog/can-dogs-eat-pork/can-dogs-eat-pork-thumbnail.webp",
+        "concept": "기름과 양념을 제거한 완전히 익힌 돼지고기 살코기 소량을 작은 접시에 준비하고 강아지가 차분히 기다리는 밝은 식탁",
+        "alt": "보호자가 강아지에게 줄 무양념 익힌 돼지고기 살코기를 소량 준비하는 모습"
+      },
+      "searchIntent": "강아지에게 돼지고기·삼겹살·보쌈을 줘도 되는지와 안전한 조리 형태를 찾는 급여 판단형 검색",
+      "geoAngle": "살코기, 생고기, 삼겹살, 양념육, 햄·소시지를 형태별로 구분하는 짧은 비교표를 제공합니다.",
+      "internalLinks": [
+        "/blog/can-dogs-eat-beef/",
+        "/blog/can-dogs-eat-chicken-breast/",
+        "/blog/dog-treat-calorie-ten-percent-rule/",
+        "/dog-nutrition/"
+      ],
+      "priorityReason": "강아지 단백질 클러스터의 공백이며 한국 식탁의 삼겹살·보쌈·가공육 검색을 형태별 판단으로 차별화합니다."
+    },
+    {
+      "number": 7,
+      "status": "planned",
+      "animal": "dog",
+      "topic": "강아지 배 급여",
+      "title": "강아지 배 먹어도 될까? 씨·심 제거와 한 조각 급여 기준",
+      "metaTitle": "강아지 배 급여법 | 씨·심·껍질·급여량 기준",
+      "description": "강아지에게 배 과육을 줄 때 씨와 심을 제거하고 작게 자르는 법, 껍질과 당분·수분을 확인할 점, 배즙·통조림을 피하는 이유를 안내합니다.",
+      "slug": "can-dogs-eat-pears",
+      "file": "drafts/blog-queue/2026-08-29/07-can-dogs-eat-pears.md",
+      "thumbnail": {
+        "file": "/images/blog/can-dogs-eat-pears/can-dogs-eat-pears-thumbnail.webp",
+        "concept": "씨와 심을 완전히 분리한 배 과육을 작은 조각으로 자르는 보호자와 조금 떨어져 기다리는 강아지가 있는 가을 식탁",
+        "alt": "강아지에게 줄 배에서 씨와 심을 제거하고 과육을 작은 조각으로 준비하는 모습"
+      },
+      "searchIntent": "강아지가 배를 먹어도 되는지, 씨·심·껍질과 배즙은 괜찮은지 찾는 계절형 급여 검색",
+      "geoAngle": "먹을 수 있는 부위와 피할 형태, 작은 조각 준비, 기존 간식 열량에 포함하는 기준을 직접 답변으로 제공합니다.",
+      "internalLinks": [
+        "/blog/can-dogs-eat-apples/",
+        "/blog/can-dogs-eat-peaches/",
+        "/blog/dog-treat-calorie-ten-percent-rule/",
+        "/dog-nutrition/"
+      ],
+      "priorityReason": "강아지 과일 우선 공백이며 배즙·통조림·수분 간식이라는 별도 검색 의도로 사과 글과 차별화합니다."
+    },
+    {
+      "number": 8,
+      "status": "planned",
+      "animal": "cat",
+      "topic": "고양이 딸기 급여",
+      "title": "고양이 딸기 먹어도 될까? 꼭지 제거와 생딸기·잼 차이",
+      "metaTitle": "고양이 딸기 급여법 | 꼭지·생딸기·잼 주의",
+      "description": "고양이에게 딸기를 굳이 많이 권하지 않는 이유와 꼭지를 제거한 생딸기 소량 준비법, 냉동 딸기·잼·요거트 제품의 차이를 설명합니다.",
+      "slug": "can-cats-eat-strawberries",
+      "file": "drafts/blog-queue/2026-08-29/08-can-cats-eat-strawberries.md",
+      "thumbnail": {
+        "file": "/images/blog/can-cats-eat-strawberries/can-cats-eat-strawberries-thumbnail.webp",
+        "concept": "꼭지를 제거하고 아주 작게 자른 생딸기 한두 조각과 완전사료 그릇을 비교하며 고양이가 옆에서 냄새만 맡는 밝은 창가 식탁",
+        "alt": "고양이 간식으로 고려할 생딸기의 꼭지를 제거하고 아주 작게 자른 모습을 보여주는 식탁"
+      },
+      "searchIntent": "고양이가 생딸기나 딸기잼·딸기요거트를 먹어도 되는지 찾는 간식 판단형 검색",
+      "geoAngle": "생딸기 소량, 꼭지, 냉동 제품, 잼·시럽·요거트를 형태별로 나누고 육식동물의 주식 우선 원칙을 답합니다.",
+      "internalLinks": [
+        "/blog/can-cats-eat-blueberries/",
+        "/blog/can-cats-eat-yogurt/",
+        "/blog/cat-treat-calorie-ten-percent-rule/",
+        "/cat-nutrition/"
+      ],
+      "priorityReason": "고양이 과일 공백이며 가공 딸기 제품 검색까지 겨냥해 블루베리·요거트 글과 연결됩니다."
     }
   ]
 }
