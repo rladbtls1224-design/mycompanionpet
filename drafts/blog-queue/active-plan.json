@@ -38,7 +38,7 @@
     },
     {
       "number": 2,
-      "status": "planned",
+      "status": "published",
       "animal": "dog",
       "topic": "강아지 자일리톨 섭취 응급 대처",
       "title": "강아지가 자일리톨 껌을 먹었을 때｜성분표 확인과 즉시 대처 순서",
@@ -59,7 +59,9 @@
         "/blog/can-dogs-eat-bananas/",
         "/dog-nutrition/"
       ],
-      "priorityReason": "껌뿐 아니라 치약·보충제·무설탕 식품까지 제품 확인형 롱테일이 넓고 빠른 행동 안내가 GEO 인용에 적합합니다."
+      "priorityReason": "껌뿐 아니라 치약·보충제·무설탕 식품까지 제품 확인형 롱테일이 넓고 빠른 행동 안내가 GEO 인용에 적합합니다.",
+      "publishedDate": "2026-09-02",
+      "updatedDate": "2026-09-02"
     },
     {
       "number": 3,
