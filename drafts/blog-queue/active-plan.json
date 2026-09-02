@@ -65,7 +65,7 @@
     },
     {
       "number": 3,
-      "status": "planned",
+      "status": "published",
       "animal": "comparison",
       "topic": "강아지 고양이 생식 안전",
       "title": "강아지·고양이 생식 괜찮을까? 생고기 위생과 영양 불균형 확인 기준",
@@ -86,7 +86,9 @@
         "/blog/can-dogs-eat-chicken-breast/",
         "/blog/can-cats-eat-beef/"
       ],
-      "priorityReason": "개별 고기 글에 흩어진 생고기 주의를 근거 중심 허브로 묶어 영양 안전 권위와 내부 링크 구조를 함께 강화합니다."
+      "priorityReason": "개별 고기 글에 흩어진 생고기 주의를 근거 중심 허브로 묶어 영양 안전 권위와 내부 링크 구조를 함께 강화합니다.",
+      "publishedDate": "2026-09-02",
+      "updatedDate": "2026-09-02"
     },
     {
       "number": 4,
