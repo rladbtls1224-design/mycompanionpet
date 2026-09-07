@@ -119,7 +119,7 @@
     },
     {
       "number": 5,
-      "status": "planned",
+      "status": "published",
       "animal": "cat",
       "topic": "키튼 사료에서 성묘 사료 전환",
       "title": "키튼 사료는 언제까지 먹일까? 성묘 사료 전환 시기와 급여량 조절",
@@ -140,7 +140,9 @@
         "/blog/neutered-cat-food-amount-adjustment/",
         "/blog/cat-daily-food-amount-calculation/"
       ],
-      "priorityReason": "중성화 시점과 성묘 사료 전환을 혼동하는 검색 의도를 해결하며 기존 글을 하나의 경로로 연결합니다."
+      "priorityReason": "중성화 시점과 성묘 사료 전환을 혼동하는 검색 의도를 해결하며 기존 글을 하나의 경로로 연결합니다.",
+      "publishedDate": "2026-09-08",
+      "updatedDate": "2026-09-08"
     },
     {
       "number": 6,
