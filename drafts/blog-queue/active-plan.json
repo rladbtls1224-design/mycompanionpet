@@ -173,7 +173,7 @@
     },
     {
       "number": 7,
-      "status": "planned",
+      "status": "published",
       "animal": "dog",
       "topic": "강아지 배 급여",
       "title": "강아지 배 먹어도 될까? 씨·심 제거와 한 조각 급여 기준",
@@ -194,7 +194,9 @@
         "/blog/dog-treat-calorie-ten-percent-rule/",
         "/dog-nutrition/"
       ],
-      "priorityReason": "강아지 과일 우선 공백이며 배즙·통조림·수분 간식이라는 별도 검색 의도로 사과 글과 차별화합니다."
+      "priorityReason": "강아지 과일 우선 공백이며 배즙·통조림·수분 간식이라는 별도 검색 의도로 사과 글과 차별화합니다.",
+      "publishedDate": "2026-09-14",
+      "updatedDate": "2026-09-14"
     },
     {
       "number": 8,
