@@ -200,7 +200,7 @@
     },
     {
       "number": 8,
-      "status": "planned",
+      "status": "published",
       "animal": "cat",
       "topic": "고양이 딸기 급여",
       "title": "고양이 딸기 먹어도 될까? 꼭지 제거와 생딸기·잼 차이",
@@ -221,7 +221,9 @@
         "/blog/cat-treat-calorie-ten-percent-rule/",
         "/cat-nutrition/"
       ],
-      "priorityReason": "고양이 과일 공백이며 가공 딸기 제품 검색까지 겨냥해 블루베리·요거트 글과 연결됩니다."
+      "priorityReason": "고양이 과일 공백이며 가공 딸기 제품 검색까지 겨냥해 블루베리·요거트 글과 연결됩니다.",
+      "publishedDate": "2026-09-18",
+      "updatedDate": "2026-09-18"
     }
   ]
 }
