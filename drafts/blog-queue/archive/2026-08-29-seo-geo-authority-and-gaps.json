@@ -1,0 +1,229 @@
+{
+  "planId": "2026-08-29-seo-geo-authority-and-gaps",
+  "createdDate": "2026-08-29",
+  "status": "completed",
+  "description": "공개 사이트와 로컬 게시글 전체, 과거 큐를 대조해 중복 검색 의도를 제외한 SEO/GEO 추천 주제 8개입니다.",
+  "publishDateRule": {
+    "timezone": "Asia/Seoul",
+    "newPost": "배포 당일 날짜를 pubDate와 updatedDate에 동일하게 입력합니다.",
+    "updatedPost": "기존 pubDate는 유지하고 updatedDate만 수정 배포 당일로 변경합니다."
+  },
+  "items": [
+    {
+      "number": 1,
+      "status": "published",
+      "animal": "dog",
+      "topic": "강아지 초콜릿 섭취 응급 대처",
+      "title": "강아지가 초콜릿을 먹었을 때 어떻게 해야 할까? 종류·양 확인과 대처 순서",
+      "metaTitle": "강아지 초콜릿 먹었을 때 | 종류·양 확인과 응급 대처",
+      "description": "강아지가 초콜릿을 먹었을 때 제품 종류와 카카오 함량, 먹은 양과 시각을 확인하는 법, 증상을 기다리지 말고 병원에 전달할 정보를 순서대로 정리합니다.",
+      "slug": "dog-chocolate-ingestion-emergency-guide",
+      "file": "drafts/blog-queue/2026-08-29/01-dog-chocolate-ingestion-emergency-guide.md",
+      "thumbnail": {
+        "file": "/images/blog/dog-chocolate-ingestion-emergency-guide/dog-chocolate-ingestion-emergency-guide-thumbnail.webp",
+        "concept": "밀폐 용기에 담겨 강아지와 충분히 분리된 초콜릿을 보호자가 치우고 동물병원에 전화할 준비를 하는 안전한 주방 장면",
+        "alt": "강아지와 떨어진 초콜릿 포장을 확인하며 동물병원에 연락할 정보를 준비하는 보호자"
+      },
+      "searchIntent": "강아지가 초콜릿을 방금 먹었을 때 위험도와 지금 해야 할 일을 찾는 긴급 행동형 검색",
+      "geoAngle": "초콜릿 종류, 카카오 함량, 섭취량, 체중, 시각을 확인하는 순서와 병원 연락 준비 항목을 짧은 단계형 답변으로 제공합니다.",
+      "internalLinks": [
+        "/blog/foods-dogs-should-not-eat-guide/",
+        "/blog/dog-grape-ingestion-emergency-guide/",
+        "/blog/dog-daily-water-intake/",
+        "/dog-nutrition/"
+      ],
+      "priorityReason": "대표적인 긴급 독성 검색으로 기존 금지 음식 종합 글과 달리 섭취 직후 행동 의도를 독립적으로 해결합니다.",
+      "publishedDate": "2026-08-29",
+      "updatedDate": "2026-08-29"
+    },
+    {
+      "number": 2,
+      "status": "published",
+      "animal": "dog",
+      "topic": "강아지 자일리톨 섭취 응급 대처",
+      "title": "강아지가 자일리톨 껌을 먹었을 때｜성분표 확인과 즉시 대처 순서",
+      "metaTitle": "강아지 자일리톨 먹었을 때 | 껌·치약 응급 대처",
+      "description": "강아지가 자일리톨이 든 껌·사탕·치약 등을 먹었을 때 성분표와 제품 포장, 섭취량과 시각을 확인하고 바로 병원에 전달할 정보를 정리합니다.",
+      "slug": "dog-xylitol-ingestion-emergency-guide",
+      "file": "drafts/blog-queue/2026-08-29/02-dog-xylitol-ingestion-emergency-guide.md",
+      "thumbnail": {
+        "file": "/images/blog/dog-xylitol-ingestion-emergency-guide/dog-xylitol-ingestion-emergency-guide-thumbnail.webp",
+        "concept": "무설탕 껌과 치약을 강아지 손이 닿지 않는 높은 조리대에 분리하고 보호자가 포장과 휴대전화를 확인하는 안전한 장면",
+        "alt": "강아지와 분리된 무설탕 제품의 포장을 확인하며 병원 연락을 준비하는 보호자"
+      },
+      "searchIntent": "무설탕 껌이나 치약을 먹은 강아지에게 자일리톨이 있는지와 즉시 할 일을 찾는 긴급 검색",
+      "geoAngle": "제품명보다 성분표를 먼저 확인하고 포장, 체중, 먹은 양과 시각을 전달하는 행동 순서를 답변형으로 제공합니다.",
+      "internalLinks": [
+        "/blog/foods-dogs-should-not-eat-guide/",
+        "/blog/dog-grape-ingestion-emergency-guide/",
+        "/blog/can-dogs-eat-bananas/",
+        "/dog-nutrition/"
+      ],
+      "priorityReason": "껌뿐 아니라 치약·보충제·무설탕 식품까지 제품 확인형 롱테일이 넓고 빠른 행동 안내가 GEO 인용에 적합합니다.",
+      "publishedDate": "2026-09-02",
+      "updatedDate": "2026-09-02"
+    },
+    {
+      "number": 3,
+      "status": "published",
+      "animal": "comparison",
+      "topic": "강아지 고양이 생식 안전",
+      "title": "강아지·고양이 생식 괜찮을까? 생고기 위생과 영양 불균형 확인 기준",
+      "metaTitle": "강아지·고양이 생식 | 생고기 위생·영양 균형 기준",
+      "description": "강아지와 고양이 생식·생고기 식단을 고려할 때 세균 오염과 교차오염, 완전균형식 여부, 냉동·해동과 남은 음식 관리 기준을 설명합니다.",
+      "slug": "raw-pet-food-safety-dogs-cats",
+      "file": "drafts/blog-queue/2026-08-29/03-raw-pet-food-safety-dogs-cats.md",
+      "thumbnail": {
+        "file": "/images/blog/raw-pet-food-safety-dogs-cats/raw-pet-food-safety-dogs-cats-thumbnail.webp",
+        "concept": "밀폐된 생고기 재료와 완전균형식 사료를 별도 조리 구역에 두고 장갑 낀 보호자가 비교하며 강아지와 고양이는 멀리 기다리는 장면",
+        "alt": "강아지와 고양이에게서 떨어진 곳에서 생식 재료와 완전균형식 사료의 위생 기준을 비교하는 보호자"
+      },
+      "searchIntent": "강아지나 고양이에게 생식을 시작해도 되는지 장단점과 안전 기준을 찾는 비교·판단형 검색",
+      "geoAngle": "세균 위험, 사람과 반려동물의 교차오염, 영양 적합성, 보관을 조건별 표와 체크리스트로 제공합니다.",
+      "internalLinks": [
+        "/blog/dog-complete-and-balanced-food-guide/",
+        "/blog/cat-complete-and-balanced-wet-food-guide/",
+        "/blog/can-dogs-eat-chicken-breast/",
+        "/blog/can-cats-eat-beef/"
+      ],
+      "priorityReason": "개별 고기 글에 흩어진 생고기 주의를 근거 중심 허브로 묶어 영양 안전 권위와 내부 링크 구조를 함께 강화합니다.",
+      "publishedDate": "2026-09-02",
+      "updatedDate": "2026-09-02"
+    },
+    {
+      "number": 4,
+      "status": "published",
+      "animal": "dog",
+      "topic": "퍼피 사료에서 성견 사료 전환",
+      "title": "퍼피 사료는 언제까지 먹일까? 성견 사료로 바꾸는 시기와 전환 방법",
+      "metaTitle": "퍼피 사료 언제까지 | 성견 사료 전환 시기·방법",
+      "description": "퍼피 사료에서 성견 사료로 바꾸는 시기를 월령 하나로 정하기 어려운 이유와 예상 성견 체구, 성장 상태, 7일 이상 전환 과정을 안내합니다.",
+      "slug": "puppy-to-adult-dog-food-transition",
+      "file": "drafts/blog-queue/2026-08-29/04-puppy-to-adult-dog-food-transition.md",
+      "thumbnail": {
+        "file": "/images/blog/puppy-to-adult-dog-food-transition/puppy-to-adult-dog-food-transition-thumbnail.webp",
+        "concept": "퍼피용과 성견용 사료 그릇을 나란히 두고 성장 기록과 사료 포장을 비교하는 보호자와 어린 강아지",
+        "alt": "어린 강아지의 성장 기록을 보며 퍼피 사료와 성견 사료 전환 시기를 확인하는 보호자"
+      },
+      "searchIntent": "퍼피 사료를 몇 개월까지 먹이고 성견용으로 언제 바꿀지 찾는 시기·방법형 검색",
+      "geoAngle": "소형·중형·대형견의 성장 속도 차이, 제품 생활 단계 표시, 단계적 전환을 의사결정표로 제공합니다.",
+      "internalLinks": [
+        "/blog/dog-food-by-age-not-only-kg-nutrition/",
+        "/blog/dog-food-transition-seven-day-guide/",
+        "/blog/dog-feeding-frequency-by-life-stage/",
+        "/blog/dog-daily-food-amount-calculation/"
+      ],
+      "priorityReason": "나이별 영양 글과 사료 교체 글 사이의 실제 전환 시점 검색을 별도로 확보할 수 있습니다.",
+      "publishedDate": "2026-09-03",
+      "updatedDate": "2026-09-03"
+    },
+    {
+      "number": 5,
+      "status": "published",
+      "animal": "cat",
+      "topic": "키튼 사료에서 성묘 사료 전환",
+      "title": "키튼 사료는 언제까지 먹일까? 성묘 사료 전환 시기와 급여량 조절",
+      "metaTitle": "키튼 사료 언제까지 | 성묘 사료 전환 시기·급여량",
+      "description": "키튼 사료에서 성묘 사료로 바꾸는 시기를 성장 상태와 중성화 여부, 제품의 생활 단계 표시로 판단하고 천천히 전환하는 방법을 설명합니다.",
+      "slug": "kitten-to-adult-cat-food-transition",
+      "file": "drafts/blog-queue/2026-08-29/05-kitten-to-adult-cat-food-transition.md",
+      "thumbnail": {
+        "file": "/images/blog/kitten-to-adult-cat-food-transition/kitten-to-adult-cat-food-transition-thumbnail.webp",
+        "concept": "키튼용과 성묘용 사료 포장, 작은 급여 그릇과 체중 기록표를 비교하는 보호자와 어린 고양이",
+        "alt": "어린 고양이의 체중과 성장 상태를 보며 키튼 사료에서 성묘 사료로 바꿀 시기를 확인하는 모습"
+      },
+      "searchIntent": "키튼 사료를 언제 끊고 성묘용으로 바꿀지, 중성화 뒤 바로 바꿔야 하는지 찾는 판단형 검색",
+      "geoAngle": "연령, 성장 상태, 중성화, 열량 밀도, 생활 단계 표시를 분리해 전환 여부를 판단하는 표를 제공합니다.",
+      "internalLinks": [
+        "/blog/cat-food-by-age-kitten-adult-senior-nutrition/",
+        "/blog/cat-food-transition-seven-day-guide/",
+        "/blog/neutered-cat-food-amount-adjustment/",
+        "/blog/cat-daily-food-amount-calculation/"
+      ],
+      "priorityReason": "중성화 시점과 성묘 사료 전환을 혼동하는 검색 의도를 해결하며 기존 글을 하나의 경로로 연결합니다.",
+      "publishedDate": "2026-09-08",
+      "updatedDate": "2026-09-08"
+    },
+    {
+      "number": 6,
+      "status": "published",
+      "animal": "dog",
+      "topic": "강아지 돼지고기 급여",
+      "title": "강아지 돼지고기 먹어도 될까? 익힌 살코기와 삼겹살·양념 주의",
+      "metaTitle": "강아지 돼지고기 급여법 | 익힘·삼겹살·양념 주의",
+      "description": "강아지에게 돼지고기를 줄 때 완전히 익힌 무양념 살코기를 고르는 법과 생고기, 삼겹살, 족발·보쌈·가공육을 피해야 하는 이유를 정리합니다.",
+      "slug": "can-dogs-eat-pork",
+      "file": "drafts/blog-queue/2026-08-29/06-can-dogs-eat-pork.md",
+      "thumbnail": {
+        "file": "/images/blog/can-dogs-eat-pork/can-dogs-eat-pork-thumbnail.webp",
+        "concept": "기름과 양념을 제거한 완전히 익힌 돼지고기 살코기 소량을 작은 접시에 준비하고 강아지가 차분히 기다리는 밝은 식탁",
+        "alt": "보호자가 강아지에게 줄 무양념 익힌 돼지고기 살코기를 소량 준비하는 모습"
+      },
+      "searchIntent": "강아지에게 돼지고기·삼겹살·보쌈을 줘도 되는지와 안전한 조리 형태를 찾는 급여 판단형 검색",
+      "geoAngle": "살코기, 생고기, 삼겹살, 양념육, 햄·소시지를 형태별로 구분하는 짧은 비교표를 제공합니다.",
+      "internalLinks": [
+        "/blog/can-dogs-eat-beef/",
+        "/blog/can-dogs-eat-chicken-breast/",
+        "/blog/dog-treat-calorie-ten-percent-rule/",
+        "/dog-nutrition/"
+      ],
+      "priorityReason": "강아지 단백질 클러스터의 공백이며 한국 식탁의 삼겹살·보쌈·가공육 검색을 형태별 판단으로 차별화합니다.",
+      "publishedDate": "2026-09-10",
+      "updatedDate": "2026-09-10"
+    },
+    {
+      "number": 7,
+      "status": "published",
+      "animal": "dog",
+      "topic": "강아지 배 급여",
+      "title": "강아지 배 먹어도 될까? 씨·심 제거와 한 조각 급여 기준",
+      "metaTitle": "강아지 배 급여법 | 씨·심·껍질·급여량 기준",
+      "description": "강아지에게 배 과육을 줄 때 씨와 심을 제거하고 작게 자르는 법, 껍질과 당분·수분을 확인할 점, 배즙·통조림을 피하는 이유를 안내합니다.",
+      "slug": "can-dogs-eat-pears",
+      "file": "drafts/blog-queue/2026-08-29/07-can-dogs-eat-pears.md",
+      "thumbnail": {
+        "file": "/images/blog/can-dogs-eat-pears/can-dogs-eat-pears-thumbnail.webp",
+        "concept": "씨와 심을 완전히 분리한 배 과육을 작은 조각으로 자르는 보호자와 조금 떨어져 기다리는 강아지가 있는 가을 식탁",
+        "alt": "강아지에게 줄 배에서 씨와 심을 제거하고 과육을 작은 조각으로 준비하는 모습"
+      },
+      "searchIntent": "강아지가 배를 먹어도 되는지, 씨·심·껍질과 배즙은 괜찮은지 찾는 계절형 급여 검색",
+      "geoAngle": "먹을 수 있는 부위와 피할 형태, 작은 조각 준비, 기존 간식 열량에 포함하는 기준을 직접 답변으로 제공합니다.",
+      "internalLinks": [
+        "/blog/can-dogs-eat-apples/",
+        "/blog/can-dogs-eat-peaches/",
+        "/blog/dog-treat-calorie-ten-percent-rule/",
+        "/dog-nutrition/"
+      ],
+      "priorityReason": "강아지 과일 우선 공백이며 배즙·통조림·수분 간식이라는 별도 검색 의도로 사과 글과 차별화합니다.",
+      "publishedDate": "2026-09-14",
+      "updatedDate": "2026-09-14"
+    },
+    {
+      "number": 8,
+      "status": "published",
+      "animal": "cat",
+      "topic": "고양이 딸기 급여",
+      "title": "고양이 딸기 먹어도 될까? 꼭지 제거와 생딸기·잼 차이",
+      "metaTitle": "고양이 딸기 급여법 | 꼭지·생딸기·잼 주의",
+      "description": "고양이에게 딸기를 굳이 많이 권하지 않는 이유와 꼭지를 제거한 생딸기 소량 준비법, 냉동 딸기·잼·요거트 제품의 차이를 설명합니다.",
+      "slug": "can-cats-eat-strawberries",
+      "file": "drafts/blog-queue/2026-08-29/08-can-cats-eat-strawberries.md",
+      "thumbnail": {
+        "file": "/images/blog/can-cats-eat-strawberries/can-cats-eat-strawberries-thumbnail.webp",
+        "concept": "꼭지를 제거하고 아주 작게 자른 생딸기 한두 조각과 완전사료 그릇을 비교하며 고양이가 옆에서 냄새만 맡는 밝은 창가 식탁",
+        "alt": "고양이 간식으로 고려할 생딸기의 꼭지를 제거하고 아주 작게 자른 모습을 보여주는 식탁"
+      },
+      "searchIntent": "고양이가 생딸기나 딸기잼·딸기요거트를 먹어도 되는지 찾는 간식 판단형 검색",
+      "geoAngle": "생딸기 소량, 꼭지, 냉동 제품, 잼·시럽·요거트를 형태별로 나누고 육식동물의 주식 우선 원칙을 답합니다.",
+      "internalLinks": [
+        "/blog/can-cats-eat-blueberries/",
+        "/blog/can-cats-eat-yogurt/",
+        "/blog/cat-treat-calorie-ten-percent-rule/",
+        "/cat-nutrition/"
+      ],
+      "priorityReason": "고양이 과일 공백이며 가공 딸기 제품 검색까지 겨냥해 블루베리·요거트 글과 연결됩니다.",
+      "publishedDate": "2026-09-18",
+      "updatedDate": "2026-09-18"
+    }
+  ]
+}
