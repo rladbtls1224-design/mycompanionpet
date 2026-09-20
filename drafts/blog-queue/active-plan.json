@@ -38,7 +38,7 @@
     },
     {
       "number": 2,
-      "status": "planned",
+      "status": "published",
       "animal": "dog",
       "topic": "강아지 감 급여",
       "title": "강아지 감 먹어도 될까? 씨·껍질과 홍시·곶감 급여 차이",
@@ -59,7 +59,9 @@
         "/blog/dog-treat-calorie-ten-percent-rule/",
         "/dog-nutrition/"
       ],
-      "priorityReason": "가을 검색 수요가 뚜렷하고 감씨·곶감이라는 고유 위험 요소가 있어 기존 배·사과 글과 검색 의도 중복이 적습니다."
+      "priorityReason": "가을 검색 수요가 뚜렷하고 감씨·곶감이라는 고유 위험 요소가 있어 기존 배·사과 글과 검색 의도 중복이 적습니다.",
+      "publishedDate": "2026-09-20",
+      "updatedDate": "2026-09-20"
     },
     {
       "number": 3,
