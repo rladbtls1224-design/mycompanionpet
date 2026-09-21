@@ -65,7 +65,7 @@
     },
     {
       "number": 3,
-      "status": "planned",
+      "status": "published",
       "animal": "dog",
       "topic": "강아지 양파 섭취 응급 대처",
       "title": "강아지가 양파를 먹었을 때｜익힌 양파·국물·가루까지 확인",
@@ -86,7 +86,9 @@
         "/blog/dog-xylitol-ingestion-emergency-guide/",
         "/dog-nutrition/"
       ],
-      "priorityReason": "기존 금지 음식 종합 글의 짧은 설명을 넘어 조리 여부와 가공식품 속 양파까지 다루는 긴급 검색 의도를 독립적으로 확보합니다."
+      "priorityReason": "기존 금지 음식 종합 글의 짧은 설명을 넘어 조리 여부와 가공식품 속 양파까지 다루는 긴급 검색 의도를 독립적으로 확보합니다.",
+      "publishedDate": "2026-09-22",
+      "updatedDate": "2026-09-22"
     },
     {
       "number": 4,
