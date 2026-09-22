@@ -92,7 +92,7 @@
     },
     {
       "number": 4,
-      "status": "planned",
+      "status": "published",
       "animal": "cat",
       "topic": "고양이 초콜릿 섭취 응급 대처",
       "title": "고양이가 초콜릿을 먹었을 때｜카카오 함량 확인과 대처 순서",
@@ -113,7 +113,9 @@
         "/blog/can-cats-drink-milk/",
         "/cat-nutrition/"
       ],
-      "priorityReason": "강아지 초콜릿 글은 있으나 고양이 전용 행동 지침은 없으며, 종합 금지 음식 글과 다른 즉시 대처 의도를 채웁니다."
+      "priorityReason": "강아지 초콜릿 글은 있으나 고양이 전용 행동 지침은 없으며, 종합 금지 음식 글과 다른 즉시 대처 의도를 채웁니다.",
+      "publishedDate": "2026-09-22",
+      "updatedDate": "2026-09-22"
     },
     {
       "number": 5,
