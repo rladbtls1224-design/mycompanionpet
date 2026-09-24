@@ -146,7 +146,7 @@
     },
     {
       "number": 6,
-      "status": "planned",
+      "status": "published",
       "animal": "cat",
       "topic": "고양이 돼지고기 급여",
       "title": "고양이 돼지고기 먹어도 될까? 익힌 살코기와 삼겹살·햄 주의",
@@ -167,7 +167,9 @@
         "/blog/raw-pet-food-safety-dogs-cats/",
         "/cat-nutrition/"
       ],
-      "priorityReason": "고양이 단백질 클러스터의 명확한 공백이며 한국 식탁의 삼겹살·보쌈·햄 검색을 형태별 판단으로 차별화합니다."
+      "priorityReason": "고양이 단백질 클러스터의 명확한 공백이며 한국 식탁의 삼겹살·보쌈·햄 검색을 형태별 판단으로 차별화합니다.",
+      "publishedDate": "2026-09-24",
+      "updatedDate": "2026-09-24"
     },
     {
       "number": 7,
