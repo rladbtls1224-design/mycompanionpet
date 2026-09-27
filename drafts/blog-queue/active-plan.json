@@ -200,7 +200,7 @@
     },
     {
       "number": 8,
-      "status": "planned",
+      "status": "published",
       "animal": "cat",
       "topic": "고양이 카페인 섭취 응급 대처",
       "title": "고양이가 커피를 핥았을 때｜카페인 음료·가루 대처 순서",
@@ -221,7 +221,9 @@
         "/blog/cat-daily-water-intake/",
         "/cat-nutrition/"
       ],
-      "priorityReason": "종합 금지 음식 글에 묻힌 카페인 검색을 커피·차·에너지음료·가루 형태별 행동 지침으로 확장해 GEO 인용 가능성을 높입니다."
+      "priorityReason": "종합 금지 음식 글에 묻힌 카페인 검색을 커피·차·에너지음료·가루 형태별 행동 지침으로 확장해 GEO 인용 가능성을 높입니다.",
+      "publishedDate": "2026-09-28",
+      "updatedDate": "2026-09-28"
     }
   ]
 }
