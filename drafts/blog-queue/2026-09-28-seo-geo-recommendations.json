@@ -1,0 +1,223 @@
+{
+  "planId": "2026-09-28-seo-geo-recommendations",
+  "createdDate": "2026-09-28",
+  "status": "in_progress",
+  "description": "공개 사이트 112개 글, 로컬 게시글, 초안과 과거 추천 큐를 대조해 기존 검색 의도와 겹치지 않도록 선별한 SEO/GEO 추천 주제 8개입니다.",
+  "selectionBasis": [
+    "기존 글과 검색 의도 및 핵심 답변이 겹치지 않을 것",
+    "현재 내부 링크 클러스터를 3개 이상 연결할 수 있을 것",
+    "검색 결과와 생성형 검색 답변에 쓰기 쉬운 직접 답변, 표, 단계형 행동 지침을 만들 수 있을 것",
+    "계절성, 긴급성, 실용성, 사이트 주제 권위를 함께 고려할 것"
+  ],
+  "publishDateRule": {
+    "timezone": "Asia/Seoul",
+    "newPost": "실제 배포 당일 날짜를 pubDate와 updatedDate에 동일하게 입력합니다.",
+    "updatedPost": "기존 pubDate는 유지하고 updatedDate만 실제 수정 배포 당일로 변경합니다."
+  },
+  "executionRule": "사용자가 번호와 함께 배포를 요청하면 해당 항목의 게시용 Astro Markdown과 이미지를 만들고 중복·SEO·GEO·의료 표현을 검수한 뒤 npm run build, git commit, git push 순서로 배포합니다.",
+  "items": [
+    {
+      "number": 1,
+      "status": "published",
+      "animal": "dog",
+      "topic": "강아지 귤 급여",
+      "title": "강아지 귤 먹어도 될까? 과육 급여량과 껍질·씨 주의",
+      "metaTitle": "강아지 귤 먹어도 될까 | 급여량·껍질 주의",
+      "description": "강아지에게 귤 과육을 줄 때 껍질과 씨, 하얀 속껍질을 정리하는 법과 처음 급여량, 신맛·당분·소화 불편을 확인하는 기준입니다. 껍질을 먹었을 때 상담이 필요한 증상도 정리합니다.",
+      "slug": "can-dogs-eat-tangerines",
+      "file": "src/content/blog/can-dogs-eat-tangerines.md",
+      "publishedDate": "2026-09-28",
+      "updatedDate": "2026-09-28",
+      "thumbnail": {
+        "file": "/images/blog/can-dogs-eat-tangerines/dog-tangerine-thumbnail.webp",
+        "concept": "겨울 햇살이 드는 식탁에서 껍질과 씨를 분리한 귤 과육 한두 조각을 작은 접시에 두고 차분히 기다리는 강아지",
+        "alt": "껍질과 씨를 제거한 귤 과육을 작은 접시에 준비하고 기다리는 강아지"
+      },
+      "searchIntent": "강아지가 귤을 먹어도 되는지와 껍질·씨 제거, 적은 급여량을 바로 확인하려는 계절성 검색",
+      "geoAngle": "가능 여부를 첫 문단에서 답하고 과육·껍질·씨·주스·통조림을 형태별 판단표로 구분합니다.",
+      "priorityReason": "가을 말부터 겨울까지 수요가 커지는 계절형 주제이며 현재 강아지 과일 클러스터에 없는 대표 과일입니다.",
+      "internalLinks": [
+        "/blog/can-dogs-eat-persimmons/",
+        "/blog/can-dogs-eat-apples/",
+        "/blog/dog-treat-calorie-ten-percent-rule/",
+        "/dog-nutrition/"
+      ]
+    },
+    {
+      "number": 2,
+      "status": "planned",
+      "animal": "dog",
+      "topic": "강아지 땅콩버터 급여와 자일리톨",
+      "title": "강아지 땅콩버터 먹어도 될까? 자일리톨·당·지방 성분표 확인",
+      "metaTitle": "강아지 땅콩버터 | 자일리톨·성분표 확인법",
+      "description": "강아지에게 땅콩버터를 주기 전 자일리톨과 첨가당, 나트륨, 지방 함량을 확인하는 법과 약 급여·노즈워크에 쓸 때의 소량 기준입니다.",
+      "slug": "can-dogs-eat-peanut-butter",
+      "thumbnail": {
+        "file": "/images/blog/can-dogs-eat-peanut-butter/can-dogs-eat-peanut-butter-thumbnail.webp",
+        "concept": "밝은 주방에서 보호자가 땅콩버터 원재료표를 확인하고 계량스푼에 아주 소량만 덜어 두며 강아지는 떨어져 기다리는 장면",
+        "alt": "땅콩버터 원재료표에서 자일리톨과 첨가 성분을 확인하는 보호자와 기다리는 강아지"
+      },
+      "searchIntent": "땅콩버터를 간식이나 약 숨기기에 써도 되는지, 어떤 성분을 피해야 하는지 찾는 제품 확인형 검색",
+      "geoAngle": "성분표 확인 순서와 자일리톨 발견 시 행동을 분리해 짧은 체크리스트와 상황별 답변으로 제공합니다.",
+      "priorityReason": "일반 급여 의도와 독성 성분 확인 의도가 함께 있어 기존 자일리톨 응급 글로 강한 내부 링크를 만들 수 있습니다.",
+      "internalLinks": [
+        "/blog/dog-xylitol-ingestion-emergency-guide/",
+        "/blog/dog-treat-calorie-ten-percent-rule/",
+        "/blog/dog-weight-management-food-guide/",
+        "/blog/foods-dogs-should-not-eat-guide/"
+      ]
+    },
+    {
+      "number": 3,
+      "status": "planned",
+      "animal": "dog",
+      "topic": "강아지 닭뼈 섭취 대처",
+      "title": "강아지가 닭뼈를 먹었을 때｜익힌 뼈·생뼈 확인과 대처 순서",
+      "metaTitle": "강아지 닭뼈 먹었을 때 | 증상·대처 순서",
+      "description": "강아지가 닭뼈를 삼켰을 때 익힌 뼈인지 생뼈인지, 크기와 먹은 시각을 확인하고 집에서 억지로 토하게 하지 않은 채 병원에 전달할 정보를 정리합니다.",
+      "slug": "dog-ate-chicken-bone-what-to-do",
+      "thumbnail": {
+        "file": "/images/blog/dog-ate-chicken-bone-what-to-do/dog-ate-chicken-bone-what-to-do-thumbnail.webp",
+        "concept": "닭뼈가 든 접시를 강아지에게서 치운 뒤 보호자가 휴대전화와 메모지에 섭취 시각과 뼈 형태를 기록하는 안전한 식탁 장면",
+        "alt": "강아지와 닭뼈를 분리하고 섭취 시각과 뼈 형태를 기록해 병원 연락을 준비하는 보호자"
+      },
+      "searchIntent": "강아지가 닭뼈를 방금 먹었을 때 집에서 해야 할 일과 병원 상담이 필요한 신호를 찾는 긴급 행동형 검색",
+      "geoAngle": "익힌 뼈·생뼈·뼈 크기·증상을 표로 나누고 지금 할 일과 하지 말 일을 단계형으로 제시합니다.",
+      "priorityReason": "기존 닭가슴살 글의 짧은 경고와 달리 섭취 직후 행동 의도를 독립적으로 해결하며 응급 대처 클러스터를 넓힙니다.",
+      "internalLinks": [
+        "/blog/can-dogs-eat-chicken-breast/",
+        "/blog/foods-dogs-should-not-eat-guide/",
+        "/blog/dog-chocolate-ingestion-emergency-guide/",
+        "/dog-nutrition/"
+      ]
+    },
+    {
+      "number": 4,
+      "status": "planned",
+      "animal": "cat",
+      "topic": "고양이 생선회 급여",
+      "title": "고양이 생선회 먹어도 될까? 연어·참치 생식과 가시·위생 기준",
+      "metaTitle": "고양이 생선회 | 연어·참치 생식·가시 주의",
+      "description": "고양이에게 연어회·참치회 같은 생선을 반복 급여하지 않는 이유와 가시, 기생충·세균, 티아민 영양 불균형, 양념 없는 익힌 생선과의 차이를 설명합니다.",
+      "slug": "can-cats-eat-raw-fish",
+      "thumbnail": {
+        "file": "/images/blog/can-cats-eat-raw-fish/can-cats-eat-raw-fish-thumbnail.webp",
+        "concept": "생선회 접시는 투명 덮개 안에 분리하고 양념 없이 완전히 익힌 작은 생선 조각과 고양이용 완전균형식을 비교하는 깨끗한 주방",
+        "alt": "고양이에게서 생선회를 분리하고 익힌 생선과 고양이용 주식을 비교하는 안전한 급여 장면"
+      },
+      "searchIntent": "식탁의 연어회나 참치회를 고양이에게 한 점 줘도 되는지와 생식 위험을 찾는 판단형 검색",
+      "geoAngle": "생선 종류보다 생식·가시·양념·반복 급여라는 네 조건으로 답을 구조화해 인용 가능한 요약표를 제공합니다.",
+      "priorityReason": "기존 익힌 연어, 사람용 참치캔, 생식 종합 글 사이의 구체적인 회 급여 검색을 채우는 연결 허브입니다.",
+      "internalLinks": [
+        "/blog/can-cats-eat-salmon/",
+        "/blog/can-cats-eat-tuna-can/",
+        "/blog/raw-pet-food-safety-dogs-cats/",
+        "/cat-nutrition/"
+      ]
+    },
+    {
+      "number": 5,
+      "status": "planned",
+      "animal": "dog",
+      "topic": "강아지 덴탈껌 급여량",
+      "title": "강아지 덴탈껌 하루 몇 개가 적당할까? 칼로리·크기·질식 위험 확인",
+      "metaTitle": "강아지 덴탈껌 급여량 | 칼로리·크기 확인",
+      "description": "강아지 덴탈껌을 하루 간식 열량에 포함해 계산하는 법과 체구에 맞는 크기, 씹는 동안 관찰할 점, 통째 삼킴과 소화 불편 신호를 정리합니다.",
+      "slug": "dog-dental-chew-daily-amount-guide",
+      "thumbnail": {
+        "file": "/images/blog/dog-dental-chew-daily-amount-guide/dog-dental-chew-daily-amount-guide-thumbnail.webp",
+        "concept": "크기가 다른 덴탈껌과 포장 열량표, 전자저울을 식탁에 두고 강아지 체구에 맞는 제품을 비교하는 보호자",
+        "alt": "덴탈껌의 크기와 포장 열량을 확인하며 강아지 하루 간식량을 계산하는 모습"
+      },
+      "searchIntent": "덴탈껌을 하루 몇 개 줄 수 있는지, 사료와 다른 간식 양을 줄여야 하는지 찾는 급여량 검색",
+      "geoAngle": "개수 대신 제품 열량, 체구, 씹는 방식, 다른 간식 합산이라는 네 단계 계산법을 제공합니다.",
+      "priorityReason": "구매 후 실제 급여 행동과 가까운 주제이며 기존 간식 10%·급여량·체형 점수 글을 동시에 강화합니다.",
+      "internalLinks": [
+        "/blog/dog-treat-calorie-ten-percent-rule/",
+        "/blog/dog-daily-food-amount-calculation/",
+        "/blog/dog-body-condition-score-guide/",
+        "/blog/dog-eating-too-fast-feeding-guide/"
+      ]
+    },
+    {
+      "number": 6,
+      "status": "planned",
+      "animal": "cat",
+      "topic": "고양이 치즈 급여",
+      "title": "고양이 치즈 먹어도 될까? 락토스·나트륨과 약 먹일 때 주의",
+      "metaTitle": "고양이 치즈 먹어도 될까 | 락토스·나트륨 주의",
+      "description": "고양이에게 치즈를 간식이나 약 숨기기용으로 줄 때 락토스와 나트륨, 지방, 가공 치즈 첨가물을 확인하고 아주 소량만 고려해야 하는 이유입니다.",
+      "slug": "can-cats-eat-cheese",
+      "thumbnail": {
+        "file": "/images/blog/can-cats-eat-cheese/can-cats-eat-cheese-thumbnail.webp",
+        "concept": "작은 치즈 조각과 포장 영양정보를 식탁 위에 두고 보호자가 성분표를 살피며 고양이는 편안하게 떨어져 앉아 있는 장면",
+        "alt": "치즈 포장의 락토스와 나트륨 정보를 확인하는 보호자와 떨어져 기다리는 고양이"
+      },
+      "searchIntent": "고양이에게 치즈 한 조각을 줘도 되는지와 우유보다 괜찮은지, 약을 숨겨도 되는지 찾는 간식 검색",
+      "geoAngle": "자연 치즈·가공 치즈·크림치즈·치즈 소스를 형태별 표로 비교하고 증상 관찰 기준을 답변형으로 제공합니다.",
+      "priorityReason": "고양이 유제품 클러스터에서 우유와 요거트는 있으나 치즈 검색 의도가 비어 있어 내부 링크 확장이 쉽습니다.",
+      "internalLinks": [
+        "/blog/can-cats-drink-milk/",
+        "/blog/can-cats-eat-yogurt/",
+        "/blog/cat-treat-calorie-ten-percent-rule/",
+        "/cat-nutrition/"
+      ]
+    },
+    {
+      "number": 7,
+      "status": "planned",
+      "animal": "dog",
+      "topic": "강아지 곡물프리 사료 판단",
+      "title": "강아지 곡물프리 사료가 더 좋을까? 알레르기 오해와 영양 균형",
+      "metaTitle": "강아지 곡물프리 사료 | 알레르기·DCM 쟁점",
+      "description": "강아지 곡물프리 사료가 모든 반려견에게 더 좋은 것은 아닌 이유와 곡물 알레르기 오해, 콩류 원료, 완전균형식 표기, 수의사 상담 기준을 정리합니다.",
+      "slug": "dog-grain-free-food-guide",
+      "thumbnail": {
+        "file": "/images/blog/dog-grain-free-food-guide/dog-grain-free-food-guide-thumbnail.webp",
+        "concept": "쌀과 귀리, 완두와 렌틸콩, 두 종류의 무브랜드 사료 봉투를 나란히 두고 영양 적합성 표기를 확인하는 보호자와 강아지",
+        "alt": "곡물과 콩류 원료를 비교하며 강아지 사료의 영양 적합성 표기를 확인하는 보호자"
+      },
+      "searchIntent": "곡물프리 사료가 알레르기나 건강에 더 좋은지, 계속 먹여도 되는지 판단하려는 비교형 검색",
+      "geoAngle": "곡물 유무만으로 결론 내리지 않고 알레르기 기록, 주요 원료, 영양 적합성, 건강 상태를 의사결정표로 제공합니다.",
+      "priorityReason": "경쟁도는 높지만 사이트의 사료 선택 권위를 강화하는 핵심 주제이며 공식 자료를 바탕으로 과장된 양쪽 주장을 교정할 수 있습니다.",
+      "internalLinks": [
+        "/blog/dog-food-allergy-symptom-record-guide/",
+        "/blog/dog-food-ingredient-list-guide/",
+        "/blog/dog-complete-and-balanced-food-guide/",
+        "/food-label/"
+      ]
+    },
+    {
+      "number": 8,
+      "status": "planned",
+      "animal": "comparison",
+      "topic": "강아지 고양이 소분 사료 구매와 보관",
+      "title": "강아지·고양이 소분 사료 사도 될까? 원포장·유통기한·로트번호 확인",
+      "metaTitle": "반려동물 소분 사료 | 원포장·유통기한 확인법",
+      "description": "강아지·고양이 소분 사료를 살 때 원래 포장과 제품명, 유통기한, 로트번호, 소분일과 보관 상태를 확인하고 개봉 후 기록을 남기는 방법입니다.",
+      "slug": "repackaged-pet-food-safety-guide",
+      "thumbnail": {
+        "file": "/images/blog/repackaged-pet-food-safety-guide/repackaged-pet-food-safety-guide-thumbnail.webp",
+        "concept": "원포장 사료 봉투의 제조 정보와 라벨 없는 투명 소분 봉투를 나란히 두고 로트번호와 날짜를 확인하는 보호자, 반려동물은 배경에서 기다리는 장면",
+        "alt": "원포장 사료와 소분 봉투의 유통기한과 로트번호 정보를 비교하는 보호자"
+      },
+      "searchIntent": "온라인이나 매장에서 파는 소분 사료가 괜찮은지, 어떤 표시와 보관 상태를 확인해야 하는지 찾는 구매 전 검색",
+      "geoAngle": "구매 전 확인 6가지, 받은 직후 기록, 이상 시 보관할 증거를 단계형 체크리스트로 제공합니다.",
+      "priorityReason": "기존 개봉 후 보관 글과 겹치지 않는 구매 전 의도이며 강아지·고양이 공통 사료 안전 허브로 확장할 수 있습니다.",
+      "internalLinks": [
+        "/blog/dog-food-storage-after-opening/",
+        "/blog/cat-food-storage-after-opening/",
+        "/blog/dog-complete-and-balanced-food-guide/",
+        "/food-label/"
+      ]
+    }
+  ],
+  "researchSources": [
+    "https://mycompanionpet.com/",
+    "https://www.fda.gov/animal-veterinary/animal-health-literacy/questions-answers-fdas-work-potential-causes-non-hereditary-dcm-dogs",
+    "https://www.aspca.org/news/sharing-caring-foods-you-can-safely-share-your-pet",
+    "https://www.aspca.org/news/updated-safety-warning-xylitol-how-protect-your-pets",
+    "https://www.merckvetmanual.com/management-and-nutrition/nutrition-small-animals/nutritional-requirements-of-small-animals",
+    "https://wsava.org/wp-content/uploads/2024/06/Feeding-treats-to-your-dog-v2.pdf"
+  ]
+}
