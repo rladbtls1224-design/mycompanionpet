@@ -11,14 +11,14 @@
   ],
   "publishDateRule": {
     "timezone": "Asia/Seoul",
-    "newPost": "실제 배포 당일 날짜를 pubDate와 updatedDate에 동일하게 입력합니다.",
+    "newPost": "pubDate는 작성일을 유지하고 updatedDate는 실제 배포 당일 날짜로 입력합니다. 배포 전에는 예정 날짜를 사용하며 지연되면 다시 확인합니다.",
     "updatedPost": "기존 pubDate는 유지하고 updatedDate만 실제 수정 배포 당일로 변경합니다."
   },
   "executionRule": "사용자가 번호와 함께 배포를 요청하면 해당 항목의 게시용 Astro Markdown과 이미지를 만들고 중복·SEO·GEO·의료 표현을 검수한 뒤 npm run build, git commit, git push 순서로 배포합니다.",
   "items": [
     {
       "number": 1,
-      "status": "published",
+      "status": "ready_to_deploy",
       "animal": "dog",
       "topic": "강아지 귤 급여",
       "title": "강아지 귤 먹어도 될까? 과육 급여량과 껍질·씨 주의",
@@ -26,8 +26,8 @@
       "description": "강아지에게 귤 과육을 줄 때 껍질과 씨, 하얀 속껍질을 정리하는 법과 처음 급여량, 신맛·당분·소화 불편을 확인하는 기준입니다. 껍질을 먹었을 때 상담이 필요한 증상도 정리합니다.",
       "slug": "can-dogs-eat-tangerines",
       "file": "src/content/blog/can-dogs-eat-tangerines.md",
-      "publishedDate": "2026-09-28",
-      "updatedDate": "2026-09-28",
+      "deploymentNote": "로컬 커밋 완료. 원격 main 미반영 확인(2026-09-29).",
+      "updatedDate": "2026-09-29",
       "thumbnail": {
         "file": "/images/blog/can-dogs-eat-tangerines/dog-tangerine-thumbnail.webp",
         "concept": "겨울 햇살이 드는 식탁에서 껍질과 씨를 분리한 귤 과육 한두 조각을 작은 접시에 두고 차분히 기다리는 강아지",
@@ -45,13 +45,16 @@
     },
     {
       "number": 2,
-      "status": "planned",
+      "status": "ready_to_deploy",
       "animal": "dog",
       "topic": "강아지 땅콩버터 급여와 자일리톨",
       "title": "강아지 땅콩버터 먹어도 될까? 자일리톨·당·지방 성분표 확인",
       "metaTitle": "강아지 땅콩버터 | 자일리톨·성분표 확인법",
-      "description": "강아지에게 땅콩버터를 주기 전 자일리톨과 첨가당, 나트륨, 지방 함량을 확인하는 법과 약 급여·노즈워크에 쓸 때의 소량 기준입니다.",
+      "description": "강아지에게 땅콩버터를 주기 전 자일리톨·첨가당·나트륨·지방과 열량을 확인하는 순서를 안내합니다. 간식 양 계산, 장난감에 얇게 바르는 방법, 약을 숨기기 전 확인할 점도 정리합니다.",
       "slug": "can-dogs-eat-peanut-butter",
+      "file": "src/content/blog/can-dogs-eat-peanut-butter.md",
+      "writtenDate": "2026-09-29",
+      "updatedDate": "2026-09-29",
       "thumbnail": {
         "file": "/images/blog/can-dogs-eat-peanut-butter/can-dogs-eat-peanut-butter-thumbnail.webp",
         "concept": "밝은 주방에서 보호자가 땅콩버터 원재료표를 확인하고 계량스푼에 아주 소량만 덜어 두며 강아지는 떨어져 기다리는 장면",

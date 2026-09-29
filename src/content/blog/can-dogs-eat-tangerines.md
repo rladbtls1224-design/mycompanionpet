@@ -3,7 +3,7 @@ title: "강아지 귤 먹어도 될까? 과육 급여량과 껍질·씨 주의"
 metaTitle: "강아지 귤 먹어도 될까 | 급여량·껍질 주의"
 description: "강아지에게 귤 과육을 줄 때 껍질과 씨, 하얀 속껍질을 정리하는 법과 처음 급여량, 신맛·당분·소화 불편을 확인하는 기준입니다. 껍질을 먹었을 때 상담이 필요한 증상도 정리합니다."
 pubDate: "2026-09-28"
-updatedDate: "2026-09-28"
+updatedDate: "2026-09-29"
 category: "강아지 영양"
 tags: ["강아지", "강아지 귤", "강아지 과일", "감귤", "강아지 간식", "귤 껍질", "과일 급여량", "급여 주의사항"]
 thumbnail: "/images/blog/can-dogs-eat-tangerines/dog-tangerine-thumbnail.webp"
