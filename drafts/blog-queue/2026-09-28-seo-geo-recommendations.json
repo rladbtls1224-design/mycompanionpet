@@ -99,13 +99,16 @@
     },
     {
       "number": 4,
-      "status": "planned",
+      "status": "ready_to_deploy",
       "animal": "cat",
       "topic": "고양이 생선회 급여",
       "title": "고양이 생선회 먹어도 될까? 연어·참치 생식과 가시·위생 기준",
       "metaTitle": "고양이 생선회 | 연어·참치 생식·가시 주의",
-      "description": "고양이에게 연어회·참치회 같은 생선을 반복 급여하지 않는 이유와 가시, 기생충·세균, 티아민 영양 불균형, 양념 없는 익힌 생선과의 차이를 설명합니다.",
+      "description": "고양이에게 연어회·참치회 등 생선회를 주지 않는 이유를 위생, 가시, 양념, 반복 급여로 나눠 설명합니다. 이미 핥거나 먹었을 때 확인할 증상과 무양념 익힌 생선의 준비 기준도 정리합니다.",
       "slug": "can-cats-eat-raw-fish",
+      "file": "src/content/blog/can-cats-eat-raw-fish.md",
+      "writtenDate": "2026-10-01",
+      "updatedDate": "2026-10-01",
       "thumbnail": {
         "file": "/images/blog/can-cats-eat-raw-fish/can-cats-eat-raw-fish-thumbnail.webp",
         "concept": "생선회 접시는 투명 덮개 안에 분리하고 양념 없이 완전히 익힌 작은 생선 조각과 고양이용 완전균형식을 비교하는 깨끗한 주방",
