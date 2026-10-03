@@ -18,7 +18,8 @@
   "items": [
     {
       "number": 1,
-      "status": "ready_to_deploy",
+      "status": "published",
+      "publishedDate": "2026-10-03",
       "animal": "dog",
       "topic": "강아지 귤 급여",
       "title": "강아지 귤 먹어도 될까? 과육 급여량과 껍질·씨 주의",
@@ -26,7 +27,7 @@
       "description": "강아지에게 귤 과육을 줄 때 껍질과 씨, 하얀 속껍질을 정리하는 법과 처음 급여량, 신맛·당분·소화 불편을 확인하는 기준입니다. 껍질을 먹었을 때 상담이 필요한 증상도 정리합니다.",
       "slug": "can-dogs-eat-tangerines",
       "file": "src/content/blog/can-dogs-eat-tangerines.md",
-      "deploymentNote": "로컬 커밋 완료. 원격 main 미반영 확인(2026-09-29).",
+      "deploymentNote": "2026-10-03 Cloudflare Pages 배포 성공, 운영 URL과 dateModified 확인.",
       "updatedDate": "2026-10-03",
       "thumbnail": {
         "file": "/images/blog/can-dogs-eat-tangerines/dog-tangerine-thumbnail.webp",
@@ -45,7 +46,8 @@
     },
     {
       "number": 2,
-      "status": "ready_to_deploy",
+      "status": "published",
+      "publishedDate": "2026-10-03",
       "animal": "dog",
       "topic": "강아지 땅콩버터 급여와 자일리톨",
       "title": "강아지 땅콩버터 먹어도 될까? 자일리톨·당·지방 성분표 확인",
@@ -72,7 +74,8 @@
     },
     {
       "number": 3,
-      "status": "ready_to_deploy",
+      "status": "published",
+      "publishedDate": "2026-10-03",
       "animal": "dog",
       "topic": "강아지 닭뼈 섭취 대처",
       "title": "강아지가 닭뼈를 먹었을 때｜익힌 뼈·생뼈 확인과 대처 순서",
@@ -99,7 +102,8 @@
     },
     {
       "number": 4,
-      "status": "ready_to_deploy",
+      "status": "published",
+      "publishedDate": "2026-10-03",
       "animal": "cat",
       "topic": "고양이 생선회 급여",
       "title": "고양이 생선회 먹어도 될까? 연어·참치 생식과 가시·위생 기준",
@@ -126,7 +130,8 @@
     },
     {
       "number": 5,
-      "status": "ready_to_deploy",
+      "status": "published",
+      "publishedDate": "2026-10-03",
       "animal": "dog",
       "topic": "강아지 덴탈껌 급여량",
       "title": "강아지 덴탈껌 하루 몇 개가 적당할까? 칼로리·크기·질식 위험 확인",

@@ -30,8 +30,8 @@
 - 이미지 3개와 내부 링크 존재 확인, 최종 이미지 시각 검수 완료.
 - Astro 빌드 128페이지 성공. 기존 UI 변경은 커밋에서 제외.
 - GitHub CLI로 기존 운영 저장소의 공개 여부와 main 브랜치 확인.
+- 배포 커밋 157bf7e: Cloudflare Pages check completed/success. 운영 1~5번 페이지 제목·작성일·수정일, 5번 WebP 3개 HTTP 200 및 image/webp 확인.
 
 ## 작성자용 후속 후보
 
 다음은 추천 순서 6번 고양이 치즈 글. 게시 본문에는 후속 주제를 넣지 않음.
-
