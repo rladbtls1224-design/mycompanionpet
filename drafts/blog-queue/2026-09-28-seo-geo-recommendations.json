@@ -27,7 +27,7 @@
       "slug": "can-dogs-eat-tangerines",
       "file": "src/content/blog/can-dogs-eat-tangerines.md",
       "deploymentNote": "로컬 커밋 완료. 원격 main 미반영 확인(2026-09-29).",
-      "updatedDate": "2026-09-29",
+      "updatedDate": "2026-10-03",
       "thumbnail": {
         "file": "/images/blog/can-dogs-eat-tangerines/dog-tangerine-thumbnail.webp",
         "concept": "겨울 햇살이 드는 식탁에서 껍질과 씨를 분리한 귤 과육 한두 조각을 작은 접시에 두고 차분히 기다리는 강아지",
@@ -54,7 +54,7 @@
       "slug": "can-dogs-eat-peanut-butter",
       "file": "src/content/blog/can-dogs-eat-peanut-butter.md",
       "writtenDate": "2026-09-29",
-      "updatedDate": "2026-09-29",
+      "updatedDate": "2026-10-03",
       "thumbnail": {
         "file": "/images/blog/can-dogs-eat-peanut-butter/can-dogs-eat-peanut-butter-thumbnail.webp",
         "concept": "밝은 주방에서 보호자가 땅콩버터 원재료표를 확인하고 계량스푼에 아주 소량만 덜어 두며 강아지는 떨어져 기다리는 장면",
@@ -81,7 +81,7 @@
       "slug": "dog-ate-chicken-bone-what-to-do",
       "file": "src/content/blog/dog-ate-chicken-bone-what-to-do.md",
       "writtenDate": "2026-09-30",
-      "updatedDate": "2026-09-30",
+      "updatedDate": "2026-10-03",
       "thumbnail": {
         "file": "/images/blog/dog-ate-chicken-bone-what-to-do/dog-ate-chicken-bone-what-to-do-thumbnail.webp",
         "concept": "닭뼈가 든 접시를 강아지에게서 치운 뒤 보호자가 휴대전화와 메모지에 섭취 시각과 뼈 형태를 기록하는 안전한 식탁 장면",
@@ -108,7 +108,7 @@
       "slug": "can-cats-eat-raw-fish",
       "file": "src/content/blog/can-cats-eat-raw-fish.md",
       "writtenDate": "2026-10-01",
-      "updatedDate": "2026-10-01",
+      "updatedDate": "2026-10-03",
       "thumbnail": {
         "file": "/images/blog/can-cats-eat-raw-fish/can-cats-eat-raw-fish-thumbnail.webp",
         "concept": "생선회 접시는 투명 덮개 안에 분리하고 양념 없이 완전히 익힌 작은 생선 조각과 고양이용 완전균형식을 비교하는 깨끗한 주방",
@@ -126,13 +126,16 @@
     },
     {
       "number": 5,
-      "status": "planned",
+      "status": "ready_to_deploy",
       "animal": "dog",
       "topic": "강아지 덴탈껌 급여량",
       "title": "강아지 덴탈껌 하루 몇 개가 적당할까? 칼로리·크기·질식 위험 확인",
       "metaTitle": "강아지 덴탈껌 급여량 | 칼로리·크기 확인",
-      "description": "강아지 덴탈껌을 하루 간식 열량에 포함해 계산하는 법과 체구에 맞는 크기, 씹는 동안 관찰할 점, 통째 삼킴과 소화 불편 신호를 정리합니다.",
+      "description": "강아지 덴탈껌은 제품별 열량과 체중 구간, 씹는 습관을 함께 확인해야 합니다. 하루 간식 열량에 합산하는 계산 예시와 잘라 줄 때의 주의점, 통째 삼킴·구토 시 상담 기준을 정리합니다.",
       "slug": "dog-dental-chew-daily-amount-guide",
+      "file": "src/content/blog/dog-dental-chew-daily-amount-guide.md",
+      "writtenDate": "2026-10-03",
+      "updatedDate": "2026-10-03",
       "thumbnail": {
         "file": "/images/blog/dog-dental-chew-daily-amount-guide/dog-dental-chew-daily-amount-guide-thumbnail.webp",
         "concept": "크기가 다른 덴탈껌과 포장 열량표, 전자저울을 식탁에 두고 강아지 체구에 맞는 제품을 비교하는 보호자",

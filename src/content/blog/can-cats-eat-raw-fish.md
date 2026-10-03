@@ -3,7 +3,7 @@ title: "고양이 생선회 먹어도 될까? 연어·참치 생식과 가시·�
 metaTitle: "고양이 생선회 | 연어·참치 생식·가시 주의"
 description: "고양이에게 연어회·참치회 등 생선회를 주지 않는 이유를 위생, 가시, 양념, 반복 급여로 나눠 설명합니다. 이미 핥거나 먹었을 때 확인할 증상과 무양념 익힌 생선의 준비 기준도 정리합니다."
 pubDate: "2026-10-01"
-updatedDate: "2026-10-01"
+updatedDate: "2026-10-03"
 category: "고양이 영양"
 tags: ["고양이", "고양이 생선회", "연어회", "참치회", "생선 가시", "고양이 생식", "급여 주의사항"]
 thumbnail: "/images/blog/can-cats-eat-raw-fish/can-cats-eat-raw-fish-thumbnail.webp"

@@ -3,7 +3,7 @@ title: "강아지 땅콩버터 먹어도 될까? 자일리톨·당·지방 성�
 metaTitle: "강아지 땅콩버터 | 자일리톨·성분표 확인법"
 description: "강아지에게 땅콩버터를 주기 전 자일리톨·첨가당·나트륨·지방과 열량을 확인하는 순서를 안내합니다. 간식 양 계산, 장난감에 얇게 바르는 방법, 약을 숨기기 전 확인할 점도 정리합니다."
 pubDate: "2026-09-29"
-updatedDate: "2026-09-29"
+updatedDate: "2026-10-03"
 category: "강아지 영양"
 tags: ["강아지", "강아지 땅콩버터", "자일리톨", "성분표", "간식 열량", "강아지 간식", "급여 주의사항"]
 thumbnail: "/images/blog/can-dogs-eat-peanut-butter/can-dogs-eat-peanut-butter-thumbnail.webp"

@@ -3,7 +3,7 @@ title: "강아지가 닭뼈를 먹었을 때｜익힌 뼈·생뼈 확인과 대�
 metaTitle: "강아지 닭뼈 먹었을 때 | 증상·대처 순서"
 description: "강아지가 닭뼈를 삼켰다면 남은 뼈를 치우고 익힌 뼈·생뼈의 형태, 먹은 시각과 증상을 확인해 동물병원에 연락하세요. 억지 구토나 음식으로 밀어 넣기를 피해야 하는 이유도 정리합니다."
 pubDate: "2026-09-30"
-updatedDate: "2026-09-30"
+updatedDate: "2026-10-03"
 category: "강아지 영양"
 tags: ["강아지", "강아지 닭뼈", "닭뼈 삼킴", "강아지 이물 섭취", "익힌 뼈", "생닭뼈", "반려견 응급 대처"]
 thumbnail: "/images/blog/dog-ate-chicken-bone-what-to-do/dog-ate-chicken-bone-what-to-do-thumbnail.webp"
