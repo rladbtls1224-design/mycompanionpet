@@ -158,12 +158,15 @@
     },
     {
       "number": 6,
-      "status": "planned",
+      "status": "ready_to_deploy",
+      "file": "src/content/blog/can-cats-eat-cheese.md",
+      "writtenDate": "2026-10-06",
+      "updatedDate": "2026-10-06",
       "animal": "cat",
       "topic": "고양이 치즈 급여",
       "title": "고양이 치즈 먹어도 될까? 락토스·나트륨과 약 먹일 때 주의",
       "metaTitle": "고양이 치즈 먹어도 될까 | 락토스·나트륨 주의",
-      "description": "고양이에게 치즈를 간식이나 약 숨기기용으로 줄 때 락토스와 나트륨, 지방, 가공 치즈 첨가물을 확인하고 아주 소량만 고려해야 하는 이유입니다.",
+      "description": "고양이에게 치즈를 주기 전 락토스·나트륨·지방과 첨가 재료를 확인하세요. 자연 치즈·가공 치즈·크림치즈·소스의 차이, 이미 먹었을 때 확인할 증상과 약을 숨기기 전 상담할 사항을 정리합니다.",
       "slug": "can-cats-eat-cheese",
       "thumbnail": {
         "file": "/images/blog/can-cats-eat-cheese/can-cats-eat-cheese-thumbnail.webp",
