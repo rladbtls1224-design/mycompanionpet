@@ -158,7 +158,9 @@
     },
     {
       "number": 6,
-      "status": "ready_to_deploy",
+      "status": "published",
+      "publishedDate": "2026-10-06",
+      "deploymentNote": "c4fe073 Cloudflare Pages completed/success. 운영 제목·datePublished·dateModified 및 WebP 3개 HTTP 200 확인.",
       "file": "src/content/blog/can-cats-eat-cheese.md",
       "writtenDate": "2026-10-06",
       "updatedDate": "2026-10-06",

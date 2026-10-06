@@ -26,3 +26,9 @@
 
 추천 순서 7번 강아지 곡물프리 사료. 게시 본문에는 후속 추천을 넣지 않음.
 
+## 배포 검증
+
+- Astro 129페이지 빌드 성공. 기존 UI·라우팅 변경은 커밋에서 제외.
+- 배포 커밋 c4fe073: Cloudflare Pages completed/success.
+- 운영 페이지 HTTP 200, 제목과 datePublished/dateModified 2026-10-06 확인.
+- WebP 이미지 3개 HTTP 200 및 image/webp 확인.
