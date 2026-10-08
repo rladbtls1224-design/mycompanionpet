@@ -187,12 +187,15 @@
     },
     {
       "number": 7,
-      "status": "planned",
+      "status": "ready_to_deploy",
+      "file": "src/content/blog/dog-grain-free-food-guide.md",
+      "writtenDate": "2026-10-08",
+      "updatedDate": "2026-10-08",
       "animal": "dog",
       "topic": "강아지 곡물프리 사료 판단",
       "title": "강아지 곡물프리 사료가 더 좋을까? 알레르기 오해와 영양 균형",
       "metaTitle": "강아지 곡물프리 사료 | 알레르기·DCM 쟁점",
-      "description": "강아지 곡물프리 사료가 모든 반려견에게 더 좋은 것은 아닌 이유와 곡물 알레르기 오해, 콩류 원료, 완전균형식 표기, 수의사 상담 기준을 정리합니다.",
+      "description": "강아지 곡물프리 사료가 더 좋은지 판단할 때 알레르기 진단, 콩류 원료, 영양 적합성과 제조사 정보를 함께 확인하세요. FDA의 DCM 안내에서 확인된 내용과 미확정 사항, 사료 교체 전 상담 기준을 정리합니다.",
       "slug": "dog-grain-free-food-guide",
       "thumbnail": {
         "file": "/images/blog/dog-grain-free-food-guide/dog-grain-free-food-guide-thumbnail.webp",
