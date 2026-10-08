@@ -30,3 +30,10 @@
 ## 작성자용 다음 후보
 
 추천 순서 8번 소분 사료 구매와 보관. 게시 본문에는 후속 추천을 포함하지 않음.
+
+## 배포 검증
+
+- Astro 130페이지 빌드 성공. 기존 UI·라우팅 변경은 커밋에서 제외.
+- 2728ca8 Cloudflare Pages completed/success.
+- 운영 제목, 최종 업데이트 2026. 10. 08., datePublished/dateModified 2026-10-08 확인.
+- WebP 3개 HTTP 200, image/webp와 RIFF/WEBP 파일 시그니처·크기 확인.
