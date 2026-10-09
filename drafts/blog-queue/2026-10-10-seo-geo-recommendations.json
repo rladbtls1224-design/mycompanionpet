@@ -17,12 +17,12 @@
   "items": [
     {
       "number": 1,
-      "status": "deploying",
+      "status": "planned",
       "animal": "dog",
       "topic": "강아지 유산균 고르는 법",
       "title": "강아지 유산균 고르는 법｜균주·보장균수·보관 조건 확인",
       "metaTitle": "강아지 유산균 선택 기준 | 균주·CFU·보관법",
-      "description": "강아지 유산균을 고를 때 균주명, 1회분 CFU, 유통기한까지의 보장균수와 보관 조건을 확인하는 방법입니다. 제품 비교 예시와 제조사에 물어볼 질문, 급여 기록법 및 수의사 상담이 필요한 상황을 정리합니다.",
+      "description": "강아지 유산균 고르는 법｜균주·보장균수·보관 조건 확인를 주제로 균 수가 많으면 좋은지보다 균주명·유통기한까지의 보장·제품별 근거를 확인하는 구매 판단에 답합니다. 설사 점검 글과 달리 제품 라벨의 균주, CFU 단위, 보장 시점, 보관, 급여 기록을 다룹니다. 제품마다 다른 표시와 식단 상황을 확인하고, 질환이나 장기 식단 변경이 관련되면 수의사 상담을 우선합니다.",
       "slug": "dog-probiotic-label-selection-guide",
       "file": "drafts/blog-queue/2026-10-10/01-dog-probiotic-label-selection-guide.md",
       "thumbnail": {
@@ -37,8 +37,7 @@
       "internalLinks": [
         "/blog/dog-loose-stool-diet-checklist/",
         "/dog-nutrition/"
-      ],
-      "updatedDate": "2026-10-10"
+      ]
     },
     {
       "number": 2,

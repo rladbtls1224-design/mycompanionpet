@@ -53,6 +53,8 @@ function updatePublishDates(markdown, pubDate) {
 
   for (const key of ["pubDate", "updatedDate"]) {
     const keyPattern = new RegExp(`^${key}:\\s*["']?\\d{4}-\\d{2}-\\d{2}["']?\\s*$`, "m");
+    // The article date records when it was written; only Last updated tracks deployment.
+    if (key === "pubDate" && keyPattern.test(result)) continue;
     const dateLine = `${key}: "${pubDate}"`;
 
     if (keyPattern.test(result)) {
@@ -138,7 +140,7 @@ function main() {
   fs.writeFileSync(QUEUE_PATH, `${JSON.stringify(queue, null, 2)}\n`, "utf8");
 
   console.log(`Queued post ${number} copied to ${targetPath}`);
-  console.log(`pubDate and updatedDate set to ${pubDate}`);
+  console.log(`pubDate preserved; updatedDate set to ${pubDate}`);
   runBuild();
   const imageDir = path.join(ROOT, "public", "images", "blog", item.slug);
   const filesToStage = [targetPath, QUEUE_PATH, sourcePath];
