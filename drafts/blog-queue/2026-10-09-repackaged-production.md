@@ -28,3 +28,11 @@
 ## 작성자용 후속 후보
 
 기존 추천 순서 8개 중 마지막 글. 추가 후보는 별도 요청 시 기존 게시글과 중복 검토 후 선정.
+
+## 배포 검증
+
+- Astro 131페이지 빌드 성공. 기존 UI·라우팅 변경은 커밋에서 제외.
+- dcc4248 Cloudflare Pages completed/success.
+- 운영 페이지 제목·최종 업데이트 2026. 10. 09. 및 datePublished/dateModified 2026-10-09 확인.
+- 이미지 3개 HTTP 200, image/webp, RIFF/WEBP 시그니처와 크기 확인.
+- 추천 큐 1~8번 published, 전체 completed로 기록.

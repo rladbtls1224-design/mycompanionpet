@@ -1,7 +1,7 @@
 {
   "planId": "2026-09-28-seo-geo-recommendations",
   "createdDate": "2026-09-28",
-  "status": "in_progress",
+  "status": "completed",
   "description": "공개 사이트 112개 글, 로컬 게시글, 초안과 과거 추천 큐를 대조해 기존 검색 의도와 겹치지 않도록 선별한 SEO/GEO 추천 주제 8개입니다.",
   "selectionBasis": [
     "기존 글과 검색 의도 및 핵심 답변이 겹치지 않을 것",
@@ -216,7 +216,9 @@
     },
     {
       "number": 8,
-      "status": "ready_to_deploy",
+      "status": "published",
+      "publishedDate": "2026-10-09",
+      "deploymentNote": "dcc4248 Cloudflare Pages completed/success. 운영 제목·최종 업데이트·dateModified와 WebP 3개 실제 데이터 확인.",
       "file": "src/content/blog/repackaged-pet-food-safety-guide.md",
       "writtenDate": "2026-10-09",
       "updatedDate": "2026-10-09",
