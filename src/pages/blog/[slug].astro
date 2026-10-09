@@ -1,9 +1,9 @@
 ---
 import BlogLayout from "../../layouts/BlogLayout.astro";
-import { getPostCategories, getPosts } from "../../lib/wordpress.js";
+import { getPostCategories, getAllPosts } from "../../lib/wordpress.js";
 
 export async function getStaticPaths() {
-  const posts = await getPosts({ perPage: 50 });
+  const posts = await getAllPosts();
 
   return posts.map((post) => {
     const categories = getPostCategories(post);

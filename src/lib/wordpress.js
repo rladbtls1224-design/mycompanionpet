@@ -288,6 +288,31 @@ export async function getPosts({ perPage = 12 } = {}) {
   return mergePosts(Array.isArray(posts) ? posts : []).slice(0, perPage);
 }
 
+export async function getAllPosts() {
+  if (!HAS_WORDPRESS_API) {
+    return getLocalPosts();
+  }
+
+  const remotePosts = [];
+  const perPage = 100;
+
+  for (let page = 1; page <= 100; page += 1) {
+    const posts = await fetchJson(`/posts?_embed&per_page=${perPage}&page=${page}`);
+
+    if (!Array.isArray(posts) || posts.length === 0) {
+      break;
+    }
+
+    remotePosts.push(...posts);
+
+    if (posts.length < perPage) {
+      break;
+    }
+  }
+
+  return mergePosts(remotePosts);
+}
+
 export async function getPostBySlug(slug) {
   const localPost = getLocalPosts().find((post) => post.slug === slug);
   if (localPost) {
