@@ -216,12 +216,15 @@
     },
     {
       "number": 8,
-      "status": "planned",
+      "status": "ready_to_deploy",
+      "file": "src/content/blog/repackaged-pet-food-safety-guide.md",
+      "writtenDate": "2026-10-09",
+      "updatedDate": "2026-10-09",
       "animal": "comparison",
       "topic": "강아지 고양이 소분 사료 구매와 보관",
       "title": "강아지·고양이 소분 사료 사도 될까? 원포장·유통기한·로트번호 확인",
       "metaTitle": "반려동물 소분 사료 | 원포장·유통기한 확인법",
-      "description": "강아지·고양이 소분 사료를 살 때 원래 포장과 제품명, 유통기한, 로트번호, 소분일과 보관 상태를 확인하고 개봉 후 기록을 남기는 방법입니다.",
+      "description": "강아지·고양이 소분 사료를 사기 전 원포장 사진, 정확한 제품명, 표시 기한, 로트번호와 개봉·소분일을 확인하세요. 제조사 소포장과 판매자 재포장의 차이, 배송 직후 점검과 이상 시 기록할 내용을 정리합니다.",
       "slug": "repackaged-pet-food-safety-guide",
       "thumbnail": {
         "file": "/images/blog/repackaged-pet-food-safety-guide/repackaged-pet-food-safety-guide-thumbnail.webp",
