@@ -8,3 +8,11 @@
 - 파일: public/images/blog/dog-probiotic-label-selection-guide/ 아래 thumbnail, probiotic-serving-comparison, probiotic-storage-record WebP 3개.
 - 이미지 용도: 구매 전 확인표 아래 대표 사진, CFU 계산 아래 분량 비교, 보관 안내 아래 수납·기록 사진.
 - 작성자용 후속 주제: 활성 계획 2번 고양이 처방식 혼합 급여.
+
+## 배포 검증
+
+- 본문 약 7,200자, 설명 115자, 본문 이미지 3개, FAQ 5개, 구매 상황 예시 4개.
+- 배포 소스 분리 빌드 131페이지 성공. 기존 50개 경로 제한을 전체 글 조회로 보완. 관련 없는 미커밋 변경은 유지.
+- bf37d37 Cloudflare Pages completed/success.
+- 운영 메타 제목, 최종 업데이트 2026. 10. 10., datePublished/dateModified 2026-10-10 확인.
+- 이미지 3개 HTTP 200 image/webp 및 본문 내부 링크 HTTP 200 확인.

@@ -17,7 +17,7 @@
   "items": [
     {
       "number": 1,
-      "status": "deploying",
+      "status": "published",
       "animal": "dog",
       "topic": "강아지 유산균 고르는 법",
       "title": "강아지 유산균 고르는 법｜균주·보장균수·보관 조건 확인",
@@ -38,7 +38,11 @@
         "/blog/dog-loose-stool-diet-checklist/",
         "/dog-nutrition/"
       ],
-      "updatedDate": "2026-10-10"
+      "updatedDate": "2026-10-10",
+      "publishedDate": "2026-10-10",
+      "deploymentCommit": "bf37d377ffb1fca04c09afc24a4380876d3568ad",
+      "publishedUrl": "https://mycompanionpet.com/blog/dog-probiotic-label-selection-guide/",
+      "deploymentNote": "Cloudflare Pages completed/success. 운영 제목·최종 업데이트·datePublished/dateModified 및 이미지 3개와 내부 링크 HTTP 200 확인."
     },
     {
       "number": 2,
