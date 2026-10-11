@@ -46,12 +46,12 @@
     },
     {
       "number": 2,
-      "status": "planned",
+      "status": "deploying",
       "animal": "cat",
       "topic": "고양이 처방식에 일반 사료 섞어도 될까? 간식·교체 전 확인",
       "title": "고양이 처방식에 일반 사료 섞어도 될까? 간식·교체 전 확인",
       "metaTitle": "고양이 처방식 혼합 급여 | 일반 사료·간식 주의",
-      "description": "고양이 처방식에 일반 사료 섞어도 될까? 간식·교체 전 확인를 주제로 처방식에 일반 사료나 간식을 추가하려는 보호자의 상담 준비에 답합니다. 일반 혼합 급여 글과 달리 처방 목적, 임의 혼합, 간식, 다묘 분리, 상담 질문을 중심으로 구성합니다. 제품마다 다른 표시와 식단 상황을 확인하고, 질환이나 장기 식단 변경이 관련되면 수의사 상담을 우선합니다.",
+      "description": "고양이 처방식에 일반 사료나 간식을 섞기 전 확인할 처방 목적과 제품 정보를 정리합니다. 신장·요로 관리와 제거 식이의 차이, 처방식 거부 시 상담 준비, 다묘 가정 분리 급여와 식단 기록 방법을 안내합니다.",
       "slug": "cat-prescription-diet-mixing-guide",
       "file": "drafts/blog-queue/2026-10-10/02-cat-prescription-diet-mixing-guide.md",
       "thumbnail": {
@@ -66,7 +66,8 @@
       "internalLinks": [
         "/blog/cat-complete-and-balanced-wet-food-guide/",
         "/cat-nutrition/"
-      ]
+      ],
+      "updatedDate": "2026-10-11"
     },
     {
       "number": 3,
