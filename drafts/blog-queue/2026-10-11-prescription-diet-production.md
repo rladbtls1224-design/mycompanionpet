@@ -19,3 +19,11 @@
 ## 작성자용 다음 주제
 
 활성 계획 3번 강아지 오메가3 선택법.
+
+## 배포 검증
+
+- 배포 소스 분리 Astro 빌드 132페이지 성공. 기존 미커밋 UI 변경 제외.
+- 긴 문단 완전 중복 0개, 고양이 전용 내용·FAQ 5개·내부 링크 확인.
+- 4c70395 Cloudflare Pages completed/success, deployment fbc635c5-7b67-4d59-ab03-aa4cc1a014e5.
+- 운영 기본 URL 메타 제목, 최종 업데이트 2026. 10. 11., datePublished/dateModified 2026-10-11 확인.
+- 이미지 3개 200 image/webp, 본문 연결 글 5개 200 및 Article 응답 확인.

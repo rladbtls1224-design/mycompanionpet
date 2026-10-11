@@ -46,7 +46,7 @@
     },
     {
       "number": 2,
-      "status": "deploying",
+      "status": "published",
       "animal": "cat",
       "topic": "고양이 처방식에 일반 사료 섞어도 될까? 간식·교체 전 확인",
       "title": "고양이 처방식에 일반 사료 섞어도 될까? 간식·교체 전 확인",
@@ -67,7 +67,11 @@
         "/blog/cat-complete-and-balanced-wet-food-guide/",
         "/cat-nutrition/"
       ],
-      "updatedDate": "2026-10-11"
+      "updatedDate": "2026-10-11",
+      "publishedDate": "2026-10-11",
+      "deploymentCommit": "4c70395fd5de5b96d97bfdaf7f037883fab5f181",
+      "publishedUrl": "https://mycompanionpet.com/blog/cat-prescription-diet-mixing-guide/",
+      "deploymentNote": "Cloudflare Pages completed/success. 운영 기본 주소 제목·최종 업데이트·datePublished/dateModified 확인. 이미지 3개 200 image/webp 및 내부 링크 5개 실제 글 응답 확인."
     },
     {
       "number": 3,
