@@ -75,7 +75,7 @@
     },
     {
       "number": 3,
-      "status": "deploying",
+      "status": "published",
       "animal": "dog",
       "topic": "강아지 오메가3 고르는 법",
       "title": "강아지 오메가3 고르는 법｜어유 용량보다 EPA·DHA 확인",
@@ -96,7 +96,12 @@
         "/blog/can-dogs-eat-salmon/",
         "/dog-nutrition/"
       ],
-      "updatedDate": "2026-10-14"
+      "updatedDate": "2026-10-14",
+      "publishedDate": "2026-10-14",
+      "writtenDate": "2026-10-13",
+      "deploymentCommit": "1b733b7582b4af6100ec18c2fa940f8284f16c47",
+      "publishedUrl": "https://mycompanionpet.com/blog/dog-omega3-epa-dha-label-guide/",
+      "deploymentNote": "Cloudflare Pages completed/success. 운영 기본 주소 메타 제목과 datePublished 2026-10-13, dateModified 2026-10-14 확인. 이미지 3개 200 image/webp와 내부 링크 실제 글 응답 확인."
     },
     {
       "number": 4,
