@@ -75,12 +75,12 @@
     },
     {
       "number": 3,
-      "status": "planned",
+      "status": "deploying",
       "animal": "dog",
       "topic": "강아지 오메가3 고르는 법",
       "title": "강아지 오메가3 고르는 법｜어유 용량보다 EPA·DHA 확인",
       "metaTitle": "강아지 오메가3 선택법 | EPA·DHA·산패 확인",
-      "description": "강아지 오메가3 고르는 법｜어유 용량보다 EPA·DHA 확인를 주제로 오일 전체 mg와 EPA·DHA mg를 구별하려는 영양제 검색에 답합니다. 연어 급여 글과 달리 1회분 EPA·DHA 합계, 단위, 중복 섭취, 보관, 상담 조건을 다룹니다. 제품마다 다른 표시와 식단 상황을 확인하고, 질환이나 장기 식단 변경이 관련되면 수의사 상담을 우선합니다.",
+      "description": "강아지 오메가3 제품에서 어유 전체 용량과 EPA·DHA 함량을 구분하는 방법입니다. 캡슐·펌프의 단위 계산, 기존 사료와의 중복 섭취, 개봉 후 보관 및 산패 의심 시 대처와 상담 준비를 안내합니다.",
       "slug": "dog-omega3-epa-dha-label-guide",
       "file": "drafts/blog-queue/2026-10-10/03-dog-omega3-epa-dha-label-guide.md",
       "thumbnail": {
@@ -95,7 +95,8 @@
       "internalLinks": [
         "/blog/can-dogs-eat-salmon/",
         "/dog-nutrition/"
-      ]
+      ],
+      "updatedDate": "2026-10-14"
     },
     {
       "number": 4,
