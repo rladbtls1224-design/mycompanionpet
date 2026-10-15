@@ -105,12 +105,12 @@
     },
     {
       "number": 4,
-      "status": "planned",
+      "status": "deploying",
       "animal": "cat",
       "topic": "고양이 영양제 꼭 필요할까? 종합비타민·타우린 중복 확인",
       "title": "고양이 영양제 꼭 필요할까? 종합비타민·타우린 중복 확인",
       "metaTitle": "고양이 영양제 필요할까 | 비타민·타우린 중복",
-      "description": "고양이 영양제 꼭 필요할까? 종합비타민·타우린 중복 확인를 주제로 균형 잡힌 주식을 먹는 고양이에게 보조제를 더해야 하는지 판단에 답합니다. 필수 영양소 소개와 달리 주식과 보조제의 중복, 임의 추가, 생활 단계, 복용약, 상담용 목록을 다룹니다. 제품마다 다른 표시와 식단 상황을 확인하고, 질환이나 장기 식단 변경이 관련되면 수의사 상담을 우선합니다.",
+      "description": "고양이 영양제를 추가하기 전 완전균형식과 실제 섭취량, 종합비타민·타우린의 중복 성분을 확인하세요. 제품별 함량 단위 읽기, 처방식·복용약 확인과 상담에 필요한 식단 기록 방법을 정리합니다.",
       "slug": "cat-supplement-necessity-overlap-guide",
       "file": "drafts/blog-queue/2026-10-10/04-cat-supplement-necessity-overlap-guide.md",
       "thumbnail": {
@@ -125,7 +125,8 @@
       "internalLinks": [
         "/blog/cat-essential-nutrients-taurine-protein-water/",
         "/cat-nutrition/"
-      ]
+      ],
+      "updatedDate": "2026-10-15"
     },
     {
       "number": 5,
