@@ -105,7 +105,7 @@
     },
     {
       "number": 4,
-      "status": "deploying",
+      "status": "published",
       "animal": "cat",
       "topic": "고양이 영양제 꼭 필요할까? 종합비타민·타우린 중복 확인",
       "title": "고양이 영양제 꼭 필요할까? 종합비타민·타우린 중복 확인",
@@ -126,7 +126,11 @@
         "/blog/cat-essential-nutrients-taurine-protein-water/",
         "/cat-nutrition/"
       ],
-      "updatedDate": "2026-10-15"
+      "updatedDate": "2026-10-15",
+      "publishedDate": "2026-10-15",
+      "deploymentCommit": "d2144d68efbef5a23362fb4beac599fd086bbb3b",
+      "publishedUrl": "https://mycompanionpet.com/blog/cat-supplement-necessity-overlap-guide/",
+      "deploymentNote": "Cloudflare Pages completed/success. 운영 메타 제목·작성일·최종 업데이트 2026-10-15, 이미지 3개 200 image/webp, 내부 링크 5개 실제 글 응답 확인."
     },
     {
       "number": 5,
