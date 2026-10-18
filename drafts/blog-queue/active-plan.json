@@ -134,7 +134,7 @@
     },
     {
       "number": 5,
-      "status": "deploying",
+      "status": "published",
       "animal": "dog",
       "topic": "강아지 수제식으로 주식을 바꿔도 될까? 레시피 영양 균형 확인",
       "title": "강아지 수제식으로 주식을 바꿔도 될까? 레시피 영양 균형 확인",
@@ -155,7 +155,11 @@
         "/blog/dog-complete-and-balanced-food-guide/",
         "/dog-nutrition/"
       ],
-      "updatedDate": "2026-10-18"
+      "updatedDate": "2026-10-18",
+      "publishedDate": "2026-10-18",
+      "deploymentCommit": "0e19fabebff10d619600808729b62b69bb9a3980",
+      "publishedUrl": "https://mycompanionpet.com/blog/dog-cooked-homemade-diet-balance-guide/",
+      "deploymentNote": "Cloudflare Pages completed/success. 운영 제목·datePublished/dateModified 2026-10-18, 이미지 3개 200 image/webp, 내부 연결 글 4개 실제 Article 응답 확인."
     },
     {
       "number": 6,

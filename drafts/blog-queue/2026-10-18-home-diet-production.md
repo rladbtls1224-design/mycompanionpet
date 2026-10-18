@@ -28,3 +28,10 @@
 ## 작성자용 다음 주제
 
 활성 계획 6번 고양이의 강아지 사료 섭취.
+
+## 배포 검증
+
+- 배포 소스 분리 Astro 빌드 135페이지 성공.
+- 0e19fab Cloudflare Pages completed/success.
+- 운영 기본 URL 제목·최종 업데이트 2026. 10. 18. 및 datePublished/dateModified 확인.
+- 이미지 3개 HTTP 200 image/webp, 내부 링크 4개 실제 글 HTTP 200 확인.
