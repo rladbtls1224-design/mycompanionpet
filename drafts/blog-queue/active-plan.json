@@ -134,12 +134,12 @@
     },
     {
       "number": 5,
-      "status": "planned",
+      "status": "deploying",
       "animal": "dog",
       "topic": "강아지 수제식으로 주식을 바꿔도 될까? 레시피 영양 균형 확인",
       "title": "강아지 수제식으로 주식을 바꿔도 될까? 레시피 영양 균형 확인",
       "metaTitle": "강아지 수제식 주식 전환 | 영양 균형·상담 기준",
-      "description": "강아지 수제식으로 주식을 바꿔도 될까? 레시피 영양 균형 확인를 주제로 익힌 집밥을 매일 주식으로 만들려는 장기 식단 변경 검색에 답합니다. 생식 위생·토핑 글과 달리 조리한 주식의 설계, 레시피 검증, 원료 대체, 보충제 설계, 추적 관찰을 다룹니다. 제품마다 다른 표시와 식단 상황을 확인하고, 질환이나 장기 식단 변경이 관련되면 수의사 상담을 우선합니다.",
+      "description": "강아지 수제식을 매일 주식으로 쓰기 전 레시피의 영양 균형과 생활 단계 적합성을 확인하세요. 재료·보충제 변경, 조리 전후 계량, 전환과 체중 기록, 영양 상담에 준비할 정보를 정리합니다.",
       "slug": "dog-cooked-homemade-diet-balance-guide",
       "file": "drafts/blog-queue/2026-10-10/05-dog-cooked-homemade-diet-balance-guide.md",
       "thumbnail": {
@@ -154,7 +154,8 @@
       "internalLinks": [
         "/blog/dog-complete-and-balanced-food-guide/",
         "/dog-nutrition/"
-      ]
+      ],
+      "updatedDate": "2026-10-18"
     },
     {
       "number": 6,
