@@ -163,7 +163,7 @@
     },
     {
       "number": 6,
-      "status": "deploying",
+      "status": "published",
       "animal": "cat",
       "topic": "고양이가 강아지 사료를 먹어도 될까? 한 번 섭취와 반복 급여 구분",
       "title": "고양이가 강아지 사료를 먹어도 될까? 한 번 섭취와 반복 급여 구분",
@@ -184,7 +184,11 @@
         "/blog/cat-essential-nutrients-taurine-protein-water/",
         "/cat-nutrition/"
       ],
-      "updatedDate": "2026-10-20"
+      "updatedDate": "2026-10-20",
+      "publishedDate": "2026-10-20",
+      "deploymentCommit": "6bc436a1249097e233d293395a63ffc70e650083",
+      "publishedUrl": "https://mycompanionpet.com/blog/cat-eating-dog-food-guide/",
+      "deploymentNote": "Cloudflare Pages completed/success. 운영 기본 주소 제목·datePublished/dateModified 2026-10-20, 이미지 3개 200 image/webp 및 내부 링크 5개 실제 글 응답 확인."
     },
     {
       "number": 7,

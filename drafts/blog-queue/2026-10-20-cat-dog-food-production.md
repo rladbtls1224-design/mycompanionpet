@@ -28,3 +28,10 @@
 ## 작성자용 다음 주제
 
 활성 계획 7번 대형견 퍼피 사료·칼슘 확인.
+
+## 배포 검증
+
+- 배포 소스 분리 Astro 빌드 136페이지 성공, 긴 문단 완전 중복 0개.
+- 6bc436a Cloudflare Pages completed/success.
+- 운영 기본 URL 메타 제목·최종 업데이트 2026. 10. 20. 및 datePublished/dateModified 확인.
+- 이미지 3개 HTTP 200 image/webp, 내부 링크 5개 실제 글 HTTP 200 확인.
