@@ -163,12 +163,12 @@
     },
     {
       "number": 6,
-      "status": "planned",
+      "status": "deploying",
       "animal": "cat",
       "topic": "고양이가 강아지 사료를 먹어도 될까? 한 번 섭취와 반복 급여 구분",
       "title": "고양이가 강아지 사료를 먹어도 될까? 한 번 섭취와 반복 급여 구분",
       "metaTitle": "고양이 강아지 사료 먹었을 때 | 반복 급여 주의",
-      "description": "고양이가 강아지 사료를 먹어도 될까? 한 번 섭취와 반복 급여 구분를 주제로 고양이가 타종 사료를 먹었을 때와 주식으로 써도 되는지 확인에 답합니다. 다묘 급여 글과 달리 타종 사료 접근, 일회 섭취 기록, 반복 대체, 영양 적합성, 분리 보관을 다룹니다. 고양이 전용 관점으로 작성합니다. 제품마다 다른 표시와 식단 상황을 확인하고, 질환이나 장기 식단 변경이 관련되면 수의사 상담을 우선합니다.",
+      "description": "고양이가 강아지 사료를 먹었을 때 확인할 제품·양·증상과 반복 급여를 피해야 하는 이유를 정리합니다. 고양이용 주식 확인, 사료가 떨어졌을 때의 상담 준비와 접근을 막는 분리 급여·보관 방법을 안내합니다.",
       "slug": "cat-eating-dog-food-guide",
       "file": "drafts/blog-queue/2026-10-10/06-cat-eating-dog-food-guide.md",
       "thumbnail": {
@@ -183,7 +183,8 @@
       "internalLinks": [
         "/blog/cat-essential-nutrients-taurine-protein-water/",
         "/cat-nutrition/"
-      ]
+      ],
+      "updatedDate": "2026-10-20"
     },
     {
       "number": 7,
