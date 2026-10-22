@@ -192,12 +192,12 @@
     },
     {
       "number": 7,
-      "status": "planned",
+      "status": "deploying",
       "animal": "dog",
       "topic": "대형견 퍼피 사료 고르는 법",
       "title": "대형견 퍼피 사료 고르는 법｜칼슘 보충 전 확인할 성장기 기준",
       "metaTitle": "대형견 퍼피 사료 선택 | 칼슘·성장기 영양 기준",
-      "description": "대형견 퍼피 사료 고르는 법｜칼슘 보충 전 확인할 성장기 기준를 주제로 대형견 성장기에 맞는 사료 표시와 칼슘 추가 여부를 확인에 답합니다. 성견 전환 시기 글과 달리 대형견 성장기 적합성 문구, 에너지, 칼슘·인, 보충제 중복, 성장 기록을 다룹니다. 제품마다 다른 표시와 식단 상황을 확인하고, 질환이나 장기 식단 변경이 관련되면 수의사 상담을 우선합니다.",
+      "description": "대형견 퍼피 사료는 성장기와 예상 성견 체구에 맞는 영양 적합성 표시부터 확인하세요. 칼슘·인 수치와 열량을 읽을 때의 주의점, 보충제 추가 전 확인할 내용과 체중·체형 성장 기록 방법을 정리합니다.",
       "slug": "large-breed-puppy-food-calcium-guide",
       "file": "drafts/blog-queue/2026-10-10/07-large-breed-puppy-food-calcium-guide.md",
       "thumbnail": {
@@ -212,7 +212,8 @@
       "internalLinks": [
         "/blog/puppy-to-adult-dog-food-transition/",
         "/dog-nutrition/"
-      ]
+      ],
+      "updatedDate": "2026-10-22"
     },
     {
       "number": 8,
