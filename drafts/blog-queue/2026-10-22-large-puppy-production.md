@@ -27,3 +27,10 @@
 ## 작성자용 다음 주제
 
 활성 계획 8번 사료 리콜 확인과 로트번호.
+
+## 배포 검증
+
+- 배포 소스 분리 Astro 빌드 137페이지 성공, 긴 문단 완전 중복 0개.
+- c8fc8e0 Cloudflare Pages completed/success.
+- 운영 기본 URL 메타 제목·최종 업데이트 2026. 10. 22. 및 datePublished/dateModified 확인.
+- 이미지 3개 HTTP 200 image/webp, 내부 링크 5개 실제 글 HTTP 200 확인.

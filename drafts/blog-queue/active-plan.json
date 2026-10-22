@@ -192,7 +192,7 @@
     },
     {
       "number": 7,
-      "status": "deploying",
+      "status": "published",
       "animal": "dog",
       "topic": "대형견 퍼피 사료 고르는 법",
       "title": "대형견 퍼피 사료 고르는 법｜칼슘 보충 전 확인할 성장기 기준",
@@ -213,7 +213,11 @@
         "/blog/puppy-to-adult-dog-food-transition/",
         "/dog-nutrition/"
       ],
-      "updatedDate": "2026-10-22"
+      "updatedDate": "2026-10-22",
+      "publishedDate": "2026-10-22",
+      "deploymentCommit": "c8fc8e046e79db3f44283727a6df606b2bf49500",
+      "publishedUrl": "https://mycompanionpet.com/blog/large-breed-puppy-food-calcium-guide/",
+      "deploymentNote": "Cloudflare Pages completed/success. 운영 기본 URL 메타 제목·datePublished/dateModified 2026-10-22, 이미지 3개 200 image/webp와 내부 링크 5개 실제 글 응답 확인."
     },
     {
       "number": 8,
