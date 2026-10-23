@@ -1,7 +1,7 @@
 {
   "planId": "2026-10-10-seo-geo-nutrition-gaps",
   "createdDate": "2026-10-10",
-  "status": "active",
+  "status": "completed",
   "audit": {
     "liveUrl": "https://mycompanionpet.com/blog/",
     "method": "운영 사이트 블로그 목록 직접 방문 + 로컬 게시글 및 과거 추천 큐 대조",
@@ -221,7 +221,7 @@
     },
     {
       "number": 8,
-      "status": "deploying",
+      "status": "published",
       "animal": "comparison",
       "topic": "강아지·고양이 사료 리콜 확인법",
       "title": "강아지·고양이 사료 리콜 확인법｜제품명·로트번호와 대응 순서",
@@ -242,7 +242,12 @@
         "/blog/repackaged-pet-food-safety-guide/",
         "/food-label/"
       ],
-      "updatedDate": "2026-10-23"
+      "updatedDate": "2026-10-23",
+      "publishedDate": "2026-10-23",
+      "deploymentCommit": "2cbd1a1c3a69667d6887f4e5d44dca2bfd21ac49",
+      "publishedUrl": "https://mycompanionpet.com/blog/pet-food-recall-lot-number-action-guide/",
+      "deploymentNote": "Cloudflare Pages completed/success. 운영 기본 URL 메타 제목·datePublished/dateModified 2026-10-23, 이미지 3개 200 image/webp 및 내부 링크 실제 글 응답 확인."
     }
-  ]
+  ],
+  "completedDate": "2026-10-23"
 }

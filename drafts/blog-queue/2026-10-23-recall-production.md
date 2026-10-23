@@ -27,3 +27,11 @@
 ## 작성자용 후속 주제
 
 현재 활성 계획 1~8번 중 마지막 글. 추가 추천은 별도 요청 시 운영 글과 중복 검토 후 선정.
+
+## 배포 검증
+
+- 배포 소스 분리 Astro 빌드 138페이지 성공, 긴 문단 완전 중복 0개.
+- 2cbd1a1 Cloudflare Pages completed/success.
+- 운영 기본 URL 메타 제목·최종 업데이트 2026. 10. 23. 및 datePublished/dateModified 확인.
+- 이미지 3개 HTTP 200 image/webp, 내부 연결 글 3개 실제 글 HTTP 200 확인.
+- 추천 1~8번 모두 published, 계획 completed로 기록.
