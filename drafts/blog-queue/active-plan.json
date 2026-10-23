@@ -221,12 +221,12 @@
     },
     {
       "number": 8,
-      "status": "planned",
+      "status": "deploying",
       "animal": "comparison",
       "topic": "강아지·고양이 사료 리콜 확인법",
       "title": "강아지·고양이 사료 리콜 확인법｜제품명·로트번호와 대응 순서",
       "metaTitle": "강아지·고양이 사료 리콜 | 로트번호 확인·대응",
-      "description": "강아지·고양이 사료 리콜 확인법｜제품명·로트번호와 대응 순서를 주제로 보유 제품이 실제 리콜 대상인지 확인하고 기록을 보존하려는 검색에 답합니다. 소분 구매·보관 글과 달리 공식 공지 대조, 대상 로트, 급여 중단·대체 상담, 증거 보존, 판매처 문의를 다룹니다. 제품마다 다른 표시와 식단 상황을 확인하고, 질환이나 장기 식단 변경이 관련되면 수의사 상담을 우선합니다.",
+      "description": "강아지·고양이 사료 리콜 공지와 보유 제품을 제품명·용량·로트번호·표시 기한으로 대조하는 방법입니다. 대상 또는 확인 중일 때의 급여 보류, 원포장·구매 기록 보존과 병원·판매처 문의 순서를 안내합니다.",
       "slug": "pet-food-recall-lot-number-action-guide",
       "file": "drafts/blog-queue/2026-10-10/08-pet-food-recall-lot-number-action-guide.md",
       "thumbnail": {
@@ -241,7 +241,8 @@
       "internalLinks": [
         "/blog/repackaged-pet-food-safety-guide/",
         "/food-label/"
-      ]
+      ],
+      "updatedDate": "2026-10-23"
     }
   ]
 }
