@@ -1,0 +1,253 @@
+{
+  "planId": "2026-10-10-seo-geo-nutrition-gaps",
+  "createdDate": "2026-10-10",
+  "status": "completed",
+  "audit": {
+    "liveUrl": "https://mycompanionpet.com/blog/",
+    "method": "운영 사이트 블로그 목록 직접 방문 + 로컬 게시글 및 과거 추천 큐 대조",
+    "latestLivePost": "repackaged-pet-food-safety-guide",
+    "limitations": "검색량·Search Console·경쟁도 수치는 확인하지 않았습니다. 우선순위는 편집 판단이며 노출·AI 인용을 보장하지 않습니다."
+  },
+  "publishDateRule": {
+    "timezone": "Asia/Seoul",
+    "newPost": "pubDate는 본문 실제 작성일 유지, updatedDate는 실제 배포일",
+    "updatedPost": "pubDate 유지, updatedDate는 실제 수정 배포일"
+  },
+  "executionRule": "번호 배포 요청 시 해당 항목 본문 2000자 이상·실제 이미지 3~5개·출처·FAQ·내부 링크를 완성하고 검수, 빌드, 커밋·push, 운영 URL과 Last updated 및 dateModified 확인. 현재는 기획만 저장하며 초안과 이미지는 요청 시 생성.",
+  "items": [
+    {
+      "number": 1,
+      "status": "published",
+      "animal": "dog",
+      "topic": "강아지 유산균 고르는 법",
+      "title": "강아지 유산균 고르는 법｜균주·보장균수·보관 조건 확인",
+      "metaTitle": "강아지 유산균 선택 기준 | 균주·CFU·보관법",
+      "description": "강아지 유산균을 고를 때 균주명, 1회분 CFU, 유통기한까지의 보장균수와 보관 조건을 확인하는 방법입니다. 제품 비교 예시와 제조사에 물어볼 질문, 급여 기록법 및 수의사 상담이 필요한 상황을 정리합니다.",
+      "slug": "dog-probiotic-label-selection-guide",
+      "file": "drafts/blog-queue/2026-10-10/01-dog-probiotic-label-selection-guide.md",
+      "thumbnail": {
+        "file": "/images/blog/dog-probiotic-label-selection-guide/dog-probiotic-label-selection-guide-thumbnail.webp",
+        "concept": "유산균 용기와 확대된 성분표, 보관 위치를 확인하는 보호자와 강아지. 1200×630 가로 구도, 핵심 피사체 중앙, 자연광, 이미지 내 문자·로고 없음.",
+        "alt": "유산균 용기와 확대된 성분표, 보관 위치를 확인하는 보호자와 강아지"
+      },
+      "searchIntent": "균 수가 많으면 좋은지보다 균주명·유통기한까지의 보장·제품별 근거를 확인하는 구매 판단",
+      "geoAngle": "첫 문단 직접 답변, 설사 점검 글과 달리 제품 라벨의 균주, CFU 단위, 보장 시점, 보관, 급여 기록을 다룹니다. 항목별 판단표와 고유 FAQ 5개, 문장 가까이에 검증한 1차 출처를 배치합니다.",
+      "duplicateBoundary": "설사 점검 글과 달리 제품 라벨의 균주, CFU 단위, 보장 시점, 보관, 급여 기록을 다룹니다.",
+      "priorityReason": "제품 선택 질문을 통해 기존 소화·사료 정보와 연결되는 새 검색 의도를 확보",
+      "internalLinks": [
+        "/blog/dog-loose-stool-diet-checklist/",
+        "/dog-nutrition/"
+      ],
+      "updatedDate": "2026-10-10",
+      "publishedDate": "2026-10-10",
+      "deploymentCommit": "bf37d377ffb1fca04c09afc24a4380876d3568ad",
+      "publishedUrl": "https://mycompanionpet.com/blog/dog-probiotic-label-selection-guide/",
+      "deploymentNote": "Cloudflare Pages completed/success. 운영 제목·최종 업데이트·datePublished/dateModified 및 이미지 3개와 내부 링크 HTTP 200 확인."
+    },
+    {
+      "number": 2,
+      "status": "published",
+      "animal": "cat",
+      "topic": "고양이 처방식에 일반 사료 섞어도 될까? 간식·교체 전 확인",
+      "title": "고양이 처방식에 일반 사료 섞어도 될까? 간식·교체 전 확인",
+      "metaTitle": "고양이 처방식 혼합 급여 | 일반 사료·간식 주의",
+      "description": "고양이 처방식에 일반 사료나 간식을 섞기 전 확인할 처방 목적과 제품 정보를 정리합니다. 신장·요로 관리와 제거 식이의 차이, 처방식 거부 시 상담 준비, 다묘 가정 분리 급여와 식단 기록 방법을 안내합니다.",
+      "slug": "cat-prescription-diet-mixing-guide",
+      "file": "drafts/blog-queue/2026-10-10/02-cat-prescription-diet-mixing-guide.md",
+      "thumbnail": {
+        "file": "/images/blog/cat-prescription-diet-mixing-guide/cat-prescription-diet-mixing-guide-thumbnail.webp",
+        "concept": "서로 분리된 두 사료 그릇과 상담 메모, 차분한 고양이. 1200×630 가로 구도, 핵심 피사체 중앙, 자연광, 이미지 내 문자·로고 없음.",
+        "alt": "서로 분리된 두 사료 그릇과 상담 메모, 차분한 고양이"
+      },
+      "searchIntent": "처방식에 일반 사료나 간식을 추가하려는 보호자의 상담 준비",
+      "geoAngle": "첫 문단 직접 답변, 일반 혼합 급여 글과 달리 처방 목적, 임의 혼합, 간식, 다묘 분리, 상담 질문을 중심으로 구성합니다. 항목별 판단표와 고유 FAQ 5개, 문장 가까이에 검증한 1차 출처를 배치합니다.",
+      "duplicateBoundary": "일반 혼합 급여 글과 달리 처방 목적, 임의 혼합, 간식, 다묘 분리, 상담 질문을 중심으로 구성합니다.",
+      "priorityReason": "처방식 관련 반복 질문에 상담 중심의 독립 답변 제공",
+      "internalLinks": [
+        "/blog/cat-complete-and-balanced-wet-food-guide/",
+        "/cat-nutrition/"
+      ],
+      "updatedDate": "2026-10-11",
+      "publishedDate": "2026-10-11",
+      "deploymentCommit": "4c70395fd5de5b96d97bfdaf7f037883fab5f181",
+      "publishedUrl": "https://mycompanionpet.com/blog/cat-prescription-diet-mixing-guide/",
+      "deploymentNote": "Cloudflare Pages completed/success. 운영 기본 주소 제목·최종 업데이트·datePublished/dateModified 확인. 이미지 3개 200 image/webp 및 내부 링크 5개 실제 글 응답 확인."
+    },
+    {
+      "number": 3,
+      "status": "published",
+      "animal": "dog",
+      "topic": "강아지 오메가3 고르는 법",
+      "title": "강아지 오메가3 고르는 법｜어유 용량보다 EPA·DHA 확인",
+      "metaTitle": "강아지 오메가3 선택법 | EPA·DHA·산패 확인",
+      "description": "강아지 오메가3 제품에서 어유 전체 용량과 EPA·DHA 함량을 구분하는 방법입니다. 캡슐·펌프의 단위 계산, 기존 사료와의 중복 섭취, 개봉 후 보관 및 산패 의심 시 대처와 상담 준비를 안내합니다.",
+      "slug": "dog-omega3-epa-dha-label-guide",
+      "file": "drafts/blog-queue/2026-10-10/03-dog-omega3-epa-dha-label-guide.md",
+      "thumbnail": {
+        "file": "/images/blog/dog-omega3-epa-dha-label-guide/dog-omega3-epa-dha-label-guide-thumbnail.webp",
+        "concept": "어유 병과 계량 도구, 라벨을 읽는 보호자와 강아지. 1200×630 가로 구도, 핵심 피사체 중앙, 자연광, 이미지 내 문자·로고 없음.",
+        "alt": "어유 병과 계량 도구, 라벨을 읽는 보호자와 강아지"
+      },
+      "searchIntent": "오일 전체 mg와 EPA·DHA mg를 구별하려는 영양제 검색",
+      "geoAngle": "첫 문단 직접 답변, 연어 급여 글과 달리 1회분 EPA·DHA 합계, 단위, 중복 섭취, 보관, 상담 조건을 다룹니다. 항목별 판단표와 고유 FAQ 5개, 문장 가까이에 검증한 1차 출처를 배치합니다.",
+      "duplicateBoundary": "연어 급여 글과 달리 1회분 EPA·DHA 합계, 단위, 중복 섭취, 보관, 상담 조건을 다룹니다.",
+      "priorityReason": "성분 단위 해석이라는 구체적인 롱테일 질문 확보",
+      "internalLinks": [
+        "/blog/can-dogs-eat-salmon/",
+        "/dog-nutrition/"
+      ],
+      "updatedDate": "2026-10-14",
+      "publishedDate": "2026-10-14",
+      "writtenDate": "2026-10-13",
+      "deploymentCommit": "1b733b7582b4af6100ec18c2fa940f8284f16c47",
+      "publishedUrl": "https://mycompanionpet.com/blog/dog-omega3-epa-dha-label-guide/",
+      "deploymentNote": "Cloudflare Pages completed/success. 운영 기본 주소 메타 제목과 datePublished 2026-10-13, dateModified 2026-10-14 확인. 이미지 3개 200 image/webp와 내부 링크 실제 글 응답 확인."
+    },
+    {
+      "number": 4,
+      "status": "published",
+      "animal": "cat",
+      "topic": "고양이 영양제 꼭 필요할까? 종합비타민·타우린 중복 확인",
+      "title": "고양이 영양제 꼭 필요할까? 종합비타민·타우린 중복 확인",
+      "metaTitle": "고양이 영양제 필요할까 | 비타민·타우린 중복",
+      "description": "고양이 영양제를 추가하기 전 완전균형식과 실제 섭취량, 종합비타민·타우린의 중복 성분을 확인하세요. 제품별 함량 단위 읽기, 처방식·복용약 확인과 상담에 필요한 식단 기록 방법을 정리합니다.",
+      "slug": "cat-supplement-necessity-overlap-guide",
+      "file": "drafts/blog-queue/2026-10-10/04-cat-supplement-necessity-overlap-guide.md",
+      "thumbnail": {
+        "file": "/images/blog/cat-supplement-necessity-overlap-guide/cat-supplement-necessity-overlap-guide-thumbnail.webp",
+        "concept": "주식 사료와 여러 보조제, 식단 기록장을 위에서 본 장면과 고양이. 1200×630 가로 구도, 핵심 피사체 중앙, 자연광, 이미지 내 문자·로고 없음.",
+        "alt": "주식 사료와 여러 보조제, 식단 기록장을 위에서 본 장면과 고양이"
+      },
+      "searchIntent": "균형 잡힌 주식을 먹는 고양이에게 보조제를 더해야 하는지 판단",
+      "geoAngle": "첫 문단 직접 답변, 필수 영양소 소개와 달리 주식과 보조제의 중복, 임의 추가, 생활 단계, 복용약, 상담용 목록을 다룹니다. 항목별 판단표와 고유 FAQ 5개, 문장 가까이에 검증한 1차 출처를 배치합니다.",
+      "duplicateBoundary": "필수 영양소 소개와 달리 주식과 보조제의 중복, 임의 추가, 생활 단계, 복용약, 상담용 목록을 다룹니다.",
+      "priorityReason": "영양제 추가 이전의 판단 기준을 고양이 전용으로 보완",
+      "internalLinks": [
+        "/blog/cat-essential-nutrients-taurine-protein-water/",
+        "/cat-nutrition/"
+      ],
+      "updatedDate": "2026-10-15",
+      "publishedDate": "2026-10-15",
+      "deploymentCommit": "d2144d68efbef5a23362fb4beac599fd086bbb3b",
+      "publishedUrl": "https://mycompanionpet.com/blog/cat-supplement-necessity-overlap-guide/",
+      "deploymentNote": "Cloudflare Pages completed/success. 운영 메타 제목·작성일·최종 업데이트 2026-10-15, 이미지 3개 200 image/webp, 내부 링크 5개 실제 글 응답 확인."
+    },
+    {
+      "number": 5,
+      "status": "published",
+      "animal": "dog",
+      "topic": "강아지 수제식으로 주식을 바꿔도 될까? 레시피 영양 균형 확인",
+      "title": "강아지 수제식으로 주식을 바꿔도 될까? 레시피 영양 균형 확인",
+      "metaTitle": "강아지 수제식 주식 전환 | 영양 균형·상담 기준",
+      "description": "강아지 수제식을 매일 주식으로 쓰기 전 레시피의 영양 균형과 생활 단계 적합성을 확인하세요. 재료·보충제 변경, 조리 전후 계량, 전환과 체중 기록, 영양 상담에 준비할 정보를 정리합니다.",
+      "slug": "dog-cooked-homemade-diet-balance-guide",
+      "file": "drafts/blog-queue/2026-10-10/05-dog-cooked-homemade-diet-balance-guide.md",
+      "thumbnail": {
+        "file": "/images/blog/dog-cooked-homemade-diet-balance-guide/dog-cooked-homemade-diet-balance-guide-thumbnail.webp",
+        "concept": "익힌 재료를 각각 담은 그릇과 레시피 기록, 강아지는 떨어져 기다리는 장면. 1200×630 가로 구도, 핵심 피사체 중앙, 자연광, 이미지 내 문자·로고 없음.",
+        "alt": "익힌 재료를 각각 담은 그릇과 레시피 기록, 강아지는 떨어져 기다리는 장면"
+      },
+      "searchIntent": "익힌 집밥을 매일 주식으로 만들려는 장기 식단 변경 검색",
+      "geoAngle": "첫 문단 직접 답변, 생식 위생·토핑 글과 달리 조리한 주식의 설계, 레시피 검증, 원료 대체, 보충제 설계, 추적 관찰을 다룹니다. 항목별 판단표와 고유 FAQ 5개, 문장 가까이에 검증한 1차 출처를 배치합니다.",
+      "duplicateBoundary": "생식 위생·토핑 글과 달리 조리한 주식의 설계, 레시피 검증, 원료 대체, 보충제 설계, 추적 관찰을 다룹니다.",
+      "priorityReason": "장기 식단 설계 공백을 채우는 심화 콘텐츠",
+      "internalLinks": [
+        "/blog/dog-complete-and-balanced-food-guide/",
+        "/dog-nutrition/"
+      ],
+      "updatedDate": "2026-10-18",
+      "publishedDate": "2026-10-18",
+      "deploymentCommit": "0e19fabebff10d619600808729b62b69bb9a3980",
+      "publishedUrl": "https://mycompanionpet.com/blog/dog-cooked-homemade-diet-balance-guide/",
+      "deploymentNote": "Cloudflare Pages completed/success. 운영 제목·datePublished/dateModified 2026-10-18, 이미지 3개 200 image/webp, 내부 연결 글 4개 실제 Article 응답 확인."
+    },
+    {
+      "number": 6,
+      "status": "published",
+      "animal": "cat",
+      "topic": "고양이가 강아지 사료를 먹어도 될까? 한 번 섭취와 반복 급여 구분",
+      "title": "고양이가 강아지 사료를 먹어도 될까? 한 번 섭취와 반복 급여 구분",
+      "metaTitle": "고양이 강아지 사료 먹었을 때 | 반복 급여 주의",
+      "description": "고양이가 강아지 사료를 먹었을 때 확인할 제품·양·증상과 반복 급여를 피해야 하는 이유를 정리합니다. 고양이용 주식 확인, 사료가 떨어졌을 때의 상담 준비와 접근을 막는 분리 급여·보관 방법을 안내합니다.",
+      "slug": "cat-eating-dog-food-guide",
+      "file": "drafts/blog-queue/2026-10-10/06-cat-eating-dog-food-guide.md",
+      "thumbnail": {
+        "file": "/images/blog/cat-eating-dog-food-guide/cat-eating-dog-food-guide-thumbnail.webp",
+        "concept": "서로 다른 사료 통을 분리해 정리하는 보호자와 고양이. 1200×630 가로 구도, 핵심 피사체 중앙, 자연광, 이미지 내 문자·로고 없음.",
+        "alt": "서로 다른 사료 통을 분리해 정리하는 보호자와 고양이"
+      },
+      "searchIntent": "고양이가 타종 사료를 먹었을 때와 주식으로 써도 되는지 확인",
+      "geoAngle": "첫 문단 직접 답변, 다묘 급여 글과 달리 타종 사료 접근, 일회 섭취 기록, 반복 대체, 영양 적합성, 분리 보관을 다룹니다. 고양이 전용 관점으로 작성합니다. 항목별 판단표와 고유 FAQ 5개, 문장 가까이에 검증한 1차 출처를 배치합니다.",
+      "duplicateBoundary": "다묘 급여 글과 달리 타종 사료 접근, 일회 섭취 기록, 반복 대체, 영양 적합성, 분리 보관을 다룹니다. 고양이 전용 관점으로 작성합니다.",
+      "priorityReason": "타종 사료 섭취라는 독립적인 생활 질문 해결",
+      "internalLinks": [
+        "/blog/cat-essential-nutrients-taurine-protein-water/",
+        "/cat-nutrition/"
+      ],
+      "updatedDate": "2026-10-20",
+      "publishedDate": "2026-10-20",
+      "deploymentCommit": "6bc436a1249097e233d293395a63ffc70e650083",
+      "publishedUrl": "https://mycompanionpet.com/blog/cat-eating-dog-food-guide/",
+      "deploymentNote": "Cloudflare Pages completed/success. 운영 기본 주소 제목·datePublished/dateModified 2026-10-20, 이미지 3개 200 image/webp 및 내부 링크 5개 실제 글 응답 확인."
+    },
+    {
+      "number": 7,
+      "status": "published",
+      "animal": "dog",
+      "topic": "대형견 퍼피 사료 고르는 법",
+      "title": "대형견 퍼피 사료 고르는 법｜칼슘 보충 전 확인할 성장기 기준",
+      "metaTitle": "대형견 퍼피 사료 선택 | 칼슘·성장기 영양 기준",
+      "description": "대형견 퍼피 사료는 성장기와 예상 성견 체구에 맞는 영양 적합성 표시부터 확인하세요. 칼슘·인 수치와 열량을 읽을 때의 주의점, 보충제 추가 전 확인할 내용과 체중·체형 성장 기록 방법을 정리합니다.",
+      "slug": "large-breed-puppy-food-calcium-guide",
+      "file": "drafts/blog-queue/2026-10-10/07-large-breed-puppy-food-calcium-guide.md",
+      "thumbnail": {
+        "file": "/images/blog/large-breed-puppy-food-calcium-guide/large-breed-puppy-food-calcium-guide-thumbnail.webp",
+        "concept": "대형견 어린 강아지와 성장기 사료 포장, 체중 기록용 저울. 1200×630 가로 구도, 핵심 피사체 중앙, 자연광, 이미지 내 문자·로고 없음.",
+        "alt": "대형견 어린 강아지와 성장기 사료 포장, 체중 기록용 저울"
+      },
+      "searchIntent": "대형견 성장기에 맞는 사료 표시와 칼슘 추가 여부를 확인",
+      "geoAngle": "첫 문단 직접 답변, 성견 전환 시기 글과 달리 대형견 성장기 적합성 문구, 에너지, 칼슘·인, 보충제 중복, 성장 기록을 다룹니다. 항목별 판단표와 고유 FAQ 5개, 문장 가까이에 검증한 1차 출처를 배치합니다.",
+      "duplicateBoundary": "성견 전환 시기 글과 달리 대형견 성장기 적합성 문구, 에너지, 칼슘·인, 보충제 중복, 성장 기록을 다룹니다.",
+      "priorityReason": "전체 퍼피에서 대형견 성장기 조건으로 검색 의도 세분화",
+      "internalLinks": [
+        "/blog/puppy-to-adult-dog-food-transition/",
+        "/dog-nutrition/"
+      ],
+      "updatedDate": "2026-10-22",
+      "publishedDate": "2026-10-22",
+      "deploymentCommit": "c8fc8e046e79db3f44283727a6df606b2bf49500",
+      "publishedUrl": "https://mycompanionpet.com/blog/large-breed-puppy-food-calcium-guide/",
+      "deploymentNote": "Cloudflare Pages completed/success. 운영 기본 URL 메타 제목·datePublished/dateModified 2026-10-22, 이미지 3개 200 image/webp와 내부 링크 5개 실제 글 응답 확인."
+    },
+    {
+      "number": 8,
+      "status": "published",
+      "animal": "comparison",
+      "topic": "강아지·고양이 사료 리콜 확인법",
+      "title": "강아지·고양이 사료 리콜 확인법｜제품명·로트번호와 대응 순서",
+      "metaTitle": "강아지·고양이 사료 리콜 | 로트번호 확인·대응",
+      "description": "강아지·고양이 사료 리콜 공지와 보유 제품을 제품명·용량·로트번호·표시 기한으로 대조하는 방법입니다. 대상 또는 확인 중일 때의 급여 보류, 원포장·구매 기록 보존과 병원·판매처 문의 순서를 안내합니다.",
+      "slug": "pet-food-recall-lot-number-action-guide",
+      "file": "drafts/blog-queue/2026-10-10/08-pet-food-recall-lot-number-action-guide.md",
+      "thumbnail": {
+        "file": "/images/blog/pet-food-recall-lot-number-action-guide/pet-food-recall-lot-number-action-guide-thumbnail.webp",
+        "concept": "사료 원포장 로트번호를 촬영하는 손과 별도 보관 봉투, 강아지와 고양이. 1200×630 가로 구도, 핵심 피사체 중앙, 자연광, 이미지 내 문자·로고 없음.",
+        "alt": "사료 원포장 로트번호를 촬영하는 손과 별도 보관 봉투, 강아지와 고양이"
+      },
+      "searchIntent": "보유 제품이 실제 리콜 대상인지 확인하고 기록을 보존하려는 검색",
+      "geoAngle": "첫 문단 직접 답변, 소분 구매·보관 글과 달리 공식 공지 대조, 대상 로트, 급여 중단·대체 상담, 증거 보존, 판매처 문의를 다룹니다. 항목별 판단표와 고유 FAQ 5개, 문장 가까이에 검증한 1차 출처를 배치합니다.",
+      "duplicateBoundary": "소분 구매·보관 글과 달리 공식 공지 대조, 대상 로트, 급여 중단·대체 상담, 증거 보존, 판매처 문의를 다룹니다.",
+      "priorityReason": "기존 원포장·보관 글을 공식 공지 확인 행동으로 확장",
+      "internalLinks": [
+        "/blog/repackaged-pet-food-safety-guide/",
+        "/food-label/"
+      ],
+      "updatedDate": "2026-10-23",
+      "publishedDate": "2026-10-23",
+      "deploymentCommit": "2cbd1a1c3a69667d6887f4e5d44dca2bfd21ac49",
+      "publishedUrl": "https://mycompanionpet.com/blog/pet-food-recall-lot-number-action-guide/",
+      "deploymentNote": "Cloudflare Pages completed/success. 운영 기본 URL 메타 제목·datePublished/dateModified 2026-10-23, 이미지 3개 200 image/webp 및 내부 링크 실제 글 응답 확인."
+    }
+  ],
+  "completedDate": "2026-10-23"
+}

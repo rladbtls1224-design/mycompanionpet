@@ -1,0 +1,210 @@
+{
+  "planId": "2026-10-24-seo-geo-content-gaps",
+  "createdDate": "2026-10-24",
+  "status": "active",
+  "audit": {
+    "liveUrl": "https://mycompanionpet.com/blog/",
+    "method": "인앱 브라우저로 운영 목록 직접 방문, 최신 2026-10-23 리콜 글 확인. 로컬 Markdown 128개와 과거 기획 대조 및 본문 키워드 점검.",
+    "limitations": "기존 글에서 일부 언급된 내용은 있을 수 있으므로 각 항목의 검색 의도와 본문 범위를 분리했습니다. 검색량·Search Console·경쟁도 수치는 미확인. 노출 및 AI 인용을 보장하지 않습니다."
+  },
+  "publishDateRule": {
+    "timezone": "Asia/Seoul",
+    "newPost": "pubDate는 실제 본문 작성일, updatedDate는 실제 배포일",
+    "updatedPost": "pubDate 유지, updatedDate는 실제 수정 배포일"
+  },
+  "executionRule": "사용자가 N번 배포해줘 요청 시 이 계획 번호로 실행. 먼저 운영 중복을 재확인하고 최신 1차 출처 조사, 본문 2000자 이상, 실제 이미지 3~5개, FAQ 5개, 내부 링크 완성. 중복·의료 표현·SEO 검수 후 빌드, 해당 글 관련 파일만 커밋·push. 기존의 다른 변경은 포함하지 않음. 한국 날짜 기준 배포 직전 updatedDate 설정. 운영 URL의 Last updated/최종 업데이트와 JSON-LD dateModified 및 이미지 응답을 확인한 뒤 published로 확정. 자정을 넘기면 날짜를 다시 확인. 현재는 기획만 저장하며 본문·이미지는 요청 시 생성.",
+  "items": [
+    {
+      "number": 1,
+      "status": "planned",
+      "animal": "cat",
+      "topic": "고양이 사료 인 함량 보는 법",
+      "title": "고양이 사료 인 함량 보는 법｜%와 mg/100kcal 비교 기준",
+      "metaTitle": "고양이 사료 인 함량 | %·mg/100kcal 읽는 법",
+      "description": "고양이 사료 인 함량 보는 법의 %와 mg/100kcal 비교 기준을 보호자 눈높이로 정리합니다. 건물 기준 글은 수분 보정이 중심입니다. 이 글은 인의 표시 기준·열량당 환산·미표시 정보 문의에 집중하고 신장 질환용 식단 처방은 하지 않습니다. 제품 비교와 기록 예시, 전문가에게 확인할 질문을 안내합니다.",
+      "slug": "cat-food-phosphorus-label-comparison-guide",
+      "file": "drafts/blog-queue/2026-10-24/01-cat-food-phosphorus-label-comparison-guide.md",
+      "thumbnail": {
+        "file": "/images/blog/cat-food-phosphorus-label-comparison-guide/cat-food-phosphorus-label-comparison-guide-thumbnail.webp",
+        "concept": "두 사료 라벨과 계산기를 펼친 보호자, 뒤편 고양이. 연회색 서재 책상.",
+        "alt": "두 사료 라벨과 계산기를 펼친 보호자, 뒤편 고양이. 연회색 서재 책상.",
+        "prompt": "Realistic editorial photography, 16:9, natural light, clean background, safe pet feeding setting, no text, no logos. Concept: A cat behind two food labels and a calculator on a pale gray study desk"
+      },
+      "duplicateBoundary": "건물 기준 글은 수분 보정이 중심입니다. 이 글은 인의 표시 기준·열량당 환산·미표시 정보 문의에 집중하고 신장 질환용 식단 처방은 하지 않습니다.",
+      "geoAngle": "첫 문단 직접 답변. %와 mg/100kcal 단위 비교표, 가상 수치 계산, 제조사 문의 예시. FAQ 5개와 검증한 1차 출처를 해당 주장 가까이에 배치.",
+      "priorityReason": "성분 단위의 구체적 질문을 해결하고 처방식·건물 기준 글을 연결",
+      "internalLinks": [
+        "/blog/cat-prescription-diet-mixing-guide/",
+        "/cat-nutrition/"
+      ]
+    },
+    {
+      "number": 2,
+      "status": "planned",
+      "animal": "dog",
+      "topic": "강아지 저지방 사료 고르는 법",
+      "title": "강아지 저지방 사료 고르는 법｜조지방 %만 비교하면 놓치는 것",
+      "metaTitle": "강아지 저지방 사료 | 조지방·열량 비교법",
+      "description": "강아지 저지방 사료 고르는 법의 조지방 %만 비교하면 놓치는 것을 보호자 눈높이로 정리합니다. 다이어트 사료 선택과 달리 지방 비교 단위·최소 보증치의 한계·평균 분석치 문의가 중심입니다. 질환별 지방 목표량을 처방하지 않습니다. 제품 비교와 기록 예시, 전문가에게 확인할 질문을 안내합니다.",
+      "slug": "dog-low-fat-food-label-comparison-guide",
+      "file": "drafts/blog-queue/2026-10-24/02-dog-low-fat-food-label-comparison-guide.md",
+      "thumbnail": {
+        "file": "/images/blog/dog-low-fat-food-label-comparison-guide/dog-low-fat-food-label-comparison-guide-thumbnail.webp",
+        "concept": "건식과 습식 라벨을 나란히 둔 밝은 세이지색 급여 공간, 강아지는 옆에서 대기.",
+        "alt": "건식과 습식 라벨을 나란히 둔 밝은 세이지색 급여 공간, 강아지는 옆에서 대기.",
+        "prompt": "Realistic editorial photography, 16:9, natural light, clean background, safe pet feeding setting, no text, no logos. Concept: A dog waiting beside dry and wet food labels in a sage feeding nook"
+      },
+      "duplicateBoundary": "다이어트 사료 선택과 달리 지방 비교 단위·최소 보증치의 한계·평균 분석치 문의가 중심입니다. 질환별 지방 목표량을 처방하지 않습니다.",
+      "geoAngle": "첫 문단 직접 답변. 지방 g/1000kcal 계산 예시와 저열량·저지방 구분표. FAQ 5개와 검증한 1차 출처를 해당 주장 가까이에 배치.",
+      "priorityReason": "기존 다이어트 글과 다른 제품 비교 의도 확보",
+      "internalLinks": [
+        "/blog/dog-weight-management-food-guide/",
+        "/dog-nutrition/"
+      ]
+    },
+    {
+      "number": 3,
+      "status": "planned",
+      "animal": "both",
+      "topic": "강아지·고양이 사료 제조사에 물어볼 7가지",
+      "title": "강아지·고양이 사료 제조사에 물어볼 7가지｜영양 설계·품질관리 확인",
+      "metaTitle": "사료 제조사 확인법 | 영양 설계·품질관리 7문항",
+      "description": "강아지·고양이 사료 제조사에 물어볼 7가지의 영양 설계·품질관리 확인을 보호자 눈높이로 정리합니다. 원재료 순서·리콜 대상 확인과 달리 구매 전 영양 설계 담당자, 분석 자료, 생산·품질관리 답변을 검토합니다. 강아지와 고양이의 적용 예시는 구분합니다. 제품 비교와 기록 예시, 전문가에게 확인할 질문을 안내합니다.",
+      "slug": "pet-food-manufacturer-quality-questions-guide",
+      "file": "drafts/blog-queue/2026-10-24/03-pet-food-manufacturer-quality-questions-guide.md",
+      "thumbnail": {
+        "file": "/images/blog/pet-food-manufacturer-quality-questions-guide/pet-food-manufacturer-quality-questions-guide-thumbnail.webp",
+        "concept": "밝은 상담 부스의 노트북과 무상표 사료 봉투, 서로 떨어져 대기하는 강아지와 고양이.",
+        "alt": "밝은 상담 부스의 노트북과 무상표 사료 봉투, 서로 떨어져 대기하는 강아지와 고양이.",
+        "prompt": "Realistic editorial photography, 16:9, natural light, clean background, safe pet feeding setting, no text, no logos. Concept: Separated dog and cat beside a consultation desk with a laptop and unbranded food bag"
+      },
+      "duplicateBoundary": "원재료 순서·리콜 대상 확인과 달리 구매 전 영양 설계 담당자, 분석 자료, 생산·품질관리 답변을 검토합니다. 강아지와 고양이의 적용 예시는 구분합니다.",
+      "geoAngle": "첫 문단 직접 답변. 제조사 질문과 답변 해석 표, 미응답 시 판단 한계. FAQ 5개와 검증한 1차 출처를 해당 주장 가까이에 배치.",
+      "priorityReason": "최근 리콜 글에서 구매 전 검증으로 이어지는 연결성",
+      "internalLinks": [
+        "/blog/pet-food-recall-lot-number-action-guide/",
+        "/food-label/"
+      ]
+    },
+    {
+      "number": 4,
+      "status": "planned",
+      "animal": "cat",
+      "topic": "새끼 고양이 이유식은 언제 시작할까? 분유에서 주식으로 전환하기",
+      "title": "새끼 고양이 이유식은 언제 시작할까? 분유에서 주식으로 전환하기",
+      "metaTitle": "새끼 고양이 이유식 | 시작 시기·분유 전환 기준",
+      "description": "새끼 고양이 이유식은 언제 시작할까? 분유에서 주식으로 전환하기을 보호자 눈높이로 정리합니다. 키튼에서 성묘 사료 전환과 달리 젖먹이에서 고형식으로 넘어가는 시기·질감·자발적 섭취와 성장 기록이 중심입니다. 강제 급여법은 안내하지 않습니다. 제품 비교와 기록 예시, 전문가에게 확인할 질문을 안내합니다.",
+      "slug": "kitten-weaning-formula-to-food-guide",
+      "file": "drafts/blog-queue/2026-10-24/04-kitten-weaning-formula-to-food-guide.md",
+      "thumbnail": {
+        "file": "/images/blog/kitten-weaning-formula-to-food-guide/kitten-weaning-formula-to-food-guide-thumbnail.webp",
+        "concept": "낮은 이유식 접시와 반려묘용 분유 도구를 따로 둔 복숭아색 육묘 공간.",
+        "alt": "낮은 이유식 접시와 반려묘용 분유 도구를 따로 둔 복숭아색 육묘 공간.",
+        "prompt": "Realistic editorial photography, 16:9, natural light, clean background, safe pet feeding setting, no text, no logos. Concept: A kitten nursery with a shallow weaning dish and separate kitten formula tools, peach background"
+      },
+      "duplicateBoundary": "키튼에서 성묘 사료 전환과 달리 젖먹이에서 고형식으로 넘어가는 시기·질감·자발적 섭취와 성장 기록이 중심입니다. 강제 급여법은 안내하지 않습니다.",
+      "geoAngle": "첫 문단 직접 답변. 발달 상태별 준비표, 체중·섭취 기록, 상담 신호. FAQ 5개와 검증한 1차 출처를 해당 주장 가까이에 배치.",
+      "priorityReason": "현재 없는 초기 성장 단계의 독립 검색 질문 보완",
+      "internalLinks": [
+        "/blog/kitten-to-adult-cat-food-transition/",
+        "/cat-nutrition/"
+      ]
+    },
+    {
+      "number": 5,
+      "status": "planned",
+      "animal": "dog",
+      "topic": "강아지 임신·수유 중 사료는 어떻게 바꿀까? 단계별 급여 점검",
+      "title": "강아지 임신·수유 중 사료는 어떻게 바꿀까? 단계별 급여 점검",
+      "metaTitle": "강아지 임신·수유 사료 | 단계별 영양 점검",
+      "description": "강아지 임신·수유 중 사료는 어떻게 바꿀까? 단계별 급여 점검을 보호자 눈높이로 정리합니다. 일반 퍼피·성견 횟수 안내와 달리 어미 개의 임신 단계·수유·체형 기록·제품 생활 단계 표시를 다룹니다. 일괄 배수 급여량이나 칼슘 보충 처방은 하지 않습니다. 제품 비교와 기록 예시, 전문가에게 확인할 질문을 안내합니다.",
+      "slug": "dog-pregnancy-lactation-feeding-guide",
+      "file": "drafts/blog-queue/2026-10-24/05-dog-pregnancy-lactation-feeding-guide.md",
+      "thumbnail": {
+        "file": "/images/blog/dog-pregnancy-lactation-feeding-guide/dog-pregnancy-lactation-feeding-guide-thumbnail.webp",
+        "concept": "라벤더색 휴식 공간에서 쉬는 어미 개와 보호자의 식단 기록장, 사료는 별도 보관.",
+        "alt": "라벤더색 휴식 공간에서 쉬는 어미 개와 보호자의 식단 기록장, 사료는 별도 보관.",
+        "prompt": "Realistic editorial photography, 16:9, natural light, clean background, safe pet feeding setting, no text, no logos. Concept: A resting mother dog beside a feeding journal in a lavender room"
+      },
+      "duplicateBoundary": "일반 퍼피·성견 횟수 안내와 달리 어미 개의 임신 단계·수유·체형 기록·제품 생활 단계 표시를 다룹니다. 일괄 배수 급여량이나 칼슘 보충 처방은 하지 않습니다.",
+      "geoAngle": "첫 문단 직접 답변. 임신 전·임신 중·수유 중 확인표와 상담 준비 목록. FAQ 5개와 검증한 1차 출처를 해당 주장 가까이에 배치.",
+      "priorityReason": "생애 단계 콘텐츠에서 번식기 공백 보완",
+      "internalLinks": [
+        "/blog/dog-essential-nutrients-six-criteria/",
+        "/dog-nutrition/"
+      ]
+    },
+    {
+      "number": 6,
+      "status": "planned",
+      "animal": "cat",
+      "topic": "고양이 습식사료 데워 줘도 될까? 중탕·전자레인지와 온도 확인",
+      "title": "고양이 습식사료 데워 줘도 될까? 중탕·전자레인지와 온도 확인",
+      "metaTitle": "고양이 습식사료 데우기 | 중탕·온도·위생 확인",
+      "description": "고양이 습식사료 데워 줘도 될까? 중탕·전자레인지와 온도 확인을 보호자 눈높이로 정리합니다. 개봉 후 보관 기간과 불린 건사료 글 대신 이미 안전하게 보관한 습식 한 끼의 가온·용기·국소 과열·재가열 판단에 한정합니다. 식욕 저하를 가온만으로 해결한다고 하지 않습니다. 제품 비교와 기록 예시, 전문가에게 확인할 질문을 안내합니다.",
+      "slug": "cat-wet-food-warming-safety-guide",
+      "file": "drafts/blog-queue/2026-10-24/06-cat-wet-food-warming-safety-guide.md",
+      "thumbnail": {
+        "file": "/images/blog/cat-wet-food-warming-safety-guide/cat-wet-food-warming-safety-guide-thumbnail.webp",
+        "concept": "테라코타색 조리대에서 온수 그릇과 소분한 습식을 준비하는 보호자, 고양이는 떨어진 매트에 대기.",
+        "alt": "테라코타색 조리대에서 온수 그릇과 소분한 습식을 준비하는 보호자, 고양이는 떨어진 매트에 대기.",
+        "prompt": "Realistic editorial photography, 16:9, natural light, clean background, safe pet feeding setting, no text, no logos. Concept: An owner preparing one serving of cat wet food in a warm water bath on a terracotta counter; cat waiting at a distance"
+      },
+      "duplicateBoundary": "개봉 후 보관 기간과 불린 건사료 글 대신 이미 안전하게 보관한 습식 한 끼의 가온·용기·국소 과열·재가열 판단에 한정합니다. 식욕 저하를 가온만으로 해결한다고 하지 않습니다.",
+      "geoAngle": "첫 문단 직접 답변. 가온 방식별 확인표와 급여 직전 점검 순서. FAQ 5개와 검증한 1차 출처를 해당 주장 가까이에 배치.",
+      "priorityReason": "실행 단계가 명확한 생활형 질문으로 기존 습식 글 보완",
+      "internalLinks": [
+        "/blog/cat-food-storage-after-opening/",
+        "/cat-nutrition/"
+      ]
+    },
+    {
+      "number": 7,
+      "status": "planned",
+      "animal": "both",
+      "topic": "강아지·고양이 사료 비용 비교법",
+      "title": "강아지·고양이 사료 비용 비교법｜봉지 가격보다 하루 급여비 계산",
+      "metaTitle": "사료 비용 비교 | 100kcal·하루 급여비 계산법",
+      "description": "강아지·고양이 사료 비용 비교법의 봉지 가격보다 하루 급여비 계산을 보호자 눈높이로 정리합니다. 칼로리 표시 읽기와 달리 구매가·총중량·열량을 이용한 비용 비교가 중심입니다. 종별 예시는 구분하고 저렴한 제품이 영양상 동등하다고 가정하지 않습니다. 제품 비교와 기록 예시, 전문가에게 확인할 질문을 안내합니다.",
+      "slug": "pet-food-daily-feeding-cost-comparison-guide",
+      "file": "drafts/blog-queue/2026-10-24/07-pet-food-daily-feeding-cost-comparison-guide.md",
+      "thumbnail": {
+        "file": "/images/blog/pet-food-daily-feeding-cost-comparison-guide/pet-food-daily-feeding-cost-comparison-guide-thumbnail.webp",
+        "concept": "청색 식탁의 영수증·저울·계산기와 무상표 사료, 강아지와 고양이는 분리된 급여 자리.",
+        "alt": "청색 식탁의 영수증·저울·계산기와 무상표 사료, 강아지와 고양이는 분리된 급여 자리.",
+        "prompt": "Realistic editorial photography, 16:9, natural light, clean background, safe pet feeding setting, no text, no logos. Concept: Receipts, a scale, calculator and unbranded pet food on a blue table; separate dog and cat feeding stations"
+      },
+      "duplicateBoundary": "칼로리 표시 읽기와 달리 구매가·총중량·열량을 이용한 비용 비교가 중심입니다. 종별 예시는 구분하고 저렴한 제품이 영양상 동등하다고 가정하지 않습니다.",
+      "geoAngle": "첫 문단 직접 답변. 100kcal당 가격 및 하루 비용의 가상 계산표, 폐기 손실 반영. FAQ 5개와 검증한 1차 출처를 해당 주장 가까이에 배치.",
+      "priorityReason": "실용적 구매 판단과 계산형 답변 자산 확보",
+      "internalLinks": [
+        "/blog/pet-food-dry-matter-basis-calculation/",
+        "/food-label/"
+      ]
+    },
+    {
+      "number": 8,
+      "status": "planned",
+      "animal": "dog",
+      "topic": "강아지 채식 사료 괜찮을까? 영양 적합성과 장기 급여 전 확인",
+      "title": "강아지 채식 사료 괜찮을까? 영양 적합성과 장기 급여 전 확인",
+      "metaTitle": "강아지 채식 사료 | 영양 균형·급여 전 확인",
+      "description": "강아지 채식 사료 괜찮을까? 영양 적합성과 장기 급여 전 확인을 보호자 눈높이로 정리합니다. 곡물프리의 곡물 제외 여부와 달리 동물성 원료 제외 식단의 완전균형식 표시·제품별 근거·생활 단계·추적 관찰에 집중합니다. 채소만으로 주식 만드는 레시피는 제공하지 않습니다. 제품 비교와 기록 예시, 전문가에게 확인할 질문을 안내합니다.",
+      "slug": "dog-vegetarian-vegan-food-assessment-guide",
+      "file": "drafts/blog-queue/2026-10-24/08-dog-vegetarian-vegan-food-assessment-guide.md",
+      "thumbnail": {
+        "file": "/images/blog/dog-vegetarian-vegan-food-assessment-guide/dog-vegetarian-vegan-food-assessment-guide-thumbnail.webp",
+        "concept": "올리브색 팬트리에서 식물성 원료 사료의 라벨을 읽는 보호자와 강아지.",
+        "alt": "올리브색 팬트리에서 식물성 원료 사료의 라벨을 읽는 보호자와 강아지.",
+        "prompt": "Realistic editorial photography, 16:9, natural light, clean background, safe pet feeding setting, no text, no logos. Concept: An owner reading an unbranded plant-based dog food label in an olive pantry; dog waiting nearby"
+      },
+      "duplicateBoundary": "곡물프리의 곡물 제외 여부와 달리 동물성 원료 제외 식단의 완전균형식 표시·제품별 근거·생활 단계·추적 관찰에 집중합니다. 채소만으로 주식 만드는 레시피는 제공하지 않습니다.",
+      "geoAngle": "첫 문단 직접 답변. 광고 표현과 확인 가능한 근거 구분표, 연구 한계 및 상담 질문. FAQ 5개와 검증한 1차 출처를 해당 주장 가까이에 배치.",
+      "priorityReason": "기존 원료 선택 글을 확장하되 근거 검토가 더 필요한 주제라 후순위",
+      "internalLinks": [
+        "/blog/dog-grain-free-food-guide/",
+        "/dog-nutrition/"
+      ]
+    }
+  ]
+}
