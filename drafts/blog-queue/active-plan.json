@@ -16,7 +16,7 @@
   "items": [
     {
       "number": 1,
-      "status": "ready",
+      "status": "published",
       "animal": "cat",
       "topic": "고양이 사료 인 함량 보는 법",
       "title": "고양이 사료 인 함량 보는 법｜%와 mg/100kcal 비교 기준",
@@ -36,7 +36,13 @@
       "internalLinks": [
         "/blog/cat-prescription-diet-mixing-guide/",
         "/cat-nutrition/"
-      ]
+      ],
+      "writtenDate": "2026-10-24",
+      "publishedDate": "2026-10-24",
+      "updatedDate": "2026-10-24",
+      "deploymentCommit": "a588e7b6c1d205e47b554aed9179ae329d17c84e",
+      "publishedUrl": "https://mycompanionpet.com/blog/cat-food-phosphorus-label-comparison-guide/",
+      "deploymentNote": "Cloudflare Pages completed/success. 운영 제목·최종 업데이트 2026. 10. 24.·datePublished/dateModified 확인. 이미지 3개 및 내부 링크 5개 HTTP 200. 브라우저에서 실제 본문과 FAQ 확인."
     },
     {
       "number": 2,

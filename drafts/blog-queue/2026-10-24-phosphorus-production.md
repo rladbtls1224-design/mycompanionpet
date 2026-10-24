@@ -8,3 +8,11 @@
 - 이미지 경로: public/images/blog/cat-food-phosphorus-label-comparison-guide/. 비교 기준 및 확인 순서 이미지는 직접 작성한 SVG 교육 도표. 썸네일과 도표 2개 시각 검수 완료.
 - 작성자용 후속 주제: 활성 계획 2번 강아지 저지방 사료 비교. 게시 본문에는 제외.
 - 운영 배포 검증: 진행 중.
+
+## 배포 검증 완료
+
+- 배포 소스 분리 빌드 139페이지 성공. H1 1개, 표 3개, FAQ 5개, 설명 110자.
+- a588e7b Cloudflare Pages completed/success.
+- 운영 메타 제목, 게시일·최종 업데이트 2026. 10. 24. 및 datePublished/dateModified 확인.
+- 이미지 3개와 내부 링크 5개 HTTP 200, 브라우저에서 실제 글과 목차 확인.
+- 1번 published로 기록. 다음 추천은 2번이며 별도 배포 요청 시 진행.
