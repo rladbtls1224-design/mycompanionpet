@@ -8,3 +8,11 @@
 - 이미지 경로: public/images/blog/dog-low-fat-food-label-comparison-guide/. fat-guarantee-versus-analysis.svg와 low-fat-diet-review-checklist.svg는 직접 작성한 교육용 도표, PNG 렌더로 한글 잘림 검수 완료.
 - 작성자용 후속 주제: 활성 계획 3번 사료 제조사 질문. 본문에 미포함.
 - 운영 배포 확인: 진행 중.
+
+## 배포 확인 완료
+
+- 배포 소스 분리 Astro 빌드 140페이지 성공. H1 1개, 표 3개, FAQ 5개, 본문 7729자.
+- c0f41f9 Cloudflare Pages completed/success.
+- 운영 메타 제목·최종 업데이트 2026. 10. 25. 및 datePublished/dateModified 확인.
+- 이미지 3개 HTTP 200과 콘텐츠 유형 정상. 내부 링크 6개 실제 페이지 제목·HTTP 200 확인.
+- 2번 published 기록. 다음은 활성 계획 3번이며 별도 요청 시 배포.

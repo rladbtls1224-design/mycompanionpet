@@ -46,7 +46,7 @@
     },
     {
       "number": 2,
-      "status": "ready",
+      "status": "published",
       "animal": "dog",
       "topic": "강아지 저지방 사료 고르는 법",
       "title": "강아지 저지방 사료 고르는 법｜조지방 %만 비교하면 놓치는 것",
@@ -67,7 +67,12 @@
         "/blog/dog-weight-management-food-guide/",
         "/dog-nutrition/"
       ],
-      "writtenDate": "2026-10-25"
+      "writtenDate": "2026-10-25",
+      "publishedDate": "2026-10-25",
+      "updatedDate": "2026-10-25",
+      "deploymentCommit": "c0f41f9c9299cf5aed22e53ecb25a649c50555d0",
+      "publishedUrl": "https://mycompanionpet.com/blog/dog-low-fat-food-label-comparison-guide/",
+      "deploymentNote": "Cloudflare Pages completed/success. 운영 제목·최종 업데이트 2026. 10. 25.·datePublished/dateModified 확인. 이미지 3개 HTTP 200 및 image/webp·image/svg+xml 확인, 내부 링크 6개 실제 콘텐츠 제목과 HTTP 200 확인."
     },
     {
       "number": 3,
