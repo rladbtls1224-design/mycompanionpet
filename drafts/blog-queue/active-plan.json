@@ -76,7 +76,7 @@
     },
     {
       "number": 3,
-      "status": "ready",
+      "status": "published",
       "animal": "both",
       "topic": "강아지·고양이 사료 제조사에 물어볼 7가지",
       "title": "강아지·고양이 사료 제조사에 물어볼 7가지｜영양 설계·품질관리 확인",
@@ -97,7 +97,12 @@
         "/blog/pet-food-recall-lot-number-action-guide/",
         "/food-label/"
       ],
-      "writtenDate": "2026-10-26"
+      "writtenDate": "2026-10-26",
+      "publishedDate": "2026-10-26",
+      "updatedDate": "2026-10-26",
+      "deploymentCommit": "9dd0cff53825b67f3784bd5a9c33e2cd0faf3034",
+      "publishedUrl": "https://mycompanionpet.com/blog/pet-food-manufacturer-quality-questions-guide/",
+      "deploymentNote": "Cloudflare Pages completed/success. 운영 제목·최종 업데이트 2026. 10. 26.·datePublished/dateModified 확인. 이미지 3개 HTTP 200과 올바른 콘텐츠 유형, 내부 링크 5개 실제 페이지 제목과 HTTP 200 확인."
     },
     {
       "number": 4,

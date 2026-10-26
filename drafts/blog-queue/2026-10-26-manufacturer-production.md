@@ -8,3 +8,12 @@
 - 이미지 경로: public/images/blog/pet-food-manufacturer-quality-questions-guide/. 도표 2개는 직접 작성한 SVG로 역할·답변 기록 설명.
 - 작성자용 후속 주제: 활성 계획 4번 새끼 고양이 이유식. 본문에 미포함.
 - 배포 확인: 진행 중.
+
+## 운영 배포 검증 완료
+
+- 배포 소스 분리 빌드 141페이지 성공. H1 1개, 표 2개, FAQ 5개.
+- 썸네일과 SVG 도표 2개 시각 검수 완료, 한글 잘림 없음.
+- 9dd0cff Cloudflare Pages completed/success.
+- 운영 메타 제목·최종 업데이트 및 datePublished/dateModified 2026-10-26 확인.
+- 이미지 3개 HTTP 200 및 올바른 MIME, 내부 링크 5개 실제 페이지 제목·HTTP 200 확인.
+- 3번 published. 다음은 활성 계획 4번이며 별도 요청 시 진행.
