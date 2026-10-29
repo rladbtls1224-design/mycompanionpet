@@ -8,3 +8,12 @@
 - 저장 경로: public/images/blog/kitten-weaning-formula-to-food-guide/. SVG 2개는 관찰 단계·급여 기록을 직접 제작.
 - 작성자용 후속 주제: 활성 계획 5번 임신·수유 강아지 사료. 본문에서 제외.
 - 배포 검증: 진행 중.
+
+## 운영 배포 검증 완료
+
+- 배포 소스 분리 Astro 빌드 142페이지 성공. 본문 7358자, 설명 126자, H1 1개, FAQ 5개.
+- 썸네일 및 SVG 도표 2개 시각 검수 완료.
+- 53523e7 Cloudflare Pages completed/success.
+- 운영 datePublished 2026-10-29, 최종 업데이트 및 dateModified 2026-10-30 확인.
+- 이미지 3개 올바른 MIME·HTTP 200, 내부 링크 5개 실제 제목·HTTP 200 확인.
+- 4번 published. 다음 활성 계획은 5번이며 별도 요청 시 진행.

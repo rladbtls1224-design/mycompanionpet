@@ -106,7 +106,7 @@
     },
     {
       "number": 4,
-      "status": "ready",
+      "status": "published",
       "animal": "cat",
       "topic": "새끼 고양이 이유식은 언제 시작할까? 분유에서 주식으로 전환하기",
       "title": "새끼 고양이 이유식은 언제 시작할까? 분유에서 주식으로 전환하기",
@@ -128,7 +128,11 @@
         "/cat-nutrition/"
       ],
       "writtenDate": "2026-10-29",
-      "updatedDate": "2026-10-30"
+      "updatedDate": "2026-10-30",
+      "publishedDate": "2026-10-30",
+      "deploymentCommit": "499040ab3471092ac28ba5fcddda3da8abb44d80",
+      "publishedUrl": "https://mycompanionpet.com/blog/kitten-weaning-formula-to-food-guide/",
+      "deploymentNote": "Cloudflare Pages completed/success. 운영 제목·datePublished 2026-10-29·최종 업데이트 및 dateModified 2026-10-30 확인. 이미지 3개 HTTP 200 및 올바른 MIME, 내부 링크 5개 실제 제목·HTTP 200 확인."
     },
     {
       "number": 5,
