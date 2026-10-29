@@ -106,12 +106,12 @@
     },
     {
       "number": 4,
-      "status": "planned",
+      "status": "ready",
       "animal": "cat",
       "topic": "새끼 고양이 이유식은 언제 시작할까? 분유에서 주식으로 전환하기",
       "title": "새끼 고양이 이유식은 언제 시작할까? 분유에서 주식으로 전환하기",
       "metaTitle": "새끼 고양이 이유식 | 시작 시기·분유 전환 기준",
-      "description": "새끼 고양이 이유식은 언제 시작할까? 분유에서 주식으로 전환하기을 보호자 눈높이로 정리합니다. 키튼에서 성묘 사료 전환과 달리 젖먹이에서 고형식으로 넘어가는 시기·질감·자발적 섭취와 성장 기록이 중심입니다. 강제 급여법은 안내하지 않습니다. 제품 비교와 기록 예시, 전문가에게 확인할 질문을 안내합니다.",
+      "description": "새끼 고양이 이유식의 시작 시기와 준비 신호, 키튼용 주식 선택, 분유에서 부드러운 음식으로 전환하는 순서를 안내합니다. 자발적 섭취와 체중·변 기록, 분유 보충을 줄이기 전 확인할 점과 빠른 진료가 필요한 신호를 정리합니다.",
       "slug": "kitten-weaning-formula-to-food-guide",
       "file": "drafts/blog-queue/2026-10-24/04-kitten-weaning-formula-to-food-guide.md",
       "thumbnail": {
@@ -126,7 +126,9 @@
       "internalLinks": [
         "/blog/kitten-to-adult-cat-food-transition/",
         "/cat-nutrition/"
-      ]
+      ],
+      "writtenDate": "2026-10-29",
+      "updatedDate": "2026-10-30"
     },
     {
       "number": 5,
