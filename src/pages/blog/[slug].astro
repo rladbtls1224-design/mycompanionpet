@@ -1,30 +1,29 @@
 ---
 import BlogLayout from "../../layouts/BlogLayout.astro";
-import { getPostCategories, getAllPosts } from "../../lib/wordpress.js";
+import { getAllPosts, getPostCategories } from "../../lib/wordpress.js";
 
 export async function getStaticPaths() {
   const posts = await getAllPosts();
 
-  return posts.map((post) => {
-    const categories = getPostCategories(post);
-    const sameCategoryPosts = posts.filter((item) => {
-      if (item.slug === post.slug) return false;
-      return getPostCategories(item).some((category) => categories.includes(category));
-    });
-    const fallbackPosts = posts.filter((item) => item.slug !== post.slug);
-    const relatedPosts = sameCategoryPosts.length > 0 ? sameCategoryPosts : fallbackPosts;
-
-    return {
-      params: { slug: post.slug },
-      props: {
-        post,
-        relatedPosts: relatedPosts.slice(0, 3),
-      },
-    };
-  });
+  return posts.map((post) => ({
+    params: { slug: post.slug },
+  }));
 }
 
-const { post, relatedPosts } = Astro.props;
+const posts = await getAllPosts();
+const post = posts.find((item) => item.slug === Astro.params.slug);
+
+if (!post) {
+  throw new Error(`게시 글을 찾을 수 없습니다: ${Astro.params.slug}`);
+}
+
+const categories = getPostCategories(post);
+const sameCategoryPosts = posts.filter((item) => {
+  if (item.slug === post.slug) return false;
+  return getPostCategories(item).some((category) => categories.includes(category));
+});
+const fallbackPosts = posts.filter((item) => item.slug !== post.slug);
+const relatedPosts = (sameCategoryPosts.length > 0 ? sameCategoryPosts : fallbackPosts).slice(0, 3);
 ---
 
 <BlogLayout post={post} relatedPosts={relatedPosts} />

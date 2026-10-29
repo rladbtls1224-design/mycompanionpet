@@ -1,0 +1,19 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="1200" height="675" viewBox="0 0 1200 675" role="img" aria-labelledby="title desc">
+  <title id="title">강아지 건식과 습식 사료 개봉 후 보관</title>
+  <desc id="desc">건식은 원포장과 개봉일을 보존하고 서늘하고 건조한 곳에 밀봉합니다. 습식은 남은 양을 신속히 냉장하거나 폐기하며 제조사 지침을 확인합니다. 그릇과 도구는 사용 후 씻습니다.</desc>
+  <rect width="1200" height="675" rx="28" fill="#f6f3ef"/>
+  <g font-family="Malgun Gothic, Noto Sans KR, sans-serif" fill="#403b34">
+    <text x="70" y="92" font-size="40" font-weight="700">보관 가능성도 사료 선택 기준입니다</text>
+    <rect x="70" y="165" width="510" height="355" rx="24" fill="#fff" stroke="#d9ccb9" stroke-width="2"/>
+    <rect x="620" y="165" width="510" height="355" rx="24" fill="#fff" stroke="#bdcfca" stroke-width="2"/>
+    <text x="105" y="230" font-size="33" font-weight="700" fill="#8a6234">건식</text>
+    <text x="105" y="301" font-size="25">원포장 · 개봉일 보존</text>
+    <text x="105" y="365" font-size="25">서늘하고 건조한 곳</text>
+    <text x="105" y="429" font-size="25">밀봉 · 제조사 기간 확인</text>
+    <text x="655" y="230" font-size="33" font-weight="700" fill="#347367">습식</text>
+    <text x="655" y="301" font-size="25">남은 양은 신속히 냉장·폐기</text>
+    <text x="655" y="365" font-size="25">덮개 · 냉장 온도 확인</text>
+    <text x="655" y="429" font-size="25">실온에 오래 방치하지 않기</text>
+    <text x="70" y="595" font-size="25">공통: 그릇과 계량도구 세척 · 오래된 사료 위에 덧붓지 않기</text>
+  </g>
+</svg>

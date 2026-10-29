@@ -502,6 +502,15 @@ h3 {
   text-underline-offset: 3px;
 }
 
+.article a.button {
+  color: #fff;
+  text-decoration: none;
+}
+
+.article a.button.secondary {
+  color: var(--brand-dark);
+}
+
 .article blockquote {
   margin: 24px 0;
   padding: 18px;
@@ -643,6 +652,33 @@ h3 {
   grid-template-columns: minmax(0, 1fr) minmax(280px, 0.8fr);
   gap: 22px;
   align-items: start;
+}
+
+.blog-topics,
+.pagination {
+  display: flex;
+  flex-wrap: wrap;
+  gap: 10px;
+}
+.blog-topics { margin-bottom: 24px; }
+.pagination { margin-top: 32px; justify-content: center; }
+.blog-topics a,
+.pagination a,
+.pagination span {
+  display: inline-flex;
+  min-width: 44px;
+  min-height: 44px;
+  align-items: center;
+  justify-content: center;
+  padding: 8px 14px;
+  border: 1px solid var(--line);
+  border-radius: var(--radius);
+  background: var(--surface);
+}
+.pagination [aria-current="page"] {
+  background: var(--brand-dark);
+  color: #fff;
+  font-weight: 800;
 }
 
 .form-grid {

@@ -1,0 +1,14 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="1200" height="675" viewBox="0 0 1200 675" role="img" aria-labelledby="title desc">
+  <title id="title">강아지 체중 관리 사료 선택 순서</title>
+  <desc id="desc">감량 필요성과 체형을 진료에서 평가하고, 주식 적합성과 실제 열량, 제한 급여에 맞는 영양 구성을 확인한 뒤 계획합니다.</desc>
+  <rect width="1200" height="675" rx="28" fill="#fff5ed"/>
+  <g font-family="Malgun Gothic, Noto Sans KR, sans-serif" fill="#533927">
+    <text x="70" y="92" font-size="40" font-weight="700">체중 관리 사료, 이름보다 계획을 봅니다</text>
+    <text x="70" y="146" font-size="23" fill="#826650">감량 목표와 급여 제한은 개별 상태에 맞춰 상담하세요.</text>
+    <g fill="#fff" stroke="#e3cdb9" stroke-width="2"><rect x="70" y="215" width="330" height="285" rx="22"/><rect x="435" y="215" width="330" height="285" rx="22"/><rect x="800" y="215" width="330" height="285" rx="22"/></g>
+    <text x="100" y="280" font-size="29" font-weight="700">1  평가</text><text x="100" y="352" font-size="24">체중 · 체형 · 근육</text><text x="100" y="399" font-size="24">감량 필요성 확인</text>
+    <text x="465" y="280" font-size="29" font-weight="700">2  비교</text><text x="465" y="352" font-size="24">주식 · 생활 단계</text><text x="465" y="399" font-size="24">kcal/g · 영양 구성</text>
+    <text x="830" y="280" font-size="29" font-weight="700">3  계획</text><text x="830" y="352" font-size="24">실제 하루 g · 간식</text><text x="830" y="399" font-size="24">관찰 · 재평가 일정</text>
+    <text x="70" y="593" font-size="25" fill="#826650">일반 유지 사료를 임의로 크게 줄이기 전에 식단을 검토하세요.</text>
+  </g>
+</svg>

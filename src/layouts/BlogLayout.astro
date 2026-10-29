@@ -1,6 +1,7 @@
 ---
 import BaseLayout from "./BaseLayout.astro";
 import BlogCard from "../components/BlogCard.astro";
+import { siteName } from "../lib/site-settings.js";
 import {
   formatDate,
   getFeaturedImage,
@@ -53,6 +54,8 @@ const contentHtml = rawContent.replace(/<h([23])([^>]*)>([\s\S]*?)<\/h\1>/gi, (m
           <div class="blog-meta">
             <span>게시 {formatDate(post.date)}</span>
             <span>최종 업데이트 {formatDate(post.modified || post.date)}</span>
+            <span>작성·수정 <a href="/about/#publisher" rel="author">{siteName}</a></span>
+            <a href="/editorial-policy/">자료 확인·수정 원칙</a>
             {categories.map((category) => <span>{category}</span>)}
           </div>
         </div>

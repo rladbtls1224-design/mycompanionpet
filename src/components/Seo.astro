@@ -8,6 +8,7 @@ const {
   headline = title,
   datePublished,
   dateModified,
+  noindex = false,
 } = Astro.props;
 
 const siteUrl = "https://mycompanionpet.com";
@@ -28,6 +29,11 @@ const articleSchema = type === "article"
       mainEntityOfPage: canonical,
       datePublished,
       dateModified: dateModified || datePublished,
+      author: {
+        "@type": "Organization",
+        name: "Pet Nutrition Guide",
+        url: `${siteUrl}/about/#publisher`,
+      },
       publisher: {
         "@type": "Organization",
         name: "Pet Nutrition Guide",
@@ -39,7 +45,8 @@ const articleSchema = type === "article"
 
 <title>{title}</title>
 <meta name="description" content={description} />
-<link rel="canonical" href={canonical} />
+{noindex && <meta name="robots" content="noindex, nofollow" />}
+{!noindex && <link rel="canonical" href={canonical} />}
 <meta property="og:type" content={type} />
 <meta property="og:title" content={title} />
 <meta property="og:description" content={description} />

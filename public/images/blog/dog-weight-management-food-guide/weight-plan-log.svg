@@ -1,0 +1,16 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="1200" height="675" viewBox="0 0 1200 675" role="img" aria-labelledby="title desc">
+  <title id="title">강아지 체중 관리의 하루 기록 항목</title>
+  <desc id="desc">주식의 실제 섭취량, 간식과 토핑, 가족과 돌봄 제공자의 급여, 체중과 체형 및 활력을 함께 기록합니다.</desc>
+  <rect width="1200" height="675" rx="28" fill="#eef6f4"/>
+  <g font-family="Malgun Gothic, Noto Sans KR, sans-serif" fill="#244b43">
+    <text x="70" y="92" font-size="40" font-weight="700">하루 식단을 한 장에 모으세요</text>
+    <text x="70" y="146" font-size="23">정해 둔 목표를 지키는지, 가족이 같은 기록으로 확인합니다.</text>
+    <rect x="70" y="198" width="1060" height="350" rx="22" fill="#fff" stroke="#bdd8cf" stroke-width="2"/>
+    <path d="M600 220V526M95 373H1105" stroke="#d4e4dd" stroke-width="2"/>
+    <text x="105" y="261" font-size="28" font-weight="700">주식</text><text x="105" y="318" font-size="23">제품명 · kcal/g · 먹은 g</text>
+    <text x="640" y="261" font-size="28" font-weight="700">추가 음식</text><text x="640" y="318" font-size="23">간식 · 토핑 · 약 먹이는 음식</text>
+    <text x="105" y="430" font-size="28" font-weight="700">급여자</text><text x="105" y="487" font-size="23">누가 · 언제 · 무엇을 줬는지</text>
+    <text x="640" y="430" font-size="28" font-weight="700">변화</text><text x="640" y="487" font-size="23">체중 · 체형 · 활력 · 배변</text>
+    <text x="70" y="612" font-size="23" fill="#557a70">갑작스러운 체중·식욕·음수 변화는 식단 조정보다 진료가 먼저입니다.</text>
+  </g>
+</svg>

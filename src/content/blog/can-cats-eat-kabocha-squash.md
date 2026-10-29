@@ -3,6 +3,7 @@ title: "고양이 단호박 먹어도 될까? 소화에 부담 없는 급여법"
 metaTitle: "고양이 단호박 급여법 | 익히는 법, 급여량, 설사 주의"
 description: "고양이에게 단호박을 줘도 되는지, 익힌 단호박 급여량과 껍질·씨 제거, 설사와 구토 주의점을 정리했습니다."
 pubDate: "2026-07-08"
+updatedDate: "2026-10-26"
 category: "고양이 영양"
 tags: ["고양이", "고양이 단호박", "고양이 간식", "고양이 식이섬유", "고양이 급여량", "고양이 영양"]
 thumbnail: "/images/blog/can-cats-eat-kabocha-squash/can-cats-eat-kabocha-squash-thumbnail.webp"
@@ -56,6 +57,18 @@ draft: false
 
 ![고양이 단호박 급여 전 양과 변 상태를 확인하는 체크리스트 이미지](/images/blog/can-cats-eat-kabocha-squash/cat-kabocha-checklist.webp)
 
+## 변비용 호박 자료를 단호박 용량으로 옮기지 마세요
+
+[Cornell Feline Health Center — Constipation](https://www.vet.cornell.edu/departments-centers-and-institutes/cornell-feline-health-center/health-information/feline-health-topics/constipation)는 섬유질의 종류·양에 따라 변 상태가 달라지고 과한 보충은 설사나 영양 흡수에 영향을 줄 수 있다고 설명합니다. 이 내용은 단호박을 변비 치료용으로 정량 급여하라는 근거가 아닙니다.
+
+해외 자료의 캔 호박과 집에서 찐 단호박은 품종, 수분, 가공 방식이 같지 않습니다. 따라서 다른 호박 제품의 숟가락 수를 그대로 적용하지 마세요. 여기서 제시한 티스푼 끝 정도는 건강한 성묘의 맛보기 예시일 뿐입니다. 배변 문제가 이미 있다면 변이 나오는지와 소변이 나오는지부터 확인하고 식단 변경을 상담하세요.
+
+| 실제 상황 | 판단과 행동 |
+|---|---|
+| 단호박 수프만 남음 | 우유·크림·양파 여부를 알 수 없으면 주지 않고 양념 전 과육을 따로 준비합니다. |
+| 변을 못 봐 단호박 양을 늘리려 함 | 용량을 늘리며 기다리지 말고 통증·구토·식욕과 실제 배변 여부를 병원에 알립니다. |
+| 찐 단호박을 사료 위에서 골라 먹음 | 토핑을 더하지 말고 주식 섭취가 줄었는지 기록합니다. |
+
 ## 보호자 체크리스트
 
 - 단호박을 충분히 익혔나요?
@@ -98,6 +111,21 @@ A. 껍질은 고양이에게 꼭 필요한 부분이 아니며 질길 수 있어
 ### Q3. 단호박을 먹고 토하면 어떻게 하나요?
 
 A. 급여를 중단하고 상태를 관찰하세요. 구토가 반복되거나 식욕 저하, 무기력이 함께 있으면 동물병원에 문의하는 것이 좋습니다.
+
+### Q4. 해외 자료의 캔 호박 양을 단호박에 적용해도 되나요?
+
+A. 품종·수분·가공 방식이 달라 같은 숟가락 수를 그대로 옮기지 마세요. 변비 관리용 정량은 수의사와 정해야 합니다.
+
+### Q5. 단호박을 안 먹으면 사료 전체에 섞어야 하나요?
+
+A. 필수 음식이 아니므로 억지로 섞지 않아도 됩니다. 익숙한 사료까지 거부하지 않도록 주식 섭취를 우선합니다.
+
+## 참고 자료
+
+- [Cornell Feline Health Center — Constipation](https://www.vet.cornell.edu/departments-centers-and-institutes/cornell-feline-health-center/health-information/feline-health-topics/constipation) — 고양이 변비의 다양한 원인과 섬유 보충의 한계.
+- [Cornell Feline Health Center — Feeding Your Cat](https://www.vet.cornell.edu/departments-centers-and-institutes/cornell-feline-health-center/health-information/feline-health-topics/feeding-your-cat) — 주식의 영양 균형과 간식의 제한적 역할.
+
+자료 확인일: 2026년 10월 26일.
 
 ## 함께 보면 좋은 글
 

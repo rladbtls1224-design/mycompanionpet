@@ -6,6 +6,8 @@
   "scripts": {
     "dev": "astro dev",
     "build": "astro build",
+    "postbuild": "node scripts/prepare-adsense.mjs",
+    "check:site": "node scripts/check-site.mjs",
     "preview": "astro preview",
     "new:post": "node scripts/create-post.js",
     "publish:post": "node scripts/publish-post.js",

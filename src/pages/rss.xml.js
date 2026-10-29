@@ -13,7 +13,7 @@ export async function GET(context) {
       title: stripHtml(post.title?.rendered || ""),
       description: stripHtml(post.excerpt?.rendered || ""),
       pubDate: new Date(post.date),
-      link: `/blog/${post.slug}`,
+      link: `/blog/${post.slug}/`,
     })),
   });
 }

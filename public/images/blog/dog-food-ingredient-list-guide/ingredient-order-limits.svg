@@ -1,0 +1,17 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="1200" height="675" viewBox="0 0 1200 675" role="img" aria-labelledby="title desc">
+  <title id="title">사료 원재료 목록의 순서와 해석 한계</title>
+  <desc id="desc">원료 순서는 무게 기준이며 수분이 영향을 줍니다. 순서만으로 배합률, 단백질의 기여, 소화율을 알 수 없습니다. 미국 라벨 설명을 바탕으로 한 도표입니다.</desc>
+  <rect width="1200" height="675" rx="28" fill="#f1f4fa"/>
+  <g font-family="Malgun Gothic, Noto Sans KR, sans-serif" fill="#2b3b54">
+    <text x="70" y="92" font-size="40" font-weight="700">첫 원료 하나로 순위를 매기지 마세요</text>
+    <text x="70" y="145" font-size="23">미국 라벨의 원료 순서 설명 · 국내 표시는 제품별 확인</text>
+    <g fill="#fff" stroke="#c8d1e1" stroke-width="2"><rect x="70" y="210" width="330" height="290" rx="22"/><rect x="435" y="210" width="330" height="290" rx="22"/><rect x="800" y="210" width="330" height="290" rx="22"/></g>
+    <text x="100" y="275" font-size="29" font-weight="700">무게의 순서</text>
+    <text x="100" y="347" font-size="24">품질의 순서와</text><text x="100" y="390" font-size="24">다릅니다.</text>
+    <text x="465" y="275" font-size="29" font-weight="700">수분의 영향</text>
+    <text x="465" y="347" font-size="24">물의 양이 원료</text><text x="465" y="390" font-size="24">무게에 포함됩니다.</text>
+    <text x="830" y="275" font-size="29" font-weight="700">확인할 한계</text>
+    <text x="830" y="347" font-size="24">정확한 배합률은</text><text x="830" y="390" font-size="24">순서로 역산 불가</text>
+    <text x="70" y="591" font-size="25" fill="#536982">원료명과 함께 주식 적합성 · 생활 단계 · 열량을 읽으세요.</text>
+  </g>
+</svg>

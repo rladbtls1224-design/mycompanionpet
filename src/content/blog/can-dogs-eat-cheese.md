@@ -3,6 +3,7 @@ title: "강아지 치즈 먹어도 될까? 락토스와 나트륨을 먼저 확�
 metaTitle: "강아지 치즈 급여법 | 락토스, 나트륨, 비만 주의"
 description: "강아지에게 치즈를 줄 수 있는지, 락토스 민감성·나트륨·지방 함량을 기준으로 안전하게 판단하는 방법을 정리합니다."
 pubDate: "2026-07-13"
+updatedDate: "2026-10-26"
 category: "강아지 영양"
 tags: ["강아지", "강아지 치즈", "강아지 간식", "강아지 유제품", "강아지 나트륨", "강아지 영양"]
 thumbnail: "/images/blog/can-dogs-eat-cheese/can-dogs-eat-cheese-thumbnail.webp"
@@ -62,6 +63,18 @@ draft: false
 
 ![강아지 치즈 급여 전 락토스와 나트륨, 간식량을 확인하는 체크리스트 장면](/images/blog/can-dogs-eat-cheese/dog-cheese-checklist.webp)
 
+## 저염·저지방 표시도 1회 분량과 함께 봅니다
+
+[VCA — Using Food and Treats for Training Dogs](https://vcahospitals.com/know-your-pet/using-food-and-treats-for-training-dogs)는 치즈를 간식 후보로 들면서 고지방 간식과 곰팡이 치즈는 피하도록 안내합니다. 제품명보다 원재료와 실제 먹일 양이 판단 기준입니다.
+
+포장지의 나트륨과 지방 수치가 100g 기준인지 한 장 기준인지 먼저 보세요. 슬라이스를 손으로 조금씩 떼어주면 하루에 얼마나 먹었는지 놓치기 쉽습니다. 약을 감쌀 때도 사용한 치즈를 간식 기록에 넣고, 약과 유제품을 함께 먹여도 되는지는 처방 병원에 확인하세요. 저염이라는 한 가지 조건이 지방·열량·유당 문제까지 해결하지는 않습니다.
+
+| 실제 상황 | 판단과 행동 |
+|---|---|
+| 산책 훈련 때 치즈를 계속 사용함 | 출발 전 사용할 양을 덜고 남은 간식 예산을 기록합니다. |
+| 알약을 치즈로 감쌈 | 약과 음식의 병용 가능 여부를 확인하고 최소량을 씁니다. |
+| 곰팡이 핀 치즈를 훔쳐 먹음 | 제품과 섭취량을 확보해 병원에 문의합니다. 임의로 토하게 하지 않습니다. |
+
 ## 보호자 체크리스트
 
 - 치즈가 무염 또는 저염 제품인지 확인했나요?
@@ -104,6 +117,21 @@ A. 매일 줄 필요는 없습니다. 치즈는 지방과 열량 부담이 있�
 ### Q3. 강아지가 치즈를 많이 먹었어요. 어떻게 해야 하나요?
 
 A. 먹은 양과 제품 종류를 확인하고 설사, 구토, 복부 불편감, 기운 없음을 관찰하세요. 증상이 있거나 양념 치즈라면 동물병원에 문의하세요.
+
+### Q4. 저염 치즈는 칼로리를 따로 계산하지 않아도 되나요?
+
+A. 나트륨과 열량은 별개입니다. 포장지의 100g당 또는 한 장당 kcal와 실제 먹인 분량을 확인하세요.
+
+### Q5. 약을 감싸는 치즈도 간식량에 포함하나요?
+
+A. 포함합니다. 약과 유제품을 함께 먹여도 되는지 먼저 확인하고, 하루 보상과 토핑에 사용한 열량까지 합산하세요.
+
+## 참고 자료
+
+- [VCA — Using Food and Treats for Training Dogs](https://vcahospitals.com/know-your-pet/using-food-and-treats-for-training-dogs) — 치즈의 제한적 활용과 고지방·곰팡이 치즈 회피.
+- [Virginia Tech Veterinary Teaching Hospital — Nutrition](https://vth.vetmed.vt.edu/inpatient-outpatient-services/nutrition.html) — 간식이 하루 식사 열량과 영양 균형에 미치는 영향.
+
+자료 확인일: 2026년 10월 26일.
 
 ## 함께 보면 좋은 글
 

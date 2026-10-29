@@ -3,7 +3,7 @@ title: "다묘 가정 사료 급여법｜각자 먹은 양을 확인하는 분�
 metaTitle: "다묘 가정 사료 급여법 | 분리 급여·섭취량 확인"
 description: "여러 고양이가 함께 살 때 사료를 뺏어 먹거나 한 마리만 남기는 문제를 줄이고 개별 섭취량과 체중 변화를 확인하는 분리 급여 방법입니다."
 pubDate: "2026-08-10"
-updatedDate: "2026-08-10"
+updatedDate: "2026-10-26"
 category: "cat-nutrition"
 tags: ["다묘 가정 사료", "고양이 분리 급여", "고양이 사료 뺏어 먹기", "고양이 섭취량", "고양이 급여 환경"]
 thumbnail: "/images/blog/multi-cat-separate-feeding-guide/multi-cat-separate-feeding-guide-thumbnail.png"
@@ -84,6 +84,14 @@ draft: false
 
 고양이가 평소보다 적게 먹거나 먹지 않는 상태가 이어질 때, 체중이 눈에 띄게 변할 때, 구토·설사·무기력·물 섭취 변화가 함께 있을 때는 다른 고양이가 먹었을 거라고 넘기지 말고 동물병원에 상담하세요. 식욕 저하는 고양이에게 가볍게 볼 문제가 아닐 수 있습니다. 기존 질환, 처방식, 임신·수유, 성장기 식단 관리가 있다면 분리 급여 계획도 담당 수의사 지침에 맞추는 것이 안전합니다.
 
+## 분리 공간에서도 조금씩 여러 번 먹을 기회를 줍니다
+
+[FelineVMA/AAFP — Feline Feeding Programs: Addressing Behavioral Needs to Improve Feline Health and Wellbeing](https://catvets.com/resource/how-to-feed-how-to-feed-a-cat-consensus-statement/)는 고양이가 혼자 작은 식사를 여러 번 하는 행동과 안전한 개별 급여 공간을 강조합니다. 다른 고양이가 무서워 식사 공간에 접근하지 못하는 모습은 그릇을 비운 속도만 봐서는 놓치기 쉽습니다.
+
+작은 집에서는 방 개수보다 시야와 접근 경로를 조절하세요. 예를 들어 한 마리는 가구 뒤, 다른 한 마리는 복도 반대편에서 먹게 하고, 느린 고양이가 남긴 몫을 빠른 고양이가 바로 먹지 못하게 합니다. 자동 급여기를 쓰더라도 누가 실제로 먹었는지 확인할 수 있어야 합니다.
+
+15~30분 뒤 확인은 기록을 시작하는 예시이지 그 시간이 지나면 더 먹지 못하게 하라는 규칙이 아닙니다. 조금씩 먹는 고양이는 하루 총섭취가 줄지 않도록 소량 급여 기회나 개별 접근 도구를 마련하세요. 장소를 나눈 뒤에도 먹는 양이 줄거나 체중·활력이 달라지면 환경 탓으로만 여기지 말고 진료를 상담합니다.
+
 ## 체크리스트
 
 - [ ] 고양이마다 보이지 않거나 충분히 떨어진 급여 장소를 정했다.
@@ -113,6 +121,12 @@ A. 남긴 사료를 다른 고양이가 먹으면 원래 고양이의 식욕 변
 ### Q5. 언제부터 동물병원에 문의해야 하나요?
 
 A. 먹는 양이 눈에 띄게 줄거나 먹지 않는 상태가 이어지고, 구토·무기력·체중 변화가 동반되면 빠르게 상담하는 편이 좋습니다.
+
+## 참고 자료
+
+- [FelineVMA/AAFP — Feline Feeding Programs: Addressing Behavioral Needs to Improve Feline Health and Wellbeing](https://catvets.com/resource/how-to-feed-how-to-feed-a-cat-consensus-statement/) — 소량의 잦은 식사와 개별·안전한 급여 공간, 다묘 가정 경쟁 관리.
+
+자료 확인일: 2026년 10월 26일.
 
 ## 함께 읽으면 좋은 글
 

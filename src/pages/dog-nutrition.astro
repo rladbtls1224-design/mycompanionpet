@@ -1,9 +1,9 @@
 ---
 import BaseLayout from "../layouts/BaseLayout.astro";
 import BlogCard from "../components/BlogCard.astro";
-import { getPostCategories, getPosts } from "../lib/wordpress.js";
+import { getPostCategories, getAllPosts } from "../lib/wordpress.js";
 
-const posts = await getPosts({ perPage: 24 });
+const posts = await getAllPosts();
 const dogPosts = posts
   .filter((post) => getPostCategories(post).includes("강아지 영양"))
   .slice(0, 9);
@@ -50,8 +50,8 @@ const dogPosts = posts
         <aside class="sidebar">
           <div class="card">
             <h3>관련 메뉴</h3>
-            <p><a class="card-link" href="/calorie-calculator">칼로리 계산기</a></p>
-            <p><a class="card-link" href="/food-label">사료 성분표 읽는 법</a></p>
+            <p><a class="card-link" href="/calorie-calculator/">칼로리 계산기</a></p>
+            <p><a class="card-link" href="/food-label/">사료 성분표 읽는 법</a></p>
           </div>
         </aside>
       </div>

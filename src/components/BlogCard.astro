@@ -15,5 +15,5 @@ const description = stripHtml(post?.excerpt?.rendered || "").slice(0, 120);
     <span>{formatDate(post.date)}</span>
   </div>
   <p>{description}</p>
-  <a class="card-link" href={`/blog/${post.slug}`}>글 읽기</a>
+  <a class="card-link" href={`/blog/${post.slug}/`}>글 읽기</a>
 </article>

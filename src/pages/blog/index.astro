@@ -1,43 +1,9 @@
 ---
-import BaseLayout from "../../layouts/BaseLayout.astro";
-import BlogCard from "../../components/BlogCard.astro";
-import { getPosts } from "../../lib/wordpress.js";
+import BlogIndex from "../../components/BlogIndex.astro";
+import { paginatePosts } from "../../lib/blog-pagination.js";
+import { getAllPosts } from "../../lib/wordpress.js";
 
-const posts = await getPosts({ perPage: 100 });
+const pagination = paginatePosts(await getAllPosts());
 ---
 
-<BaseLayout
-  title="블로그 | Pet Nutrition Guide"
-  description="강아지와 고양이 보호자를 위한 기초 영양 정보와 안전한 간식 급여 방법을 정리한 정보형 블로그입니다."
-  path="/blog"
->
-  <main>
-    <section class="page-hero">
-      <div class="container">
-        <div>
-          <p class="eyebrow">Blog</p>
-          <h1>반려동물 영양 블로그</h1>
-          <p>강아지와 고양이 보호자가 일상에서 자주 궁금해하는 영양 정보와 간식 급여 기준을 쉽게 정리합니다.</p>
-        </div>
-        <aside class="quick-box">
-          <strong>운영 방향</strong>
-          Pet Nutrition Guide는 강아지와 고양이 보호자가 기초 영양 정보를 쉽게 이해하도록 돕는 정보형 블로그입니다.
-        </aside>
-      </div>
-    </section>
-
-    <section class="section">
-      <div class="container">
-        {posts.length > 0 ? (
-          <div class="grid three">
-            {posts.map((post) => <BlogCard post={post} />)}
-          </div>
-        ) : (
-          <div class="empty-state">
-            아직 등록된 글이 없습니다.
-          </div>
-        )}
-      </div>
-    </section>
-  </main>
-</BaseLayout>
+<BlogIndex {...pagination} />

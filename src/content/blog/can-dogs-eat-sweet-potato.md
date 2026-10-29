@@ -3,6 +3,7 @@ title: "강아지 고구마 먹어도 될까? 찐고구마 급여량과 주의�
 metaTitle: "강아지 고구마 급여법 | 찐고구마 양, 껍질, 설사 주의"
 description: "강아지에게 고구마를 줘도 되는지, 찐고구마 급여량과 껍질·생고구마·설사 주의점을 보호자 눈높이로 정리했습니다."
 pubDate: "2026-07-08"
+updatedDate: "2026-10-27"
 category: "강아지 영양"
 tags: ["강아지", "강아지 고구마", "강아지 간식", "찐고구마", "강아지 급여량", "강아지 영양"]
 thumbnail: "/images/blog/can-dogs-eat-sweet-potato/can-dogs-eat-sweet-potato-thumbnail.webp"
@@ -36,9 +37,9 @@ draft: false
 
 ## 급여량은 어느 정도가 적당할까?
 
-정확한 급여량은 체중, 활동량, 평소 사료량, 체형에 따라 달라집니다. 처음 급여한다면 크기에 상관없이 “작은 한 입”부터 시작하세요. 소형견은 손톱만 한 조각 1~2개, 중형견은 작은 큐브 몇 개, 대형견도 처음에는 한두 숟가락 이하로 반응을 보는 편이 좋습니다.
+정확한 급여량은 체중, 활동량, 평소 사료량, 체형에 따라 달라집니다. 처음 급여한다면 크기에 상관없이 “작은 한 입”부터 시작하세요. 아주 작게 나눈 한 조각부터 시작하되, 크기나 숟가락 수를 체급별 확정 급여량처럼 사용하지 마세요.
 
-고구마를 주는 날에는 다른 간식을 줄이는 것이 좋습니다. 간식은 하루 총 섭취 열량의 일부일 뿐이며, 간식이 많아지면 사료를 덜 먹거나 체중이 늘 수 있습니다. 강아지 간식 전체 양이 궁금하다면 [강아지 하루 물 섭취량 계산법](/blog/dog-daily-water-intake)처럼 체중과 생활 패턴을 함께 보는 습관이 도움이 됩니다.
+고구마를 주는 날에는 다른 간식을 줄이는 것이 좋습니다. 간식은 하루 총 섭취 열량의 일부일 뿐이며, 간식이 많아지면 사료를 덜 먹거나 체중이 늘 수 있습니다. 강아지 간식 전체 양이 궁금하다면 [강아지 간식 하루 열량 계산법](/blog/dog-treat-calorie-ten-percent-rule)으로 체중과 평소 식사 열량을 함께 확인하세요.
 
 ![강아지 크기에 맞게 찐고구마를 작은 큐브로 나눈 모습](/images/blog/can-dogs-eat-sweet-potato/dog-sweet-potato-serving.webp)
 
@@ -55,6 +56,20 @@ draft: false
 췌장염 병력이 있거나 처방식을 먹는 강아지라면 고구마뿐 아니라 모든 간식을 수의사와 상의해 정하는 것이 안전합니다. 처방식은 특정 목적에 맞춰 구성된 식단이므로, 간식이 많아지면 식단 관리의 의미가 흐려질 수 있습니다.
 
 ![고구마 급여 전 껍질과 양념 여부를 확인하는 보호자 체크리스트 이미지](/images/blog/can-dogs-eat-sweet-potato/dog-sweet-potato-checklist.webp)
+
+## 생고구마·찐고구마·말랭이는 같은 분량이 아닙니다
+
+[Texas A&M 수의과대학의 간식 안내](https://stories.tamu.edu/news/2022/12/01/ignore-those-puppy-dog-eyes-feeding-dogs-healthy-treats-during-the-holidays/)에서 수의사 Katie Tolbert는 고구마를 소량의 간식 선택지로 소개합니다. 고구마를 주식 대용으로 먹이거나 고섬유 치료식 대신 사용하라는 의미는 아닙니다.
+
+[Song·Jung의 임상 증례 보고](https://onlinelibrary.wiley.com/doi/10.1002/vms3.352)에는 삶은 고구마를 거의 유일한 식사로 먹던 강아지에게 비타민 B1 결핍이 확인된 사례가 있습니다. 한 마리의 증례이므로 소량 간식의 위험도를 계산하는 자료는 아니지만, 고구마만으로 식사를 구성하지 않아야 할 이유를 보여줍니다.
+
+찐고구마와 말랭이는 수분량과 질감이 달라 같은 크기라도 실제 먹는 양이 다릅니다. 손톱 크기는 첫 맛보기의 대략적인 표현이며 체중별 안전 상한선으로 해석하지 마세요. 껍질을 벗겨 부드럽게 익힌 뒤 작은 양을 따로 덜면 가족이 번갈아 주며 총량을 놓치는 일을 줄일 수 있습니다. 변비가 이미 있다면 고구마 양을 늘려 치료하려 하지 마세요.
+
+| 실제 상황 | 판단과 행동 |
+|---|---|
+| 군고구마를 막 꺼냄 | 속까지 충분히 식히고 탄 부분과 단단한 조각을 제거합니다. |
+| 말랭이를 찐고구마와 같은 양으로 줌 | 제품 열량과 질긴 조각을 확인하고 소량의 간식 예산으로 따로 계산합니다. |
+| 사료 대신 고구마만 잘 먹음 | 전체 영양 균형과 식욕 저하를 확인하고 병원에 상담합니다. |
 
 ## 보호자 체크리스트
 
@@ -98,6 +113,22 @@ A. 양념이 없고 탄 부분과 껍질의 단단한 부분을 제거한 과육
 ### Q3. 어린 강아지도 고구마를 먹어도 되나요?
 
 A. 어린 강아지는 소화가 더 예민할 수 있어 권장하지 않습니다. 주식인 퍼피 사료를 우선하고, 간식은 수의사와 상의해 천천히 시작하세요.
+
+### Q4. 말랭이도 찐고구마 조각 수대로 계산하나요?
+
+A. 건조해 수분·질감이 달라지므로 조각 수만 맞추지 마세요. 실제 무게·열량과 질긴 조각을 함께 확인합니다.
+
+### Q5. 고구마를 식힌 뒤 잘 먹으면 매 끼니 얹어도 되나요?
+
+A. 잘 먹는다는 이유만으로 매 끼니 추가할 필요는 없습니다. 주식 거부나 총열량 증가가 생기지 않는지 먼저 보세요.
+
+## 참고 자료
+
+- [Texas A&M — Ignore Those Puppy-Dog Eyes: Feeding Dogs Healthy Treats During the Holidays](https://stories.tamu.edu/news/2022/12/01/ignore-those-puppy-dog-eyes-feeding-dogs-healthy-treats-during-the-holidays/) — 수의사 Katie Tolbert가 설명하는 고구마 간식의 제한적 활용.
+- [Song·Jung, Veterinary Medicine and Science — Thiamine deficiency in a dog associated with exclusive consumption of boiled sweet potato](https://onlinelibrary.wiley.com/doi/10.1002/vms3.352) — 단일 식재료 위주 식단과 비타민 B1 결핍 관련 임상 증례. 소량 급여의 위험도·용량 근거는 아닙니다.
+- [Virginia Tech Veterinary Teaching Hospital — Nutrition](https://vth.vetmed.vt.edu/inpatient-outpatient-services/nutrition.html) — 간식의 영양 한계와 완전균형 주식의 필요성.
+
+자료 확인일: 2026년 10월 27일.
 
 ## 함께 보면 좋은 글
 

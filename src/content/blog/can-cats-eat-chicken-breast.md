@@ -3,6 +3,7 @@ title: "고양이 닭가슴살 먹어도 될까? 삶은 닭가슴살 급여 기�
 metaTitle: "고양이 닭가슴살 급여법 | 삶은 닭, 양념, 영양 균형"
 description: "고양이에게 닭가슴살을 줄 때 삶은 형태, 양념 제거, 주식 대체 위험, 급여량 기준을 보호자 눈높이로 설명합니다."
 pubDate: "2026-07-13"
+updatedDate: "2026-10-26"
 category: "고양이 영양"
 tags: ["고양이", "고양이 닭가슴살", "고양이 간식", "고양이 단백질", "고양이 사료", "고양이 영양"]
 thumbnail: "/images/blog/can-cats-eat-chicken-breast/can-cats-eat-chicken-breast-thumbnail.webp"
@@ -62,6 +63,18 @@ draft: false
 
 ![고양이 닭가슴살 급여 전 양념과 조각 크기, 사료 섭취량을 확인하는 체크리스트 장면](/images/blog/can-cats-eat-chicken-breast/cat-chicken-breast-checklist.webp)
 
+## 고기 무게와 실제 식사량을 구분하세요
+
+[FDA — Think Food Safety and Be Salmonella Safe](https://www.fda.gov/animal-veterinary/animal-health-literacy/think-food-safety-and-be-salmonella-safe)는 생고기·덜 익은 가금육과 계란의 살모넬라 감염 위험을 안내합니다. 닭고기는 충분히 가열하고 생고기를 만진 도구와 완성된 간식을 분리하는 위생 관리도 필요합니다.
+
+닭가슴살은 삶기 전후 수분과 무게가 달라집니다. 간식량을 기록할 때는 익혀서 실제로 먹인 양을 기준으로 일관되게 적으세요. 냄비에 남은 국물은 완전균형식이 아니며 고기 대신 물을 잘 마시게 한다는 이유로 계속 제공할 필요는 없습니다. 고기만 골라 먹고 사료를 남기면 추가 양을 늘리기 전에 총 섭취를 확인합니다.
+
+| 실제 상황 | 판단과 행동 |
+|---|---|
+| 조리 중 생닭을 훔쳐 먹음 | 남은 생닭을 치우고 먹은 양과 시간을 적습니다. 구토·설사·무기력이 있으면 진료를 받습니다. |
+| 닭가슴살만 먹고 사료를 거부함 | 고기를 더 얹지 말고 평소 대비 주식 섭취량과 식욕 저하를 확인합니다. |
+| 사람용 염지 닭가슴살을 나누려 함 | 제품명보다 원재료를 봅니다. 양념 없는 별도 조리가 판단하기 쉽습니다. |
+
 ## 보호자 체크리스트
 
 - 닭가슴살을 완전히 익혔나요?
@@ -104,6 +117,21 @@ A. 매일 줄 필요는 없습니다. 사료 섭취를 방해하지 않도록 �
 ### Q3. 닭가슴살을 먹고 토하면 어떻게 하나요?
 
 A. 급여를 중단하고 먹은 양과 시간을 기록하세요. 구토가 반복되거나 식욕 저하, 기운 없음이 함께 보이면 동물병원에 문의하세요.
+
+### Q4. 삶은 닭가슴살과 닭가슴살 사료는 같은가요?
+
+A. 아닙니다. 고기 한 가지와 필수 영양소를 조절한 완전균형식은 다릅니다. 포장의 주식 표시와 생활 단계를 확인하세요.
+
+### Q5. 닭가슴살을 잘게 찢으면 뼈도 조금 줘도 되나요?
+
+A. 뼈는 별도로 제거하세요. 잘게 찢는 준비는 고기 조각 크기를 줄이는 방법이며 뼈를 안전한 간식으로 바꾸지 않습니다.
+
+## 참고 자료
+
+- [FDA — Think Food Safety and Be Salmonella Safe](https://www.fda.gov/animal-veterinary/animal-health-literacy/think-food-safety-and-be-salmonella-safe) — 생·불완전 가열 동물성 식재료의 감염 위험과 교차오염 예방.
+- [Cornell Feline Health Center — Feeding Your Cat](https://www.vet.cornell.edu/departments-centers-and-institutes/cornell-feline-health-center/health-information/feline-health-topics/feeding-your-cat) — 고양이의 필수 영양소와 완전균형식, 생식 관련 주의.
+
+자료 확인일: 2026년 10월 26일.
 
 ## 함께 보면 좋은 글
 

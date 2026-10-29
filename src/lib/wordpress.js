@@ -5,11 +5,16 @@ import { localPosts } from "./local-posts.js";
 const API_URL = (import.meta.env.WORDPRESS_API_URL || "https://cms.petnutritionguide.com/wp-json/wp/v2").replace(/\/$/, "");
 const HAS_WORDPRESS_API = Boolean(import.meta.env.WORDPRESS_API_URL);
 const MARKDOWN_BLOG_DIR = path.join(process.cwd(), "src", "content", "blog");
+const SAFE_POST_SLUG = /^[a-z0-9]+(?:-[a-z0-9]+)*$/;
+
+function hasSafePostSlug(post) {
+  return typeof post?.slug === "string" && SAFE_POST_SLUG.test(post.slug);
+}
 
 function mergePosts(remotePosts = []) {
   const localPosts = getLocalPosts();
   const localSlugs = new Set(localPosts.map((post) => post.slug));
-  const remoteOnlyPosts = remotePosts.filter((post) => !localSlugs.has(post.slug));
+  const remoteOnlyPosts = remotePosts.filter((post) => hasSafePostSlug(post) && !localSlugs.has(post.slug));
   return [...localPosts, ...remoteOnlyPosts];
 }
 
@@ -36,7 +41,8 @@ function getMarkdownPosts() {
     .map((fileName) => {
       const filePath = path.join(MARKDOWN_BLOG_DIR, fileName);
       return markdownToPost(filePath, fs.readFileSync(filePath, "utf8"));
-    });
+    })
+    .filter((post) => !post.draft && hasSafePostSlug(post));
 }
 
 function markdownToPost(filePath, raw) {
@@ -52,6 +58,7 @@ function markdownToPost(filePath, raw) {
   return {
     id: `content-${slug}`,
     slug,
+    draft: frontmatter.draft === true,
     date: `${frontmatter.pubDate || new Date().toISOString().slice(0, 10)}T00:00:00`,
     modified: `${frontmatter.updatedDate || frontmatter.pubDate || new Date().toISOString().slice(0, 10)}T00:00:00`,
     title: { rendered: title },
@@ -87,6 +94,9 @@ function parseFrontmatter(raw = "") {
 }
 
 function parseYamlValue(value) {
+  if (value === "true") return true;
+  if (value === "false") return false;
+
   if (value.startsWith("[") && value.endsWith("]")) {
     const inner = value.slice(1, -1).trim();
     if (!inner) return [];
@@ -111,7 +121,23 @@ function inlineMarkdown(value = "") {
   return escapeHtml(value)
     .replace(/\*\*([^*]+)\*\*/g, "<strong>$1</strong>")
     .replace(/`([^`]+)`/g, "<code>$1</code>")
-    .replace(/\[([^\]]+)\]\(([^)]+)\)/g, '<a href="$2">$1</a>');
+    .replace(/\[([^\]]+)\]\(([^)]+)\)/g, (_match, label, href) => `<a href="${normalizeInternalHref(href)}">${label}</a>`);
+}
+
+function normalizeInternalHref(value = "") {
+  const href = String(value).trim();
+  const match = href.match(/^(\/[^?#]*)([?#].*)?$/);
+
+  if (!match || href.startsWith("//")) return href;
+
+  const pathname = match[1];
+  const suffix = match[2] || "";
+
+  if (pathname === "/" || pathname.endsWith("/") || /\.[a-z0-9]+$/i.test(pathname)) {
+    return href;
+  }
+
+  return `${pathname}/${suffix}`;
 }
 
 function splitMarkdownTableRow(line = "") {
@@ -351,7 +377,12 @@ export function getFeaturedImage(post) {
 
 export function getPostCategories(post) {
   const terms = post?._embedded?.["wp:term"]?.[0] || [];
-  return terms.map((term) => term.name).filter(Boolean);
+  const names = {
+    "dog-nutrition": "강아지 영양",
+    "cat-nutrition": "고양이 영양",
+    "pet-nutrition": "반려동물 영양",
+  };
+  return [...new Set(terms.map((term) => names[term.name] || term.name).filter(Boolean))];
 }
 
 export function getPostTags(post) {
@@ -380,7 +411,8 @@ export function sanitizeHtml(html = "") {
     .replace(/<\/?(object|embed|link|meta)[^>]*>/gi, "")
     .replace(/\son\w+="[^"]*"/gi, "")
     .replace(/\son\w+='[^']*'/gi, "")
-    .replace(/\s(href|src)=["']javascript:[^"']*["']/gi, "");
+    .replace(/\s(href|src)=["']javascript:[^"']*["']/gi, "")
+    .replace(/\shref=(["'])(\/(?!\/)[^"']*)\1/gi, (_match, quote, href) => ` href=${quote}${normalizeInternalHref(href)}${quote}`);
 }
 
 export function formatDate(dateString) {

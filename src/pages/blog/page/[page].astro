@@ -1,0 +1,18 @@
+---
+import BlogIndex from "../../../components/BlogIndex.astro";
+import { paginatePosts, postsPerPage } from "../../../lib/blog-pagination.js";
+import { getAllPosts } from "../../../lib/wordpress.js";
+
+export async function getStaticPaths() {
+  const posts = await getAllPosts();
+  const totalPages = Math.ceil(posts.length / postsPerPage);
+  return Array.from({ length: Math.max(0, totalPages - 1) }, (_, index) => {
+    const page = index + 2;
+    return { params: { page: String(page) }, props: { pagination: paginatePosts(posts, page) } };
+  });
+}
+
+const { pagination } = Astro.props;
+---
+
+<BlogIndex {...pagination} />

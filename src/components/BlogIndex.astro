@@ -1,0 +1,55 @@
+---
+import BaseLayout from "../layouts/BaseLayout.astro";
+import BlogCard from "./BlogCard.astro";
+import { blogPageUrl } from "../lib/blog-pagination.js";
+
+const { posts, page, totalPages, totalPosts } = Astro.props;
+const pageSuffix = page > 1 ? ` | ${page}페이지` : "";
+---
+
+<BaseLayout
+  title={`블로그${pageSuffix} | Pet Nutrition Guide`}
+  description={`강아지와 고양이를 위한 영양·사료·간식 정보를 찾아보세요. 전체 ${totalPosts}개 글 중 ${page}페이지입니다.`}
+  path={blogPageUrl(page)}
+>
+  <main>
+    <section class="page-hero">
+      <div class="container">
+        <div>
+          <p class="eyebrow">Blog</p>
+          <h1>반려동물 영양 블로그{page > 1 && ` · ${page}페이지`}</h1>
+          <p>강아지와 고양이 보호자가 일상에서 자주 궁금해하는 영양 정보와 간식 급여 기준을 쉽게 정리합니다.</p>
+        </div>
+        <aside class="quick-box">
+          <strong>전체 {totalPosts}개 글</strong>
+          {page} / {totalPages}페이지 · 날짜순으로 보거나 이전 글을 찾아보세요.
+        </aside>
+      </div>
+    </section>
+    <section class="section">
+      <div class="container">
+        <nav class="blog-topics" aria-label="영양 주제 안내">
+          <a href="/dog-nutrition/">강아지 영양 안내</a>
+          <a href="/cat-nutrition/">고양이 영양 안내</a>
+          <a href="/food-label/">사료 성분표 안내</a>
+        </nav>
+        {posts.length > 0 ? (
+          <div class="grid three">
+            {posts.map((post) => <BlogCard post={post} />)}
+          </div>
+        ) : <div class="empty-state">아직 등록된 글이 없습니다.</div>}
+        {totalPages > 1 && (
+          <nav class="pagination" aria-label="블로그 페이지">
+            {page > 1 && <a href={blogPageUrl(page - 1)} rel="prev">이전</a>}
+            {Array.from({ length: totalPages }, (_, index) => index + 1).map((number) => (
+              number === page
+                ? <span aria-current="page" aria-label={`${number}페이지, 현재 페이지`}>{number}</span>
+                : <a href={blogPageUrl(number)} aria-label={`${number}페이지`}>{number}</a>
+            ))}
+            {page < totalPages && <a href={blogPageUrl(page + 1)} rel="next">다음</a>}
+          </nav>
+        )}
+      </div>
+    </section>
+  </main>
+</BaseLayout>

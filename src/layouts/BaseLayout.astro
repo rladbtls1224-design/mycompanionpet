@@ -2,6 +2,7 @@
 import Header from "../components/Header.astro";
 import Footer from "../components/Footer.astro";
 import Seo from "../components/Seo.astro";
+import { adsenseClient } from "../lib/site-settings.js";
 import "../styles/global.css";
 
 const seo = Astro.props;
@@ -15,6 +16,7 @@ const seo = Astro.props;
     <meta name="generator" content={Astro.generator} />
     <link rel="icon" href="/favicon.svg" type="image/svg+xml" />
     <Seo {...seo} />
+    {adsenseClient && <meta name="google-adsense-account" content={adsenseClient} />}
   </head>
   <body>
     <Header />

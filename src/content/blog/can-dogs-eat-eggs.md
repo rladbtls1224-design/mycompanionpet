@@ -3,6 +3,7 @@ title: "강아지 계란 먹어도 될까? 삶은 계란 급여법과 노른자 
 metaTitle: "강아지 계란 급여법 | 삶은 계란, 노른자, 알레르기 주의"
 description: "강아지에게 계란을 줘도 되는지, 삶은 계란 급여량과 노른자·흰자·알레르기·설사 주의점을 정리했습니다."
 pubDate: "2026-07-08"
+updatedDate: "2026-10-26"
 category: "강아지 영양"
 tags: ["강아지", "강아지 계란", "삶은 계란", "강아지 간식", "강아지 알레르기", "강아지 영양"]
 thumbnail: "/images/blog/can-dogs-eat-eggs/can-dogs-eat-eggs-thumbnail.webp"
@@ -56,6 +57,18 @@ draft: false
 
 ![강아지 계란 급여 전 양념 여부와 알레르기 반응을 확인하는 체크리스트 이미지](/images/blog/can-dogs-eat-eggs/dog-egg-checklist.webp)
 
+## 가열과 영양 보충을 같은 문제로 보지 마세요
+
+[FDA — Think Food Safety and Be Salmonella Safe](https://www.fda.gov/animal-veterinary/animal-health-literacy/think-food-safety-and-be-salmonella-safe)는 덜 익은 계란에서 살모넬라에 노출될 위험을 설명합니다. 신선해 보이거나 유기농인 계란도 충분한 가열과 도구 세척을 생략할 이유는 되지 않습니다.
+
+완전히 익힌 계란이라도 사료에 없는 영양소를 자동으로 채워주는 보충제는 아닙니다. 특히 껍질 가루를 추가해 칼슘을 맞추려면 전체 식단 분석이 필요합니다. 삶은 계란을 냉장 보관했다면 필요한 만큼만 깨끗한 도구로 덜어주세요. 계란말이나 반숙란을 식탁에서 떼어 주는 방식은 조미료와 가열 상태를 정확히 알기 어렵습니다.
+
+| 실제 상황 | 판단과 행동 |
+|---|---|
+| 반숙란만 준비돼 있음 | 강아지 몫은 양념 없이 완전히 익힌 형태로 따로 준비합니다. |
+| 껍질을 갈아 사료에 뿌리려 함 | 이미 균형 잡힌 사료에 칼슘을 임의로 더하지 않습니다. |
+| 먹은 뒤 반복 가려움이 생김 | 한 번으로 알레르기를 확정하지 말고 섭취 기록과 함께 수의사에게 상담합니다. |
+
 ## 보호자 체크리스트
 
 - 계란을 완전히 익혔나요?
@@ -98,6 +111,21 @@ A. 급여를 중단하고 상태를 관찰하세요. 설사가 반복되거나 �
 ### Q3. 강아지에게 계란 흰자만 줘도 되나요?
 
 A. 완전히 익힌 흰자를 소량 줄 수는 있습니다. 다만 처음에는 적은 양으로 반응을 확인해야 합니다.
+
+### Q4. 유기농 계란은 날것으로 줘도 되나요?
+
+A. 재배·사육 표시가 살모넬라 위험을 없애지는 않습니다. 충분히 익히고 생계란을 만진 도구도 세척하세요.
+
+### Q5. 계란을 넣은 날 사료를 같은 양 줘도 되나요?
+
+A. 추가한 간식 열량을 포함해 하루 전체를 계산하세요. 계란을 많이 넣고 주식을 크게 줄이는 방식도 피해야 합니다.
+
+## 참고 자료
+
+- [FDA — Think Food Safety and Be Salmonella Safe](https://www.fda.gov/animal-veterinary/animal-health-literacy/think-food-safety-and-be-salmonella-safe) — 날계란·불완전 가열 계란의 감염 위험과 식품 위생.
+- [VCA — Using Food and Treats for Training Dogs](https://vcahospitals.com/know-your-pet/using-food-and-treats-for-training-dogs) — 완전히 익힌 계란을 제한된 간식으로 활용하는 안내.
+
+자료 확인일: 2026년 10월 26일.
 
 ## 함께 보면 좋은 글
 

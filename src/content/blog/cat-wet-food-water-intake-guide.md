@@ -3,6 +3,7 @@ title: "고양이 습식사료 꼭 필요할까? 수분 섭취와 건식 병행 
 metaTitle: "고양이 습식사료 장단점 | 수분 섭취와 건식 병행법"
 description: "고양이 습식사료가 꼭 필요한지, 수분 섭취와 건식사료 병행 기준, 급여 전환 시 주의점을 보호자 눈높이로 정리했습니다."
 pubDate: "2026-07-08"
+updatedDate: "2026-10-26"
 category: "고양이 영양"
 tags: ["고양이", "고양이 습식사료", "고양이 수분", "고양이 건식사료", "고양이 물 섭취량", "고양이 영양"]
 thumbnail: "/images/blog/cat-wet-food-water-intake-guide/cat-wet-food-water-intake-guide-thumbnail.webp"
@@ -56,6 +57,14 @@ draft: false
 
 ![고양이 습식사료 급여 전 라벨과 칼로리를 확인하는 보호자 이미지](/images/blog/cat-wet-food-water-intake-guide/cat-wet-food-label-check.webp)
 
+## 물 비율과 급여 열량을 따로 계산하는 예시
+
+[Cornell Feline Health Center — Hydration](https://www.vet.cornell.edu/departments-centers-and-institutes/cornell-feline-health-center/health-information/feline-health-topics/hydration)는 고양이가 음식에서 얻는 물도 수분 섭취에 포함된다고 설명합니다. 다만 제품의 수분 비율이 높다고 하루 필요한 열량까지 충분히 먹었다는 뜻은 아닙니다.
+
+가상의 제품 A가 100g당 100kcal이고 수분이 80%라면 50g을 실제로 먹었을 때 약 50kcal와 수분 40ml를 섭취한 것으로 추정합니다. 제품 B가 100g당 70kcal라면 같은 50g도 35kcal입니다. 이 숫자는 계산 설명용이며 실제 급여량은 제품 라벨과 고양이 상태로 정합니다. 캔 수나 그릇 부피만 비교하면 열량 차이를 놓치기 쉽습니다.
+
+혼합 급여에서는 기존 주식 열량의 일부를 습식 열량으로 바꾸고, 두 제품이 모두 적합한 생활 단계의 완전균형식인지 봅니다. 간식용 캔은 같은 방식의 주식 교체 대상으로 보지 마세요. 습식을 남기면 먹은 분량으로 다시 계산하고, 남은 음식은 새 음식과 합쳐 다시 담지 않습니다.
+
 ## 보호자 체크리스트
 
 - 고양이의 현재 사료 종류와 하루 급여량을 알고 있나요?
@@ -98,6 +107,21 @@ A. 고양이가 잘 먹는다면 소량의 물을 섞을 수 있습니다. 다�
 ### Q3. 습식사료를 남기면 다시 줘도 되나요?
 
 A. 실온에 오래 둔 습식사료는 위생상 좋지 않습니다. 제품 안내와 계절을 고려해 보관하고, 냄새나 상태가 이상하면 버리세요.
+
+### Q4. 습식 한 캔과 건식 한 컵을 같은 양으로 보나요?
+
+A. 무게와 부피가 달라도 열량이 다를 수 있습니다. 두 제품의 kcal와 실제 먹은 분량으로 계산하세요.
+
+### Q5. 습식 간식캔을 늘리면 건식을 줄여도 되나요?
+
+A. 간식캔은 완전균형 주식의 대체품이 아닙니다. 주식을 바꾸려면 생활 단계에 맞는 종합영양식인지 먼저 확인하세요.
+
+## 참고 자료
+
+- [Cornell Feline Health Center — Hydration](https://www.vet.cornell.edu/departments-centers-and-institutes/cornell-feline-health-center/health-information/feline-health-topics/hydration) — 식사 속 수분과 음수를 합쳐 보는 원칙.
+- [Cornell Feline Health Center — Feeding Your Cat](https://www.vet.cornell.edu/departments-centers-and-institutes/cornell-feline-health-center/health-information/feline-health-topics/feeding-your-cat) — 캔 제품의 완전균형식 표시와 개봉 후 보관 확인.
+
+자료 확인일: 2026년 10월 26일.
 
 ## 함께 보면 좋은 글
 

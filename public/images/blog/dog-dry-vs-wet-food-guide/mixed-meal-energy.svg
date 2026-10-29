@@ -1,0 +1,18 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="1200" height="675" viewBox="0 0 1200 675" role="img" aria-labelledby="title desc">
+  <title id="title">강아지 건식과 습식 혼합 급여 열량 계산 예시</title>
+  <desc id="desc">가상 하루 목표 400킬로칼로리에서 습식 100킬로칼로리를 빼고, 남은 300을 건식의 그램당 3.6킬로칼로리로 나누면 약 83그램입니다. 개별 급여 권장량이 아닙니다.</desc>
+  <rect width="1200" height="675" rx="28" fill="#eff5fb"/>
+  <g font-family="Malgun Gothic, Noto Sans KR, sans-serif" fill="#263d58">
+    <text x="70" y="92" font-size="40" font-weight="700">혼합 급여는 kcal로 나눕니다</text>
+    <text x="70" y="144" font-size="23">가상 계산 예시 · 간식 없음 · 개별 권장 급여량이 아닙니다</text>
+    <rect x="70" y="205" width="1060" height="270" rx="24" fill="#fff" stroke="#c5d7eb" stroke-width="2"/>
+    <text x="105" y="272" font-size="27">하루 목표</text><text x="105" y="340" font-size="44" font-weight="700">400kcal</text>
+    <text x="350" y="331" font-size="46">−</text>
+    <text x="430" y="272" font-size="27">습식 한 파우치</text><text x="430" y="340" font-size="44" font-weight="700">100kcal</text>
+    <text x="710" y="331" font-size="46">=</text>
+    <text x="805" y="272" font-size="27">건식에 배정</text><text x="805" y="340" font-size="44" font-weight="700">300kcal</text>
+    <text x="105" y="423" font-size="29">건식 3.6kcal/g 가정 → 300 ÷ 3.6 ≈ 83g</text>
+    <text x="70" y="552" font-size="26" font-weight="700">기존 건식 위에 습식을 추가하면 합계가 늘어납니다.</text>
+    <text x="70" y="604" font-size="23" fill="#526b85">제품의 주식 적합성 · 생활 단계 · 실제 열량도 함께 확인하세요.</text>
+  </g>
+</svg>

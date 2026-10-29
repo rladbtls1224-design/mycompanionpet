@@ -1,0 +1,16 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="1200" height="675" viewBox="0 0 1200 675" role="img" aria-labelledby="title desc">
+  <title id="title">완전균형식 구매와 급여 체크리스트</title>
+  <desc id="desc">주식 여부, 강아지의 생활 단계, 추가 음식 열량, 개별 건강 상태를 확인하는 체크리스트입니다.</desc>
+  <rect width="1200" height="675" rx="28" fill="#fff7e9"/>
+  <g font-family="Malgun Gothic, Noto Sans KR, sans-serif" fill="#3c3426">
+    <text x="75" y="94" font-size="40" font-weight="700">완전균형식 선택 후에도 확인합니다</text>
+    <text x="75" y="148" font-size="23" fill="#75664f">제품의 적합성과 실제 먹는 식단을 함께 점검하세요.</text>
+    <g fill="#fff" stroke="#e4d6bc" stroke-width="2"><rect x="75" y="198" width="1050" height="350" rx="22"/></g>
+    <g fill="#b47e31"><circle cx="120" cy="257" r="13"/><circle cx="120" cy="337" r="13"/><circle cx="120" cy="417" r="13"/><circle cx="120" cy="497" r="13"/></g>
+    <text x="158" y="266" font-size="27">주식 사용이 가능한 제품인가요?</text>
+    <text x="158" y="346" font-size="27">지금 강아지의 생활 단계와 맞나요?</text>
+    <text x="158" y="426" font-size="27">간식과 토핑까지 하루 열량에 포함했나요?</text>
+    <text x="158" y="506" font-size="27">기존 질환과 식단 지침을 확인했나요?</text>
+    <text x="75" y="613" font-size="23" fill="#75664f">전연령 표시는 모든 건강 상태에 맞는다는 뜻이 아닙니다.</text>
+  </g>
+</svg>
